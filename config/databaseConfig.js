@@ -4,7 +4,7 @@ module.exports = {
     port : '3306',
     username : 'root',
     password : 'root',
-    database : 'sangto',
+    database : 'sangto-website',
     dialect : 'mysql',
     pool : {
         min : 1,

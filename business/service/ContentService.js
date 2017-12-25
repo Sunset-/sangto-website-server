@@ -21,7 +21,6 @@ class SystemVariableService extends BaseService {
                         tb_c.cover_ AS cover,
                         tb_c.keywords_ AS keywords,
                         tb_c.digest_ AS digest,
-                        tb_c.content_ AS content,
                         tb_c.create_user_ AS createUser,
                         tb_c.publish_user_ AS publishUser,
                         tb_c.create_time_ AS createTime,

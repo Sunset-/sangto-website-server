@@ -1,0 +1,120 @@
+[2017-12-25 20:05:30.357] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:05:30.357] [FATAL] fatal - { Error: Redis connection to 192.168.0.171:6370 failed - connect ETIMEDOUT 192.168.0.171:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.0.171',
+  port: 6370 }
+[2017-12-25 20:05:51.605] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:05:51.605] [FATAL] fatal - { Error: Redis connection to 192.168.0.171:6370 failed - connect ETIMEDOUT 192.168.0.171:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.0.171',
+  port: 6370 }
+[2017-12-25 20:06:12.950] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:12.950] [FATAL] fatal - { Error: Redis connection to 192.168.0.171:6370 failed - connect ETIMEDOUT 192.168.0.171:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.0.171',
+  port: 6370 }
+[2017-12-25 20:06:28.570] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:28.571] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:06:31.327] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:31.327] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:06:34.219] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:34.219] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:06:37.348] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:37.348] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:06:40.882] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:40.882] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:06:45.105] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:45.105] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:06:50.498] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:50.498] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:06:57.885] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:06:57.885] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }
+[2017-12-25 20:07:08.656] [FATAL] fatal - Redis connect error!
+[2017-12-25 20:07:08.656] [FATAL] fatal - { Error: Redis connection to locahost:6379 failed - getaddrinfo ENOTFOUND locahost locahost:6379
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'locahost',
+  host: 'locahost',
+  port: 6379 }

@@ -35,7 +35,8 @@
     "request": "^2.79.0",
     "request-promise": "^4.1.1",
     "sequelize": "^3.29.0",
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.4.17",
+    "ueditor": "^1.2.3"
   },
   "devDependencies": {
     "sequelize-auto": "^0.4.17"

@@ -4,6 +4,9 @@ module.exports = {
         root: 'assets',
         maxAge:  60 * 60 * 1000
     },{
+        root: 'upload',
+        maxAge:  60 * 60 * 1000
+    },{
         root: 'page',
         maxAge:  60 * 60 * 1000
     }],
