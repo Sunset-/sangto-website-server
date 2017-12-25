@@ -1,0 +1,48 @@
+[2017-07-20 10:07:57.518] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-07-20 10:07:57.519] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.3.0@koa\lib\context.js:91:11)
+    at middleware (d:\workspace\JS\git\MDP-ManageServer\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-07-20 13:33:30.052] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-07-20 13:33:30.052] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.3.0@koa\lib\context.js:91:11)
+    at middleware (d:\workspace\JS\git\MDP-ManageServer\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32) message: '用户未登录' }

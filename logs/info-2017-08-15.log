@@ -1,0 +1,27 @@
+[2017-08-15 08:47:21.260] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-08-15 08:47:21.340] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-08-15 08:47:21.393] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-08-15 12:26:19.666] [INFO] info - /system/menu/use/all
+[2017-08-15 12:26:19.666] [INFO] info - undefined
+[2017-08-15 12:26:19.675] [INFO] info - REQUEST=======> 2017-8-15 12:26:19 [GET] /system/menu/use/all，耗时:9ms
+[2017-08-15 12:26:20.451] [INFO] info - /manage/sign/currentUser
+[2017-08-15 12:26:20.451] [INFO] info - undefined
+[2017-08-15 12:26:20.458] [INFO] info - REQUEST=======> 2017-8-15 12:26:20 [GET] /manage/sign/currentUser，耗时:8ms
+[2017-08-15 12:26:29.722] [INFO] info - /manage/sign/login
+[2017-08-15 12:26:29.723] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-15 12:26:30.095] [INFO] info - REQUEST=======> 2017-8-15 12:26:29 [POST] /manage/sign/login，耗时:373ms
+[2017-08-15 12:26:30.309] [INFO] info - /manage/account
+[2017-08-15 12:26:30.309] [INFO] info - undefined
+[2017-08-15 12:26:30.319] [INFO] info - REQUEST=======> 2017-8-15 12:26:30 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:9ms
+[2017-08-15 14:56:35.678] [INFO] info - /system/menu/use/all
+[2017-08-15 14:56:35.678] [INFO] info - undefined
+[2017-08-15 14:56:35.680] [INFO] info - REQUEST=======> 2017-8-15 14:56:35 [GET] /system/menu/use/all，耗时:2ms
+[2017-08-15 14:56:35.752] [INFO] info - /manage/sign/currentUser
+[2017-08-15 14:56:35.752] [INFO] info - undefined
+[2017-08-15 14:56:35.756] [INFO] info - REQUEST=======> 2017-8-15 14:56:35 [GET] /manage/sign/currentUser，耗时:4ms
+[2017-08-15 14:56:38.547] [INFO] info - /manage/sign/login
+[2017-08-15 14:56:38.548] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-15 14:56:38.554] [INFO] info - REQUEST=======> 2017-8-15 14:56:38 [POST] /manage/sign/login，耗时:7ms
+[2017-08-15 14:56:38.705] [INFO] info - /manage/account
+[2017-08-15 14:56:38.705] [INFO] info - undefined
+[2017-08-15 14:56:38.709] [INFO] info - REQUEST=======> 2017-8-15 14:56:38 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms

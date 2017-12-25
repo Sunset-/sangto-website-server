@@ -1,0 +1,9 @@
+[2017-08-10 08:39:58.932] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-08-10 08:39:59.026] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-08-10 08:39:59.041] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-08-10 17:06:30.170] [INFO] info - /system/menu/use/all
+[2017-08-10 17:06:30.171] [INFO] info - undefined
+[2017-08-10 17:06:30.180] [INFO] info - REQUEST=======> 2017-8-10 17:06:30 [GET] /system/menu/use/all，耗时:10ms
+[2017-08-10 17:06:33.572] [INFO] info - /manage/sign/currentUser
+[2017-08-10 17:06:33.573] [INFO] info - undefined
+[2017-08-10 17:06:33.592] [INFO] info - REQUEST=======> 2017-8-10 17:06:33 [GET] /manage/sign/currentUser，耗时:20ms

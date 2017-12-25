@@ -1,0 +1,104 @@
+[2017-07-27 08:29:46.253] [INFO] info - Redis connecting!
+[2017-07-27 08:29:46.898] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-07-27 08:29:47.285] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-27 08:29:47.394] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-07-27 08:29:48.799] [INFO] info - Redis auth pass!
+[2017-07-27 08:40:08.644] [INFO] info - /system/menu/use/all
+[2017-07-27 08:40:08.645] [INFO] info - undefined
+[2017-07-27 08:40:08.652] [INFO] info - REQUEST=======> 2017-7-27 08:40:08 [GET] /system/menu/use/all，耗时:8ms
+[2017-07-27 08:40:08.730] [INFO] info - /manage/sign/currentUser
+[2017-07-27 08:40:08.730] [INFO] info - undefined
+[2017-07-27 08:40:08.738] [INFO] info - REQUEST=======> 2017-7-27 08:40:08 [GET] /manage/sign/currentUser，耗时:8ms
+[2017-07-27 08:40:23.829] [INFO] info - /manage/sign/login
+[2017-07-27 08:40:23.829] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-27 08:40:24.026] [INFO] info - REQUEST=======> 2017-7-27 08:40:23 [POST] /manage/sign/login，耗时:197ms
+[2017-07-27 08:40:24.181] [INFO] info - /manage/account
+[2017-07-27 08:40:24.181] [INFO] info - undefined
+[2017-07-27 08:40:24.189] [INFO] info - REQUEST=======> 2017-7-27 08:40:24 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-07-27 09:11:00.216] [INFO] info - /system/menu/use/all
+[2017-07-27 09:11:00.216] [INFO] info - undefined
+[2017-07-27 09:11:00.217] [INFO] info - REQUEST=======> 2017-7-27 09:11:00 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-27 09:11:00.261] [INFO] info - /manage/sign/currentUser
+[2017-07-27 09:11:00.261] [INFO] info - undefined
+[2017-07-27 09:11:00.264] [INFO] info - REQUEST=======> 2017-7-27 09:11:00 [GET] /manage/sign/currentUser，耗时:4ms
+[2017-07-27 09:12:18.233] [INFO] info - /system/menu/use/all
+[2017-07-27 09:12:18.233] [INFO] info - undefined
+[2017-07-27 09:12:18.236] [INFO] info - REQUEST=======> 2017-7-27 09:12:18 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-27 09:12:18.338] [INFO] info - /manage/sign/currentUser
+[2017-07-27 09:12:18.338] [INFO] info - undefined
+[2017-07-27 09:12:18.341] [INFO] info - REQUEST=======> 2017-7-27 09:12:18 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-27 09:12:26.704] [INFO] info - /manage/sign/login
+[2017-07-27 09:12:26.704] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-27 09:12:26.719] [INFO] info - REQUEST=======> 2017-7-27 09:12:26 [POST] /manage/sign/login，耗时:15ms
+[2017-07-27 09:12:26.919] [INFO] info - /manage/account
+[2017-07-27 09:12:26.919] [INFO] info - undefined
+[2017-07-27 09:12:26.935] [INFO] info - REQUEST=======> 2017-7-27 09:12:26 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:16ms
+[2017-07-27 09:14:27.482] [INFO] info - /system/menu/use/all
+[2017-07-27 09:14:27.482] [INFO] info - undefined
+[2017-07-27 09:14:27.484] [INFO] info - REQUEST=======> 2017-7-27 09:14:27 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-27 09:14:27.534] [INFO] info - /manage/sign/currentUser
+[2017-07-27 09:14:27.534] [INFO] info - undefined
+[2017-07-27 09:14:27.535] [INFO] info - REQUEST=======> 2017-7-27 09:14:27 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-27 09:26:53.059] [INFO] info - /system/menu/use/all
+[2017-07-27 09:26:53.059] [INFO] info - undefined
+[2017-07-27 09:26:53.062] [INFO] info - REQUEST=======> 2017-7-27 09:26:53 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-27 09:26:53.093] [INFO] info - /manage/sign/currentUser
+[2017-07-27 09:26:53.093] [INFO] info - undefined
+[2017-07-27 09:26:53.094] [INFO] info - REQUEST=======> 2017-7-27 09:26:53 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-27 13:44:12.402] [INFO] info - /system/menu/use/all
+[2017-07-27 13:44:12.402] [INFO] info - undefined
+[2017-07-27 13:44:12.403] [INFO] info - REQUEST=======> 2017-7-27 13:44:12 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-27 13:44:12.484] [INFO] info - /manage/sign/currentUser
+[2017-07-27 13:44:12.484] [INFO] info - undefined
+[2017-07-27 13:44:12.487] [INFO] info - REQUEST=======> 2017-7-27 13:44:12 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-27 13:44:18.149] [INFO] info - /manage/sign/login
+[2017-07-27 13:44:18.149] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-27 13:44:18.156] [INFO] info - REQUEST=======> 2017-7-27 13:44:18 [POST] /manage/sign/login，耗时:7ms
+[2017-07-27 13:44:18.332] [INFO] info - /manage/account
+[2017-07-27 13:44:18.332] [INFO] info - undefined
+[2017-07-27 13:44:18.340] [INFO] info - REQUEST=======> 2017-7-27 13:44:18 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-07-27 14:23:47.218] [INFO] info - /system/menu/use/all
+[2017-07-27 14:23:47.218] [INFO] info - undefined
+[2017-07-27 14:23:47.220] [INFO] info - REQUEST=======> 2017-7-27 14:23:47 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-27 14:23:47.286] [INFO] info - /manage/sign/currentUser
+[2017-07-27 14:23:47.287] [INFO] info - undefined
+[2017-07-27 14:23:47.288] [INFO] info - REQUEST=======> 2017-7-27 14:23:47 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-27 15:25:45.759] [INFO] info - /resource/plugin/ueditor
+[2017-07-27 15:25:45.760] [INFO] info - undefined
+[2017-07-27 15:25:45.763] [INFO] info - REQUEST=======> 2017-7-27 15:25:45 [GET] /resource/plugin/ueditor?action=config&&noCache=1501140345742，耗时:4ms
+[2017-07-27 15:26:06.300] [INFO] info - /resource/plugin/ueditor
+[2017-07-27 15:26:06.300] [INFO] info - undefined
+[2017-07-27 15:26:06.302] [INFO] info - REQUEST=======> 2017-7-27 15:26:06 [GET] /resource/plugin/ueditor?action=config&&noCache=1501140366295，耗时:2ms
+[2017-07-27 15:26:25.991] [INFO] info - /resource/plugin/ueditor
+[2017-07-27 15:26:25.991] [INFO] info - undefined
+[2017-07-27 15:26:25.994] [INFO] info - REQUEST=======> 2017-7-27 15:26:25 [GET] /resource/plugin/ueditor?action=config&&noCache=1501140385985，耗时:3ms
+[2017-07-27 15:27:12.860] [INFO] info - /resource/plugin/ueditor
+[2017-07-27 15:27:12.861] [INFO] info - undefined
+[2017-07-27 15:27:12.862] [INFO] info - REQUEST=======> 2017-7-27 15:27:12 [GET] /resource/plugin/ueditor?action=config&&noCache=1501140432854，耗时:2ms
+[2017-07-27 15:27:43.903] [INFO] info - /resource/plugin/ueditor
+[2017-07-27 15:27:43.903] [INFO] info - undefined
+[2017-07-27 15:27:43.905] [INFO] info - REQUEST=======> 2017-7-27 15:27:43 [GET] /resource/plugin/ueditor?action=config&&noCache=1501140463895，耗时:2ms
+[2017-07-27 15:37:16.190] [INFO] info - /system/menu/use/all
+[2017-07-27 15:37:16.191] [INFO] info - undefined
+[2017-07-27 15:37:16.192] [INFO] info - REQUEST=======> 2017-7-27 15:37:16 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-27 15:37:16.245] [INFO] info - /manage/sign/currentUser
+[2017-07-27 15:37:16.245] [INFO] info - undefined
+[2017-07-27 15:37:16.250] [INFO] info - REQUEST=======> 2017-7-27 15:37:16 [GET] /manage/sign/currentUser，耗时:5ms
+[2017-07-27 15:37:19.658] [INFO] info - /manage/sign/login
+[2017-07-27 15:37:19.658] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-27 15:37:19.674] [INFO] info - REQUEST=======> 2017-7-27 15:37:19 [POST] /manage/sign/login，耗时:16ms
+[2017-07-27 15:37:19.844] [INFO] info - /manage/account
+[2017-07-27 15:37:19.844] [INFO] info - undefined
+[2017-07-27 15:37:19.848] [INFO] info - REQUEST=======> 2017-7-27 15:37:19 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-07-27 15:51:31.984] [INFO] info - /system/menu/use/all
+[2017-07-27 15:51:31.984] [INFO] info - undefined
+[2017-07-27 15:51:31.986] [INFO] info - REQUEST=======> 2017-7-27 15:51:31 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-27 15:51:32.027] [INFO] info - /manage/sign/currentUser
+[2017-07-27 15:51:32.027] [INFO] info - undefined
+[2017-07-27 15:51:32.029] [INFO] info - REQUEST=======> 2017-7-27 15:51:32 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-27 15:52:15.496] [INFO] info - /system/menu/use/all
+[2017-07-27 15:52:15.496] [INFO] info - undefined
+[2017-07-27 15:52:15.497] [INFO] info - REQUEST=======> 2017-7-27 15:52:15 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-27 15:52:15.550] [INFO] info - /manage/sign/currentUser
+[2017-07-27 15:52:15.550] [INFO] info - undefined
+[2017-07-27 15:52:15.551] [INFO] info - REQUEST=======> 2017-7-27 15:52:15 [GET] /manage/sign/currentUser，耗时:1ms

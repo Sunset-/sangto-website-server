@@ -1,0 +1,19 @@
+[2017-08-01 13:48:07.940] [FATAL] fatal - Redis connect error!
+[2017-08-01 13:48:07.940] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - read ECONNRESET
+    at exports._errnoException (util.js:1022:11)
+    at TCP.onread (net.js:572:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2017-08-01 13:48:29.175] [FATAL] fatal - Redis connect error!
+[2017-08-01 13:48:29.175] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - connect ETIMEDOUT 192.168.0.148:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '192.168.0.148',
+  port: 6370 }
+[2017-08-01 15:55:52.898] [FATAL] fatal - Redis connect error!
+[2017-08-01 15:55:52.898] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - read ECONNRESET
+    at exports._errnoException (util.js:1022:11)
+    at TCP.onread [as _originalOnread] (net.js:572:26)
+    at TCP.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }

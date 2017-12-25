@@ -1,0 +1,260 @@
+[2017-04-07 13:45:15.291] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-04-07 13:45:15.292] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:39:22)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-04-07 13:45:25.093] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-07 13:45:25.094] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32) message: '用户未登录' }
+[2017-04-07 13:45:45.131] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'indexOf\' of undefined' }
+[2017-04-07 13:45:45.131] [ERROR] error - TypeError: Cannot read property 'indexOf' of undefined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\proxy.js:34:49)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:468:23)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:505:70
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-07 13:45:45.135] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'indexOf\' of undefined' }
+[2017-04-07 13:45:45.135] [ERROR] error - TypeError: Cannot read property 'indexOf' of undefined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\proxy.js:34:49)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:468:23)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:505:70
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-07 13:45:45.136] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'indexOf\' of undefined' }
+[2017-04-07 13:45:45.136] [ERROR] error - TypeError: Cannot read property 'indexOf' of undefined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\proxy.js:34:49)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:468:23)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:505:70
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-07 13:45:45.459] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'indexOf\' of undefined' }
+[2017-04-07 13:45:45.460] [ERROR] error - TypeError: Cannot read property 'indexOf' of undefined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\proxy.js:34:49)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:468:23)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:505:70
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-07 13:46:27.832] [ERROR] error - { code: 500,
+  message: 'Cannot read property \'indexOf\' of undefined' }
+[2017-04-07 13:46:27.834] [ERROR] error - TypeError: Cannot read property 'indexOf' of undefined
+    at module.exports.app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\proxy.js:34:49)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at propagateAslWrapper (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:468:23)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\index.js:505:70
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-04-07 13:48:59.913] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-04-07 13:48:59.916] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:39:22)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-04-07 13:49:22.027] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-07 13:49:22.028] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32) message: '用户未登录' }
+[2017-04-07 13:49:25.935] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-04-07 13:49:25.935] [ERROR] error - { InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:36:30) message: '用户名密码错误' }
+[2017-04-07 13:51:14.714] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-04-07 13:51:14.715] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:39:22)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-04-07 13:52:02.956] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-04-07 13:52:02.957] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:39:22)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-04-07 13:52:22.651] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-04-07 13:52:22.653] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:39:22)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-04-07 13:52:27.546] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-07 13:52:27.547] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32) message: '用户未登录' }
+[2017-04-07 13:54:22.415] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-07 13:54:22.416] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32) message: '用户未登录' }
+[2017-04-07 15:57:15.696] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-04-07 15:57:15.696] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32) message: '用户未登录' }
+[2017-04-07 15:57:20.247] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-04-07 15:57:20.247] [ERROR] error - { InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:36:30) message: '用户名密码错误' }
+[2017-04-07 15:57:22.809] [ERROR] error - { code: 500, message: '用户名密码错误' }
+[2017-04-07 15:57:22.810] [ERROR] error - { InternalServerError: 用户名密码错误
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:36:30) message: '用户名密码错误' }
+[2017-04-07 16:05:13.674] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-04-07 16:05:13.675] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:39:22)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }

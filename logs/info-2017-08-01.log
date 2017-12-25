@@ -1,0 +1,43 @@
+[2017-08-01 10:40:48.792] [INFO] info - Redis connecting!
+[2017-08-01 10:40:48.796] [INFO] info - Redis auth pass!
+[2017-08-01 10:40:49.017] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-08-01 10:40:49.134] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-08-01 10:40:49.184] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-08-01 10:44:46.543] [INFO] info - /system/menu/use/all
+[2017-08-01 10:44:46.543] [INFO] info - undefined
+[2017-08-01 10:44:46.551] [INFO] info - REQUEST=======> 2017-8-1 10:44:46 [GET] /system/menu/use/all，耗时:8ms
+[2017-08-01 10:44:47.266] [INFO] info - /manage/sign/currentUser
+[2017-08-01 10:44:47.266] [INFO] info - undefined
+[2017-08-01 10:44:47.273] [INFO] info - REQUEST=======> 2017-8-1 10:44:47 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-08-01 10:44:52.285] [INFO] info - /manage/sign/login
+[2017-08-01 10:44:52.285] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-01 10:44:52.443] [INFO] info - REQUEST=======> 2017-8-1 10:44:52 [POST] /manage/sign/login，耗时:158ms
+[2017-08-01 10:44:52.631] [INFO] info - /manage/account
+[2017-08-01 10:44:52.631] [INFO] info - undefined
+[2017-08-01 10:44:52.647] [INFO] info - REQUEST=======> 2017-8-1 10:44:52 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:16ms
+[2017-08-01 10:45:57.650] [INFO] info - /system/menu/use/all
+[2017-08-01 10:45:57.650] [INFO] info - undefined
+[2017-08-01 10:45:57.652] [INFO] info - REQUEST=======> 2017-8-1 10:45:57 [GET] /system/menu/use/all，耗时:2ms
+[2017-08-01 10:45:57.728] [INFO] info - /manage/sign/currentUser
+[2017-08-01 10:45:57.728] [INFO] info - undefined
+[2017-08-01 10:45:57.733] [INFO] info - REQUEST=======> 2017-8-1 10:45:57 [GET] /manage/sign/currentUser，耗时:5ms
+[2017-08-01 10:46:04.125] [INFO] info - /manage/sign/login
+[2017-08-01 10:46:04.125] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-01 10:46:04.141] [INFO] info - REQUEST=======> 2017-8-1 10:46:04 [POST] /manage/sign/login，耗时:16ms
+[2017-08-01 10:46:04.473] [INFO] info - /manage/account
+[2017-08-01 10:46:04.473] [INFO] info - undefined
+[2017-08-01 10:46:04.488] [INFO] info - REQUEST=======> 2017-8-1 10:46:04 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:15ms
+[2017-08-01 14:20:54.624] [INFO] info - Redis connecting!
+[2017-08-01 15:56:08.850] [INFO] info - Redis connecting!
+[2017-08-01 16:48:55.422] [INFO] info - /system/menu/use/all
+[2017-08-01 16:48:55.422] [INFO] info - undefined
+[2017-08-01 16:48:55.425] [INFO] info - REQUEST=======> 2017-8-1 16:48:55 [GET] /system/menu/use/all，耗时:3ms
+[2017-08-01 16:48:55.549] [INFO] info - /manage/sign/currentUser
+[2017-08-01 16:48:55.550] [INFO] info - undefined
+[2017-08-01 16:48:55.554] [INFO] info - REQUEST=======> 2017-8-1 16:48:55 [GET] /manage/sign/currentUser，耗时:5ms
+[2017-08-01 16:48:58.780] [INFO] info - /manage/sign/login
+[2017-08-01 16:48:58.780] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-01 16:48:58.804] [INFO] info - REQUEST=======> 2017-8-1 16:48:58 [POST] /manage/sign/login，耗时:24ms
+[2017-08-01 16:48:59.026] [INFO] info - /manage/account
+[2017-08-01 16:48:59.026] [INFO] info - undefined
+[2017-08-01 16:48:59.041] [INFO] info - REQUEST=======> 2017-8-1 16:48:59 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:15ms

@@ -1,0 +1,28 @@
+[2017-08-07 08:34:15.462] [FATAL] fatal - Redis connect error!
+[2017-08-07 08:34:15.463] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - read ECONNRESET
+    at exports._errnoException (util.js:1022:11)
+    at TCP.onread (net.js:572:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2017-08-07 08:34:43.224] [FATAL] fatal - Redis connect error!
+[2017-08-07 08:34:43.225] [FATAL] fatal - { Error: Redis connection to 192.168.0.148:6370 failed - read ECONNRESET
+    at exports._errnoException (util.js:1022:11)
+    at TCP.onread [as _originalOnread] (net.js:572:26)
+    at TCP.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2017-08-07 08:35:16.035] [FATAL] fatal - Redis connect error!
+[2017-08-07 08:35:16.037] [FATAL] fatal - { AbortError: Redis connection lost and command aborted. It might have been processed.
+    at RedisClient.flush_and_error (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.7.1@redis\index.js:357:23)
+    at RedisClient.connection_gone (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.7.1@redis\index.js:659:14)
+    at RedisClient.on_error (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.7.1@redis\index.js:405:10)
+    at Socket.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.7.1@redis\index.js:279:14)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  code: 'UNCERTAIN_STATE',
+  command: 'INFO',
+  origin: 
+   { Error: Redis connection to 192.168.0.148:6370 failed - read ECONNRESET
+       at exports._errnoException (util.js:1022:11)
+       at TCP.onread [as _originalOnread] (net.js:572:26)
+       at TCP.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' } }

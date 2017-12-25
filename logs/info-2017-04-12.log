@@ -1,0 +1,1027 @@
+[2017-04-12 16:42:21.396] [INFO] info - Redis connecting!
+[2017-04-12 16:42:21.412] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-12 16:42:21.421] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-12 16:42:21.424] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-12 16:42:22.019] [INFO] info - Redis auth pass!
+[2017-04-12 16:42:43.446] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:42:43.447] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:42:43.637] [INFO] info - REQUEST=======> 2017-4-12 16:42:43 [POST] /proxy/hospital/find_hospital，耗时:191ms
+[2017-04-12 16:43:09.402] [INFO] info - Redis connecting!
+[2017-04-12 16:43:09.409] [INFO] info - Redis auth pass!
+[2017-04-12 16:43:09.588] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-12 16:43:09.603] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-12 16:43:09.608] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-12 16:43:13.567] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:43:13.567] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:43:13.590] [INFO] info - REQUEST=======> 2017-4-12 16:43:13 [POST] /proxy/hospital/find_hospital，耗时:24ms
+[2017-04-12 16:43:14.682] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:43:14.682] [INFO] info - undefined
+[2017-04-12 16:43:14.685] [INFO] info - REQUEST=======> 2017-4-12 16:43:14 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-04-12 16:43:14.687] [INFO] info - /system/menu/use/all
+[2017-04-12 16:43:14.687] [INFO] info - undefined
+[2017-04-12 16:43:14.688] [INFO] info - REQUEST=======> 2017-4-12 16:43:14 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:43:14.760] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:43:14.761] [INFO] info - undefined
+[2017-04-12 16:43:14.764] [INFO] info - REQUEST=======> 2017-4-12 16:43:14 [GET] /manage/sign/currentUser，耗时:4ms
+[2017-04-12 16:43:18.477] [INFO] info - /manage/sign/login
+[2017-04-12 16:43:18.477] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:43:18.537] [INFO] info - REQUEST=======> 2017-4-12 16:43:18 [POST] /manage/sign/login，耗时:60ms
+[2017-04-12 16:43:20.758] [INFO] info - /manage/sign/login
+[2017-04-12 16:43:20.758] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:43:20.980] [INFO] info - REQUEST=======> 2017-4-12 16:43:20 [POST] /manage/sign/login，耗时:222ms
+[2017-04-12 16:43:21.137] [INFO] info - /manage/account
+[2017-04-12 16:43:21.137] [INFO] info - undefined
+[2017-04-12 16:43:21.144] [INFO] info - REQUEST=======> 2017-4-12 16:43:21 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 16:43:25.355] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:43:25.355] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:43:25.357] [INFO] info - REQUEST=======> 2017-4-12 16:43:25 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 16:43:26.433] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:43:26.433] [INFO] info - undefined
+[2017-04-12 16:43:26.435] [INFO] info - REQUEST=======> 2017-4-12 16:43:26 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 16:43:26.437] [INFO] info - /system/menu/use/all
+[2017-04-12 16:43:26.438] [INFO] info - undefined
+[2017-04-12 16:43:26.440] [INFO] info - REQUEST=======> 2017-4-12 16:43:26 [GET] /system/menu/use/all，耗时:3ms
+[2017-04-12 16:43:26.806] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:43:26.807] [INFO] info - undefined
+[2017-04-12 16:43:26.807] [INFO] info - REQUEST=======> 2017-4-12 16:43:26 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 16:43:26.981] [INFO] info - /manage/account
+[2017-04-12 16:43:26.981] [INFO] info - undefined
+[2017-04-12 16:43:26.987] [INFO] info - REQUEST=======> 2017-4-12 16:43:26 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 16:43:28.931] [INFO] info - /system/dictionaryType
+[2017-04-12 16:43:28.931] [INFO] info - undefined
+[2017-04-12 16:43:28.957] [INFO] info - REQUEST=======> 2017-4-12 16:43:28 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:26ms
+[2017-04-12 16:43:30.524] [INFO] info - /system/menu/use/all
+[2017-04-12 16:43:30.524] [INFO] info - undefined
+[2017-04-12 16:43:30.525] [INFO] info - REQUEST=======> 2017-4-12 16:43:30 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:43:55.728] [INFO] info - Redis connecting!
+[2017-04-12 16:43:55.731] [INFO] info - Redis auth pass!
+[2017-04-12 16:43:55.748] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-12 16:43:55.758] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-12 16:43:55.763] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-12 16:43:56.357] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:43:56.358] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:43:56.381] [INFO] info - REQUEST=======> 2017-4-12 16:43:56 [POST] /proxy/hospital/find_hospital，耗时:23ms
+[2017-04-12 16:43:57.504] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:43:57.504] [INFO] info - undefined
+[2017-04-12 16:43:57.506] [INFO] info - REQUEST=======> 2017-4-12 16:43:57 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-04-12 16:43:57.508] [INFO] info - /system/menu/use/all
+[2017-04-12 16:43:57.508] [INFO] info - undefined
+[2017-04-12 16:43:57.510] [INFO] info - REQUEST=======> 2017-4-12 16:43:57 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 16:43:57.836] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:43:57.836] [INFO] info - undefined
+[2017-04-12 16:43:57.837] [INFO] info - REQUEST=======> 2017-4-12 16:43:57 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 16:43:58.323] [INFO] info - /system/menu/use/all
+[2017-04-12 16:43:58.323] [INFO] info - undefined
+[2017-04-12 16:43:58.329] [INFO] info - REQUEST=======> 2017-4-12 16:43:58 [GET] /system/menu/use/all，耗时:6ms
+[2017-04-12 16:44:00.362] [INFO] info - /manage/account
+[2017-04-12 16:44:00.362] [INFO] info - undefined
+[2017-04-12 16:44:00.372] [INFO] info - REQUEST=======> 2017-4-12 16:44:00 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:10ms
+[2017-04-12 16:44:04.459] [INFO] info - /manage/sign/logout
+[2017-04-12 16:44:04.460] [INFO] info - undefined
+[2017-04-12 16:44:04.461] [INFO] info - REQUEST=======> 2017-4-12 16:44:04 [GET] /manage/sign/logout，耗时:2ms
+[2017-04-12 16:44:08.758] [INFO] info - /manage/sign/login
+[2017-04-12 16:44:08.759] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:44:08.769] [INFO] info - REQUEST=======> 2017-4-12 16:44:08 [POST] /manage/sign/login，耗时:11ms
+[2017-04-12 16:44:09.052] [INFO] info - /proxy/workSearch/list
+[2017-04-12 16:44:09.052] [INFO] info - undefined
+[2017-04-12 16:44:09.054] [INFO] info - REQUEST=======> 2017-4-12 16:44:09 [GET] /proxy/workSearch/list?applyAccId=&memberAccId=&condition=%7B%22delFlag%22%3A%22false%22%7D&startTime=1970-01-01%2000%3A00%3A00&endTime=2017-04-12%2023%3A59%3A59&taskStatus=1%2C2%2C3%2C4%2C5%2C7%2C8%2C9&writeOrReview=&pageNumber=0&pageSize=10，耗时:2ms
+[2017-04-12 16:44:09.072] [INFO] info - /proxy/relation/customers
+[2017-04-12 16:44:09.072] [INFO] info - undefined
+[2017-04-12 16:44:09.073] [INFO] info - REQUEST=======> 2017-4-12 16:44:09 [GET] /proxy/relation/customers?userId=932b05301f5911e787680f4ecb3a5b0e&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 16:44:09.075] [INFO] info - /proxy/relation/teams
+[2017-04-12 16:44:09.075] [INFO] info - undefined
+[2017-04-12 16:44:09.075] [INFO] info - REQUEST=======> 2017-4-12 16:44:09 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:0ms
+[2017-04-12 16:44:11.543] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:44:11.544] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:44:11.546] [INFO] info - REQUEST=======> 2017-4-12 16:44:11 [POST] /proxy/hospital/find_hospital，耗时:3ms
+[2017-04-12 16:44:12.630] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:44:12.630] [INFO] info - undefined
+[2017-04-12 16:44:12.631] [INFO] info - REQUEST=======> 2017-4-12 16:44:12 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 16:44:12.633] [INFO] info - /system/menu/use/all
+[2017-04-12 16:44:12.633] [INFO] info - undefined
+[2017-04-12 16:44:12.634] [INFO] info - REQUEST=======> 2017-4-12 16:44:12 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:44:12.690] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:44:12.690] [INFO] info - undefined
+[2017-04-12 16:44:12.691] [INFO] info - REQUEST=======> 2017-4-12 16:44:12 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 16:44:13.278] [INFO] info - /proxy/workSearch/list
+[2017-04-12 16:44:13.278] [INFO] info - undefined
+[2017-04-12 16:44:13.279] [INFO] info - REQUEST=======> 2017-4-12 16:44:13 [GET] /proxy/workSearch/list?applyAccId=&memberAccId=&condition=%7B%22delFlag%22%3A%22false%22%7D&startTime=1970-01-01%2000%3A00%3A00&endTime=2017-04-12%2023%3A59%3A59&taskStatus=1%2C2%2C3%2C4%2C5%2C7%2C8%2C9&writeOrReview=&pageNumber=0&pageSize=10，耗时:1ms
+[2017-04-12 16:44:13.284] [INFO] info - /proxy/relation/customers
+[2017-04-12 16:44:13.284] [INFO] info - undefined
+[2017-04-12 16:44:13.287] [INFO] info - REQUEST=======> 2017-4-12 16:44:13 [GET] /proxy/relation/customers?userId=932b05301f5911e787680f4ecb3a5b0e&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:3ms
+[2017-04-12 16:44:13.422] [INFO] info - /proxy/relation/teams
+[2017-04-12 16:44:13.422] [INFO] info - undefined
+[2017-04-12 16:44:13.424] [INFO] info - REQUEST=======> 2017-4-12 16:44:13 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:2ms
+[2017-04-12 16:44:15.710] [INFO] info - /proxy/workSearch/list
+[2017-04-12 16:44:15.710] [INFO] info - undefined
+[2017-04-12 16:44:15.710] [INFO] info - REQUEST=======> 2017-4-12 16:44:15 [GET] /proxy/workSearch/list?applyAccId=&memberAccId=&condition=%7B%22delFlag%22%3A%22false%22%7D&startTime=1970-01-01%2000%3A00%3A00&endTime=2017-04-12%2023%3A59%3A59&taskStatus=6&writeOrReview=&pageNumber=0&pageSize=10，耗时:0ms
+[2017-04-12 16:44:15.720] [INFO] info - /proxy/relation/customers
+[2017-04-12 16:44:15.721] [INFO] info - undefined
+[2017-04-12 16:44:15.721] [INFO] info - REQUEST=======> 2017-4-12 16:44:15 [GET] /proxy/relation/customers?userId=932b05301f5911e787680f4ecb3a5b0e&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 16:44:16.023] [INFO] info - /proxy/relation/teams
+[2017-04-12 16:44:16.023] [INFO] info - undefined
+[2017-04-12 16:44:16.024] [INFO] info - REQUEST=======> 2017-4-12 16:44:16 [GET] /proxy/relation/teams?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 16:44:17.440] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:44:17.440] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:44:17.441] [INFO] info - REQUEST=======> 2017-4-12 16:44:17 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 16:44:20.441] [INFO] info - /manage/sign/logout
+[2017-04-12 16:44:20.441] [INFO] info - undefined
+[2017-04-12 16:44:20.442] [INFO] info - REQUEST=======> 2017-4-12 16:44:20 [GET] /manage/sign/logout，耗时:1ms
+[2017-04-12 16:44:23.473] [INFO] info - /manage/sign/login
+[2017-04-12 16:44:23.474] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:44:23.482] [INFO] info - REQUEST=======> 2017-4-12 16:44:23 [POST] /manage/sign/login，耗时:9ms
+[2017-04-12 16:44:23.577] [INFO] info - /manage/account
+[2017-04-12 16:44:23.577] [INFO] info - undefined
+[2017-04-12 16:44:23.583] [INFO] info - REQUEST=======> 2017-4-12 16:44:23 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 16:44:27.910] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:44:27.910] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:44:27.913] [INFO] info - REQUEST=======> 2017-4-12 16:44:27 [POST] /proxy/hospital/find_hospital，耗时:3ms
+[2017-04-12 16:44:28.979] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:44:28.979] [INFO] info - undefined
+[2017-04-12 16:44:28.980] [INFO] info - REQUEST=======> 2017-4-12 16:44:28 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 16:44:28.985] [INFO] info - /system/menu/use/all
+[2017-04-12 16:44:28.986] [INFO] info - undefined
+[2017-04-12 16:44:28.989] [INFO] info - REQUEST=======> 2017-4-12 16:44:28 [GET] /system/menu/use/all，耗时:4ms
+[2017-04-12 16:44:29.038] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:44:29.038] [INFO] info - undefined
+[2017-04-12 16:44:29.039] [INFO] info - REQUEST=======> 2017-4-12 16:44:29 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 16:44:29.389] [INFO] info - /manage/account
+[2017-04-12 16:44:29.389] [INFO] info - undefined
+[2017-04-12 16:44:29.397] [INFO] info - REQUEST=======> 2017-4-12 16:44:29 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 16:49:19.292] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:49:19.292] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:49:19.293] [INFO] info - REQUEST=======> 2017-4-12 16:49:19 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 16:49:33.740] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:49:33.740] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:49:33.741] [INFO] info - REQUEST=======> 2017-4-12 16:49:33 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 16:49:43.459] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:49:43.459] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:49:43.460] [INFO] info - REQUEST=======> 2017-4-12 16:49:43 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 16:49:46.075] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:49:46.075] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:49:46.076] [INFO] info - REQUEST=======> 2017-4-12 16:49:46 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 16:49:50.053] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:49:50.053] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:49:50.054] [INFO] info - REQUEST=======> 2017-4-12 16:49:50 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 16:49:51.106] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:49:51.106] [INFO] info - undefined
+[2017-04-12 16:49:51.108] [INFO] info - REQUEST=======> 2017-4-12 16:49:51 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-04-12 16:49:51.109] [INFO] info - /system/menu/use/all
+[2017-04-12 16:49:51.109] [INFO] info - undefined
+[2017-04-12 16:49:51.111] [INFO] info - REQUEST=======> 2017-4-12 16:49:51 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 16:49:51.442] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:49:51.442] [INFO] info - undefined
+[2017-04-12 16:49:51.442] [INFO] info - REQUEST=======> 2017-4-12 16:49:51 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-12 16:49:51.598] [INFO] info - /manage/account
+[2017-04-12 16:49:51.598] [INFO] info - undefined
+[2017-04-12 16:49:51.604] [INFO] info - REQUEST=======> 2017-4-12 16:49:51 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 16:54:54.986] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:54:54.986] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:54:54.988] [INFO] info - REQUEST=======> 2017-4-12 16:54:54 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 16:54:56.060] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:54:56.060] [INFO] info - undefined
+[2017-04-12 16:54:56.060] [INFO] info - REQUEST=======> 2017-4-12 16:54:56 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-12 16:54:56.061] [INFO] info - /system/menu/use/all
+[2017-04-12 16:54:56.062] [INFO] info - undefined
+[2017-04-12 16:54:56.062] [INFO] info - REQUEST=======> 2017-4-12 16:54:56 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:54:56.117] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:54:56.119] [INFO] info - undefined
+[2017-04-12 16:54:56.119] [INFO] info - REQUEST=======> 2017-4-12 16:54:56 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-04-12 16:54:56.468] [INFO] info - /manage/account
+[2017-04-12 16:54:56.468] [INFO] info - undefined
+[2017-04-12 16:54:56.473] [INFO] info - REQUEST=======> 2017-4-12 16:54:56 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 16:55:00.167] [INFO] info - /system/menu/use/all
+[2017-04-12 16:55:00.167] [INFO] info - undefined
+[2017-04-12 16:55:00.167] [INFO] info - REQUEST=======> 2017-4-12 16:55:00 [GET] /system/menu/use/all，耗时:0ms
+[2017-04-12 16:55:09.173] [INFO] info - /system/menu
+[2017-04-12 16:55:09.173] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:55:09.211] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-12 16:55:09.214] [INFO] info - REQUEST=======> 2017-4-12 16:55:09 [POST] /system/menu，耗时:41ms
+[2017-04-12 16:55:19.294] [INFO] info - /system/menu
+[2017-04-12 16:55:19.294] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:55:19.312] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-12 16:55:19.313] [INFO] info - REQUEST=======> 2017-4-12 16:55:19 [PUT] /system/menu，耗时:20ms
+[2017-04-12 16:55:19.341] [INFO] info - /system/menu/use/all
+[2017-04-12 16:55:19.341] [INFO] info - undefined
+[2017-04-12 16:55:19.342] [INFO] info - REQUEST=======> 2017-4-12 16:55:19 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:55:21.333] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:55:21.334] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:55:21.334] [INFO] info - REQUEST=======> 2017-4-12 16:55:21 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 16:55:22.398] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:55:22.398] [INFO] info - undefined
+[2017-04-12 16:55:22.399] [INFO] info - REQUEST=======> 2017-4-12 16:55:22 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 16:55:22.400] [INFO] info - /system/menu/use/all
+[2017-04-12 16:55:22.400] [INFO] info - undefined
+[2017-04-12 16:55:22.401] [INFO] info - REQUEST=======> 2017-4-12 16:55:22 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:55:22.447] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:55:22.447] [INFO] info - undefined
+[2017-04-12 16:55:22.447] [INFO] info - REQUEST=======> 2017-4-12 16:55:22 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-12 16:55:22.878] [INFO] info - /system/menu/use/all
+[2017-04-12 16:55:22.878] [INFO] info - undefined
+[2017-04-12 16:55:22.879] [INFO] info - REQUEST=======> 2017-4-12 16:55:22 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:56:06.557] [INFO] info - Redis connecting!
+[2017-04-12 16:56:06.581] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-12 16:56:06.591] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-12 16:56:06.596] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-12 16:56:06.754] [INFO] info - Redis auth pass!
+[2017-04-12 16:56:08.354] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:56:08.355] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:56:08.377] [INFO] info - REQUEST=======> 2017-4-12 16:56:08 [POST] /proxy/hospital/find_hospital，耗时:23ms
+[2017-04-12 16:56:08.476] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:56:08.476] [INFO] info - undefined
+[2017-04-12 16:56:08.479] [INFO] info - REQUEST=======> 2017-4-12 16:56:08 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-04-12 16:56:08.481] [INFO] info - /system/menu/use/all
+[2017-04-12 16:56:08.481] [INFO] info - undefined
+[2017-04-12 16:56:08.482] [INFO] info - REQUEST=======> 2017-4-12 16:56:08 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:56:08.818] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:56:08.818] [INFO] info - undefined
+[2017-04-12 16:56:08.820] [INFO] info - REQUEST=======> 2017-4-12 16:56:08 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-04-12 16:56:09.255] [INFO] info - /system/menu/use/all
+[2017-04-12 16:56:09.255] [INFO] info - undefined
+[2017-04-12 16:56:09.260] [INFO] info - REQUEST=======> 2017-4-12 16:56:09 [GET] /system/menu/use/all，耗时:5ms
+[2017-04-12 16:56:18.711] [INFO] info - /system/role
+[2017-04-12 16:56:18.711] [INFO] info - undefined
+[2017-04-12 16:56:18.721] [INFO] info - REQUEST=======> 2017-4-12 16:56:18 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:10ms
+[2017-04-12 16:56:23.908] [INFO] info - /system/role
+[2017-04-12 16:56:23.908] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:56:23.962] [INFO] info - REQUEST=======> 2017-4-12 16:56:23 [PUT] /system/role，耗时:54ms
+[2017-04-12 16:56:26.641] [INFO] info - /manage/sign/logout
+[2017-04-12 16:56:26.641] [INFO] info - undefined
+[2017-04-12 16:56:26.642] [INFO] info - REQUEST=======> 2017-4-12 16:56:26 [GET] /manage/sign/logout，耗时:2ms
+[2017-04-12 16:56:29.788] [INFO] info - /manage/sign/login
+[2017-04-12 16:56:29.788] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:56:29.797] [INFO] info - REQUEST=======> 2017-4-12 16:56:29 [POST] /manage/sign/login，耗时:9ms
+[2017-04-12 16:56:29.910] [INFO] info - /manage/account
+[2017-04-12 16:56:29.910] [INFO] info - undefined
+[2017-04-12 16:56:29.918] [INFO] info - REQUEST=======> 2017-4-12 16:56:29 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 16:56:31.942] [INFO] info - /manage/account
+[2017-04-12 16:56:31.942] [INFO] info - undefined
+[2017-04-12 16:56:31.950] [INFO] info - REQUEST=======> 2017-4-12 16:56:31 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:9ms
+[2017-04-12 16:56:37.575] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:56:37.575] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:56:37.577] [INFO] info - REQUEST=======> 2017-4-12 16:56:37 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 16:56:37.643] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:56:37.643] [INFO] info - undefined
+[2017-04-12 16:56:37.644] [INFO] info - REQUEST=======> 2017-4-12 16:56:37 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 16:56:37.646] [INFO] info - /system/menu/use/all
+[2017-04-12 16:56:37.646] [INFO] info - undefined
+[2017-04-12 16:56:37.646] [INFO] info - REQUEST=======> 2017-4-12 16:56:37 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:56:37.970] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:56:37.970] [INFO] info - undefined
+[2017-04-12 16:56:37.971] [INFO] info - REQUEST=======> 2017-4-12 16:56:37 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 16:56:38.130] [INFO] info - /manage/account
+[2017-04-12 16:56:38.131] [INFO] info - undefined
+[2017-04-12 16:56:38.138] [INFO] info - REQUEST=======> 2017-4-12 16:56:38 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 16:57:06.413] [INFO] info - /manage/account
+[2017-04-12 16:57:06.413] [INFO] info - undefined
+[2017-04-12 16:57:06.421] [INFO] info - REQUEST=======> 2017-4-12 16:57:06 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 16:57:07.720] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:57:07.720] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:57:07.722] [INFO] info - REQUEST=======> 2017-4-12 16:57:07 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 16:57:07.812] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:57:07.812] [INFO] info - undefined
+[2017-04-12 16:57:07.813] [INFO] info - REQUEST=======> 2017-4-12 16:57:07 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 16:57:07.814] [INFO] info - /system/menu/use/all
+[2017-04-12 16:57:07.814] [INFO] info - undefined
+[2017-04-12 16:57:07.816] [INFO] info - REQUEST=======> 2017-4-12 16:57:07 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 16:57:07.856] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:57:07.857] [INFO] info - undefined
+[2017-04-12 16:57:07.857] [INFO] info - REQUEST=======> 2017-4-12 16:57:07 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 16:57:08.206] [INFO] info - /manage/account
+[2017-04-12 16:57:08.206] [INFO] info - undefined
+[2017-04-12 16:57:08.213] [INFO] info - REQUEST=======> 2017-4-12 16:57:08 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-12 16:58:26.048] [INFO] info - /manage/account
+[2017-04-12 16:58:26.048] [INFO] info - undefined
+[2017-04-12 16:58:26.054] [INFO] info - REQUEST=======> 2017-4-12 16:58:26 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 16:58:58.342] [INFO] info - /manage/account
+[2017-04-12 16:58:58.342] [INFO] info - undefined
+[2017-04-12 16:58:58.348] [INFO] info - REQUEST=======> 2017-4-12 16:58:58 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 16:59:13.630] [INFO] info - /manage/account
+[2017-04-12 16:59:13.630] [INFO] info - undefined
+[2017-04-12 16:59:13.635] [INFO] info - REQUEST=======> 2017-4-12 16:59:13 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 16:59:21.870] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:59:21.870] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:59:21.871] [INFO] info - REQUEST=======> 2017-4-12 16:59:21 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 16:59:21.934] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 16:59:21.935] [INFO] info - undefined
+[2017-04-12 16:59:21.936] [INFO] info - REQUEST=======> 2017-4-12 16:59:21 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-04-12 16:59:21.938] [INFO] info - /system/menu/use/all
+[2017-04-12 16:59:21.938] [INFO] info - undefined
+[2017-04-12 16:59:21.939] [INFO] info - REQUEST=======> 2017-4-12 16:59:21 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 16:59:22.279] [INFO] info - /manage/sign/currentUser
+[2017-04-12 16:59:22.279] [INFO] info - undefined
+[2017-04-12 16:59:22.279] [INFO] info - REQUEST=======> 2017-4-12 16:59:22 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-12 16:59:22.425] [INFO] info - /manage/account
+[2017-04-12 16:59:22.425] [INFO] info - undefined
+[2017-04-12 16:59:22.433] [INFO] info - REQUEST=======> 2017-4-12 16:59:22 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 16:59:23.801] [INFO] info - /proxy/relation/customers
+[2017-04-12 16:59:23.803] [INFO] info - undefined
+[2017-04-12 16:59:23.804] [INFO] info - REQUEST=======> 2017-4-12 16:59:23 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:3ms
+[2017-04-12 16:59:55.392] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 16:59:55.393] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 16:59:55.393] [INFO] info - REQUEST=======> 2017-4-12 16:59:55 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:00:30.390] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:00:30.390] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:00:30.391] [INFO] info - REQUEST=======> 2017-4-12 17:00:30 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:00:30.464] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:00:30.464] [INFO] info - undefined
+[2017-04-12 17:00:30.465] [INFO] info - REQUEST=======> 2017-4-12 17:00:30 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:00:30.469] [INFO] info - /system/menu/use/all
+[2017-04-12 17:00:30.469] [INFO] info - undefined
+[2017-04-12 17:00:30.470] [INFO] info - REQUEST=======> 2017-4-12 17:00:30 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:00:30.902] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:00:30.902] [INFO] info - undefined
+[2017-04-12 17:00:30.904] [INFO] info - REQUEST=======> 2017-4-12 17:00:30 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-04-12 17:00:31.052] [INFO] info - /manage/account
+[2017-04-12 17:00:31.053] [INFO] info - undefined
+[2017-04-12 17:00:31.056] [INFO] info - REQUEST=======> 2017-4-12 17:00:31 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:01:27.250] [INFO] info - /manage/account
+[2017-04-12 17:01:27.251] [INFO] info - undefined
+[2017-04-12 17:01:27.257] [INFO] info - REQUEST=======> 2017-4-12 17:01:27 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-12 17:01:43.897] [INFO] info - /manage/account
+[2017-04-12 17:01:43.897] [INFO] info - undefined
+[2017-04-12 17:01:43.903] [INFO] info - REQUEST=======> 2017-4-12 17:01:43 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 17:01:46.414] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:01:46.415] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:01:46.415] [INFO] info - REQUEST=======> 2017-4-12 17:01:46 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:01:46.487] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:01:46.487] [INFO] info - undefined
+[2017-04-12 17:01:46.487] [INFO] info - REQUEST=======> 2017-4-12 17:01:46 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-12 17:01:46.489] [INFO] info - /system/menu/use/all
+[2017-04-12 17:01:46.489] [INFO] info - undefined
+[2017-04-12 17:01:46.490] [INFO] info - REQUEST=======> 2017-4-12 17:01:46 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:01:46.927] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:01:46.929] [INFO] info - undefined
+[2017-04-12 17:01:46.931] [INFO] info - REQUEST=======> 2017-4-12 17:01:46 [GET] /manage/sign/currentUser，耗时:4ms
+[2017-04-12 17:01:47.073] [INFO] info - /manage/account
+[2017-04-12 17:01:47.073] [INFO] info - undefined
+[2017-04-12 17:01:47.078] [INFO] info - REQUEST=======> 2017-4-12 17:01:47 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:01:50.239] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:01:50.240] [INFO] info - undefined
+[2017-04-12 17:01:50.240] [INFO] info - REQUEST=======> 2017-4-12 17:01:50 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:01:50.279] [INFO] info - /proxy/customer
+[2017-04-12 17:01:50.279] [INFO] info - undefined
+[2017-04-12 17:01:50.280] [INFO] info - REQUEST=======> 2017-4-12 17:01:50 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A1%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:02:19.163] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:02:19.163] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:02:19.163] [INFO] info - REQUEST=======> 2017-4-12 17:02:19 [POST] /proxy/hospital/find_hospital，耗时:0ms
+[2017-04-12 17:02:19.187] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:02:19.187] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:02:19.187] [INFO] info - REQUEST=======> 2017-4-12 17:02:19 [POST] /proxy/hospital/find_hospital，耗时:0ms
+[2017-04-12 17:02:19.191] [INFO] info - /proxy/customer
+[2017-04-12 17:02:19.191] [INFO] info - undefined
+[2017-04-12 17:02:19.192] [INFO] info - REQUEST=======> 2017-4-12 17:02:19 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:02:41.300] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:02:41.301] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:02:41.302] [INFO] info - REQUEST=======> 2017-4-12 17:02:41 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 17:02:41.374] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:02:41.374] [INFO] info - undefined
+[2017-04-12 17:02:41.374] [INFO] info - REQUEST=======> 2017-4-12 17:02:41 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-12 17:02:41.376] [INFO] info - /system/menu/use/all
+[2017-04-12 17:02:41.376] [INFO] info - undefined
+[2017-04-12 17:02:41.377] [INFO] info - REQUEST=======> 2017-4-12 17:02:41 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:02:41.457] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:02:41.457] [INFO] info - undefined
+[2017-04-12 17:02:41.458] [INFO] info - REQUEST=======> 2017-4-12 17:02:41 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:02:41.732] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:02:41.732] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:02:41.732] [INFO] info - REQUEST=======> 2017-4-12 17:02:41 [POST] /proxy/hospital/find_hospital，耗时:0ms
+[2017-04-12 17:02:42.056] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:02:42.056] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:02:42.057] [INFO] info - REQUEST=======> 2017-4-12 17:02:42 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:02:42.058] [INFO] info - /proxy/customer
+[2017-04-12 17:02:42.058] [INFO] info - undefined
+[2017-04-12 17:02:42.060] [INFO] info - REQUEST=======> 2017-4-12 17:02:42 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:2ms
+[2017-04-12 17:02:45.169] [INFO] info - /manage/account
+[2017-04-12 17:02:45.169] [INFO] info - undefined
+[2017-04-12 17:02:45.173] [INFO] info - REQUEST=======> 2017-4-12 17:02:45 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:02:46.694] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:02:46.694] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:02:46.695] [INFO] info - REQUEST=======> 2017-4-12 17:02:46 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:02:46.772] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:02:46.772] [INFO] info - undefined
+[2017-04-12 17:02:46.773] [INFO] info - REQUEST=======> 2017-4-12 17:02:46 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:02:46.774] [INFO] info - /system/menu/use/all
+[2017-04-12 17:02:46.775] [INFO] info - undefined
+[2017-04-12 17:02:46.776] [INFO] info - REQUEST=======> 2017-4-12 17:02:46 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 17:02:47.111] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:02:47.111] [INFO] info - undefined
+[2017-04-12 17:02:47.112] [INFO] info - REQUEST=======> 2017-4-12 17:02:47 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:02:47.252] [INFO] info - /manage/account
+[2017-04-12 17:02:47.252] [INFO] info - undefined
+[2017-04-12 17:02:47.257] [INFO] info - REQUEST=======> 2017-4-12 17:02:47 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:02:48.024] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:02:48.024] [INFO] info - undefined
+[2017-04-12 17:02:48.025] [INFO] info - REQUEST=======> 2017-4-12 17:02:48 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:02:48.041] [INFO] info - /proxy/customer
+[2017-04-12 17:02:48.041] [INFO] info - undefined
+[2017-04-12 17:02:48.042] [INFO] info - REQUEST=======> 2017-4-12 17:02:48 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:03:04.062] [INFO] info - /manage/account
+[2017-04-12 17:03:04.063] [INFO] info - undefined
+[2017-04-12 17:03:04.067] [INFO] info - REQUEST=======> 2017-4-12 17:03:04 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:03:22.882] [INFO] info - /manage/account
+[2017-04-12 17:03:22.882] [INFO] info - undefined
+[2017-04-12 17:03:22.887] [INFO] info - REQUEST=======> 2017-4-12 17:03:22 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:03:31.268] [INFO] info - /manage/account
+[2017-04-12 17:03:31.268] [INFO] info - undefined
+[2017-04-12 17:03:31.273] [INFO] info - REQUEST=======> 2017-4-12 17:03:31 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:03:44.144] [INFO] info - /manage/account
+[2017-04-12 17:03:44.144] [INFO] info - undefined
+[2017-04-12 17:03:44.149] [INFO] info - REQUEST=======> 2017-4-12 17:03:44 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:04:02.159] [INFO] info - /manage/account
+[2017-04-12 17:04:02.159] [INFO] info - undefined
+[2017-04-12 17:04:02.167] [INFO] info - REQUEST=======> 2017-4-12 17:04:02 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 17:04:14.124] [INFO] info - /manage/account
+[2017-04-12 17:04:14.125] [INFO] info - undefined
+[2017-04-12 17:04:14.129] [INFO] info - REQUEST=======> 2017-4-12 17:04:14 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:04:34.966] [INFO] info - /manage/account
+[2017-04-12 17:04:34.966] [INFO] info - undefined
+[2017-04-12 17:04:34.970] [INFO] info - REQUEST=======> 2017-4-12 17:04:34 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:05:11.350] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:05:11.350] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:05:11.352] [INFO] info - REQUEST=======> 2017-4-12 17:05:11 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 17:05:11.425] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:05:11.425] [INFO] info - undefined
+[2017-04-12 17:05:11.426] [INFO] info - REQUEST=======> 2017-4-12 17:05:11 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:05:11.429] [INFO] info - /system/menu/use/all
+[2017-04-12 17:05:11.430] [INFO] info - undefined
+[2017-04-12 17:05:11.430] [INFO] info - REQUEST=======> 2017-4-12 17:05:11 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:05:11.494] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:05:11.494] [INFO] info - undefined
+[2017-04-12 17:05:11.495] [INFO] info - REQUEST=======> 2017-4-12 17:05:11 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:05:11.645] [INFO] info - /manage/account
+[2017-04-12 17:05:11.645] [INFO] info - undefined
+[2017-04-12 17:05:11.649] [INFO] info - REQUEST=======> 2017-4-12 17:05:11 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:05:12.599] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:05:12.599] [INFO] info - undefined
+[2017-04-12 17:05:12.601] [INFO] info - REQUEST=======> 2017-4-12 17:05:12 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:2ms
+[2017-04-12 17:05:12.624] [INFO] info - /proxy/customer
+[2017-04-12 17:05:12.624] [INFO] info - undefined
+[2017-04-12 17:05:12.626] [INFO] info - REQUEST=======> 2017-4-12 17:05:12 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:2ms
+[2017-04-12 17:05:20.491] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:05:20.491] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:05:20.492] [INFO] info - REQUEST=======> 2017-4-12 17:05:20 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:05:20.575] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:05:20.575] [INFO] info - undefined
+[2017-04-12 17:05:20.575] [INFO] info - REQUEST=======> 2017-4-12 17:05:20 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-12 17:05:20.576] [INFO] info - /system/menu/use/all
+[2017-04-12 17:05:20.576] [INFO] info - undefined
+[2017-04-12 17:05:20.577] [INFO] info - REQUEST=======> 2017-4-12 17:05:20 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:05:20.635] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:05:20.635] [INFO] info - undefined
+[2017-04-12 17:05:20.636] [INFO] info - REQUEST=======> 2017-4-12 17:05:20 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:05:20.831] [INFO] info - /manage/account
+[2017-04-12 17:05:20.832] [INFO] info - undefined
+[2017-04-12 17:05:20.835] [INFO] info - REQUEST=======> 2017-4-12 17:05:20 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:05:21.472] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:05:21.472] [INFO] info - undefined
+[2017-04-12 17:05:21.473] [INFO] info - REQUEST=======> 2017-4-12 17:05:21 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:05:21.491] [INFO] info - /proxy/customer
+[2017-04-12 17:05:21.491] [INFO] info - undefined
+[2017-04-12 17:05:21.492] [INFO] info - REQUEST=======> 2017-4-12 17:05:21 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:05:29.399] [INFO] info - /manage/account
+[2017-04-12 17:05:29.399] [INFO] info - undefined
+[2017-04-12 17:05:29.403] [INFO] info - REQUEST=======> 2017-4-12 17:05:29 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:05:33.113] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:05:33.113] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:05:33.114] [INFO] info - REQUEST=======> 2017-4-12 17:05:33 [POST] /proxy/hospital/find_hospital，耗时:0ms
+[2017-04-12 17:05:33.184] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:05:33.185] [INFO] info - undefined
+[2017-04-12 17:05:33.185] [INFO] info - REQUEST=======> 2017-4-12 17:05:33 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:05:33.186] [INFO] info - /system/menu/use/all
+[2017-04-12 17:05:33.186] [INFO] info - undefined
+[2017-04-12 17:05:33.187] [INFO] info - REQUEST=======> 2017-4-12 17:05:33 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:05:33.242] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:05:33.243] [INFO] info - undefined
+[2017-04-12 17:05:33.243] [INFO] info - REQUEST=======> 2017-4-12 17:05:33 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:05:33.588] [INFO] info - /manage/account
+[2017-04-12 17:05:33.588] [INFO] info - undefined
+[2017-04-12 17:05:33.593] [INFO] info - REQUEST=======> 2017-4-12 17:05:33 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 17:05:34.319] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:05:34.319] [INFO] info - undefined
+[2017-04-12 17:05:34.319] [INFO] info - REQUEST=======> 2017-4-12 17:05:34 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:0ms
+[2017-04-12 17:05:34.335] [INFO] info - /proxy/customer
+[2017-04-12 17:05:34.335] [INFO] info - undefined
+[2017-04-12 17:05:34.336] [INFO] info - REQUEST=======> 2017-4-12 17:05:34 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:05:49.959] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:05:49.959] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:05:49.960] [INFO] info - REQUEST=======> 2017-4-12 17:05:49 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:05:50.037] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:05:50.037] [INFO] info - undefined
+[2017-04-12 17:05:50.039] [INFO] info - REQUEST=======> 2017-4-12 17:05:50 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-04-12 17:05:50.042] [INFO] info - /system/menu/use/all
+[2017-04-12 17:05:50.042] [INFO] info - undefined
+[2017-04-12 17:05:50.043] [INFO] info - REQUEST=======> 2017-4-12 17:05:50 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:05:50.137] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:05:50.138] [INFO] info - undefined
+[2017-04-12 17:05:50.138] [INFO] info - REQUEST=======> 2017-4-12 17:05:50 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:05:50.338] [INFO] info - /manage/account
+[2017-04-12 17:05:50.338] [INFO] info - undefined
+[2017-04-12 17:05:50.342] [INFO] info - REQUEST=======> 2017-4-12 17:05:50 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:05:51.975] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:05:51.975] [INFO] info - undefined
+[2017-04-12 17:05:51.976] [INFO] info - REQUEST=======> 2017-4-12 17:05:51 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:05:51.993] [INFO] info - /proxy/customer
+[2017-04-12 17:05:51.993] [INFO] info - undefined
+[2017-04-12 17:05:51.994] [INFO] info - REQUEST=======> 2017-4-12 17:05:51 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:05:59.368] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:05:59.368] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:05:59.369] [INFO] info - REQUEST=======> 2017-4-12 17:05:59 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:05:59.447] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:05:59.447] [INFO] info - undefined
+[2017-04-12 17:05:59.448] [INFO] info - REQUEST=======> 2017-4-12 17:05:59 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:05:59.449] [INFO] info - /system/menu/use/all
+[2017-04-12 17:05:59.449] [INFO] info - undefined
+[2017-04-12 17:05:59.450] [INFO] info - REQUEST=======> 2017-4-12 17:05:59 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:05:59.504] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:05:59.504] [INFO] info - undefined
+[2017-04-12 17:05:59.505] [INFO] info - REQUEST=======> 2017-4-12 17:05:59 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:05:59.849] [INFO] info - /manage/account
+[2017-04-12 17:05:59.849] [INFO] info - undefined
+[2017-04-12 17:05:59.853] [INFO] info - REQUEST=======> 2017-4-12 17:05:59 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:06:00.623] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:06:00.623] [INFO] info - undefined
+[2017-04-12 17:06:00.624] [INFO] info - REQUEST=======> 2017-4-12 17:06:00 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:06:00.644] [INFO] info - /proxy/customer
+[2017-04-12 17:06:00.644] [INFO] info - undefined
+[2017-04-12 17:06:00.645] [INFO] info - REQUEST=======> 2017-4-12 17:06:00 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:06:20.549] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:06:20.550] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:06:20.550] [INFO] info - REQUEST=======> 2017-4-12 17:06:20 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:06:20.566] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:06:20.566] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:06:20.567] [INFO] info - REQUEST=======> 2017-4-12 17:06:20 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:06:20.569] [INFO] info - /proxy/customer
+[2017-04-12 17:06:20.569] [INFO] info - undefined
+[2017-04-12 17:06:20.570] [INFO] info - REQUEST=======> 2017-4-12 17:06:20 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:06:21.607] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:21.607] [INFO] info - undefined
+[2017-04-12 17:06:21.607] [INFO] info - REQUEST=======> 2017-4-12 17:06:21 [GET] /proxy/relation/doctors?customerId=8628d181ceea427eb4546ecd9191e124，耗时:0ms
+[2017-04-12 17:06:22.451] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:22.451] [INFO] info - undefined
+[2017-04-12 17:06:22.451] [INFO] info - REQUEST=======> 2017-4-12 17:06:22 [GET] /proxy/relation/doctors?customerId=593e932cb30f478dac395d906c2e0544，耗时:0ms
+[2017-04-12 17:06:23.425] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:23.425] [INFO] info - undefined
+[2017-04-12 17:06:23.425] [INFO] info - REQUEST=======> 2017-4-12 17:06:23 [GET] /proxy/relation/doctors?customerId=593e932cb30f478dac395d906c2e0544，耗时:0ms
+[2017-04-12 17:06:27.512] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:27.512] [INFO] info - undefined
+[2017-04-12 17:06:27.513] [INFO] info - REQUEST=======> 2017-4-12 17:06:27 [GET] /proxy/relation/doctors?customerId=cdb67f0301dc474daa0633f97894a830，耗时:1ms
+[2017-04-12 17:06:29.670] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:29.671] [INFO] info - undefined
+[2017-04-12 17:06:29.671] [INFO] info - REQUEST=======> 2017-4-12 17:06:29 [GET] /proxy/relation/doctors?customerId=baa0973c97c34cb9b1f4d0343eb0841b，耗时:1ms
+[2017-04-12 17:06:31.177] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:31.177] [INFO] info - undefined
+[2017-04-12 17:06:31.178] [INFO] info - REQUEST=======> 2017-4-12 17:06:31 [GET] /proxy/relation/doctors?customerId=98e35519e39d4d1cb6e3f0fca50106ca，耗时:1ms
+[2017-04-12 17:06:31.984] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:31.984] [INFO] info - undefined
+[2017-04-12 17:06:31.984] [INFO] info - REQUEST=======> 2017-4-12 17:06:31 [GET] /proxy/relation/doctors?customerId=281f602cb0874b14a8160ea107328225，耗时:0ms
+[2017-04-12 17:06:33.165] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:33.165] [INFO] info - undefined
+[2017-04-12 17:06:33.166] [INFO] info - REQUEST=======> 2017-4-12 17:06:33 [GET] /proxy/relation/doctors?customerId=281f602cb0874b14a8160ea107328225，耗时:1ms
+[2017-04-12 17:06:33.880] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:33.880] [INFO] info - undefined
+[2017-04-12 17:06:33.881] [INFO] info - REQUEST=======> 2017-4-12 17:06:33 [GET] /proxy/relation/doctors?customerId=0be8bed06f2643a68640c7c46b454080，耗时:1ms
+[2017-04-12 17:06:34.997] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:34.998] [INFO] info - undefined
+[2017-04-12 17:06:34.999] [INFO] info - REQUEST=======> 2017-4-12 17:06:34 [GET] /proxy/relation/doctors?customerId=0be8bed06f2643a68640c7c46b454080，耗时:2ms
+[2017-04-12 17:06:36.164] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:36.164] [INFO] info - undefined
+[2017-04-12 17:06:36.166] [INFO] info - REQUEST=======> 2017-4-12 17:06:36 [GET] /proxy/relation/doctors?customerId=593e932cb30f478dac395d906c2e0544，耗时:2ms
+[2017-04-12 17:06:37.672] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:37.672] [INFO] info - undefined
+[2017-04-12 17:06:37.672] [INFO] info - REQUEST=======> 2017-4-12 17:06:37 [GET] /proxy/relation/doctors?customerId=8628d181ceea427eb4546ecd9191e124，耗时:0ms
+[2017-04-12 17:06:38.663] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:06:38.663] [INFO] info - undefined
+[2017-04-12 17:06:38.664] [INFO] info - REQUEST=======> 2017-4-12 17:06:38 [GET] /proxy/relation/doctors?customerId=348ab4468c74442588e7fc9ec0ad4580，耗时:1ms
+[2017-04-12 17:07:20.692] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:07:20.692] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:07:20.693] [INFO] info - REQUEST=======> 2017-4-12 17:07:20 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:07:20.773] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:07:20.773] [INFO] info - undefined
+[2017-04-12 17:07:20.773] [INFO] info - REQUEST=======> 2017-4-12 17:07:20 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-12 17:07:20.777] [INFO] info - /system/menu/use/all
+[2017-04-12 17:07:20.777] [INFO] info - undefined
+[2017-04-12 17:07:20.777] [INFO] info - REQUEST=======> 2017-4-12 17:07:20 [GET] /system/menu/use/all，耗时:0ms
+[2017-04-12 17:07:20.869] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:07:20.869] [INFO] info - undefined
+[2017-04-12 17:07:20.870] [INFO] info - REQUEST=======> 2017-4-12 17:07:20 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:07:21.118] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:07:21.118] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:07:21.120] [INFO] info - REQUEST=======> 2017-4-12 17:07:21 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 17:07:21.440] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:07:21.440] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:07:21.441] [INFO] info - REQUEST=======> 2017-4-12 17:07:21 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:07:21.442] [INFO] info - /proxy/customer
+[2017-04-12 17:07:21.442] [INFO] info - undefined
+[2017-04-12 17:07:21.443] [INFO] info - REQUEST=======> 2017-4-12 17:07:21 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:08:01.723] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:08:01.723] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:08:01.724] [INFO] info - REQUEST=======> 2017-4-12 17:08:01 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:08:01.810] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:08:01.810] [INFO] info - undefined
+[2017-04-12 17:08:01.811] [INFO] info - REQUEST=======> 2017-4-12 17:08:01 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:08:01.813] [INFO] info - /system/menu/use/all
+[2017-04-12 17:08:01.814] [INFO] info - undefined
+[2017-04-12 17:08:01.815] [INFO] info - REQUEST=======> 2017-4-12 17:08:01 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 17:08:01.963] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:08:01.963] [INFO] info - undefined
+[2017-04-12 17:08:01.964] [INFO] info - REQUEST=======> 2017-4-12 17:08:01 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:08:02.191] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:08:02.191] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:08:02.192] [INFO] info - REQUEST=======> 2017-4-12 17:08:02 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:08:02.516] [INFO] info - /proxy/customer
+[2017-04-12 17:08:02.516] [INFO] info - undefined
+[2017-04-12 17:08:02.516] [INFO] info - REQUEST=======> 2017-4-12 17:08:02 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:0ms
+[2017-04-12 17:08:02.517] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:08:02.518] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:08:02.518] [INFO] info - REQUEST=======> 2017-4-12 17:08:02 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:08:03.569] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:08:03.569] [INFO] info - undefined
+[2017-04-12 17:08:03.570] [INFO] info - REQUEST=======> 2017-4-12 17:08:03 [GET] /proxy/relation/doctors?customerId=348ab4468c74442588e7fc9ec0ad4580，耗时:1ms
+[2017-04-12 17:08:05.515] [INFO] info - /proxy/relation/doctors
+[2017-04-12 17:08:05.515] [INFO] info - undefined
+[2017-04-12 17:08:05.516] [INFO] info - REQUEST=======> 2017-4-12 17:08:05 [GET] /proxy/relation/doctors?customerId=cdb67f0301dc474daa0633f97894a830，耗时:1ms
+[2017-04-12 17:08:08.919] [INFO] info - /manage/account
+[2017-04-12 17:08:08.919] [INFO] info - undefined
+[2017-04-12 17:08:08.926] [INFO] info - REQUEST=======> 2017-4-12 17:08:08 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-12 17:08:10.334] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:08:10.334] [INFO] info - undefined
+[2017-04-12 17:08:10.335] [INFO] info - REQUEST=======> 2017-4-12 17:08:10 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:08:10.582] [INFO] info - /proxy/customer
+[2017-04-12 17:08:10.582] [INFO] info - undefined
+[2017-04-12 17:08:10.582] [INFO] info - REQUEST=======> 2017-4-12 17:08:10 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:0ms
+[2017-04-12 17:08:28.861] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:08:28.861] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:08:28.863] [INFO] info - REQUEST=======> 2017-4-12 17:08:28 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 17:08:28.928] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:08:28.928] [INFO] info - undefined
+[2017-04-12 17:08:28.929] [INFO] info - REQUEST=======> 2017-4-12 17:08:28 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:08:28.931] [INFO] info - /system/menu/use/all
+[2017-04-12 17:08:28.931] [INFO] info - undefined
+[2017-04-12 17:08:28.932] [INFO] info - REQUEST=======> 2017-4-12 17:08:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:08:29.073] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:08:29.073] [INFO] info - undefined
+[2017-04-12 17:08:29.074] [INFO] info - REQUEST=======> 2017-4-12 17:08:29 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:08:29.234] [INFO] info - /manage/account
+[2017-04-12 17:08:29.234] [INFO] info - undefined
+[2017-04-12 17:08:29.241] [INFO] info - REQUEST=======> 2017-4-12 17:08:29 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-12 17:08:30.032] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:08:30.032] [INFO] info - undefined
+[2017-04-12 17:08:30.033] [INFO] info - REQUEST=======> 2017-4-12 17:08:30 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:08:30.051] [INFO] info - /proxy/customer
+[2017-04-12 17:08:30.052] [INFO] info - undefined
+[2017-04-12 17:08:30.053] [INFO] info - REQUEST=======> 2017-4-12 17:08:30 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:2ms
+[2017-04-12 17:08:41.539] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:08:41.539] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:08:41.540] [INFO] info - REQUEST=======> 2017-4-12 17:08:41 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:08:41.624] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:08:41.624] [INFO] info - undefined
+[2017-04-12 17:08:41.625] [INFO] info - REQUEST=======> 2017-4-12 17:08:41 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:08:41.626] [INFO] info - /system/menu/use/all
+[2017-04-12 17:08:41.626] [INFO] info - undefined
+[2017-04-12 17:08:41.627] [INFO] info - REQUEST=======> 2017-4-12 17:08:41 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:08:41.778] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:08:41.778] [INFO] info - undefined
+[2017-04-12 17:08:41.778] [INFO] info - REQUEST=======> 2017-4-12 17:08:41 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-12 17:08:41.954] [INFO] info - /manage/account
+[2017-04-12 17:08:41.954] [INFO] info - undefined
+[2017-04-12 17:08:41.958] [INFO] info - REQUEST=======> 2017-4-12 17:08:41 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:08:42.618] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:08:42.618] [INFO] info - undefined
+[2017-04-12 17:08:42.619] [INFO] info - REQUEST=======> 2017-4-12 17:08:42 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:08:42.637] [INFO] info - /proxy/customer
+[2017-04-12 17:08:42.638] [INFO] info - undefined
+[2017-04-12 17:08:42.638] [INFO] info - REQUEST=======> 2017-4-12 17:08:42 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:08:58.828] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:08:58.828] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:08:58.830] [INFO] info - REQUEST=======> 2017-4-12 17:08:58 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 17:08:58.905] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:08:58.905] [INFO] info - undefined
+[2017-04-12 17:08:58.906] [INFO] info - REQUEST=======> 2017-4-12 17:08:58 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:08:58.909] [INFO] info - /system/menu/use/all
+[2017-04-12 17:08:58.909] [INFO] info - undefined
+[2017-04-12 17:08:58.910] [INFO] info - REQUEST=======> 2017-4-12 17:08:58 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:08:58.959] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:08:58.959] [INFO] info - undefined
+[2017-04-12 17:08:58.960] [INFO] info - REQUEST=======> 2017-4-12 17:08:58 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:08:59.304] [INFO] info - /manage/account
+[2017-04-12 17:08:59.304] [INFO] info - undefined
+[2017-04-12 17:08:59.311] [INFO] info - REQUEST=======> 2017-4-12 17:08:59 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-12 17:09:03.192] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:09:03.192] [INFO] info - undefined
+[2017-04-12 17:09:03.193] [INFO] info - REQUEST=======> 2017-4-12 17:09:03 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:09:03.211] [INFO] info - /proxy/customer
+[2017-04-12 17:09:03.211] [INFO] info - undefined
+[2017-04-12 17:09:03.211] [INFO] info - REQUEST=======> 2017-4-12 17:09:03 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:0ms
+[2017-04-12 17:10:02.693] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:10:02.693] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:10:02.694] [INFO] info - REQUEST=======> 2017-4-12 17:10:02 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:10:02.783] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:10:02.783] [INFO] info - undefined
+[2017-04-12 17:10:02.784] [INFO] info - REQUEST=======> 2017-4-12 17:10:02 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:10:02.785] [INFO] info - /system/menu/use/all
+[2017-04-12 17:10:02.786] [INFO] info - undefined
+[2017-04-12 17:10:02.787] [INFO] info - REQUEST=======> 2017-4-12 17:10:02 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 17:10:02.859] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:10:02.860] [INFO] info - undefined
+[2017-04-12 17:10:02.860] [INFO] info - REQUEST=======> 2017-4-12 17:10:02 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:10:03.361] [INFO] info - /manage/account
+[2017-04-12 17:10:03.361] [INFO] info - undefined
+[2017-04-12 17:10:03.367] [INFO] info - REQUEST=======> 2017-4-12 17:10:03 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 17:10:04.376] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:10:04.376] [INFO] info - undefined
+[2017-04-12 17:10:04.378] [INFO] info - REQUEST=======> 2017-4-12 17:10:04 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:2ms
+[2017-04-12 17:10:04.424] [INFO] info - /proxy/customer
+[2017-04-12 17:10:04.424] [INFO] info - undefined
+[2017-04-12 17:10:04.424] [INFO] info - REQUEST=======> 2017-4-12 17:10:04 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:0ms
+[2017-04-12 17:11:07.052] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:11:07.052] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:11:07.053] [INFO] info - REQUEST=======> 2017-4-12 17:11:07 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:11:07.134] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:11:07.134] [INFO] info - undefined
+[2017-04-12 17:11:07.135] [INFO] info - REQUEST=======> 2017-4-12 17:11:07 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:11:07.136] [INFO] info - /system/menu/use/all
+[2017-04-12 17:11:07.136] [INFO] info - undefined
+[2017-04-12 17:11:07.137] [INFO] info - REQUEST=======> 2017-4-12 17:11:07 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:11:07.215] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:11:07.215] [INFO] info - undefined
+[2017-04-12 17:11:07.216] [INFO] info - REQUEST=======> 2017-4-12 17:11:07 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:11:07.374] [INFO] info - /manage/account
+[2017-04-12 17:11:07.374] [INFO] info - undefined
+[2017-04-12 17:11:07.378] [INFO] info - REQUEST=======> 2017-4-12 17:11:07 [GET] /manage/account?pageNumber=1&pageSize=5，耗时:4ms
+[2017-04-12 17:11:08.404] [INFO] info - /manage/account
+[2017-04-12 17:11:08.404] [INFO] info - undefined
+[2017-04-12 17:11:08.410] [INFO] info - REQUEST=======> 2017-4-12 17:11:08 [GET] /manage/account?pageNumber=2&pageSize=5，耗时:6ms
+[2017-04-12 17:11:09.359] [INFO] info - /manage/account
+[2017-04-12 17:11:09.359] [INFO] info - undefined
+[2017-04-12 17:11:09.363] [INFO] info - REQUEST=======> 2017-4-12 17:11:09 [GET] /manage/account?pageNumber=1&pageSize=5，耗时:4ms
+[2017-04-12 17:11:13.172] [INFO] info - /manage/account
+[2017-04-12 17:11:13.172] [INFO] info - undefined
+[2017-04-12 17:11:13.177] [INFO] info - REQUEST=======> 2017-4-12 17:11:13 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:11:13.919] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:11:13.919] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:11:13.920] [INFO] info - REQUEST=======> 2017-4-12 17:11:13 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:11:13.993] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:11:13.993] [INFO] info - undefined
+[2017-04-12 17:11:13.994] [INFO] info - REQUEST=======> 2017-4-12 17:11:13 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:11:13.997] [INFO] info - /system/menu/use/all
+[2017-04-12 17:11:13.997] [INFO] info - undefined
+[2017-04-12 17:11:13.998] [INFO] info - REQUEST=======> 2017-4-12 17:11:13 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:11:14.339] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:11:14.339] [INFO] info - undefined
+[2017-04-12 17:11:14.340] [INFO] info - REQUEST=======> 2017-4-12 17:11:14 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:11:14.484] [INFO] info - /manage/account
+[2017-04-12 17:11:14.484] [INFO] info - undefined
+[2017-04-12 17:11:14.491] [INFO] info - REQUEST=======> 2017-4-12 17:11:14 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-12 17:11:18.719] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:11:18.719] [INFO] info - undefined
+[2017-04-12 17:11:18.719] [INFO] info - REQUEST=======> 2017-4-12 17:11:18 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:0ms
+[2017-04-12 17:11:18.740] [INFO] info - /proxy/customer
+[2017-04-12 17:11:18.740] [INFO] info - undefined
+[2017-04-12 17:11:18.740] [INFO] info - REQUEST=======> 2017-4-12 17:11:18 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:0ms
+[2017-04-12 17:13:35.372] [INFO] info - /manage/account
+[2017-04-12 17:13:35.374] [INFO] info - undefined
+[2017-04-12 17:13:35.380] [INFO] info - REQUEST=======> 2017-4-12 17:13:35 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-12 17:13:36.279] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:13:36.279] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:13:36.280] [INFO] info - REQUEST=======> 2017-4-12 17:13:36 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:13:36.338] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:13:36.338] [INFO] info - undefined
+[2017-04-12 17:13:36.338] [INFO] info - REQUEST=======> 2017-4-12 17:13:36 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-12 17:13:36.339] [INFO] info - /system/menu/use/all
+[2017-04-12 17:13:36.339] [INFO] info - undefined
+[2017-04-12 17:13:36.341] [INFO] info - REQUEST=======> 2017-4-12 17:13:36 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 17:13:36.397] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:13:36.397] [INFO] info - undefined
+[2017-04-12 17:13:36.398] [INFO] info - REQUEST=======> 2017-4-12 17:13:36 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:13:36.923] [INFO] info - /manage/account
+[2017-04-12 17:13:36.923] [INFO] info - undefined
+[2017-04-12 17:13:36.929] [INFO] info - REQUEST=======> 2017-4-12 17:13:36 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 17:13:37.449] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:13:37.449] [INFO] info - undefined
+[2017-04-12 17:13:37.449] [INFO] info - REQUEST=======> 2017-4-12 17:13:37 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:0ms
+[2017-04-12 17:13:37.467] [INFO] info - /proxy/customer
+[2017-04-12 17:13:37.467] [INFO] info - undefined
+[2017-04-12 17:13:37.467] [INFO] info - REQUEST=======> 2017-4-12 17:13:37 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:0ms
+[2017-04-12 17:14:00.941] [INFO] info - /manage/account
+[2017-04-12 17:14:00.941] [INFO] info - undefined
+[2017-04-12 17:14:00.947] [INFO] info - REQUEST=======> 2017-4-12 17:14:00 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-12 17:14:01.817] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:14:01.817] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:14:01.818] [INFO] info - REQUEST=======> 2017-4-12 17:14:01 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:14:01.882] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:14:01.883] [INFO] info - undefined
+[2017-04-12 17:14:01.883] [INFO] info - REQUEST=======> 2017-4-12 17:14:01 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:14:01.886] [INFO] info - /system/menu/use/all
+[2017-04-12 17:14:01.886] [INFO] info - undefined
+[2017-04-12 17:14:01.886] [INFO] info - REQUEST=======> 2017-4-12 17:14:01 [GET] /system/menu/use/all，耗时:0ms
+[2017-04-12 17:14:02.221] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:14:02.221] [INFO] info - undefined
+[2017-04-12 17:14:02.222] [INFO] info - REQUEST=======> 2017-4-12 17:14:02 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:14:02.357] [INFO] info - /manage/account
+[2017-04-12 17:14:02.357] [INFO] info - undefined
+[2017-04-12 17:14:02.361] [INFO] info - REQUEST=======> 2017-4-12 17:14:02 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:14:02.936] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:14:02.936] [INFO] info - undefined
+[2017-04-12 17:14:02.937] [INFO] info - REQUEST=======> 2017-4-12 17:14:02 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:14:02.958] [INFO] info - /proxy/customer
+[2017-04-12 17:14:02.958] [INFO] info - undefined
+[2017-04-12 17:14:02.959] [INFO] info - REQUEST=======> 2017-4-12 17:14:02 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:14:07.709] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:14:07.709] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:14:07.710] [INFO] info - REQUEST=======> 2017-4-12 17:14:07 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:14:07.784] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:14:07.784] [INFO] info - undefined
+[2017-04-12 17:14:07.785] [INFO] info - REQUEST=======> 2017-4-12 17:14:07 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:14:07.786] [INFO] info - /system/menu/use/all
+[2017-04-12 17:14:07.786] [INFO] info - undefined
+[2017-04-12 17:14:07.787] [INFO] info - REQUEST=======> 2017-4-12 17:14:07 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:14:08.131] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:14:08.131] [INFO] info - undefined
+[2017-04-12 17:14:08.132] [INFO] info - REQUEST=======> 2017-4-12 17:14:08 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:14:08.268] [INFO] info - /manage/account
+[2017-04-12 17:14:08.268] [INFO] info - undefined
+[2017-04-12 17:14:08.271] [INFO] info - REQUEST=======> 2017-4-12 17:14:08 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:3ms
+[2017-04-12 17:14:09.008] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:14:09.008] [INFO] info - undefined
+[2017-04-12 17:14:09.008] [INFO] info - REQUEST=======> 2017-4-12 17:14:09 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:0ms
+[2017-04-12 17:14:09.033] [INFO] info - /proxy/customer
+[2017-04-12 17:14:09.033] [INFO] info - undefined
+[2017-04-12 17:14:09.033] [INFO] info - REQUEST=======> 2017-4-12 17:14:09 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:14:12.732] [INFO] info - /manage/account
+[2017-04-12 17:14:12.732] [INFO] info - undefined
+[2017-04-12 17:14:12.735] [INFO] info - REQUEST=======> 2017-4-12 17:14:12 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:3ms
+[2017-04-12 17:14:13.732] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:14:13.733] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:14:13.734] [INFO] info - REQUEST=======> 2017-4-12 17:14:13 [POST] /proxy/hospital/find_hospital，耗时:2ms
+[2017-04-12 17:14:13.801] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:14:13.801] [INFO] info - undefined
+[2017-04-12 17:14:13.802] [INFO] info - REQUEST=======> 2017-4-12 17:14:13 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:14:13.803] [INFO] info - /system/menu/use/all
+[2017-04-12 17:14:13.803] [INFO] info - undefined
+[2017-04-12 17:14:13.804] [INFO] info - REQUEST=======> 2017-4-12 17:14:13 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:14:14.145] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:14:14.145] [INFO] info - undefined
+[2017-04-12 17:14:14.145] [INFO] info - REQUEST=======> 2017-4-12 17:14:14 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-12 17:14:14.288] [INFO] info - /manage/account
+[2017-04-12 17:14:14.288] [INFO] info - undefined
+[2017-04-12 17:14:14.292] [INFO] info - REQUEST=======> 2017-4-12 17:14:14 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:14:47.558] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:14:47.558] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:14:47.558] [INFO] info - REQUEST=======> 2017-4-12 17:14:47 [POST] /proxy/hospital/find_hospital，耗时:0ms
+[2017-04-12 17:14:47.633] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:14:47.633] [INFO] info - undefined
+[2017-04-12 17:14:47.634] [INFO] info - REQUEST=======> 2017-4-12 17:14:47 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:14:47.635] [INFO] info - /system/menu/use/all
+[2017-04-12 17:14:47.635] [INFO] info - undefined
+[2017-04-12 17:14:47.636] [INFO] info - REQUEST=======> 2017-4-12 17:14:47 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:14:47.685] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:14:47.685] [INFO] info - undefined
+[2017-04-12 17:14:47.685] [INFO] info - REQUEST=======> 2017-4-12 17:14:47 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-12 17:14:48.140] [INFO] info - /manage/account
+[2017-04-12 17:14:48.140] [INFO] info - undefined
+[2017-04-12 17:14:48.144] [INFO] info - REQUEST=======> 2017-4-12 17:14:48 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:14:49.183] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:14:49.183] [INFO] info - undefined
+[2017-04-12 17:14:49.184] [INFO] info - REQUEST=======> 2017-4-12 17:14:49 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:14:49.201] [INFO] info - /proxy/customer
+[2017-04-12 17:14:49.201] [INFO] info - undefined
+[2017-04-12 17:14:49.202] [INFO] info - REQUEST=======> 2017-4-12 17:14:49 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:14:50.343] [INFO] info - /proxy/customer
+[2017-04-12 17:14:50.343] [INFO] info - undefined
+[2017-04-12 17:14:50.343] [INFO] info - REQUEST=======> 2017-4-12 17:14:50 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A1%2C%22pageSize%22%3A5%7D，耗时:0ms
+[2017-04-12 17:14:51.094] [INFO] info - /proxy/customer
+[2017-04-12 17:14:51.094] [INFO] info - undefined
+[2017-04-12 17:14:51.095] [INFO] info - REQUEST=======> 2017-4-12 17:14:51 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:14:54.389] [INFO] info - /proxy/customer
+[2017-04-12 17:14:54.389] [INFO] info - undefined
+[2017-04-12 17:14:54.390] [INFO] info - REQUEST=======> 2017-4-12 17:14:54 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A1%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:14:55.374] [INFO] info - /proxy/customer
+[2017-04-12 17:14:55.375] [INFO] info - undefined
+[2017-04-12 17:14:55.375] [INFO] info - REQUEST=======> 2017-4-12 17:14:55 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:15:49.604] [INFO] info - /proxy/customer
+[2017-04-12 17:15:49.604] [INFO] info - undefined
+[2017-04-12 17:15:49.604] [INFO] info - REQUEST=======> 2017-4-12 17:15:49 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A1%2C%22pageSize%22%3A5%7D，耗时:0ms
+[2017-04-12 17:15:50.390] [INFO] info - /proxy/customer
+[2017-04-12 17:15:50.390] [INFO] info - undefined
+[2017-04-12 17:15:50.391] [INFO] info - REQUEST=======> 2017-4-12 17:15:50 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:1ms
+[2017-04-12 17:16:14.808] [INFO] info - /manage/account
+[2017-04-12 17:16:14.808] [INFO] info - undefined
+[2017-04-12 17:16:14.813] [INFO] info - REQUEST=======> 2017-4-12 17:16:14 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:16:36.111] [INFO] info - /manage/account
+[2017-04-12 17:16:36.111] [INFO] info - undefined
+[2017-04-12 17:16:36.115] [INFO] info - REQUEST=======> 2017-4-12 17:16:36 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:16:52.757] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:16:52.757] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:16:52.758] [INFO] info - REQUEST=======> 2017-4-12 17:16:52 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:16:52.828] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:16:52.828] [INFO] info - undefined
+[2017-04-12 17:16:52.829] [INFO] info - REQUEST=======> 2017-4-12 17:16:52 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:16:52.831] [INFO] info - /system/menu/use/all
+[2017-04-12 17:16:52.831] [INFO] info - undefined
+[2017-04-12 17:16:52.832] [INFO] info - REQUEST=======> 2017-4-12 17:16:52 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:16:52.885] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:16:52.885] [INFO] info - undefined
+[2017-04-12 17:16:52.885] [INFO] info - REQUEST=======> 2017-4-12 17:16:52 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-12 17:16:53.044] [INFO] info - /manage/account
+[2017-04-12 17:16:53.044] [INFO] info - undefined
+[2017-04-12 17:16:53.049] [INFO] info - REQUEST=======> 2017-4-12 17:16:53 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-12 17:16:54.367] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:16:54.368] [INFO] info - undefined
+[2017-04-12 17:16:54.369] [INFO] info - REQUEST=======> 2017-4-12 17:16:54 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:2ms
+[2017-04-12 17:16:54.401] [INFO] info - /proxy/customer
+[2017-04-12 17:16:54.401] [INFO] info - undefined
+[2017-04-12 17:16:54.401] [INFO] info - REQUEST=======> 2017-4-12 17:16:54 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A5%7D，耗时:0ms
+[2017-04-12 17:17:32.278] [INFO] info - /manage/account
+[2017-04-12 17:17:32.278] [INFO] info - undefined
+[2017-04-12 17:17:32.282] [INFO] info - REQUEST=======> 2017-4-12 17:17:32 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:17:39.235] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:17:39.235] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:17:39.236] [INFO] info - REQUEST=======> 2017-4-12 17:17:39 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:17:39.305] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:17:39.305] [INFO] info - undefined
+[2017-04-12 17:17:39.306] [INFO] info - /system/menu/use/all
+[2017-04-12 17:17:39.306] [INFO] info - undefined
+[2017-04-12 17:17:39.307] [INFO] info - REQUEST=======> 2017-4-12 17:17:39 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-04-12 17:17:39.307] [INFO] info - REQUEST=======> 2017-4-12 17:17:39 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:17:39.756] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:17:39.756] [INFO] info - undefined
+[2017-04-12 17:17:39.757] [INFO] info - REQUEST=======> 2017-4-12 17:17:39 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:17:39.927] [INFO] info - /manage/account
+[2017-04-12 17:17:39.927] [INFO] info - undefined
+[2017-04-12 17:17:39.931] [INFO] info - REQUEST=======> 2017-4-12 17:17:39 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:17:44.720] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:17:44.720] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:17:44.721] [INFO] info - REQUEST=======> 2017-4-12 17:17:44 [POST] /proxy/hospital/find_hospital，耗时:1ms
+[2017-04-12 17:17:44.783] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:17:44.783] [INFO] info - undefined
+[2017-04-12 17:17:44.784] [INFO] info - REQUEST=======> 2017-4-12 17:17:44 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-12 17:17:44.785] [INFO] info - /system/menu/use/all
+[2017-04-12 17:17:44.785] [INFO] info - undefined
+[2017-04-12 17:17:44.786] [INFO] info - REQUEST=======> 2017-4-12 17:17:44 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-12 17:17:45.230] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:17:45.230] [INFO] info - undefined
+[2017-04-12 17:17:45.231] [INFO] info - REQUEST=======> 2017-4-12 17:17:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-12 17:17:45.379] [INFO] info - /manage/account
+[2017-04-12 17:17:45.379] [INFO] info - undefined
+[2017-04-12 17:17:45.383] [INFO] info - REQUEST=======> 2017-4-12 17:17:45 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-12 17:17:46.062] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:17:46.062] [INFO] info - undefined
+[2017-04-12 17:17:46.062] [INFO] info - REQUEST=======> 2017-4-12 17:17:46 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:0ms
+[2017-04-12 17:17:46.078] [INFO] info - /proxy/customer
+[2017-04-12 17:17:46.078] [INFO] info - undefined
+[2017-04-12 17:17:46.079] [INFO] info - REQUEST=======> 2017-4-12 17:17:46 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:1ms
+[2017-04-12 17:17:54.542] [INFO] info - REQUEST=======> 2017-4-12 17:17:54 [POST] /proxy/user/add_or_update，耗时:7ms
+[2017-04-12 17:18:56.294] [INFO] info - Redis connecting!
+[2017-04-12 17:18:56.298] [INFO] info - Redis auth pass!
+[2017-04-12 17:18:56.313] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-12 17:18:56.322] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-12 17:18:56.325] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-12 17:18:58.094] [INFO] info - /proxy/hospital/find_hospital
+[2017-04-12 17:18:58.094] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:18:58.117] [INFO] info - REQUEST=======> 2017-4-12 17:18:58 [POST] /proxy/hospital/find_hospital，耗时:23ms
+[2017-04-12 17:18:58.192] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-12 17:18:58.192] [INFO] info - undefined
+[2017-04-12 17:18:58.195] [INFO] info - REQUEST=======> 2017-4-12 17:18:58 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-04-12 17:18:58.197] [INFO] info - /system/menu/use/all
+[2017-04-12 17:18:58.197] [INFO] info - undefined
+[2017-04-12 17:18:58.199] [INFO] info - REQUEST=======> 2017-4-12 17:18:58 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-12 17:18:58.338] [INFO] info - /manage/sign/currentUser
+[2017-04-12 17:18:58.339] [INFO] info - undefined
+[2017-04-12 17:18:58.340] [INFO] info - REQUEST=======> 2017-4-12 17:18:58 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-04-12 17:18:58.806] [INFO] info - /manage/account
+[2017-04-12 17:18:58.806] [INFO] info - undefined
+[2017-04-12 17:18:58.817] [INFO] info - REQUEST=======> 2017-4-12 17:18:58 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:11ms
+[2017-04-12 17:18:59.374] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:18:59.374] [INFO] info - undefined
+[2017-04-12 17:18:59.375] [INFO] info - REQUEST=======> 2017-4-12 17:18:59 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:1ms
+[2017-04-12 17:18:59.393] [INFO] info - /proxy/customer
+[2017-04-12 17:18:59.394] [INFO] info - undefined
+[2017-04-12 17:18:59.395] [INFO] info - REQUEST=======> 2017-4-12 17:18:59 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:2ms
+[2017-04-12 17:19:02.158] [INFO] info - /proxy/user/add_or_update
+[2017-04-12 17:19:02.158] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:19:02.159] [INFO] info - REQUEST=======> 2017-4-12 17:19:02 [POST] /proxy/user/add_or_update，耗时:1ms
+[2017-04-12 17:19:12.955] [INFO] info - /system/role
+[2017-04-12 17:19:12.955] [INFO] info - undefined
+[2017-04-12 17:19:12.962] [INFO] info - REQUEST=======> 2017-4-12 17:19:12 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:7ms
+[2017-04-12 17:19:17.833] [INFO] info - /manage/sign/logout
+[2017-04-12 17:19:17.833] [INFO] info - undefined
+[2017-04-12 17:19:17.835] [INFO] info - REQUEST=======> 2017-4-12 17:19:17 [GET] /manage/sign/logout，耗时:2ms
+[2017-04-12 17:19:21.190] [INFO] info - /manage/sign/login
+[2017-04-12 17:19:21.190] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:19:21.201] [INFO] info - REQUEST=======> 2017-4-12 17:19:21 [POST] /manage/sign/login，耗时:11ms
+[2017-04-12 17:19:21.305] [INFO] info - /manage/account
+[2017-04-12 17:19:21.306] [INFO] info - undefined
+[2017-04-12 17:19:21.316] [INFO] info - REQUEST=======> 2017-4-12 17:19:21 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:11ms
+[2017-04-12 17:19:24.117] [INFO] info - /manage/account
+[2017-04-12 17:19:24.118] [INFO] info - undefined
+[2017-04-12 17:19:24.126] [INFO] info - REQUEST=======> 2017-4-12 17:19:24 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:9ms
+[2017-04-12 17:19:26.047] [INFO] info - /proxy/relation/customers
+[2017-04-12 17:19:26.047] [INFO] info - undefined
+[2017-04-12 17:19:26.050] [INFO] info - REQUEST=======> 2017-4-12 17:19:26 [GET] /proxy/relation/customers?userId=d7d117f61aeb4f00858f449a178944bf&select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A1000%7D，耗时:3ms
+[2017-04-12 17:19:26.071] [INFO] info - /proxy/customer
+[2017-04-12 17:19:26.072] [INFO] info - undefined
+[2017-04-12 17:19:26.073] [INFO] info - REQUEST=======> 2017-4-12 17:19:26 [GET] /proxy/customer?select=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A10%7D，耗时:2ms
+[2017-04-12 17:19:31.578] [INFO] info - /proxy/user/add_or_update
+[2017-04-12 17:19:31.579] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-12 17:19:31.584] [INFO] info - REQUEST=======> 2017-4-12 17:19:31 [POST] /proxy/user/add_or_update，耗时:6ms

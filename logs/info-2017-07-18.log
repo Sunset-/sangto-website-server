@@ -1,0 +1,765 @@
+[2017-07-18 09:10:42.304] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-07-18 09:10:42.410] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:10:42.455] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-07-18 09:10:42.999] [INFO] info - Redis auth pass!
+[2017-07-18 09:11:15.816] [INFO] info - Redis connecting!
+[2017-07-18 09:11:15.839] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-07-18 09:11:15.855] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:11:15.859] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-07-18 09:11:16.051] [INFO] info - Redis auth pass!
+[2017-07-18 09:13:16.968] [INFO] info - /service/system/dictionaryItem/use/all
+[2017-07-18 09:13:16.969] [INFO] info - undefined
+[2017-07-18 09:13:16.992] [INFO] info - REQUEST=======> 2017-7-18 09:13:16 [GET] /service/system/dictionaryItem/use/all，耗时:24ms
+[2017-07-18 09:13:16.996] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:13:16.996] [INFO] info - undefined
+[2017-07-18 09:13:17.000] [INFO] info - REQUEST=======> 2017-7-18 09:13:16 [GET] /service/system/menu/use/all，耗时:4ms
+[2017-07-18 09:13:17.272] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:17.273] [INFO] info - undefined
+[2017-07-18 09:13:17.278] [INFO] info - REQUEST=======> 2017-7-18 09:13:17 [GET] /service/manage/sign/currentUser，耗时:6ms
+[2017-07-18 09:13:17.359] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:17.362] [INFO] info - undefined
+[2017-07-18 09:13:17.364] [INFO] info - REQUEST=======> 2017-7-18 09:13:17 [GET] /service/manage/sign/currentUser，耗时:5ms
+[2017-07-18 09:13:17.368] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:13:17.368] [INFO] info - undefined
+[2017-07-18 09:13:17.371] [INFO] info - REQUEST=======> 2017-7-18 09:13:17 [GET] /service/system/menu/use/all，耗时:3ms
+[2017-07-18 09:13:17.666] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:17.666] [INFO] info - undefined
+[2017-07-18 09:13:17.668] [INFO] info - REQUEST=======> 2017-7-18 09:13:17 [GET] /service/manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:13:20.445] [INFO] info - /service/system/dictionaryItem/use/all
+[2017-07-18 09:13:20.445] [INFO] info - undefined
+[2017-07-18 09:13:20.447] [INFO] info - REQUEST=======> 2017-7-18 09:13:20 [GET] /service/system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 09:13:20.448] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:13:20.448] [INFO] info - undefined
+[2017-07-18 09:13:20.450] [INFO] info - REQUEST=======> 2017-7-18 09:13:20 [GET] /service/system/menu/use/all，耗时:2ms
+[2017-07-18 09:13:20.472] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:20.472] [INFO] info - undefined
+[2017-07-18 09:13:20.473] [INFO] info - REQUEST=======> 2017-7-18 09:13:20 [GET] /service/manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:13:20.549] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:20.549] [INFO] info - undefined
+[2017-07-18 09:13:20.550] [INFO] info - REQUEST=======> 2017-7-18 09:13:20 [GET] /service/manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:13:20.555] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:13:20.556] [INFO] info - undefined
+[2017-07-18 09:13:20.558] [INFO] info - REQUEST=======> 2017-7-18 09:13:20 [GET] /service/system/menu/use/all，耗时:3ms
+[2017-07-18 09:13:20.863] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:20.864] [INFO] info - undefined
+[2017-07-18 09:13:20.866] [INFO] info - REQUEST=======> 2017-7-18 09:13:20 [GET] /service/manage/sign/currentUser，耗时:3ms
+[2017-07-18 09:13:23.497] [INFO] info - /service/system/dictionaryItem/use/all
+[2017-07-18 09:13:23.498] [INFO] info - undefined
+[2017-07-18 09:13:23.499] [INFO] info - REQUEST=======> 2017-7-18 09:13:23 [GET] /service/system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 09:13:23.503] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:13:23.504] [INFO] info - undefined
+[2017-07-18 09:13:23.506] [INFO] info - REQUEST=======> 2017-7-18 09:13:23 [GET] /service/system/menu/use/all，耗时:3ms
+[2017-07-18 09:13:23.840] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:23.840] [INFO] info - undefined
+[2017-07-18 09:13:23.841] [INFO] info - REQUEST=======> 2017-7-18 09:13:23 [GET] /service/manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:13:23.925] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:23.925] [INFO] info - undefined
+[2017-07-18 09:13:23.927] [INFO] info - REQUEST=======> 2017-7-18 09:13:23 [GET] /service/manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:13:24.088] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:13:24.088] [INFO] info - undefined
+[2017-07-18 09:13:24.090] [INFO] info - REQUEST=======> 2017-7-18 09:13:24 [GET] /service/system/menu/use/all，耗时:2ms
+[2017-07-18 09:13:24.227] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:13:24.227] [INFO] info - undefined
+[2017-07-18 09:13:24.228] [INFO] info - REQUEST=======> 2017-7-18 09:13:24 [GET] /service/manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:13:28.221] [INFO] info - /service/manage/sign/logout
+[2017-07-18 09:13:28.221] [INFO] info - undefined
+[2017-07-18 09:13:28.222] [INFO] info - REQUEST=======> 2017-7-18 09:13:28 [GET] /service/manage/sign/logout，耗时:1ms
+[2017-07-18 09:13:31.726] [INFO] info - /service/manage/sign/login
+[2017-07-18 09:13:31.726] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:13:31.744] [INFO] info - REQUEST=======> 2017-7-18 09:13:31 [POST] /service/manage/sign/login，耗时:18ms
+[2017-07-18 09:13:31.755] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:13:31.756] [INFO] info - undefined
+[2017-07-18 09:13:31.758] [INFO] info - REQUEST=======> 2017-7-18 09:13:31 [GET] /service/system/menu/use/all，耗时:3ms
+[2017-07-18 09:13:31.773] [INFO] info - /service/manage/sign/logout
+[2017-07-18 09:13:31.773] [INFO] info - undefined
+[2017-07-18 09:13:31.775] [INFO] info - REQUEST=======> 2017-7-18 09:13:31 [GET] /service/manage/sign/logout，耗时:2ms
+[2017-07-18 09:14:06.798] [INFO] info - Redis connecting!
+[2017-07-18 09:14:06.996] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-07-18 09:14:07.007] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:14:07.014] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-07-18 09:14:07.018] [INFO] info - Redis auth pass!
+[2017-07-18 09:14:46.499] [INFO] info - Redis connecting!
+[2017-07-18 09:14:46.522] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-07-18 09:14:46.539] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:14:46.549] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-07-18 09:14:46.748] [INFO] info - Redis auth pass!
+[2017-07-18 09:14:50.005] [INFO] info - /service/manage/sign/login
+[2017-07-18 09:14:50.005] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:14:50.028] [INFO] info - REQUEST=======> 2017-7-18 09:14:50 [POST] /service/manage/sign/login，耗时:23ms
+[2017-07-18 09:14:50.203] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:14:50.203] [INFO] info - undefined
+[2017-07-18 09:14:50.207] [INFO] info - REQUEST=======> 2017-7-18 09:14:50 [GET] /service/system/menu/use/all，耗时:4ms
+[2017-07-18 09:14:50.345] [INFO] info - /service/manage/sign/logout
+[2017-07-18 09:14:50.345] [INFO] info - undefined
+[2017-07-18 09:14:50.348] [INFO] info - REQUEST=======> 2017-7-18 09:14:50 [GET] /service/manage/sign/logout，耗时:3ms
+[2017-07-18 09:14:52.292] [INFO] info - /service/system/dictionaryItem/use/all
+[2017-07-18 09:14:52.292] [INFO] info - undefined
+[2017-07-18 09:14:52.294] [INFO] info - REQUEST=======> 2017-7-18 09:14:52 [GET] /service/system/dictionaryItem/use/all，耗时:3ms
+[2017-07-18 09:14:52.296] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:14:52.296] [INFO] info - undefined
+[2017-07-18 09:14:52.297] [INFO] info - REQUEST=======> 2017-7-18 09:14:52 [GET] /service/system/menu/use/all，耗时:1ms
+[2017-07-18 09:14:52.630] [INFO] info - /service/manage/sign/currentUser
+[2017-07-18 09:14:52.630] [INFO] info - undefined
+[2017-07-18 09:14:52.632] [INFO] info - REQUEST=======> 2017-7-18 09:14:52 [GET] /service/manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:14:56.060] [INFO] info - /service/manage/sign/login
+[2017-07-18 09:14:56.060] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:14:56.062] [INFO] info - REQUEST=======> 2017-7-18 09:14:56 [POST] /service/manage/sign/login，耗时:2ms
+[2017-07-18 09:14:56.094] [INFO] info - /service/system/menu/use/all
+[2017-07-18 09:14:56.094] [INFO] info - undefined
+[2017-07-18 09:14:56.096] [INFO] info - REQUEST=======> 2017-7-18 09:14:56 [GET] /service/system/menu/use/all，耗时:2ms
+[2017-07-18 09:14:56.119] [INFO] info - /service/manage/sign/logout
+[2017-07-18 09:14:56.119] [INFO] info - undefined
+[2017-07-18 09:14:56.121] [INFO] info - REQUEST=======> 2017-7-18 09:14:56 [GET] /service/manage/sign/logout，耗时:2ms
+[2017-07-18 09:15:37.397] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:15:37.397] [INFO] info - undefined
+[2017-07-18 09:15:37.399] [INFO] info - REQUEST=======> 2017-7-18 09:15:37 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 09:15:37.401] [INFO] info - /system/menu/use/all
+[2017-07-18 09:15:37.402] [INFO] info - undefined
+[2017-07-18 09:15:37.404] [INFO] info - REQUEST=======> 2017-7-18 09:15:37 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-18 09:15:37.725] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:15:37.725] [INFO] info - undefined
+[2017-07-18 09:15:37.733] [INFO] info - REQUEST=======> 2017-7-18 09:15:37 [GET] /manage/sign/currentUser，耗时:8ms
+[2017-07-18 09:15:41.779] [INFO] info - /manage/sign/login
+[2017-07-18 09:15:41.780] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:15:41.951] [INFO] info - REQUEST=======> 2017-7-18 09:15:41 [POST] /manage/sign/login，耗时:172ms
+[2017-07-18 09:15:42.098] [INFO] info - /manage/account
+[2017-07-18 09:15:42.098] [INFO] info - undefined
+[2017-07-18 09:15:42.120] [INFO] info - REQUEST=======> 2017-7-18 09:15:42 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:22ms
+[2017-07-18 09:15:46.575] [INFO] info - /system/menu/use/all
+[2017-07-18 09:15:46.575] [INFO] info - undefined
+[2017-07-18 09:15:46.577] [INFO] info - REQUEST=======> 2017-7-18 09:15:46 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:15:47.698] [INFO] info - /system/dictionaryType
+[2017-07-18 09:15:47.698] [INFO] info - undefined
+[2017-07-18 09:15:47.717] [INFO] info - REQUEST=======> 2017-7-18 09:15:47 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:19ms
+[2017-07-18 09:15:48.325] [INFO] info - /manage/account
+[2017-07-18 09:15:48.325] [INFO] info - undefined
+[2017-07-18 09:15:48.329] [INFO] info - REQUEST=======> 2017-7-18 09:15:48 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-07-18 09:15:49.372] [INFO] info - /system/dictionaryType
+[2017-07-18 09:15:49.373] [INFO] info - undefined
+[2017-07-18 09:15:49.379] [INFO] info - REQUEST=======> 2017-7-18 09:15:49 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-07-18 09:15:49.775] [INFO] info - /manage/account
+[2017-07-18 09:15:49.776] [INFO] info - undefined
+[2017-07-18 09:15:49.781] [INFO] info - REQUEST=======> 2017-7-18 09:15:49 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-07-18 09:15:50.488] [INFO] info - /system/dictionaryType
+[2017-07-18 09:15:50.488] [INFO] info - undefined
+[2017-07-18 09:15:50.495] [INFO] info - REQUEST=======> 2017-7-18 09:15:50 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-07-18 09:15:51.001] [INFO] info - /manage/account
+[2017-07-18 09:15:51.001] [INFO] info - undefined
+[2017-07-18 09:15:51.008] [INFO] info - REQUEST=======> 2017-7-18 09:15:51 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-07-18 09:16:27.818] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:16:27.818] [INFO] info - undefined
+[2017-07-18 09:16:27.819] [INFO] info - REQUEST=======> 2017-7-18 09:16:27 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:16:27.820] [INFO] info - /system/menu/use/all
+[2017-07-18 09:16:27.820] [INFO] info - undefined
+[2017-07-18 09:16:27.822] [INFO] info - REQUEST=======> 2017-7-18 09:16:27 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:16:27.867] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:16:27.867] [INFO] info - undefined
+[2017-07-18 09:16:27.868] [INFO] info - REQUEST=======> 2017-7-18 09:16:27 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:16:28.206] [INFO] info - /manage/account
+[2017-07-18 09:16:28.206] [INFO] info - undefined
+[2017-07-18 09:16:28.212] [INFO] info - REQUEST=======> 2017-7-18 09:16:28 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-07-18 09:19:04.463] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:19:04.464] [INFO] info - undefined
+[2017-07-18 09:19:04.465] [INFO] info - REQUEST=======> 2017-7-18 09:19:04 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 09:19:04.467] [INFO] info - /system/menu/use/all
+[2017-07-18 09:19:04.467] [INFO] info - undefined
+[2017-07-18 09:19:04.468] [INFO] info - REQUEST=======> 2017-7-18 09:19:04 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:19:04.511] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:19:04.511] [INFO] info - undefined
+[2017-07-18 09:19:04.512] [INFO] info - REQUEST=======> 2017-7-18 09:19:04 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:19:04.855] [INFO] info - /manage/account
+[2017-07-18 09:19:04.855] [INFO] info - undefined
+[2017-07-18 09:19:04.860] [INFO] info - REQUEST=======> 2017-7-18 09:19:04 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-07-18 09:21:54.208] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:21:54.208] [INFO] info - undefined
+[2017-07-18 09:21:54.209] [INFO] info - REQUEST=======> 2017-7-18 09:21:54 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:21:54.210] [INFO] info - /system/menu/use/all
+[2017-07-18 09:21:54.210] [INFO] info - undefined
+[2017-07-18 09:21:54.213] [INFO] info - REQUEST=======> 2017-7-18 09:21:54 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-18 09:21:57.145] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:21:57.145] [INFO] info - undefined
+[2017-07-18 09:21:57.146] [INFO] info - REQUEST=======> 2017-7-18 09:21:57 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:22:00.311] [INFO] info - /manage/account
+[2017-07-18 09:22:00.311] [INFO] info - undefined
+[2017-07-18 09:22:00.315] [INFO] info - REQUEST=======> 2017-7-18 09:22:00 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-07-18 09:23:21.777] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:23:21.777] [INFO] info - undefined
+[2017-07-18 09:23:21.778] [INFO] info - REQUEST=======> 2017-7-18 09:23:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:23:21.779] [INFO] info - /system/menu/use/all
+[2017-07-18 09:23:21.779] [INFO] info - undefined
+[2017-07-18 09:23:21.781] [INFO] info - REQUEST=======> 2017-7-18 09:23:21 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:23:24.149] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:23:24.149] [INFO] info - undefined
+[2017-07-18 09:23:24.151] [INFO] info - REQUEST=======> 2017-7-18 09:23:24 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:23:25.463] [INFO] info - /manage/account
+[2017-07-18 09:23:25.463] [INFO] info - undefined
+[2017-07-18 09:23:25.468] [INFO] info - REQUEST=======> 2017-7-18 09:23:25 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-07-18 09:24:56.758] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:24:56.759] [INFO] info - undefined
+[2017-07-18 09:24:56.759] [INFO] info - REQUEST=======> 2017-7-18 09:24:56 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:24:56.761] [INFO] info - /system/menu/use/all
+[2017-07-18 09:24:56.761] [INFO] info - undefined
+[2017-07-18 09:24:56.763] [INFO] info - REQUEST=======> 2017-7-18 09:24:56 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:24:57.099] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:24:57.100] [INFO] info - undefined
+[2017-07-18 09:24:57.100] [INFO] info - REQUEST=======> 2017-7-18 09:24:57 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:24:57.262] [INFO] info - /manage/account
+[2017-07-18 09:24:57.262] [INFO] info - undefined
+[2017-07-18 09:24:57.266] [INFO] info - REQUEST=======> 2017-7-18 09:24:57 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-07-18 09:25:01.318] [INFO] info - /system/menu/use/all
+[2017-07-18 09:25:01.318] [INFO] info - undefined
+[2017-07-18 09:25:01.322] [INFO] info - REQUEST=======> 2017-7-18 09:25:01 [GET] /system/menu/use/all，耗时:4ms
+[2017-07-18 09:25:32.232] [INFO] info - /system/menu
+[2017-07-18 09:25:32.232] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:25:32.388] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:25:32.390] [INFO] info - REQUEST=======> 2017-7-18 09:25:32 [POST] /system/menu，耗时:158ms
+[2017-07-18 09:25:32.724] [INFO] info - /system/menu/use/all
+[2017-07-18 09:25:32.724] [INFO] info - undefined
+[2017-07-18 09:25:32.726] [INFO] info - REQUEST=======> 2017-7-18 09:25:32 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:25:35.616] [INFO] info - /system/menu/order/change
+[2017-07-18 09:25:35.616] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:25:35.650] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:25:35.684] [INFO] info - REQUEST=======> 2017-7-18 09:25:35 [PUT] /system/menu/order/change，耗时:68ms
+[2017-07-18 09:25:38.265] [INFO] info - /system/menu
+[2017-07-18 09:25:38.265] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:25:38.305] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:25:38.307] [INFO] info - REQUEST=======> 2017-7-18 09:25:38 [POST] /system/menu，耗时:42ms
+[2017-07-18 09:25:40.562] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:25:40.562] [INFO] info - undefined
+[2017-07-18 09:25:40.563] [INFO] info - REQUEST=======> 2017-7-18 09:25:40 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:25:40.567] [INFO] info - /system/menu/use/all
+[2017-07-18 09:25:40.567] [INFO] info - undefined
+[2017-07-18 09:25:40.569] [INFO] info - REQUEST=======> 2017-7-18 09:25:40 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:25:40.905] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:25:40.905] [INFO] info - undefined
+[2017-07-18 09:25:40.905] [INFO] info - REQUEST=======> 2017-7-18 09:25:40 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-07-18 09:25:41.038] [INFO] info - /system/menu/use/all
+[2017-07-18 09:25:41.038] [INFO] info - undefined
+[2017-07-18 09:25:41.040] [INFO] info - REQUEST=======> 2017-7-18 09:25:41 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:25:49.663] [INFO] info - /system/role
+[2017-07-18 09:25:49.663] [INFO] info - undefined
+[2017-07-18 09:25:49.670] [INFO] info - REQUEST=======> 2017-7-18 09:25:49 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:7ms
+[2017-07-18 09:25:59.370] [INFO] info - /system/role
+[2017-07-18 09:25:59.370] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:25:59.379] [INFO] info - REQUEST=======> 2017-7-18 09:25:59 [PUT] /system/role，耗时:9ms
+[2017-07-18 09:26:03.027] [INFO] info - /system/role
+[2017-07-18 09:26:03.027] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:26:03.034] [INFO] info - REQUEST=======> 2017-7-18 09:26:03 [PUT] /system/role，耗时:7ms
+[2017-07-18 09:26:58.500] [INFO] info - /system/role
+[2017-07-18 09:26:58.500] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:26:58.550] [INFO] info - REQUEST=======> 2017-7-18 09:26:58 [PUT] /system/role，耗时:50ms
+[2017-07-18 09:27:00.388] [INFO] info - /manage/sign/logout
+[2017-07-18 09:27:00.388] [INFO] info - undefined
+[2017-07-18 09:27:00.390] [INFO] info - REQUEST=======> 2017-7-18 09:27:00 [GET] /manage/sign/logout，耗时:2ms
+[2017-07-18 09:27:06.611] [INFO] info - /manage/sign/login
+[2017-07-18 09:27:06.611] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:27:06.617] [INFO] info - REQUEST=======> 2017-7-18 09:27:06 [POST] /manage/sign/login，耗时:6ms
+[2017-07-18 09:27:06.731] [INFO] info - /manage/account
+[2017-07-18 09:27:06.731] [INFO] info - undefined
+[2017-07-18 09:27:06.736] [INFO] info - REQUEST=======> 2017-7-18 09:27:06 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-07-18 09:27:13.403] [INFO] info - /system/menu/use/all
+[2017-07-18 09:27:13.403] [INFO] info - undefined
+[2017-07-18 09:27:13.404] [INFO] info - REQUEST=======> 2017-7-18 09:27:13 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:28:22.904] [INFO] info - /system/menu
+[2017-07-18 09:28:22.905] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:28:22.960] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:28:22.961] [INFO] info - REQUEST=======> 2017-7-18 09:28:22 [PUT] /system/menu，耗时:57ms
+[2017-07-18 09:28:23.280] [INFO] info - /system/menu/use/all
+[2017-07-18 09:28:23.280] [INFO] info - undefined
+[2017-07-18 09:28:23.281] [INFO] info - REQUEST=======> 2017-7-18 09:28:23 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:28:25.713] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:28:25.713] [INFO] info - undefined
+[2017-07-18 09:28:25.714] [INFO] info - REQUEST=======> 2017-7-18 09:28:25 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:28:25.716] [INFO] info - /system/menu/use/all
+[2017-07-18 09:28:25.716] [INFO] info - undefined
+[2017-07-18 09:28:25.717] [INFO] info - REQUEST=======> 2017-7-18 09:28:25 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:28:26.050] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:28:26.050] [INFO] info - undefined
+[2017-07-18 09:28:26.051] [INFO] info - REQUEST=======> 2017-7-18 09:28:26 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:28:26.177] [INFO] info - /system/menu/use/all
+[2017-07-18 09:28:26.178] [INFO] info - undefined
+[2017-07-18 09:28:26.179] [INFO] info - REQUEST=======> 2017-7-18 09:28:26 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:30:06.965] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:30:06.965] [INFO] info - undefined
+[2017-07-18 09:30:06.966] [INFO] info - REQUEST=======> 2017-7-18 09:30:06 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:30:06.968] [INFO] info - /system/menu/use/all
+[2017-07-18 09:30:06.968] [INFO] info - undefined
+[2017-07-18 09:30:06.969] [INFO] info - REQUEST=======> 2017-7-18 09:30:06 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:30:07.290] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:30:07.290] [INFO] info - undefined
+[2017-07-18 09:30:07.291] [INFO] info - REQUEST=======> 2017-7-18 09:30:07 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:30:21.764] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:30:21.765] [INFO] info - undefined
+[2017-07-18 09:30:21.765] [INFO] info - REQUEST=======> 2017-7-18 09:30:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:30:21.766] [INFO] info - /system/menu/use/all
+[2017-07-18 09:30:21.766] [INFO] info - undefined
+[2017-07-18 09:30:21.767] [INFO] info - REQUEST=======> 2017-7-18 09:30:21 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:30:22.107] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:30:22.108] [INFO] info - undefined
+[2017-07-18 09:30:22.108] [INFO] info - REQUEST=======> 2017-7-18 09:30:22 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:30:37.991] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:30:37.991] [INFO] info - undefined
+[2017-07-18 09:30:37.992] [INFO] info - REQUEST=======> 2017-7-18 09:30:37 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:30:37.994] [INFO] info - /system/menu/use/all
+[2017-07-18 09:30:37.994] [INFO] info - undefined
+[2017-07-18 09:30:37.996] [INFO] info - REQUEST=======> 2017-7-18 09:30:37 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:30:38.334] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:30:38.334] [INFO] info - undefined
+[2017-07-18 09:30:38.335] [INFO] info - REQUEST=======> 2017-7-18 09:30:38 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:31:18.776] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:31:18.776] [INFO] info - undefined
+[2017-07-18 09:31:18.777] [INFO] info - REQUEST=======> 2017-7-18 09:31:18 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:31:18.778] [INFO] info - /system/menu/use/all
+[2017-07-18 09:31:18.778] [INFO] info - undefined
+[2017-07-18 09:31:18.779] [INFO] info - REQUEST=======> 2017-7-18 09:31:18 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:31:19.108] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:31:19.108] [INFO] info - undefined
+[2017-07-18 09:31:19.108] [INFO] info - REQUEST=======> 2017-7-18 09:31:19 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-07-18 09:31:30.017] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:31:30.017] [INFO] info - undefined
+[2017-07-18 09:31:30.018] [INFO] info - REQUEST=======> 2017-7-18 09:31:30 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:31:30.019] [INFO] info - /system/menu/use/all
+[2017-07-18 09:31:30.020] [INFO] info - undefined
+[2017-07-18 09:31:30.022] [INFO] info - REQUEST=======> 2017-7-18 09:31:30 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-18 09:31:30.348] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:31:30.348] [INFO] info - undefined
+[2017-07-18 09:31:30.349] [INFO] info - REQUEST=======> 2017-7-18 09:31:30 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:31:52.868] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:31:52.868] [INFO] info - undefined
+[2017-07-18 09:31:52.869] [INFO] info - REQUEST=======> 2017-7-18 09:31:52 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:31:52.870] [INFO] info - /system/menu/use/all
+[2017-07-18 09:31:52.870] [INFO] info - undefined
+[2017-07-18 09:31:52.871] [INFO] info - REQUEST=======> 2017-7-18 09:31:52 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:31:53.200] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:31:53.200] [INFO] info - undefined
+[2017-07-18 09:31:53.202] [INFO] info - REQUEST=======> 2017-7-18 09:31:53 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:34:38.491] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:34:38.491] [INFO] info - undefined
+[2017-07-18 09:34:38.492] [INFO] info - REQUEST=======> 2017-7-18 09:34:38 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:34:38.494] [INFO] info - /system/menu/use/all
+[2017-07-18 09:34:38.494] [INFO] info - undefined
+[2017-07-18 09:34:38.495] [INFO] info - REQUEST=======> 2017-7-18 09:34:38 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:34:38.535] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:34:38.535] [INFO] info - undefined
+[2017-07-18 09:34:38.536] [INFO] info - REQUEST=======> 2017-7-18 09:34:38 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:34:42.090] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:34:42.090] [INFO] info - undefined
+[2017-07-18 09:34:42.090] [INFO] info - REQUEST=======> 2017-7-18 09:34:42 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-18 09:34:42.092] [INFO] info - /system/menu/use/all
+[2017-07-18 09:34:42.093] [INFO] info - undefined
+[2017-07-18 09:34:42.094] [INFO] info - REQUEST=======> 2017-7-18 09:34:42 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:34:42.429] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:34:42.429] [INFO] info - undefined
+[2017-07-18 09:34:42.430] [INFO] info - REQUEST=======> 2017-7-18 09:34:42 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:34:51.367] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:34:51.367] [INFO] info - undefined
+[2017-07-18 09:34:51.367] [INFO] info - REQUEST=======> 2017-7-18 09:34:51 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-18 09:34:51.369] [INFO] info - /system/menu/use/all
+[2017-07-18 09:34:51.369] [INFO] info - undefined
+[2017-07-18 09:34:51.370] [INFO] info - REQUEST=======> 2017-7-18 09:34:51 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:34:51.696] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:34:51.696] [INFO] info - undefined
+[2017-07-18 09:34:51.697] [INFO] info - REQUEST=======> 2017-7-18 09:34:51 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:34:59.112] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:34:59.112] [INFO] info - undefined
+[2017-07-18 09:34:59.113] [INFO] info - REQUEST=======> 2017-7-18 09:34:59 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:34:59.115] [INFO] info - /system/menu/use/all
+[2017-07-18 09:34:59.115] [INFO] info - undefined
+[2017-07-18 09:34:59.116] [INFO] info - REQUEST=======> 2017-7-18 09:34:59 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:34:59.441] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:34:59.441] [INFO] info - undefined
+[2017-07-18 09:34:59.444] [INFO] info - REQUEST=======> 2017-7-18 09:34:59 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-18 09:35:02.267] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:35:02.267] [INFO] info - undefined
+[2017-07-18 09:35:02.268] [INFO] info - REQUEST=======> 2017-7-18 09:35:02 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:35:02.269] [INFO] info - /system/menu/use/all
+[2017-07-18 09:35:02.269] [INFO] info - undefined
+[2017-07-18 09:35:02.271] [INFO] info - REQUEST=======> 2017-7-18 09:35:02 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:35:02.600] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:35:02.600] [INFO] info - undefined
+[2017-07-18 09:35:02.602] [INFO] info - REQUEST=======> 2017-7-18 09:35:02 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:35:06.679] [INFO] info - /manage/account
+[2017-07-18 09:35:06.679] [INFO] info - undefined
+[2017-07-18 09:35:06.683] [INFO] info - REQUEST=======> 2017-7-18 09:35:06 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-07-18 09:35:37.283] [INFO] info - /system/menu/use/all
+[2017-07-18 09:35:37.283] [INFO] info - undefined
+[2017-07-18 09:35:37.284] [INFO] info - REQUEST=======> 2017-7-18 09:35:37 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:35:40.089] [INFO] info - /system/menu
+[2017-07-18 09:35:40.089] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:35:40.177] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:35:40.178] [INFO] info - REQUEST=======> 2017-7-18 09:35:40 [POST] /system/menu，耗时:89ms
+[2017-07-18 09:35:44.753] [INFO] info - /system/role
+[2017-07-18 09:35:44.753] [INFO] info - undefined
+[2017-07-18 09:35:44.759] [INFO] info - REQUEST=======> 2017-7-18 09:35:44 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:6ms
+[2017-07-18 09:35:54.835] [INFO] info - /system/role
+[2017-07-18 09:35:54.835] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:35:54.899] [INFO] info - REQUEST=======> 2017-7-18 09:35:54 [PUT] /system/role，耗时:64ms
+[2017-07-18 09:35:56.528] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:35:56.528] [INFO] info - undefined
+[2017-07-18 09:35:56.529] [INFO] info - REQUEST=======> 2017-7-18 09:35:56 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:35:56.531] [INFO] info - /system/menu/use/all
+[2017-07-18 09:35:56.531] [INFO] info - undefined
+[2017-07-18 09:35:56.532] [INFO] info - REQUEST=======> 2017-7-18 09:35:56 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:35:56.860] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:35:56.861] [INFO] info - undefined
+[2017-07-18 09:35:56.861] [INFO] info - REQUEST=======> 2017-7-18 09:35:56 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:35:57.103] [INFO] info - /system/role
+[2017-07-18 09:35:57.103] [INFO] info - undefined
+[2017-07-18 09:35:57.110] [INFO] info - REQUEST=======> 2017-7-18 09:35:57 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:7ms
+[2017-07-18 09:36:01.130] [INFO] info - /system/role
+[2017-07-18 09:36:01.130] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:36:01.183] [INFO] info - REQUEST=======> 2017-7-18 09:36:01 [PUT] /system/role，耗时:53ms
+[2017-07-18 09:36:02.798] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:36:02.798] [INFO] info - undefined
+[2017-07-18 09:36:02.799] [INFO] info - REQUEST=======> 2017-7-18 09:36:02 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:36:02.800] [INFO] info - /system/menu/use/all
+[2017-07-18 09:36:02.800] [INFO] info - undefined
+[2017-07-18 09:36:02.802] [INFO] info - REQUEST=======> 2017-7-18 09:36:02 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:36:03.211] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:36:03.211] [INFO] info - undefined
+[2017-07-18 09:36:03.212] [INFO] info - REQUEST=======> 2017-7-18 09:36:03 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:36:03.429] [INFO] info - /system/role
+[2017-07-18 09:36:03.429] [INFO] info - undefined
+[2017-07-18 09:36:03.436] [INFO] info - REQUEST=======> 2017-7-18 09:36:03 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:7ms
+[2017-07-18 09:36:04.362] [INFO] info - /manage/sign/logout
+[2017-07-18 09:36:04.362] [INFO] info - undefined
+[2017-07-18 09:36:04.363] [INFO] info - REQUEST=======> 2017-7-18 09:36:04 [GET] /manage/sign/logout，耗时:1ms
+[2017-07-18 09:36:07.394] [INFO] info - /manage/sign/login
+[2017-07-18 09:36:07.394] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:36:07.398] [INFO] info - REQUEST=======> 2017-7-18 09:36:07 [POST] /manage/sign/login，耗时:4ms
+[2017-07-18 09:36:07.507] [INFO] info - /manage/account
+[2017-07-18 09:36:07.507] [INFO] info - undefined
+[2017-07-18 09:36:07.510] [INFO] info - REQUEST=======> 2017-7-18 09:36:07 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:3ms
+[2017-07-18 09:36:12.487] [INFO] info - /system/menu/use/all
+[2017-07-18 09:36:12.487] [INFO] info - undefined
+[2017-07-18 09:36:12.489] [INFO] info - REQUEST=======> 2017-7-18 09:36:12 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:36:27.676] [INFO] info - /system/menu
+[2017-07-18 09:36:27.677] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 09:36:27.722] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 09:36:27.723] [INFO] info - REQUEST=======> 2017-7-18 09:36:27 [PUT] /system/menu，耗时:47ms
+[2017-07-18 09:36:27.927] [INFO] info - /system/menu/use/all
+[2017-07-18 09:36:27.927] [INFO] info - undefined
+[2017-07-18 09:36:27.929] [INFO] info - REQUEST=======> 2017-7-18 09:36:27 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:36:29.431] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:36:29.431] [INFO] info - undefined
+[2017-07-18 09:36:29.433] [INFO] info - REQUEST=======> 2017-7-18 09:36:29 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 09:36:29.435] [INFO] info - /system/menu/use/all
+[2017-07-18 09:36:29.435] [INFO] info - undefined
+[2017-07-18 09:36:29.437] [INFO] info - REQUEST=======> 2017-7-18 09:36:29 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:36:29.769] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:36:29.770] [INFO] info - undefined
+[2017-07-18 09:36:29.772] [INFO] info - REQUEST=======> 2017-7-18 09:36:29 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-18 09:36:29.891] [INFO] info - /system/menu/use/all
+[2017-07-18 09:36:29.892] [INFO] info - undefined
+[2017-07-18 09:36:29.894] [INFO] info - REQUEST=======> 2017-7-18 09:36:29 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-18 09:38:39.181] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:38:39.181] [INFO] info - undefined
+[2017-07-18 09:38:39.182] [INFO] info - REQUEST=======> 2017-7-18 09:38:39 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:38:39.184] [INFO] info - /system/menu/use/all
+[2017-07-18 09:38:39.184] [INFO] info - undefined
+[2017-07-18 09:38:39.185] [INFO] info - REQUEST=======> 2017-7-18 09:38:39 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:38:39.514] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:38:39.514] [INFO] info - undefined
+[2017-07-18 09:38:39.515] [INFO] info - REQUEST=======> 2017-7-18 09:38:39 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:39:28.003] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:39:28.003] [INFO] info - undefined
+[2017-07-18 09:39:28.004] [INFO] info - REQUEST=======> 2017-7-18 09:39:28 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:39:28.005] [INFO] info - /system/menu/use/all
+[2017-07-18 09:39:28.005] [INFO] info - undefined
+[2017-07-18 09:39:28.006] [INFO] info - REQUEST=======> 2017-7-18 09:39:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:39:28.330] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:39:28.331] [INFO] info - undefined
+[2017-07-18 09:39:28.331] [INFO] info - REQUEST=======> 2017-7-18 09:39:28 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:40:24.310] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:40:24.310] [INFO] info - undefined
+[2017-07-18 09:40:24.311] [INFO] info - REQUEST=======> 2017-7-18 09:40:24 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:40:24.313] [INFO] info - /system/menu/use/all
+[2017-07-18 09:40:24.313] [INFO] info - undefined
+[2017-07-18 09:40:24.314] [INFO] info - REQUEST=======> 2017-7-18 09:40:24 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:40:24.640] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:40:24.640] [INFO] info - undefined
+[2017-07-18 09:40:24.641] [INFO] info - REQUEST=======> 2017-7-18 09:40:24 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:41:33.396] [INFO] info - /system/menu/use/all
+[2017-07-18 09:41:33.397] [INFO] info - undefined
+[2017-07-18 09:41:33.398] [INFO] info - REQUEST=======> 2017-7-18 09:41:33 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:41:33.399] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:41:33.400] [INFO] info - undefined
+[2017-07-18 09:41:33.402] [INFO] info - REQUEST=======> 2017-7-18 09:41:33 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-07-18 09:41:33.732] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:41:33.733] [INFO] info - undefined
+[2017-07-18 09:41:33.734] [INFO] info - REQUEST=======> 2017-7-18 09:41:33 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:41:48.529] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:41:48.529] [INFO] info - undefined
+[2017-07-18 09:41:48.530] [INFO] info - REQUEST=======> 2017-7-18 09:41:48 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:41:48.531] [INFO] info - /system/menu/use/all
+[2017-07-18 09:41:48.531] [INFO] info - undefined
+[2017-07-18 09:41:48.533] [INFO] info - REQUEST=======> 2017-7-18 09:41:48 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:41:48.584] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:41:48.584] [INFO] info - undefined
+[2017-07-18 09:41:48.585] [INFO] info - REQUEST=======> 2017-7-18 09:41:48 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:42:38.553] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:42:38.553] [INFO] info - undefined
+[2017-07-18 09:42:38.554] [INFO] info - REQUEST=======> 2017-7-18 09:42:38 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:42:38.555] [INFO] info - /system/menu/use/all
+[2017-07-18 09:42:38.556] [INFO] info - undefined
+[2017-07-18 09:42:38.557] [INFO] info - REQUEST=======> 2017-7-18 09:42:38 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:42:38.885] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:42:38.885] [INFO] info - undefined
+[2017-07-18 09:42:38.886] [INFO] info - REQUEST=======> 2017-7-18 09:42:38 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:47:50.982] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:47:50.982] [INFO] info - undefined
+[2017-07-18 09:47:50.983] [INFO] info - REQUEST=======> 2017-7-18 09:47:50 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:47:50.984] [INFO] info - /system/menu/use/all
+[2017-07-18 09:47:50.984] [INFO] info - undefined
+[2017-07-18 09:47:50.986] [INFO] info - REQUEST=======> 2017-7-18 09:47:50 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:47:51.324] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:47:51.324] [INFO] info - undefined
+[2017-07-18 09:47:51.325] [INFO] info - REQUEST=======> 2017-7-18 09:47:51 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:48:45.375] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:48:45.375] [INFO] info - undefined
+[2017-07-18 09:48:45.376] [INFO] info - REQUEST=======> 2017-7-18 09:48:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:48:45.377] [INFO] info - /system/menu/use/all
+[2017-07-18 09:48:45.377] [INFO] info - undefined
+[2017-07-18 09:48:45.378] [INFO] info - REQUEST=======> 2017-7-18 09:48:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:48:45.708] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:48:45.708] [INFO] info - undefined
+[2017-07-18 09:48:45.709] [INFO] info - REQUEST=======> 2017-7-18 09:48:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:48:59.533] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:48:59.533] [INFO] info - undefined
+[2017-07-18 09:48:59.534] [INFO] info - REQUEST=======> 2017-7-18 09:48:59 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:48:59.535] [INFO] info - /system/menu/use/all
+[2017-07-18 09:48:59.535] [INFO] info - undefined
+[2017-07-18 09:48:59.537] [INFO] info - REQUEST=======> 2017-7-18 09:48:59 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:48:59.587] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:48:59.587] [INFO] info - undefined
+[2017-07-18 09:48:59.588] [INFO] info - REQUEST=======> 2017-7-18 09:48:59 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:49:23.800] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:49:23.800] [INFO] info - undefined
+[2017-07-18 09:49:23.801] [INFO] info - REQUEST=======> 2017-7-18 09:49:23 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 09:49:23.802] [INFO] info - /system/menu/use/all
+[2017-07-18 09:49:23.803] [INFO] info - undefined
+[2017-07-18 09:49:23.804] [INFO] info - REQUEST=======> 2017-7-18 09:49:23 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 09:49:25.750] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:49:25.750] [INFO] info - undefined
+[2017-07-18 09:49:25.751] [INFO] info - REQUEST=======> 2017-7-18 09:49:25 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 09:49:55.679] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:49:55.679] [INFO] info - undefined
+[2017-07-18 09:49:55.680] [INFO] info - REQUEST=======> 2017-7-18 09:49:55 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:49:55.681] [INFO] info - /system/menu/use/all
+[2017-07-18 09:49:55.681] [INFO] info - undefined
+[2017-07-18 09:49:55.682] [INFO] info - REQUEST=======> 2017-7-18 09:49:55 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:49:56.013] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:49:56.013] [INFO] info - undefined
+[2017-07-18 09:49:56.013] [INFO] info - REQUEST=======> 2017-7-18 09:49:56 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-07-18 09:50:31.386] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 09:50:31.387] [INFO] info - undefined
+[2017-07-18 09:50:31.387] [INFO] info - REQUEST=======> 2017-7-18 09:50:31 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 09:50:31.388] [INFO] info - /system/menu/use/all
+[2017-07-18 09:50:31.388] [INFO] info - undefined
+[2017-07-18 09:50:31.389] [INFO] info - REQUEST=======> 2017-7-18 09:50:31 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 09:50:31.719] [INFO] info - /manage/sign/currentUser
+[2017-07-18 09:50:31.719] [INFO] info - undefined
+[2017-07-18 09:50:31.721] [INFO] info - REQUEST=======> 2017-7-18 09:50:31 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-18 09:54:14.185] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:54:14.186] [INFO] info - undefined
+[2017-07-18 09:54:14.188] [INFO] info - REQUEST=======> 2017-7-18 09:54:14 [GET] /resource/plugin/ueditor?action=config&&noCache=1500342854173，耗时:3ms
+[2017-07-18 09:54:15.578] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:54:15.578] [INFO] info - undefined
+[2017-07-18 09:54:15.580] [INFO] info - REQUEST=======> 2017-7-18 09:54:15 [GET] /resource/plugin/ueditor?action=config&&noCache=1500342855572，耗时:2ms
+[2017-07-18 09:54:21.404] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:54:21.404] [INFO] info - undefined
+[2017-07-18 09:54:21.406] [INFO] info - REQUEST=======> 2017-7-18 09:54:21 [GET] /resource/plugin/ueditor?action=config&&noCache=1500342861399，耗时:2ms
+[2017-07-18 09:54:31.005] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:54:31.005] [INFO] info - undefined
+[2017-07-18 09:54:31.007] [INFO] info - REQUEST=======> 2017-7-18 09:54:31 [GET] /resource/plugin/ueditor?action=config&&noCache=1500342870999，耗时:2ms
+[2017-07-18 09:54:53.835] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:54:53.835] [INFO] info - undefined
+[2017-07-18 09:54:53.836] [INFO] info - REQUEST=======> 2017-7-18 09:54:53 [GET] /resource/plugin/ueditor?action=config&&noCache=1500342893830，耗时:1ms
+[2017-07-18 09:55:07.655] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:55:07.658] [INFO] info - undefined
+[2017-07-18 09:55:07.659] [INFO] info - REQUEST=======> 2017-7-18 09:55:07 [GET] /resource/plugin/ueditor?action=config&&noCache=1500342907651，耗时:4ms
+[2017-07-18 09:56:13.777] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:56:13.777] [INFO] info - undefined
+[2017-07-18 09:56:13.779] [INFO] info - REQUEST=======> 2017-7-18 09:56:13 [GET] /resource/plugin/ueditor?action=config&&noCache=1500342973772，耗时:2ms
+[2017-07-18 09:56:42.301] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:56:42.301] [INFO] info - undefined
+[2017-07-18 09:56:42.302] [INFO] info - REQUEST=======> 2017-7-18 09:56:42 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343002296，耗时:1ms
+[2017-07-18 09:57:16.192] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:57:16.192] [INFO] info - undefined
+[2017-07-18 09:57:16.193] [INFO] info - REQUEST=======> 2017-7-18 09:57:16 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343036187，耗时:1ms
+[2017-07-18 09:58:31.558] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:58:31.558] [INFO] info - undefined
+[2017-07-18 09:58:31.560] [INFO] info - REQUEST=======> 2017-7-18 09:58:31 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343111250，耗时:2ms
+[2017-07-18 09:58:32.820] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:58:32.820] [INFO] info - undefined
+[2017-07-18 09:58:32.822] [INFO] info - REQUEST=======> 2017-7-18 09:58:32 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343112816，耗时:2ms
+[2017-07-18 09:59:49.115] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 09:59:49.115] [INFO] info - undefined
+[2017-07-18 09:59:49.116] [INFO] info - REQUEST=======> 2017-7-18 09:59:49 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343189110，耗时:1ms
+[2017-07-18 10:01:00.395] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:01:00.395] [INFO] info - undefined
+[2017-07-18 10:01:00.397] [INFO] info - REQUEST=======> 2017-7-18 10:01:00 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343260388，耗时:2ms
+[2017-07-18 10:02:22.227] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:02:22.228] [INFO] info - undefined
+[2017-07-18 10:02:22.230] [INFO] info - REQUEST=======> 2017-7-18 10:02:22 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343342221，耗时:3ms
+[2017-07-18 10:03:50.166] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:03:50.167] [INFO] info - undefined
+[2017-07-18 10:03:50.169] [INFO] info - REQUEST=======> 2017-7-18 10:03:50 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343430160，耗时:3ms
+[2017-07-18 10:08:14.432] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:08:14.432] [INFO] info - undefined
+[2017-07-18 10:08:14.434] [INFO] info - REQUEST=======> 2017-7-18 10:08:14 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343694425，耗时:2ms
+[2017-07-18 10:08:39.452] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:08:39.452] [INFO] info - undefined
+[2017-07-18 10:08:39.454] [INFO] info - REQUEST=======> 2017-7-18 10:08:39 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343719446，耗时:2ms
+[2017-07-18 10:09:12.739] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:09:12.739] [INFO] info - undefined
+[2017-07-18 10:09:12.741] [INFO] info - REQUEST=======> 2017-7-18 10:09:12 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343752733，耗时:2ms
+[2017-07-18 10:10:20.034] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:10:20.034] [INFO] info - undefined
+[2017-07-18 10:10:20.036] [INFO] info - REQUEST=======> 2017-7-18 10:10:20 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343820029，耗时:2ms
+[2017-07-18 10:10:26.987] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:10:26.987] [INFO] info - undefined
+[2017-07-18 10:10:26.988] [INFO] info - REQUEST=======> 2017-7-18 10:10:26 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343826983，耗时:1ms
+[2017-07-18 10:11:04.035] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:11:04.036] [INFO] info - undefined
+[2017-07-18 10:11:04.037] [INFO] info - REQUEST=======> 2017-7-18 10:11:04 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343864031，耗时:2ms
+[2017-07-18 10:13:01.432] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:13:01.432] [INFO] info - undefined
+[2017-07-18 10:13:01.434] [INFO] info - REQUEST=======> 2017-7-18 10:13:01 [GET] /resource/plugin/ueditor?action=config&&noCache=1500343981419，耗时:2ms
+[2017-07-18 10:14:28.561] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:14:28.561] [INFO] info - undefined
+[2017-07-18 10:14:28.563] [INFO] info - REQUEST=======> 2017-7-18 10:14:28 [GET] /resource/plugin/ueditor?action=config&&noCache=1500344068554，耗时:2ms
+[2017-07-18 10:16:03.958] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:16:03.958] [INFO] info - undefined
+[2017-07-18 10:16:03.960] [INFO] info - REQUEST=======> 2017-7-18 10:16:03 [GET] /resource/plugin/ueditor?action=config&&noCache=1500344163948，耗时:2ms
+[2017-07-18 10:16:27.005] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 10:16:27.005] [INFO] info - undefined
+[2017-07-18 10:16:27.006] [INFO] info - REQUEST=======> 2017-7-18 10:16:27 [GET] /resource/plugin/ueditor?action=config&&noCache=1500344186999，耗时:1ms
+[2017-07-18 12:00:07.596] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 12:00:07.596] [INFO] info - undefined
+[2017-07-18 12:00:07.597] [INFO] info - REQUEST=======> 2017-7-18 12:00:07 [GET] /resource/plugin/ueditor?action=config&&noCache=1500350407570，耗时:1ms
+[2017-07-18 12:00:21.219] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 12:00:21.220] [INFO] info - undefined
+[2017-07-18 12:00:21.221] [INFO] info - REQUEST=======> 2017-7-18 12:00:21 [GET] /resource/plugin/ueditor?action=config&&noCache=1500350421213，耗时:2ms
+[2017-07-18 12:00:38.470] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 12:00:38.470] [INFO] info - undefined
+[2017-07-18 12:00:38.472] [INFO] info - REQUEST=======> 2017-7-18 12:00:38 [GET] /resource/plugin/ueditor?action=config&&noCache=1500350438465，耗时:2ms
+[2017-07-18 12:17:37.661] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 12:17:37.661] [INFO] info - undefined
+[2017-07-18 12:17:37.663] [INFO] info - REQUEST=======> 2017-7-18 12:17:37 [GET] /resource/plugin/ueditor?action=config&&noCache=1500351457656，耗时:2ms
+[2017-07-18 12:17:46.963] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 12:17:46.964] [INFO] info - undefined
+[2017-07-18 12:17:46.965] [INFO] info - REQUEST=======> 2017-7-18 12:17:46 [GET] /resource/plugin/ueditor?action=config&&noCache=1500351466959，耗时:2ms
+[2017-07-18 12:27:15.491] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 12:27:15.491] [INFO] info - undefined
+[2017-07-18 12:27:15.492] [INFO] info - REQUEST=======> 2017-7-18 12:27:15 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 12:27:15.493] [INFO] info - /system/menu/use/all
+[2017-07-18 12:27:15.493] [INFO] info - undefined
+[2017-07-18 12:27:15.495] [INFO] info - REQUEST=======> 2017-7-18 12:27:15 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 12:27:15.536] [INFO] info - /manage/sign/currentUser
+[2017-07-18 12:27:15.536] [INFO] info - undefined
+[2017-07-18 12:27:15.542] [INFO] info - REQUEST=======> 2017-7-18 12:27:15 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-07-18 12:27:39.768] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 12:27:39.768] [INFO] info - undefined
+[2017-07-18 12:27:39.768] [INFO] info - /system/menu/use/all
+[2017-07-18 12:27:39.768] [INFO] info - undefined
+[2017-07-18 12:27:39.770] [INFO] info - REQUEST=======> 2017-7-18 12:27:39 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 12:27:39.770] [INFO] info - REQUEST=======> 2017-7-18 12:27:39 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 12:27:39.810] [INFO] info - /manage/sign/currentUser
+[2017-07-18 12:27:39.811] [INFO] info - undefined
+[2017-07-18 12:27:39.813] [INFO] info - REQUEST=======> 2017-7-18 12:27:39 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-18 12:28:13.431] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 12:28:13.431] [INFO] info - undefined
+[2017-07-18 12:28:13.432] [INFO] info - REQUEST=======> 2017-7-18 12:28:13 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 12:28:13.433] [INFO] info - /system/menu/use/all
+[2017-07-18 12:28:13.433] [INFO] info - undefined
+[2017-07-18 12:28:13.435] [INFO] info - REQUEST=======> 2017-7-18 12:28:13 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 12:28:13.761] [INFO] info - /manage/sign/currentUser
+[2017-07-18 12:28:13.761] [INFO] info - undefined
+[2017-07-18 12:28:13.763] [INFO] info - REQUEST=======> 2017-7-18 12:28:13 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-18 12:28:16.348] [INFO] info - /manage/sign/login
+[2017-07-18 12:28:16.348] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 12:28:16.365] [INFO] info - REQUEST=======> 2017-7-18 12:28:16 [POST] /manage/sign/login，耗时:17ms
+[2017-07-18 12:28:16.523] [INFO] info - /manage/account
+[2017-07-18 12:28:16.523] [INFO] info - undefined
+[2017-07-18 12:28:16.533] [INFO] info - REQUEST=======> 2017-7-18 12:28:16 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:10ms
+[2017-07-18 12:28:20.253] [INFO] info - /system/menu/use/all
+[2017-07-18 12:28:20.253] [INFO] info - undefined
+[2017-07-18 12:28:20.254] [INFO] info - REQUEST=======> 2017-7-18 12:28:20 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 12:28:22.772] [INFO] info - /system/menu
+[2017-07-18 12:28:22.772] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 12:28:22.907] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 12:28:22.908] [INFO] info - REQUEST=======> 2017-7-18 12:28:22 [POST] /system/menu，耗时:136ms
+[2017-07-18 12:28:30.897] [INFO] info - /system/menu
+[2017-07-18 12:28:30.898] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 12:28:30.932] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-18 12:28:30.934] [INFO] info - REQUEST=======> 2017-7-18 12:28:30 [PUT] /system/menu，耗时:37ms
+[2017-07-18 12:28:31.252] [INFO] info - /system/menu/use/all
+[2017-07-18 12:28:31.252] [INFO] info - undefined
+[2017-07-18 12:28:31.253] [INFO] info - REQUEST=======> 2017-7-18 12:28:31 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 12:28:32.807] [INFO] info - /system/role
+[2017-07-18 12:28:32.807] [INFO] info - undefined
+[2017-07-18 12:28:32.814] [INFO] info - REQUEST=======> 2017-7-18 12:28:32 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:7ms
+[2017-07-18 12:28:39.370] [INFO] info - /system/role
+[2017-07-18 12:28:39.370] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 12:28:39.415] [INFO] info - REQUEST=======> 2017-7-18 12:28:39 [PUT] /system/role，耗时:45ms
+[2017-07-18 12:28:40.655] [INFO] info - /manage/sign/logout
+[2017-07-18 12:28:40.655] [INFO] info - undefined
+[2017-07-18 12:28:40.656] [INFO] info - REQUEST=======> 2017-7-18 12:28:40 [GET] /manage/sign/logout，耗时:1ms
+[2017-07-18 12:28:43.673] [INFO] info - /manage/sign/login
+[2017-07-18 12:28:43.673] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-18 12:28:43.677] [INFO] info - REQUEST=======> 2017-7-18 12:28:43 [POST] /manage/sign/login，耗时:4ms
+[2017-07-18 12:28:43.926] [INFO] info - /manage/account
+[2017-07-18 12:28:43.926] [INFO] info - undefined
+[2017-07-18 12:28:43.931] [INFO] info - REQUEST=======> 2017-7-18 12:28:43 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-07-18 12:29:15.926] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 12:29:15.926] [INFO] info - undefined
+[2017-07-18 12:29:15.927] [INFO] info - REQUEST=======> 2017-7-18 12:29:15 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 12:29:15.928] [INFO] info - /system/menu/use/all
+[2017-07-18 12:29:15.928] [INFO] info - undefined
+[2017-07-18 12:29:15.929] [INFO] info - REQUEST=======> 2017-7-18 12:29:15 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 12:29:15.970] [INFO] info - /manage/sign/currentUser
+[2017-07-18 12:29:15.970] [INFO] info - undefined
+[2017-07-18 12:29:15.971] [INFO] info - REQUEST=======> 2017-7-18 12:29:15 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 12:30:16.832] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 12:30:16.833] [INFO] info - undefined
+[2017-07-18 12:30:16.834] [INFO] info - REQUEST=======> 2017-7-18 12:30:16 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-18 12:30:16.835] [INFO] info - /system/menu/use/all
+[2017-07-18 12:30:16.835] [INFO] info - undefined
+[2017-07-18 12:30:16.837] [INFO] info - REQUEST=======> 2017-7-18 12:30:16 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-18 12:30:17.173] [INFO] info - /manage/sign/currentUser
+[2017-07-18 12:30:17.173] [INFO] info - undefined
+[2017-07-18 12:30:17.173] [INFO] info - REQUEST=======> 2017-7-18 12:30:17 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-07-18 12:31:05.158] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-18 12:31:05.158] [INFO] info - undefined
+[2017-07-18 12:31:05.159] [INFO] info - REQUEST=======> 2017-7-18 12:31:05 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-18 12:31:05.160] [INFO] info - /system/menu/use/all
+[2017-07-18 12:31:05.160] [INFO] info - undefined
+[2017-07-18 12:31:05.161] [INFO] info - REQUEST=======> 2017-7-18 12:31:05 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-18 12:31:05.502] [INFO] info - /manage/sign/currentUser
+[2017-07-18 12:31:05.502] [INFO] info - undefined
+[2017-07-18 12:31:05.503] [INFO] info - REQUEST=======> 2017-7-18 12:31:05 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-18 14:19:14.985] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:19:14.985] [INFO] info - undefined
+[2017-07-18 14:19:14.986] [INFO] info - REQUEST=======> 2017-7-18 14:19:14 [GET] /resource/plugin/ueditor?action=config&&noCache=1500358754976，耗时:1ms
+[2017-07-18 14:35:39.041] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:35:39.041] [INFO] info - undefined
+[2017-07-18 14:35:39.044] [INFO] info - REQUEST=======> 2017-7-18 14:35:39 [GET] /resource/plugin/ueditor?action=config&&noCache=1500359739031，耗时:3ms
+[2017-07-18 14:42:11.780] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:42:11.780] [INFO] info - undefined
+[2017-07-18 14:42:11.781] [INFO] info - REQUEST=======> 2017-7-18 14:42:11 [GET] /resource/plugin/ueditor?action=config&&noCache=1500360131771，耗时:1ms
+[2017-07-18 14:44:44.197] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:44:44.197] [INFO] info - undefined
+[2017-07-18 14:44:44.198] [INFO] info - REQUEST=======> 2017-7-18 14:44:44 [GET] /resource/plugin/ueditor?action=config&&noCache=1500360284187，耗时:1ms
+[2017-07-18 14:47:37.635] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:47:37.636] [INFO] info - undefined
+[2017-07-18 14:47:37.637] [INFO] info - REQUEST=======> 2017-7-18 14:47:37 [GET] /resource/plugin/ueditor?action=config&&noCache=1500360457626，耗时:2ms
+[2017-07-18 14:47:42.177] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:47:42.177] [INFO] info - undefined
+[2017-07-18 14:47:42.181] [INFO] info - REQUEST=======> 2017-7-18 14:47:42 [GET] /resource/plugin/ueditor?action=config&&noCache=1500360462173，耗时:4ms
+[2017-07-18 14:47:45.651] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:47:45.651] [INFO] info - undefined
+[2017-07-18 14:47:45.653] [INFO] info - REQUEST=======> 2017-7-18 14:47:45 [GET] /resource/plugin/ueditor?action=config&&noCache=1500360465645，耗时:2ms
+[2017-07-18 14:48:42.902] [INFO] info - /resource/plugin/ueditor
+[2017-07-18 14:48:42.902] [INFO] info - undefined
+[2017-07-18 14:48:42.905] [INFO] info - REQUEST=======> 2017-7-18 14:48:42 [GET] /resource/plugin/ueditor?action=config&&noCache=1500360522896，耗时:3ms

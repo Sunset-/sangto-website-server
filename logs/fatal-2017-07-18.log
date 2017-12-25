@@ -1,0 +1,11 @@
+[2017-07-18 09:10:42.994] [FATAL] fatal - Redis connect error!
+[2017-07-18 09:10:42.994] [FATAL] fatal - { Error: Redis connection to 127.0.0.1:6370 failed - connect ECONNREFUSED 127.0.0.1:6370
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6370 }
+[2017-07-18 09:10:44.343] [FATAL] fatal - Redis connect error!

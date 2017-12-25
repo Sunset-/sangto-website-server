@@ -1,0 +1,298 @@
+[2017-07-18 09:15:37.728] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-07-18 09:15:37.730] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.3.0@koa\lib\context.js:91:11)
+    at middleware (d:\workspace\JS\git\MDP-ManageServer\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-07-18 09:25:59.377] [ERROR] error - { code: 500,
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'permissions_\' at row 1' }
+[2017-07-18 09:25:59.377] [ERROR] error - { SequelizeBaseError: ER_DATA_TOO_LONG: Data too long for column 'permissions_' at row 1
+    at Query.formatError (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:88:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'permissions_\' at row 1',
+  parent: 
+   { Error: ER_DATA_TOO_LONG: Data too long for column 'permissions_' at row 1
+       at Query.Sequence._packetToError (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+     code: 'ER_DATA_TOO_LONG',
+     errno: 1406,
+     sqlState: '22001',
+     index: 0,
+     sql: 'UPDATE `tb_role` SET `id_`=\'1\',`name_`=\'系统管理员\',`type_`=\'SYSTEM\',`remark_`=\'管理系统顶级功能及授权\',`permissions_`=\'0,Account,Account_ADD,Account_MODIFY,Account_DELETE,Account_RESET_PASSWORD,Account_ROLE,Dictionary,Dictionary_ADD,Dictionary_MODIFY,Dictionary_DELETE,Dictionary_ENUM,Dictionary_ENUM_UPDATE,Dictionary_ENUM_DELETE,Dictionary_ENUM_ORDER,SystemVariable,SystemVariable_ADD,SystemVariable_MODIFY,SystemVariable_DELETE,Menu,Menu_ADD,Menu_MODIFY,Menu_DELETE,Menu_MOUNT_MENU,Permission,Permission_ADD,Permission_MODIFY,Permission_DELETE,Permission_AUTHORIZATION,ApplicationSystem,ApplicationSystem_ADD,ApplicationSystem_MODIFY,Doctor,Doctor_ADD,Doctor_MODIFY,Hospital,Hospital_ADD,Hospital_MODIFY,Hospital_DELETE,Team,Team_ADD,Team_MODIFY,Customer,Customer_ADD,Customer_MODIFY,Customer_ADDREL,Customer_DELETEREL,Template,Template_ADD,Template_MODIFY,Template_DELETE,DicomImage,DicomImage_ADD,DicomImage_MODIFY,DicomImage_DELETE,Dailycase,Dailycase_ADD,Dailycase_MODIFY,Dailycase_DELETE,Reporting,Reporting_VIEW,Reporting_DELETE,Reported,Reported_VIEW,Reported_DELETE,PlatformStatistics,TeamStatistics,CustomerStatistics\',`order_field_`=\'1\' WHERE `id_` = \'1\'' },
+  original: 
+   { Error: ER_DATA_TOO_LONG: Data too long for column 'permissions_' at row 1
+       at Query.Sequence._packetToError (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+     code: 'ER_DATA_TOO_LONG',
+     errno: 1406,
+     sqlState: '22001',
+     index: 0,
+     sql: 'UPDATE `tb_role` SET `id_`=\'1\',`name_`=\'系统管理员\',`type_`=\'SYSTEM\',`remark_`=\'管理系统顶级功能及授权\',`permissions_`=\'0,Account,Account_ADD,Account_MODIFY,Account_DELETE,Account_RESET_PASSWORD,Account_ROLE,Dictionary,Dictionary_ADD,Dictionary_MODIFY,Dictionary_DELETE,Dictionary_ENUM,Dictionary_ENUM_UPDATE,Dictionary_ENUM_DELETE,Dictionary_ENUM_ORDER,SystemVariable,SystemVariable_ADD,SystemVariable_MODIFY,SystemVariable_DELETE,Menu,Menu_ADD,Menu_MODIFY,Menu_DELETE,Menu_MOUNT_MENU,Permission,Permission_ADD,Permission_MODIFY,Permission_DELETE,Permission_AUTHORIZATION,ApplicationSystem,ApplicationSystem_ADD,ApplicationSystem_MODIFY,Doctor,Doctor_ADD,Doctor_MODIFY,Hospital,Hospital_ADD,Hospital_MODIFY,Hospital_DELETE,Team,Team_ADD,Team_MODIFY,Customer,Customer_ADD,Customer_MODIFY,Customer_ADDREL,Customer_DELETEREL,Template,Template_ADD,Template_MODIFY,Template_DELETE,DicomImage,DicomImage_ADD,DicomImage_MODIFY,DicomImage_DELETE,Dailycase,Dailycase_ADD,Dailycase_MODIFY,Dailycase_DELETE,Reporting,Reporting_VIEW,Reporting_DELETE,Reported,Reported_VIEW,Reported_DELETE,PlatformStatistics,TeamStatistics,CustomerStatistics\',`order_field_`=\'1\' WHERE `id_` = \'1\'' },
+  sql: 'UPDATE `tb_role` SET `id_`=\'1\',`name_`=\'系统管理员\',`type_`=\'SYSTEM\',`remark_`=\'管理系统顶级功能及授权\',`permissions_`=\'0,Account,Account_ADD,Account_MODIFY,Account_DELETE,Account_RESET_PASSWORD,Account_ROLE,Dictionary,Dictionary_ADD,Dictionary_MODIFY,Dictionary_DELETE,Dictionary_ENUM,Dictionary_ENUM_UPDATE,Dictionary_ENUM_DELETE,Dictionary_ENUM_ORDER,SystemVariable,SystemVariable_ADD,SystemVariable_MODIFY,SystemVariable_DELETE,Menu,Menu_ADD,Menu_MODIFY,Menu_DELETE,Menu_MOUNT_MENU,Permission,Permission_ADD,Permission_MODIFY,Permission_DELETE,Permission_AUTHORIZATION,ApplicationSystem,ApplicationSystem_ADD,ApplicationSystem_MODIFY,Doctor,Doctor_ADD,Doctor_MODIFY,Hospital,Hospital_ADD,Hospital_MODIFY,Hospital_DELETE,Team,Team_ADD,Team_MODIFY,Customer,Customer_ADD,Customer_MODIFY,Customer_ADDREL,Customer_DELETEREL,Template,Template_ADD,Template_MODIFY,Template_DELETE,DicomImage,DicomImage_ADD,DicomImage_MODIFY,DicomImage_DELETE,Dailycase,Dailycase_ADD,Dailycase_MODIFY,Dailycase_DELETE,Reporting,Reporting_VIEW,Reporting_DELETE,Reported,Reported_VIEW,Reported_DELETE,PlatformStatistics,TeamStatistics,CustomerStatistics\',`order_field_`=\'1\' WHERE `id_` = \'1\'' }
+[2017-07-18 09:26:03.032] [ERROR] error - { code: 500,
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'permissions_\' at row 1' }
+[2017-07-18 09:26:03.032] [ERROR] error - { SequelizeBaseError: ER_DATA_TOO_LONG: Data too long for column 'permissions_' at row 1
+    at Query.formatError (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:88:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'permissions_\' at row 1',
+  parent: 
+   { Error: ER_DATA_TOO_LONG: Data too long for column 'permissions_' at row 1
+       at Query.Sequence._packetToError (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+     code: 'ER_DATA_TOO_LONG',
+     errno: 1406,
+     sqlState: '22001',
+     index: 0,
+     sql: 'UPDATE `tb_role` SET `id_`=\'1\',`name_`=\'系统管理员\',`type_`=\'SYSTEM\',`remark_`=\'管理系统顶级功能及授权\',`permissions_`=\'0,Account,Account_ADD,Account_MODIFY,Account_DELETE,Account_RESET_PASSWORD,Account_ROLE,Dictionary,Dictionary_ADD,Dictionary_MODIFY,Dictionary_DELETE,Dictionary_ENUM,Dictionary_ENUM_UPDATE,Dictionary_ENUM_DELETE,Dictionary_ENUM_ORDER,SystemVariable,SystemVariable_ADD,SystemVariable_MODIFY,SystemVariable_DELETE,Menu,Menu_ADD,Menu_MODIFY,Menu_DELETE,Menu_MOUNT_MENU,Permission,Permission_ADD,Permission_MODIFY,Permission_DELETE,Permission_AUTHORIZATION,ApplicationSystem,ApplicationSystem_ADD,ApplicationSystem_MODIFY,Doctor,Doctor_ADD,Doctor_MODIFY,Hospital,Hospital_ADD,Hospital_MODIFY,Hospital_DELETE,Team,Team_ADD,Team_MODIFY,Customer,Customer_ADD,Customer_MODIFY,Customer_ADDREL,Customer_DELETEREL,Template,Template_ADD,Template_MODIFY,Template_DELETE,DicomImage,DicomImage_ADD,DicomImage_MODIFY,DicomImage_DELETE,Dailycase,Dailycase_ADD,Dailycase_MODIFY,Dailycase_DELETE,Reporting,Reporting_VIEW,Reporting_DELETE,Reported,Reported_VIEW,Reported_DELETE,PlatformStatistics,TeamStatistics,CustomerStatistics\',`order_field_`=\'1\' WHERE `id_` = \'1\'' },
+  original: 
+   { Error: ER_DATA_TOO_LONG: Data too long for column 'permissions_' at row 1
+       at Query.Sequence._packetToError (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\MDP-ManageServer\node_modules\.0.6.7@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.30.4@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+     code: 'ER_DATA_TOO_LONG',
+     errno: 1406,
+     sqlState: '22001',
+     index: 0,
+     sql: 'UPDATE `tb_role` SET `id_`=\'1\',`name_`=\'系统管理员\',`type_`=\'SYSTEM\',`remark_`=\'管理系统顶级功能及授权\',`permissions_`=\'0,Account,Account_ADD,Account_MODIFY,Account_DELETE,Account_RESET_PASSWORD,Account_ROLE,Dictionary,Dictionary_ADD,Dictionary_MODIFY,Dictionary_DELETE,Dictionary_ENUM,Dictionary_ENUM_UPDATE,Dictionary_ENUM_DELETE,Dictionary_ENUM_ORDER,SystemVariable,SystemVariable_ADD,SystemVariable_MODIFY,SystemVariable_DELETE,Menu,Menu_ADD,Menu_MODIFY,Menu_DELETE,Menu_MOUNT_MENU,Permission,Permission_ADD,Permission_MODIFY,Permission_DELETE,Permission_AUTHORIZATION,ApplicationSystem,ApplicationSystem_ADD,ApplicationSystem_MODIFY,Doctor,Doctor_ADD,Doctor_MODIFY,Hospital,Hospital_ADD,Hospital_MODIFY,Hospital_DELETE,Team,Team_ADD,Team_MODIFY,Customer,Customer_ADD,Customer_MODIFY,Customer_ADDREL,Customer_DELETEREL,Template,Template_ADD,Template_MODIFY,Template_DELETE,DicomImage,DicomImage_ADD,DicomImage_MODIFY,DicomImage_DELETE,Dailycase,Dailycase_ADD,Dailycase_MODIFY,Dailycase_DELETE,Reporting,Reporting_VIEW,Reporting_DELETE,Reported,Reported_VIEW,Reported_DELETE,PlatformStatistics,TeamStatistics,CustomerStatistics\',`order_field_`=\'1\' WHERE `id_` = \'1\'' },
+  sql: 'UPDATE `tb_role` SET `id_`=\'1\',`name_`=\'系统管理员\',`type_`=\'SYSTEM\',`remark_`=\'管理系统顶级功能及授权\',`permissions_`=\'0,Account,Account_ADD,Account_MODIFY,Account_DELETE,Account_RESET_PASSWORD,Account_ROLE,Dictionary,Dictionary_ADD,Dictionary_MODIFY,Dictionary_DELETE,Dictionary_ENUM,Dictionary_ENUM_UPDATE,Dictionary_ENUM_DELETE,Dictionary_ENUM_ORDER,SystemVariable,SystemVariable_ADD,SystemVariable_MODIFY,SystemVariable_DELETE,Menu,Menu_ADD,Menu_MODIFY,Menu_DELETE,Menu_MOUNT_MENU,Permission,Permission_ADD,Permission_MODIFY,Permission_DELETE,Permission_AUTHORIZATION,ApplicationSystem,ApplicationSystem_ADD,ApplicationSystem_MODIFY,Doctor,Doctor_ADD,Doctor_MODIFY,Hospital,Hospital_ADD,Hospital_MODIFY,Hospital_DELETE,Team,Team_ADD,Team_MODIFY,Customer,Customer_ADD,Customer_MODIFY,Customer_ADDREL,Customer_DELETEREL,Template,Template_ADD,Template_MODIFY,Template_DELETE,DicomImage,DicomImage_ADD,DicomImage_MODIFY,DicomImage_DELETE,Dailycase,Dailycase_ADD,Dailycase_MODIFY,Dailycase_DELETE,Reporting,Reporting_VIEW,Reporting_DELETE,Reported,Reported_VIEW,Reported_DELETE,PlatformStatistics,TeamStatistics,CustomerStatistics\',`order_field_`=\'1\' WHERE `id_` = \'1\'' }
+[2017-07-18 12:27:15.539] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-07-18 12:27:15.540] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.3.0@koa\lib\context.js:91:11)
+    at middleware (d:\workspace\JS\git\MDP-ManageServer\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-07-18 12:27:39.812] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-07-18 12:27:39.812] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.3.0@koa\lib\context.js:91:11)
+    at middleware (d:\workspace\JS\git\MDP-ManageServer\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-07-18 12:28:13.762] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-07-18 12:28:13.762] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\MDP-ManageServer\node_modules\.2.3.0@koa\lib\context.js:91:11)
+    at middleware (d:\workspace\JS\git\MDP-ManageServer\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\JS\git\MDP-ManageServer\node_modules\.7.2.1@koa-router\lib\router.js:332:32) message: '用户未登录' }

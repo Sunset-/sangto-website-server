@@ -1,0 +1,358 @@
+[2017-04-20 14:08:07.072] [INFO] info - Redis connecting!
+[2017-04-20 14:08:07.089] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:08:07.100] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-20 14:08:07.103] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-20 14:08:07.539] [INFO] info - Redis auth pass!
+[2017-04-20 14:10:01.431] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:10:01.431] [INFO] info - undefined
+[2017-04-20 14:10:01.438] [INFO] info - REQUEST=======> 2017-4-20 14:10:01 [GET] /system/dictionaryItem/use/all，耗时:8ms
+[2017-04-20 14:10:01.442] [INFO] info - /system/menu/use/all
+[2017-04-20 14:10:01.442] [INFO] info - undefined
+[2017-04-20 14:10:01.444] [INFO] info - REQUEST=======> 2017-4-20 14:10:01 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-20 14:10:01.750] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:10:01.751] [INFO] info - undefined
+[2017-04-20 14:10:01.756] [INFO] info - REQUEST=======> 2017-4-20 14:10:01 [GET] /manage/sign/currentUser，耗时:6ms
+[2017-04-20 14:10:14.083] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:10:14.083] [INFO] info - undefined
+[2017-04-20 14:10:14.084] [INFO] info - REQUEST=======> 2017-4-20 14:10:14 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:10:14.092] [INFO] info - /system/menu/use/all
+[2017-04-20 14:10:14.092] [INFO] info - undefined
+[2017-04-20 14:10:14.093] [INFO] info - REQUEST=======> 2017-4-20 14:10:14 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-20 14:10:14.180] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:10:14.180] [INFO] info - undefined
+[2017-04-20 14:10:14.181] [INFO] info - REQUEST=======> 2017-4-20 14:10:14 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-20 14:10:21.547] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:10:21.547] [INFO] info - undefined
+[2017-04-20 14:10:21.548] [INFO] info - REQUEST=======> 2017-4-20 14:10:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:10:21.550] [INFO] info - /system/menu/use/all
+[2017-04-20 14:10:21.550] [INFO] info - undefined
+[2017-04-20 14:10:21.552] [INFO] info - REQUEST=======> 2017-4-20 14:10:21 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-20 14:10:21.611] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:10:21.611] [INFO] info - undefined
+[2017-04-20 14:10:21.612] [INFO] info - REQUEST=======> 2017-4-20 14:10:21 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-20 14:10:23.736] [INFO] info - /manage/account
+[2017-04-20 14:10:23.736] [INFO] info - undefined
+[2017-04-20 14:10:23.772] [INFO] info - REQUEST=======> 2017-4-20 14:10:23 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:36ms
+[2017-04-20 14:10:24.505] [INFO] info - /system/dictionaryType
+[2017-04-20 14:10:24.505] [INFO] info - undefined
+[2017-04-20 14:10:24.600] [INFO] info - REQUEST=======> 2017-4-20 14:10:24 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:95ms
+[2017-04-20 14:10:26.457] [INFO] info - /system/menu/use/all
+[2017-04-20 14:10:26.457] [INFO] info - undefined
+[2017-04-20 14:10:26.458] [INFO] info - REQUEST=======> 2017-4-20 14:10:26 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:10:26.708] [INFO] info - /system/role
+[2017-04-20 14:10:26.708] [INFO] info - undefined
+[2017-04-20 14:10:26.778] [INFO] info - REQUEST=======> 2017-4-20 14:10:26 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:71ms
+[2017-04-20 14:10:29.927] [INFO] info - /system/dictionaryType
+[2017-04-20 14:10:29.927] [INFO] info - undefined
+[2017-04-20 14:10:29.934] [INFO] info - REQUEST=======> 2017-4-20 14:10:29 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-20 14:10:32.162] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:10:32.162] [INFO] info - undefined
+[2017-04-20 14:10:32.168] [INFO] info - REQUEST=======> 2017-4-20 14:10:32 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:6ms
+[2017-04-20 14:10:34.144] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:10:34.144] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:10:34.396] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:10:34.407] [INFO] info - REQUEST=======> 2017-4-20 14:10:34 [POST] /system/dictionaryItem/order/133，耗时:263ms
+[2017-04-20 14:10:34.420] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:10:34.420] [INFO] info - undefined
+[2017-04-20 14:10:34.425] [INFO] info - REQUEST=======> 2017-4-20 14:10:34 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:5ms
+[2017-04-20 14:10:35.649] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:10:35.649] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:10:35.658] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:10:35.663] [INFO] info - REQUEST=======> 2017-4-20 14:10:35 [POST] /system/dictionaryItem/order/133，耗时:14ms
+[2017-04-20 14:10:35.851] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:10:35.852] [INFO] info - undefined
+[2017-04-20 14:10:35.855] [INFO] info - REQUEST=======> 2017-4-20 14:10:35 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:4ms
+[2017-04-20 14:11:15.535] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:11:15.535] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:11:35.798] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:11:35.829] [INFO] info - REQUEST=======> 2017-4-20 14:11:15 [POST] /system/dictionaryItem/order/133，耗时:20295ms
+[2017-04-20 14:11:36.201] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:11:36.202] [INFO] info - undefined
+[2017-04-20 14:11:36.207] [INFO] info - REQUEST=======> 2017-4-20 14:11:36 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:6ms
+[2017-04-20 14:13:29.366] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:13:29.367] [INFO] info - undefined
+[2017-04-20 14:13:29.368] [INFO] info - REQUEST=======> 2017-4-20 14:13:29 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-04-20 14:13:29.370] [INFO] info - /system/menu/use/all
+[2017-04-20 14:13:29.370] [INFO] info - undefined
+[2017-04-20 14:13:29.371] [INFO] info - REQUEST=======> 2017-4-20 14:13:29 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:13:29.460] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:13:29.460] [INFO] info - undefined
+[2017-04-20 14:13:29.461] [INFO] info - REQUEST=======> 2017-4-20 14:13:29 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-20 14:13:29.853] [INFO] info - /system/dictionaryType
+[2017-04-20 14:13:29.854] [INFO] info - undefined
+[2017-04-20 14:13:29.861] [INFO] info - REQUEST=======> 2017-4-20 14:13:29 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-20 14:13:31.306] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:13:31.308] [INFO] info - undefined
+[2017-04-20 14:13:31.312] [INFO] info - REQUEST=======> 2017-4-20 14:13:31 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:6ms
+[2017-04-20 14:20:35.017] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:20:35.017] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:20:35.036] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:20:35.038] [INFO] info - REQUEST=======> 2017-4-20 14:20:35 [POST] /system/dictionaryItem/order/133，耗时:22ms
+[2017-04-20 14:20:36.056] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:20:36.056] [INFO] info - undefined
+[2017-04-20 14:20:36.057] [INFO] info - REQUEST=======> 2017-4-20 14:20:36 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:20:36.061] [INFO] info - /system/menu/use/all
+[2017-04-20 14:20:36.062] [INFO] info - undefined
+[2017-04-20 14:20:36.062] [INFO] info - REQUEST=======> 2017-4-20 14:20:36 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:20:36.249] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:20:36.249] [INFO] info - undefined
+[2017-04-20 14:20:36.249] [INFO] info - REQUEST=======> 2017-4-20 14:20:36 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-20 14:20:36.735] [INFO] info - /system/dictionaryType
+[2017-04-20 14:20:36.735] [INFO] info - undefined
+[2017-04-20 14:20:36.742] [INFO] info - REQUEST=======> 2017-4-20 14:20:36 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-20 14:20:38.728] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:20:38.728] [INFO] info - undefined
+[2017-04-20 14:20:38.730] [INFO] info - REQUEST=======> 2017-4-20 14:20:38 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:2ms
+[2017-04-20 14:20:57.925] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:20:57.925] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:20:57.942] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:20:57.949] [INFO] info - REQUEST=======> 2017-4-20 14:20:57 [POST] /system/dictionaryItem/order/133，耗时:24ms
+[2017-04-20 14:20:58.178] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:20:58.178] [INFO] info - undefined
+[2017-04-20 14:20:58.182] [INFO] info - REQUEST=======> 2017-4-20 14:20:58 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:4ms
+[2017-04-20 14:21:36.152] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:21:36.152] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:21:36.162] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:21:36.165] [INFO] info - REQUEST=======> 2017-4-20 14:21:36 [POST] /system/dictionaryItem/order/133，耗时:13ms
+[2017-04-20 14:21:37.164] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:21:37.164] [INFO] info - undefined
+[2017-04-20 14:21:37.164] [INFO] info - REQUEST=======> 2017-4-20 14:21:37 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-20 14:21:37.167] [INFO] info - /system/menu/use/all
+[2017-04-20 14:21:37.167] [INFO] info - undefined
+[2017-04-20 14:21:37.168] [INFO] info - REQUEST=======> 2017-4-20 14:21:37 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:21:37.460] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:21:37.460] [INFO] info - undefined
+[2017-04-20 14:21:37.461] [INFO] info - REQUEST=======> 2017-4-20 14:21:37 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-20 14:21:37.932] [INFO] info - /system/dictionaryType
+[2017-04-20 14:21:37.932] [INFO] info - undefined
+[2017-04-20 14:21:37.938] [INFO] info - REQUEST=======> 2017-4-20 14:21:37 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-20 14:21:38.887] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:21:38.887] [INFO] info - undefined
+[2017-04-20 14:21:38.890] [INFO] info - REQUEST=======> 2017-4-20 14:21:38 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:3ms
+[2017-04-20 14:22:00.013] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:22:00.015] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:22:00.030] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:22:00.032] [INFO] info - REQUEST=======> 2017-4-20 14:22:00 [POST] /system/dictionaryItem/order/133，耗时:19ms
+[2017-04-20 14:22:00.266] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:22:00.266] [INFO] info - undefined
+[2017-04-20 14:22:00.268] [INFO] info - REQUEST=======> 2017-4-20 14:22:00 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:2ms
+[2017-04-20 14:22:27.763] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:22:27.763] [INFO] info - undefined
+[2017-04-20 14:22:27.764] [INFO] info - REQUEST=======> 2017-4-20 14:22:27 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:22:27.769] [INFO] info - /system/menu/use/all
+[2017-04-20 14:22:27.769] [INFO] info - undefined
+[2017-04-20 14:22:27.769] [INFO] info - REQUEST=======> 2017-4-20 14:22:27 [GET] /system/menu/use/all，耗时:0ms
+[2017-04-20 14:22:28.258] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:22:28.259] [INFO] info - undefined
+[2017-04-20 14:22:28.259] [INFO] info - REQUEST=======> 2017-4-20 14:22:28 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-20 14:22:28.495] [INFO] info - /system/dictionaryType
+[2017-04-20 14:22:28.495] [INFO] info - undefined
+[2017-04-20 14:22:28.501] [INFO] info - REQUEST=======> 2017-4-20 14:22:28 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:6ms
+[2017-04-20 14:22:29.199] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:22:29.200] [INFO] info - undefined
+[2017-04-20 14:22:29.202] [INFO] info - REQUEST=======> 2017-4-20 14:22:29 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:3ms
+[2017-04-20 14:22:40.401] [INFO] info - /system/dictionaryItem/order/133
+[2017-04-20 14:22:40.402] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:22:40.410] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:22:40.412] [INFO] info - REQUEST=======> 2017-4-20 14:22:40 [POST] /system/dictionaryItem/order/133，耗时:11ms
+[2017-04-20 14:22:40.650] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:22:40.650] [INFO] info - undefined
+[2017-04-20 14:22:40.652] [INFO] info - REQUEST=======> 2017-4-20 14:22:40 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:2ms
+[2017-04-20 14:23:50.906] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:23:50.906] [INFO] info - undefined
+[2017-04-20 14:23:50.907] [INFO] info - REQUEST=======> 2017-4-20 14:23:50 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:23:50.921] [INFO] info - /system/menu/use/all
+[2017-04-20 14:23:50.921] [INFO] info - undefined
+[2017-04-20 14:23:50.922] [INFO] info - REQUEST=======> 2017-4-20 14:23:50 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:23:51.266] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:23:51.266] [INFO] info - undefined
+[2017-04-20 14:23:51.266] [INFO] info - REQUEST=======> 2017-4-20 14:23:51 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-20 14:23:51.539] [INFO] info - /system/dictionaryType
+[2017-04-20 14:23:51.539] [INFO] info - undefined
+[2017-04-20 14:23:51.544] [INFO] info - REQUEST=======> 2017-4-20 14:23:51 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-20 14:24:53.825] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:24:53.825] [INFO] info - undefined
+[2017-04-20 14:24:53.826] [INFO] info - REQUEST=======> 2017-4-20 14:24:53 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:24:53.827] [INFO] info - /system/menu/use/all
+[2017-04-20 14:24:53.827] [INFO] info - undefined
+[2017-04-20 14:24:53.828] [INFO] info - REQUEST=======> 2017-4-20 14:24:53 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:24:54.177] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:24:54.177] [INFO] info - undefined
+[2017-04-20 14:24:54.177] [INFO] info - REQUEST=======> 2017-4-20 14:24:54 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-20 14:24:54.427] [INFO] info - /system/dictionaryType
+[2017-04-20 14:24:54.427] [INFO] info - undefined
+[2017-04-20 14:24:54.432] [INFO] info - REQUEST=======> 2017-4-20 14:24:54 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-04-20 14:25:19.680] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:25:19.680] [INFO] info - undefined
+[2017-04-20 14:25:19.681] [INFO] info - REQUEST=======> 2017-4-20 14:25:19 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:25:19.684] [INFO] info - /system/menu/use/all
+[2017-04-20 14:25:19.684] [INFO] info - undefined
+[2017-04-20 14:25:19.685] [INFO] info - REQUEST=======> 2017-4-20 14:25:19 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:25:20.037] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:25:20.037] [INFO] info - undefined
+[2017-04-20 14:25:20.037] [INFO] info - REQUEST=======> 2017-4-20 14:25:20 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-20 14:25:20.400] [INFO] info - /system/dictionaryType
+[2017-04-20 14:25:20.400] [INFO] info - undefined
+[2017-04-20 14:25:20.403] [INFO] info - REQUEST=======> 2017-4-20 14:25:20 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:3ms
+[2017-04-20 14:25:28.355] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:25:28.355] [INFO] info - undefined
+[2017-04-20 14:25:28.356] [INFO] info - REQUEST=======> 2017-4-20 14:25:28 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:25:28.360] [INFO] info - /system/menu/use/all
+[2017-04-20 14:25:28.360] [INFO] info - undefined
+[2017-04-20 14:25:28.361] [INFO] info - REQUEST=======> 2017-4-20 14:25:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:25:28.708] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:25:28.708] [INFO] info - undefined
+[2017-04-20 14:25:28.709] [INFO] info - REQUEST=======> 2017-4-20 14:25:28 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-04-20 14:25:28.968] [INFO] info - /system/dictionaryType
+[2017-04-20 14:25:28.968] [INFO] info - undefined
+[2017-04-20 14:25:28.976] [INFO] info - REQUEST=======> 2017-4-20 14:25:28 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:8ms
+[2017-04-20 14:34:22.186] [INFO] info - Redis connecting!
+[2017-04-20 14:34:22.189] [INFO] info - Redis auth pass!
+[2017-04-20 14:34:22.205] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:34:22.222] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-20 14:34:22.226] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-20 14:34:36.403] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:34:36.403] [INFO] info - undefined
+[2017-04-20 14:34:36.409] [INFO] info - REQUEST=======> 2017-4-20 14:34:36 [GET] /system/dictionaryItem/use/all，耗时:7ms
+[2017-04-20 14:34:36.414] [INFO] info - /system/menu/use/all
+[2017-04-20 14:34:36.414] [INFO] info - undefined
+[2017-04-20 14:34:36.415] [INFO] info - REQUEST=======> 2017-4-20 14:34:36 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:34:36.490] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:34:36.490] [INFO] info - undefined
+[2017-04-20 14:34:36.492] [INFO] info - REQUEST=======> 2017-4-20 14:34:36 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-04-20 14:34:36.839] [INFO] info - /system/dictionaryType
+[2017-04-20 14:34:36.839] [INFO] info - undefined
+[2017-04-20 14:34:36.850] [INFO] info - REQUEST=======> 2017-4-20 14:34:36 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:11ms
+[2017-04-20 14:34:38.152] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:34:38.153] [INFO] info - undefined
+[2017-04-20 14:34:38.159] [INFO] info - REQUEST=======> 2017-4-20 14:34:38 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:7ms
+[2017-04-20 14:34:40.946] [INFO] info - REQUEST=======> 2017-4-20 14:34:40 [POST] /system/dictionaryItem/order/change，耗时:5ms
+[2017-04-20 14:35:17.145] [INFO] info - Redis connecting!
+[2017-04-20 14:35:17.169] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:35:17.184] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-20 14:35:17.189] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-20 14:35:17.367] [INFO] info - Redis auth pass!
+[2017-04-20 14:35:21.031] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:35:21.031] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:35:21.122] [INFO] info - REQUEST=======> 2017-4-20 14:35:21 [POST] /system/dictionaryItem/order/change，耗时:91ms
+[2017-04-20 14:36:07.205] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:36:07.205] [INFO] info - undefined
+[2017-04-20 14:36:07.211] [INFO] info - REQUEST=======> 2017-4-20 14:36:07 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:6ms
+[2017-04-20 14:36:08.717] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:36:08.717] [INFO] info - undefined
+[2017-04-20 14:36:08.720] [INFO] info - REQUEST=======> 2017-4-20 14:36:08 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:3ms
+[2017-04-20 14:36:10.891] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:36:10.892] [INFO] info - undefined
+[2017-04-20 14:36:10.892] [INFO] info - REQUEST=======> 2017-4-20 14:36:10 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:36:10.894] [INFO] info - /system/menu/use/all
+[2017-04-20 14:36:10.894] [INFO] info - undefined
+[2017-04-20 14:36:10.897] [INFO] info - REQUEST=======> 2017-4-20 14:36:10 [GET] /system/menu/use/all，耗时:3ms
+[2017-04-20 14:36:11.000] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:36:11.000] [INFO] info - undefined
+[2017-04-20 14:36:11.001] [INFO] info - REQUEST=======> 2017-4-20 14:36:11 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-20 14:36:11.349] [INFO] info - /system/dictionaryType
+[2017-04-20 14:36:11.349] [INFO] info - undefined
+[2017-04-20 14:36:11.358] [INFO] info - REQUEST=======> 2017-4-20 14:36:11 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:9ms
+[2017-04-20 14:36:12.270] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:36:12.272] [INFO] info - undefined
+[2017-04-20 14:36:12.276] [INFO] info - REQUEST=======> 2017-4-20 14:36:12 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:6ms
+[2017-04-20 14:36:15.236] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:36:15.236] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:36:15.292] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:36:15.374] [INFO] info - REQUEST=======> 2017-4-20 14:36:15 [POST] /system/dictionaryItem/order/change，耗时:138ms
+[2017-04-20 14:36:15.387] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:36:15.388] [INFO] info - undefined
+[2017-04-20 14:36:15.393] [INFO] info - REQUEST=======> 2017-4-20 14:36:15 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:7ms
+[2017-04-20 14:36:23.194] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:36:23.194] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:36:23.215] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:36:23.246] [INFO] info - REQUEST=======> 2017-4-20 14:36:23 [POST] /system/dictionaryItem/order/change，耗时:52ms
+[2017-04-20 14:36:23.446] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:36:23.446] [INFO] info - undefined
+[2017-04-20 14:36:23.449] [INFO] info - REQUEST=======> 2017-4-20 14:36:23 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:3ms
+[2017-04-20 14:36:25.029] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:36:25.030] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:36:25.044] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:36:25.084] [INFO] info - REQUEST=======> 2017-4-20 14:36:25 [POST] /system/dictionaryItem/order/change，耗时:55ms
+[2017-04-20 14:36:25.397] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:36:25.398] [INFO] info - undefined
+[2017-04-20 14:36:25.401] [INFO] info - REQUEST=======> 2017-4-20 14:36:25 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:4ms
+[2017-04-20 14:40:19.010] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:40:19.010] [INFO] info - undefined
+[2017-04-20 14:40:19.010] [INFO] info - REQUEST=======> 2017-4-20 14:40:19 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-04-20 14:40:19.014] [INFO] info - /system/menu/use/all
+[2017-04-20 14:40:19.014] [INFO] info - undefined
+[2017-04-20 14:40:19.016] [INFO] info - REQUEST=======> 2017-4-20 14:40:19 [GET] /system/menu/use/all，耗时:2ms
+[2017-04-20 14:40:19.384] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:40:19.384] [INFO] info - undefined
+[2017-04-20 14:40:19.385] [INFO] info - REQUEST=======> 2017-4-20 14:40:19 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-04-20 14:40:19.682] [INFO] info - /system/dictionaryType
+[2017-04-20 14:40:19.682] [INFO] info - undefined
+[2017-04-20 14:40:19.689] [INFO] info - REQUEST=======> 2017-4-20 14:40:19 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-04-20 14:40:22.183] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:22.184] [INFO] info - undefined
+[2017-04-20 14:40:22.186] [INFO] info - REQUEST=======> 2017-4-20 14:40:22 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:3ms
+[2017-04-20 14:40:30.883] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:40:30.883] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:40:30.920] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:40:30.968] [INFO] info - REQUEST=======> 2017-4-20 14:40:30 [POST] /system/dictionaryItem/order/change，耗时:85ms
+[2017-04-20 14:40:31.125] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:31.126] [INFO] info - undefined
+[2017-04-20 14:40:31.129] [INFO] info - REQUEST=======> 2017-4-20 14:40:31 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:4ms
+[2017-04-20 14:40:36.393] [INFO] info - /system/dictionaryItem/use/all
+[2017-04-20 14:40:36.393] [INFO] info - undefined
+[2017-04-20 14:40:36.394] [INFO] info - REQUEST=======> 2017-4-20 14:40:36 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-04-20 14:40:36.397] [INFO] info - /system/menu/use/all
+[2017-04-20 14:40:36.397] [INFO] info - undefined
+[2017-04-20 14:40:36.398] [INFO] info - REQUEST=======> 2017-4-20 14:40:36 [GET] /system/menu/use/all，耗时:1ms
+[2017-04-20 14:40:36.616] [INFO] info - /manage/sign/currentUser
+[2017-04-20 14:40:36.616] [INFO] info - undefined
+[2017-04-20 14:40:36.617] [INFO] info - REQUEST=======> 2017-4-20 14:40:36 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-04-20 14:40:37.027] [INFO] info - /system/dictionaryType
+[2017-04-20 14:40:37.027] [INFO] info - undefined
+[2017-04-20 14:40:37.031] [INFO] info - REQUEST=======> 2017-4-20 14:40:37 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-04-20 14:40:37.941] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:37.941] [INFO] info - undefined
+[2017-04-20 14:40:37.943] [INFO] info - REQUEST=======> 2017-4-20 14:40:37 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:2ms
+[2017-04-20 14:40:39.517] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:40:39.517] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:40:39.524] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:40:39.579] [INFO] info - REQUEST=======> 2017-4-20 14:40:39 [POST] /system/dictionaryItem/order/change，耗时:62ms
+[2017-04-20 14:40:39.890] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:39.890] [INFO] info - undefined
+[2017-04-20 14:40:39.893] [INFO] info - REQUEST=======> 2017-4-20 14:40:39 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:3ms
+[2017-04-20 14:40:40.571] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:40:40.571] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:40:40.584] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:40:40.614] [INFO] info - REQUEST=======> 2017-4-20 14:40:40 [POST] /system/dictionaryItem/order/change，耗时:43ms
+[2017-04-20 14:40:40.926] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:40.926] [INFO] info - undefined
+[2017-04-20 14:40:40.929] [INFO] info - REQUEST=======> 2017-4-20 14:40:40 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:3ms
+[2017-04-20 14:40:42.725] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:40:42.725] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:40:42.732] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:40:42.818] [INFO] info - REQUEST=======> 2017-4-20 14:40:42 [POST] /system/dictionaryItem/order/change，耗时:93ms
+[2017-04-20 14:40:43.129] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:43.129] [INFO] info - undefined
+[2017-04-20 14:40:43.131] [INFO] info - REQUEST=======> 2017-4-20 14:40:43 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:2ms
+[2017-04-20 14:40:43.940] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:40:43.940] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:40:43.949] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:40:43.990] [INFO] info - REQUEST=======> 2017-4-20 14:40:43 [POST] /system/dictionaryItem/order/change，耗时:50ms
+[2017-04-20 14:40:44.303] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:44.303] [INFO] info - undefined
+[2017-04-20 14:40:44.305] [INFO] info - REQUEST=======> 2017-4-20 14:40:44 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:2ms
+[2017-04-20 14:40:45.237] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:40:45.237] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:40:45.247] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:40:45.294] [INFO] info - REQUEST=======> 2017-4-20 14:40:45 [POST] /system/dictionaryItem/order/change，耗时:57ms
+[2017-04-20 14:40:45.606] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:45.606] [INFO] info - undefined
+[2017-04-20 14:40:45.609] [INFO] info - REQUEST=======> 2017-4-20 14:40:45 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:4ms
+[2017-04-20 14:40:46.284] [INFO] info - /system/dictionaryItem/order/change
+[2017-04-20 14:40:46.284] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-04-20 14:40:46.289] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-20 14:40:46.332] [INFO] info - REQUEST=======> 2017-4-20 14:40:46 [POST] /system/dictionaryItem/order/change，耗时:48ms
+[2017-04-20 14:40:46.644] [INFO] info - /system/dictionaryItem/getByType/ROLE_TYPE
+[2017-04-20 14:40:46.644] [INFO] info - undefined
+[2017-04-20 14:40:46.646] [INFO] info - REQUEST=======> 2017-4-20 14:40:46 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:2ms

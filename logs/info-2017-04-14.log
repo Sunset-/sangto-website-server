@@ -1,0 +1,142 @@
+[2017-04-14 09:17:41.749] [INFO] info - Redis connecting!
+[2017-04-14 09:17:41.840] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-14 09:17:41.927] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-14 09:17:41.945] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-14 09:17:42.403] [INFO] info - Redis auth pass!
+[2017-04-14 09:19:57.114] [INFO] info - Redis connecting!
+[2017-04-14 09:19:57.251] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-14 09:19:57.261] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-14 09:19:57.265] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-14 09:19:57.268] [INFO] info - Redis auth pass!
+[2017-04-14 11:03:41.544] [INFO] info - Redis connecting!
+[2017-04-14 11:03:41.562] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-14 11:03:41.573] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-14 11:03:41.578] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-14 11:03:41.713] [INFO] info - Redis auth pass!
+[2017-04-14 11:55:33.290] [INFO] info - REQUEST=======> 2017-4-14 11:55:33 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142133229，耗时:11ms
+[2017-04-14 11:55:33.418] [INFO] info - /manage/account
+[2017-04-14 11:55:33.418] [INFO] info - undefined
+[2017-04-14 11:55:33.471] [INFO] info - REQUEST=======> 2017-4-14 11:55:33 [GET] /manage/account，耗时:53ms
+[2017-04-14 11:55:56.085] [INFO] info - /manage/account
+[2017-04-14 11:55:56.085] [INFO] info - undefined
+[2017-04-14 11:55:56.090] [INFO] info - REQUEST=======> 2017-4-14 11:55:56 [GET] /manage/account，耗时:5ms
+[2017-04-14 11:55:57.758] [INFO] info - REQUEST=======> 2017-4-14 11:55:57 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142157751，耗时:2ms
+[2017-04-14 11:55:57.919] [INFO] info - /manage/account
+[2017-04-14 11:55:57.919] [INFO] info - undefined
+[2017-04-14 11:55:57.924] [INFO] info - REQUEST=======> 2017-4-14 11:55:57 [GET] /manage/account，耗时:5ms
+[2017-04-14 11:57:44.764] [INFO] info - /manage/account
+[2017-04-14 11:57:44.764] [INFO] info - undefined
+[2017-04-14 11:57:44.764] [INFO] info - REQUEST=======> 2017-4-14 11:57:44 [GET] /manage/account，耗时:0ms
+[2017-04-14 11:57:46.404] [INFO] info - REQUEST=======> 2017-4-14 11:57:46 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142266392，耗时:2ms
+[2017-04-14 11:57:46.483] [INFO] info - /manage/account
+[2017-04-14 11:57:46.483] [INFO] info - undefined
+[2017-04-14 11:57:46.489] [INFO] info - REQUEST=======> 2017-4-14 11:57:46 [GET] /manage/account，耗时:6ms
+[2017-04-14 11:59:21.758] [INFO] info - /manage/account
+[2017-04-14 11:59:21.758] [INFO] info - undefined
+[2017-04-14 11:59:21.763] [INFO] info - REQUEST=======> 2017-4-14 11:59:21 [GET] /manage/account，耗时:6ms
+[2017-04-14 11:59:25.319] [INFO] info - REQUEST=======> 2017-4-14 11:59:25 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142365312，耗时:1ms
+[2017-04-14 11:59:25.388] [INFO] info - /manage/account
+[2017-04-14 11:59:25.388] [INFO] info - undefined
+[2017-04-14 11:59:25.393] [INFO] info - REQUEST=======> 2017-4-14 11:59:25 [GET] /manage/account，耗时:5ms
+[2017-04-14 12:02:06.961] [INFO] info - REQUEST=======> 2017-4-14 12:02:06 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142526951，耗时:1ms
+[2017-04-14 12:02:07.065] [INFO] info - /manage/account
+[2017-04-14 12:02:07.065] [INFO] info - undefined
+[2017-04-14 12:02:07.070] [INFO] info - REQUEST=======> 2017-4-14 12:02:07 [GET] /manage/account，耗时:5ms
+[2017-04-14 12:02:13.322] [INFO] info - /manage/account
+[2017-04-14 12:02:13.322] [INFO] info - undefined
+[2017-04-14 12:02:13.329] [INFO] info - REQUEST=======> 2017-4-14 12:02:13 [GET] /manage/account，耗时:7ms
+[2017-04-14 12:02:14.588] [INFO] info - REQUEST=======> 2017-4-14 12:02:14 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142534583，耗时:1ms
+[2017-04-14 12:02:14.702] [INFO] info - /manage/account
+[2017-04-14 12:02:14.702] [INFO] info - undefined
+[2017-04-14 12:02:14.708] [INFO] info - REQUEST=======> 2017-4-14 12:02:14 [GET] /manage/account，耗时:6ms
+[2017-04-14 12:02:30.985] [INFO] info - REQUEST=======> 2017-4-14 12:02:30 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142550975，耗时:1ms
+[2017-04-14 12:02:31.108] [INFO] info - /manage/account
+[2017-04-14 12:02:31.108] [INFO] info - undefined
+[2017-04-14 12:02:31.114] [INFO] info - REQUEST=======> 2017-4-14 12:02:31 [GET] /manage/account，耗时:6ms
+[2017-04-14 12:02:46.888] [INFO] info - REQUEST=======> 2017-4-14 12:02:46 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142566881，耗时:2ms
+[2017-04-14 12:02:47.003] [INFO] info - /manage/account
+[2017-04-14 12:02:47.003] [INFO] info - undefined
+[2017-04-14 12:02:47.007] [INFO] info - REQUEST=======> 2017-4-14 12:02:47 [GET] /manage/account，耗时:4ms
+[2017-04-14 12:06:44.267] [INFO] info - REQUEST=======> 2017-4-14 12:06:44 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142804252，耗时:2ms
+[2017-04-14 12:06:44.407] [INFO] info - /manage/account
+[2017-04-14 12:06:44.407] [INFO] info - undefined
+[2017-04-14 12:06:44.411] [INFO] info - REQUEST=======> 2017-4-14 12:06:44 [GET] /manage/account，耗时:4ms
+[2017-04-14 12:07:32.757] [INFO] info - REQUEST=======> 2017-4-14 12:07:32 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142852698，耗时:3ms
+[2017-04-14 12:07:32.852] [INFO] info - /manage/account
+[2017-04-14 12:07:32.852] [INFO] info - undefined
+[2017-04-14 12:07:32.857] [INFO] info - REQUEST=======> 2017-4-14 12:07:32 [GET] /manage/account，耗时:5ms
+[2017-04-14 12:07:46.464] [INFO] info - REQUEST=======> 2017-4-14 12:07:46 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142866455，耗时:2ms
+[2017-04-14 12:07:46.525] [INFO] info - /manage/account
+[2017-04-14 12:07:46.525] [INFO] info - undefined
+[2017-04-14 12:07:46.528] [INFO] info - REQUEST=======> 2017-4-14 12:07:46 [GET] /manage/account，耗时:3ms
+[2017-04-14 12:08:06.860] [INFO] info - REQUEST=======> 2017-4-14 12:08:06 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142886853，耗时:1ms
+[2017-04-14 12:08:06.871] [INFO] info - /manage/account
+[2017-04-14 12:08:06.872] [INFO] info - undefined
+[2017-04-14 12:08:06.875] [INFO] info - REQUEST=======> 2017-4-14 12:08:06 [GET] /manage/account，耗时:4ms
+[2017-04-14 12:09:01.304] [INFO] info - REQUEST=======> 2017-4-14 12:09:01 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142941251，耗时:4ms
+[2017-04-14 12:09:01.305] [INFO] info - /manage/account
+[2017-04-14 12:09:01.305] [INFO] info - undefined
+[2017-04-14 12:09:01.308] [INFO] info - REQUEST=======> 2017-4-14 12:09:01 [GET] /manage/account，耗时:3ms
+[2017-04-14 12:09:17.195] [INFO] info - /manage/account
+[2017-04-14 12:09:17.195] [INFO] info - undefined
+[2017-04-14 12:09:17.199] [INFO] info - REQUEST=======> 2017-4-14 12:09:17 [GET] /manage/account，耗时:4ms
+[2017-04-14 12:09:19.100] [INFO] info - REQUEST=======> 2017-4-14 12:09:19 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142959095，耗时:1ms
+[2017-04-14 12:09:19.190] [INFO] info - /manage/account
+[2017-04-14 12:09:19.190] [INFO] info - undefined
+[2017-04-14 12:09:19.193] [INFO] info - REQUEST=======> 2017-4-14 12:09:19 [GET] /manage/account，耗时:3ms
+[2017-04-14 12:09:37.802] [INFO] info - REQUEST=======> 2017-4-14 12:09:37 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142977795，耗时:1ms
+[2017-04-14 12:09:37.835] [INFO] info - /manage/account
+[2017-04-14 12:09:37.835] [INFO] info - undefined
+[2017-04-14 12:09:37.838] [INFO] info - REQUEST=======> 2017-4-14 12:09:37 [GET] /manage/account，耗时:3ms
+[2017-04-14 12:09:52.255] [INFO] info - /manage/account
+[2017-04-14 12:09:52.256] [INFO] info - undefined
+[2017-04-14 12:09:52.259] [INFO] info - REQUEST=======> 2017-4-14 12:09:52 [GET] /manage/account，耗时:4ms
+[2017-04-14 12:09:54.217] [INFO] info - REQUEST=======> 2017-4-14 12:09:54 [GET] /resource/plugin/ueditor?action=config&&noCache=1492142994211，耗时:1ms
+[2017-04-14 12:09:54.238] [INFO] info - /manage/account
+[2017-04-14 12:09:54.238] [INFO] info - undefined
+[2017-04-14 12:09:54.243] [INFO] info - REQUEST=======> 2017-4-14 12:09:54 [GET] /manage/account，耗时:5ms
+[2017-04-14 12:10:56.121] [INFO] info - REQUEST=======> 2017-4-14 12:10:56 [GET] /resource/plugin/ueditor?action=config&&noCache=1492143056114，耗时:2ms
+[2017-04-14 12:10:56.230] [INFO] info - /manage/account
+[2017-04-14 12:10:56.231] [INFO] info - undefined
+[2017-04-14 12:10:56.236] [INFO] info - REQUEST=======> 2017-4-14 12:10:56 [GET] /manage/account，耗时:6ms
+[2017-04-14 12:13:26.387] [INFO] info - REQUEST=======> 2017-4-14 12:13:26 [GET] /resource/plugin/ueditor?action=config&&noCache=1492143206381，耗时:1ms
+[2017-04-14 12:13:26.410] [INFO] info - /manage/account
+[2017-04-14 12:13:26.411] [INFO] info - undefined
+[2017-04-14 12:13:26.419] [INFO] info - REQUEST=======> 2017-4-14 12:13:26 [GET] /manage/account，耗时:9ms
+[2017-04-14 12:22:40.749] [INFO] info - REQUEST=======> 2017-4-14 12:22:40 [GET] /resource/plugin/ueditor?action=config&&noCache=1492143760737，耗时:4ms
+[2017-04-14 12:22:40.815] [INFO] info - /manage/account
+[2017-04-14 12:22:40.815] [INFO] info - undefined
+[2017-04-14 12:22:40.818] [INFO] info - REQUEST=======> 2017-4-14 12:22:40 [GET] /manage/account，耗时:3ms
+[2017-04-14 12:23:20.832] [INFO] info - REQUEST=======> 2017-4-14 12:23:20 [GET] /resource/plugin/ueditor?action=config&&noCache=1492143800826，耗时:1ms
+[2017-04-14 12:23:20.866] [INFO] info - /manage/account
+[2017-04-14 12:23:20.866] [INFO] info - undefined
+[2017-04-14 12:23:20.868] [INFO] info - REQUEST=======> 2017-4-14 12:23:20 [GET] /manage/account，耗时:2ms
+[2017-04-14 12:23:45.848] [INFO] info - REQUEST=======> 2017-4-14 12:23:45 [GET] /resource/plugin/ueditor?action=config&&noCache=1492143825838，耗时:1ms
+[2017-04-14 12:23:46.014] [INFO] info - /manage/account
+[2017-04-14 12:23:46.014] [INFO] info - undefined
+[2017-04-14 12:23:46.018] [INFO] info - REQUEST=======> 2017-4-14 12:23:46 [GET] /manage/account，耗时:4ms
+[2017-04-14 12:25:24.002] [INFO] info - REQUEST=======> 2017-4-14 12:25:24 [GET] /resource/plugin/ueditor?action=config&&noCache=1492143923990，耗时:2ms
+[2017-04-14 12:25:24.133] [INFO] info - /manage/account
+[2017-04-14 12:25:24.133] [INFO] info - undefined
+[2017-04-14 12:25:24.137] [INFO] info - REQUEST=======> 2017-4-14 12:25:24 [GET] /manage/account，耗时:4ms
+[2017-04-14 12:26:21.347] [INFO] info - REQUEST=======> 2017-4-14 12:26:21 [GET] /resource/plugin/ueditor?action=config&&noCache=1492143981339，耗时:3ms
+[2017-04-14 12:26:21.493] [INFO] info - /manage/account
+[2017-04-14 12:26:21.493] [INFO] info - undefined
+[2017-04-14 12:26:21.496] [INFO] info - REQUEST=======> 2017-4-14 12:26:21 [GET] /manage/account，耗时:3ms
+[2017-04-14 12:26:43.362] [INFO] info - REQUEST=======> 2017-4-14 12:26:43 [GET] /resource/plugin/ueditor?action=config&&noCache=1492144003355，耗时:1ms
+[2017-04-14 12:26:43.505] [INFO] info - /manage/account
+[2017-04-14 12:26:43.505] [INFO] info - undefined
+[2017-04-14 12:26:43.507] [INFO] info - REQUEST=======> 2017-4-14 12:26:43 [GET] /manage/account，耗时:2ms
+[2017-04-14 12:27:12.558] [INFO] info - REQUEST=======> 2017-4-14 12:27:12 [GET] /resource/plugin/ueditor?action=config&&noCache=1492144032552，耗时:1ms
+[2017-04-14 12:27:12.578] [INFO] info - /manage/account
+[2017-04-14 12:27:12.578] [INFO] info - undefined
+[2017-04-14 12:27:12.581] [INFO] info - REQUEST=======> 2017-4-14 12:27:12 [GET] /manage/account，耗时:3ms
+[2017-04-14 12:27:27.063] [INFO] info - REQUEST=======> 2017-4-14 12:27:27 [GET] /resource/plugin/ueditor?action=config&&noCache=1492144047057，耗时:2ms
+[2017-04-14 12:27:27.078] [INFO] info - /manage/account
+[2017-04-14 12:27:27.078] [INFO] info - undefined
+[2017-04-14 12:27:27.082] [INFO] info - REQUEST=======> 2017-4-14 12:27:27 [GET] /manage/account，耗时:4ms
+[2017-04-14 14:35:09.672] [INFO] info - Redis connecting!
+[2017-04-14 14:35:09.812] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-04-14 14:35:09.835] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-04-14 14:35:09.839] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-04-14 14:35:09.853] [INFO] info - Redis auth pass!

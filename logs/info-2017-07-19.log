@@ -1,0 +1,1157 @@
+[2017-07-19 14:58:22.343] [INFO] info - Redis connecting!
+[2017-07-19 14:58:22.443] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-07-19 14:58:22.503] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-07-19 14:58:22.526] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-07-19 14:58:23.115] [INFO] info - Redis auth pass!
+[2017-07-19 15:04:02.214] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:04:02.214] [INFO] info - undefined
+[2017-07-19 15:04:02.221] [INFO] info - REQUEST=======> 2017-7-19 15:04:02 [GET] /system/dictionaryItem/use/all，耗时:8ms
+[2017-07-19 15:04:02.225] [INFO] info - /system/menu/use/all
+[2017-07-19 15:04:02.225] [INFO] info - undefined
+[2017-07-19 15:04:02.227] [INFO] info - REQUEST=======> 2017-7-19 15:04:02 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:04:02.461] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:04:02.461] [INFO] info - undefined
+[2017-07-19 15:04:02.470] [INFO] info - REQUEST=======> 2017-7-19 15:04:02 [GET] /manage/sign/currentUser，耗时:9ms
+[2017-07-19 15:04:05.780] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:04:05.780] [INFO] info - undefined
+[2017-07-19 15:04:05.782] [INFO] info - REQUEST=======> 2017-7-19 15:04:05 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 15:04:05.783] [INFO] info - /system/menu/use/all
+[2017-07-19 15:04:05.784] [INFO] info - undefined
+[2017-07-19 15:04:05.786] [INFO] info - REQUEST=======> 2017-7-19 15:04:05 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 15:04:05.825] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:04:05.825] [INFO] info - undefined
+[2017-07-19 15:04:05.829] [INFO] info - REQUEST=======> 2017-7-19 15:04:05 [GET] /manage/sign/currentUser，耗时:4ms
+[2017-07-19 15:04:10.148] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:04:10.148] [INFO] info - undefined
+[2017-07-19 15:04:10.151] [INFO] info - REQUEST=======> 2017-7-19 15:04:10 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-07-19 15:04:10.152] [INFO] info - /system/menu/use/all
+[2017-07-19 15:04:10.152] [INFO] info - undefined
+[2017-07-19 15:04:10.154] [INFO] info - REQUEST=======> 2017-7-19 15:04:10 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:04:10.217] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:04:10.217] [INFO] info - undefined
+[2017-07-19 15:04:10.220] [INFO] info - REQUEST=======> 2017-7-19 15:04:10 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-19 15:04:23.840] [INFO] info - /manage/sign/login
+[2017-07-19 15:04:23.840] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-07-19 15:04:24.007] [INFO] info - REQUEST=======> 2017-7-19 15:04:23 [POST] /manage/sign/login，耗时:167ms
+[2017-07-19 15:04:24.529] [INFO] info - /manage/account
+[2017-07-19 15:04:24.529] [INFO] info - undefined
+[2017-07-19 15:04:24.537] [INFO] info - REQUEST=======> 2017-7-19 15:04:24 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-07-19 15:04:31.687] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:04:31.687] [INFO] info - undefined
+[2017-07-19 15:04:31.688] [INFO] info - REQUEST=======> 2017-7-19 15:04:31 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:04:31.690] [INFO] info - /system/menu/use/all
+[2017-07-19 15:04:31.690] [INFO] info - undefined
+[2017-07-19 15:04:31.691] [INFO] info - REQUEST=======> 2017-7-19 15:04:31 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:04:32.040] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:04:32.041] [INFO] info - undefined
+[2017-07-19 15:04:32.042] [INFO] info - REQUEST=======> 2017-7-19 15:04:32 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:06:11.423] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:06:11.423] [INFO] info - undefined
+[2017-07-19 15:06:11.424] [INFO] info - REQUEST=======> 2017-7-19 15:06:11 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:06:11.425] [INFO] info - /system/menu/use/all
+[2017-07-19 15:06:11.425] [INFO] info - undefined
+[2017-07-19 15:06:11.428] [INFO] info - REQUEST=======> 2017-7-19 15:06:11 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 15:06:11.475] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:06:11.476] [INFO] info - undefined
+[2017-07-19 15:06:11.478] [INFO] info - REQUEST=======> 2017-7-19 15:06:11 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-19 15:07:21.837] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:07:21.837] [INFO] info - undefined
+[2017-07-19 15:07:21.838] [INFO] info - REQUEST=======> 2017-7-19 15:07:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:07:21.839] [INFO] info - /system/menu/use/all
+[2017-07-19 15:07:21.839] [INFO] info - undefined
+[2017-07-19 15:07:21.840] [INFO] info - REQUEST=======> 2017-7-19 15:07:21 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:07:24.090] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:07:24.090] [INFO] info - undefined
+[2017-07-19 15:07:24.091] [INFO] info - REQUEST=======> 2017-7-19 15:07:24 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:07:39.861] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:07:39.861] [INFO] info - undefined
+[2017-07-19 15:07:39.862] [INFO] info - REQUEST=======> 2017-7-19 15:07:39 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:07:39.863] [INFO] info - /system/menu/use/all
+[2017-07-19 15:07:39.863] [INFO] info - undefined
+[2017-07-19 15:07:39.865] [INFO] info - REQUEST=======> 2017-7-19 15:07:39 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:07:40.223] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:07:40.223] [INFO] info - undefined
+[2017-07-19 15:07:40.225] [INFO] info - REQUEST=======> 2017-7-19 15:07:40 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:08:35.191] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:08:35.191] [INFO] info - undefined
+[2017-07-19 15:08:35.192] [INFO] info - REQUEST=======> 2017-7-19 15:08:35 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:08:35.194] [INFO] info - /system/menu/use/all
+[2017-07-19 15:08:35.194] [INFO] info - undefined
+[2017-07-19 15:08:35.196] [INFO] info - REQUEST=======> 2017-7-19 15:08:35 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:08:35.241] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:08:35.241] [INFO] info - undefined
+[2017-07-19 15:08:35.242] [INFO] info - REQUEST=======> 2017-7-19 15:08:35 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:10:30.279] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:10:30.279] [INFO] info - undefined
+[2017-07-19 15:10:30.280] [INFO] info - REQUEST=======> 2017-7-19 15:10:30 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:10:30.282] [INFO] info - /system/menu/use/all
+[2017-07-19 15:10:30.282] [INFO] info - undefined
+[2017-07-19 15:10:30.283] [INFO] info - REQUEST=======> 2017-7-19 15:10:30 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:10:30.322] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:10:30.322] [INFO] info - undefined
+[2017-07-19 15:10:30.323] [INFO] info - REQUEST=======> 2017-7-19 15:10:30 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:12:50.700] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:12:50.700] [INFO] info - undefined
+[2017-07-19 15:12:50.701] [INFO] info - REQUEST=======> 2017-7-19 15:12:50 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:12:50.708] [INFO] info - /system/menu/use/all
+[2017-07-19 15:12:50.708] [INFO] info - undefined
+[2017-07-19 15:12:50.710] [INFO] info - REQUEST=======> 2017-7-19 15:12:50 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:12:50.775] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:12:50.775] [INFO] info - undefined
+[2017-07-19 15:12:50.777] [INFO] info - REQUEST=======> 2017-7-19 15:12:50 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:12:58.838] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:12:58.838] [INFO] info - undefined
+[2017-07-19 15:12:58.839] [INFO] info - REQUEST=======> 2017-7-19 15:12:58 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:12:58.843] [INFO] info - /system/menu/use/all
+[2017-07-19 15:12:58.844] [INFO] info - undefined
+[2017-07-19 15:12:58.845] [INFO] info - REQUEST=======> 2017-7-19 15:12:58 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:12:58.890] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:12:58.890] [INFO] info - undefined
+[2017-07-19 15:12:58.892] [INFO] info - REQUEST=======> 2017-7-19 15:12:58 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:13:17.165] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:13:17.165] [INFO] info - undefined
+[2017-07-19 15:13:17.166] [INFO] info - REQUEST=======> 2017-7-19 15:13:17 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:13:17.167] [INFO] info - /system/menu/use/all
+[2017-07-19 15:13:17.167] [INFO] info - undefined
+[2017-07-19 15:13:17.169] [INFO] info - REQUEST=======> 2017-7-19 15:13:17 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:13:17.212] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:13:17.212] [INFO] info - undefined
+[2017-07-19 15:13:17.213] [INFO] info - REQUEST=======> 2017-7-19 15:13:17 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:15:25.346] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:15:25.346] [INFO] info - undefined
+[2017-07-19 15:15:25.347] [INFO] info - REQUEST=======> 2017-7-19 15:15:25 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:15:25.349] [INFO] info - /system/menu/use/all
+[2017-07-19 15:15:25.349] [INFO] info - undefined
+[2017-07-19 15:15:25.350] [INFO] info - REQUEST=======> 2017-7-19 15:15:25 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:15:25.388] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:15:25.390] [INFO] info - undefined
+[2017-07-19 15:15:25.392] [INFO] info - REQUEST=======> 2017-7-19 15:15:25 [GET] /manage/sign/currentUser，耗时:4ms
+[2017-07-19 15:15:30.756] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:15:30.757] [INFO] info - undefined
+[2017-07-19 15:15:30.758] [INFO] info - REQUEST=======> 2017-7-19 15:15:30 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 15:15:30.759] [INFO] info - /system/menu/use/all
+[2017-07-19 15:15:30.760] [INFO] info - undefined
+[2017-07-19 15:15:30.761] [INFO] info - REQUEST=======> 2017-7-19 15:15:30 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:15:30.805] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:15:30.805] [INFO] info - undefined
+[2017-07-19 15:15:30.806] [INFO] info - REQUEST=======> 2017-7-19 15:15:30 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:16:18.987] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:16:18.987] [INFO] info - undefined
+[2017-07-19 15:16:18.988] [INFO] info - REQUEST=======> 2017-7-19 15:16:18 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:16:18.989] [INFO] info - /system/menu/use/all
+[2017-07-19 15:16:18.989] [INFO] info - undefined
+[2017-07-19 15:16:18.990] [INFO] info - REQUEST=======> 2017-7-19 15:16:18 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:16:19.044] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:16:19.044] [INFO] info - undefined
+[2017-07-19 15:16:19.045] [INFO] info - REQUEST=======> 2017-7-19 15:16:19 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:16:34.419] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:16:34.420] [INFO] info - undefined
+[2017-07-19 15:16:34.420] [INFO] info - REQUEST=======> 2017-7-19 15:16:34 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:16:34.422] [INFO] info - /system/menu/use/all
+[2017-07-19 15:16:34.422] [INFO] info - undefined
+[2017-07-19 15:16:34.423] [INFO] info - REQUEST=======> 2017-7-19 15:16:34 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:16:34.467] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:16:34.468] [INFO] info - undefined
+[2017-07-19 15:16:34.468] [INFO] info - REQUEST=======> 2017-7-19 15:16:34 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:16:45.069] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:16:45.069] [INFO] info - undefined
+[2017-07-19 15:16:45.070] [INFO] info - REQUEST=======> 2017-7-19 15:16:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:16:45.071] [INFO] info - /system/menu/use/all
+[2017-07-19 15:16:45.071] [INFO] info - undefined
+[2017-07-19 15:16:45.072] [INFO] info - REQUEST=======> 2017-7-19 15:16:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:16:45.119] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:16:45.119] [INFO] info - undefined
+[2017-07-19 15:16:45.121] [INFO] info - REQUEST=======> 2017-7-19 15:16:45 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:17:01.544] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:17:01.544] [INFO] info - undefined
+[2017-07-19 15:17:01.545] [INFO] info - REQUEST=======> 2017-7-19 15:17:01 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:17:01.546] [INFO] info - /system/menu/use/all
+[2017-07-19 15:17:01.546] [INFO] info - undefined
+[2017-07-19 15:17:01.548] [INFO] info - REQUEST=======> 2017-7-19 15:17:01 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:17:01.602] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:17:01.603] [INFO] info - undefined
+[2017-07-19 15:17:01.603] [INFO] info - REQUEST=======> 2017-7-19 15:17:01 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:17:27.904] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:17:27.904] [INFO] info - undefined
+[2017-07-19 15:17:27.905] [INFO] info - REQUEST=======> 2017-7-19 15:17:27 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:17:27.907] [INFO] info - /system/menu/use/all
+[2017-07-19 15:17:27.907] [INFO] info - undefined
+[2017-07-19 15:17:27.908] [INFO] info - REQUEST=======> 2017-7-19 15:17:27 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:17:27.946] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:17:27.946] [INFO] info - undefined
+[2017-07-19 15:17:27.947] [INFO] info - REQUEST=======> 2017-7-19 15:17:27 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:17:36.771] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:17:36.771] [INFO] info - undefined
+[2017-07-19 15:17:36.771] [INFO] info - REQUEST=======> 2017-7-19 15:17:36 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-19 15:17:36.772] [INFO] info - /system/menu/use/all
+[2017-07-19 15:17:36.773] [INFO] info - undefined
+[2017-07-19 15:17:36.774] [INFO] info - REQUEST=======> 2017-7-19 15:17:36 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:17:36.818] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:17:36.818] [INFO] info - undefined
+[2017-07-19 15:17:36.819] [INFO] info - REQUEST=======> 2017-7-19 15:17:36 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:17:52.926] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:17:52.926] [INFO] info - undefined
+[2017-07-19 15:17:52.926] [INFO] info - REQUEST=======> 2017-7-19 15:17:52 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-19 15:17:52.928] [INFO] info - /system/menu/use/all
+[2017-07-19 15:17:52.928] [INFO] info - undefined
+[2017-07-19 15:17:52.929] [INFO] info - REQUEST=======> 2017-7-19 15:17:52 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:17:52.967] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:17:52.967] [INFO] info - undefined
+[2017-07-19 15:17:52.969] [INFO] info - REQUEST=======> 2017-7-19 15:17:52 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:17:56.849] [INFO] info - /manage/account
+[2017-07-19 15:17:56.850] [INFO] info - undefined
+[2017-07-19 15:17:56.855] [INFO] info - REQUEST=======> 2017-7-19 15:17:56 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-07-19 15:18:02.138] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:18:02.138] [INFO] info - undefined
+[2017-07-19 15:18:02.139] [INFO] info - REQUEST=======> 2017-7-19 15:18:02 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:18:02.141] [INFO] info - /system/menu/use/all
+[2017-07-19 15:18:02.141] [INFO] info - undefined
+[2017-07-19 15:18:02.144] [INFO] info - REQUEST=======> 2017-7-19 15:18:02 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 15:18:02.198] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:18:02.199] [INFO] info - undefined
+[2017-07-19 15:18:02.199] [INFO] info - REQUEST=======> 2017-7-19 15:18:02 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:18:51.818] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:18:51.818] [INFO] info - undefined
+[2017-07-19 15:18:51.819] [INFO] info - REQUEST=======> 2017-7-19 15:18:51 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:18:51.821] [INFO] info - /system/menu/use/all
+[2017-07-19 15:18:51.821] [INFO] info - undefined
+[2017-07-19 15:18:51.822] [INFO] info - REQUEST=======> 2017-7-19 15:18:51 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:18:51.854] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:18:51.854] [INFO] info - undefined
+[2017-07-19 15:18:51.855] [INFO] info - REQUEST=======> 2017-7-19 15:18:51 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:21:31.179] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:21:31.180] [INFO] info - undefined
+[2017-07-19 15:21:31.180] [INFO] info - REQUEST=======> 2017-7-19 15:21:31 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:21:31.181] [INFO] info - /system/menu/use/all
+[2017-07-19 15:21:31.182] [INFO] info - undefined
+[2017-07-19 15:21:31.182] [INFO] info - REQUEST=======> 2017-7-19 15:21:31 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:21:31.218] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:21:31.219] [INFO] info - undefined
+[2017-07-19 15:21:31.219] [INFO] info - REQUEST=======> 2017-7-19 15:21:31 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:22:56.377] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:22:56.377] [INFO] info - undefined
+[2017-07-19 15:22:56.378] [INFO] info - REQUEST=======> 2017-7-19 15:22:56 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:22:56.385] [INFO] info - /system/menu/use/all
+[2017-07-19 15:22:56.385] [INFO] info - undefined
+[2017-07-19 15:22:56.386] [INFO] info - REQUEST=======> 2017-7-19 15:22:56 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:22:56.426] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:22:56.426] [INFO] info - undefined
+[2017-07-19 15:22:56.427] [INFO] info - REQUEST=======> 2017-7-19 15:22:56 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:23:08.859] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:23:08.859] [INFO] info - undefined
+[2017-07-19 15:23:08.860] [INFO] info - REQUEST=======> 2017-7-19 15:23:08 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:23:08.861] [INFO] info - /system/menu/use/all
+[2017-07-19 15:23:08.861] [INFO] info - undefined
+[2017-07-19 15:23:08.862] [INFO] info - REQUEST=======> 2017-7-19 15:23:08 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:23:08.900] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:23:08.900] [INFO] info - undefined
+[2017-07-19 15:23:08.901] [INFO] info - REQUEST=======> 2017-7-19 15:23:08 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:23:21.318] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:23:21.319] [INFO] info - undefined
+[2017-07-19 15:23:21.321] [INFO] info - REQUEST=======> 2017-7-19 15:23:21 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-07-19 15:23:21.322] [INFO] info - /system/menu/use/all
+[2017-07-19 15:23:21.322] [INFO] info - undefined
+[2017-07-19 15:23:21.323] [INFO] info - REQUEST=======> 2017-7-19 15:23:21 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:23:21.370] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:23:21.370] [INFO] info - undefined
+[2017-07-19 15:23:21.371] [INFO] info - REQUEST=======> 2017-7-19 15:23:21 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:26:33.988] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:26:33.988] [INFO] info - undefined
+[2017-07-19 15:26:33.989] [INFO] info - REQUEST=======> 2017-7-19 15:26:33 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:26:33.990] [INFO] info - /system/menu/use/all
+[2017-07-19 15:26:33.990] [INFO] info - undefined
+[2017-07-19 15:26:33.992] [INFO] info - REQUEST=======> 2017-7-19 15:26:33 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:26:34.027] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:26:34.028] [INFO] info - undefined
+[2017-07-19 15:26:34.028] [INFO] info - REQUEST=======> 2017-7-19 15:26:34 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:27:22.401] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:27:22.401] [INFO] info - undefined
+[2017-07-19 15:27:22.402] [INFO] info - REQUEST=======> 2017-7-19 15:27:22 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:27:22.403] [INFO] info - /system/menu/use/all
+[2017-07-19 15:27:22.403] [INFO] info - undefined
+[2017-07-19 15:27:22.404] [INFO] info - REQUEST=======> 2017-7-19 15:27:22 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:27:22.438] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:27:22.438] [INFO] info - undefined
+[2017-07-19 15:27:22.440] [INFO] info - REQUEST=======> 2017-7-19 15:27:22 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:27:59.108] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:27:59.108] [INFO] info - undefined
+[2017-07-19 15:27:59.109] [INFO] info - REQUEST=======> 2017-7-19 15:27:59 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:27:59.110] [INFO] info - /system/menu/use/all
+[2017-07-19 15:27:59.110] [INFO] info - undefined
+[2017-07-19 15:27:59.112] [INFO] info - REQUEST=======> 2017-7-19 15:27:59 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:27:59.156] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:27:59.157] [INFO] info - undefined
+[2017-07-19 15:27:59.157] [INFO] info - REQUEST=======> 2017-7-19 15:27:59 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:29:06.885] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:29:06.885] [INFO] info - undefined
+[2017-07-19 15:29:06.887] [INFO] info - REQUEST=======> 2017-7-19 15:29:06 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 15:29:06.888] [INFO] info - /system/menu/use/all
+[2017-07-19 15:29:06.888] [INFO] info - undefined
+[2017-07-19 15:29:06.889] [INFO] info - REQUEST=======> 2017-7-19 15:29:06 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:29:07.039] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:29:07.039] [INFO] info - undefined
+[2017-07-19 15:29:07.040] [INFO] info - REQUEST=======> 2017-7-19 15:29:07 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:29:32.065] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:29:32.065] [INFO] info - undefined
+[2017-07-19 15:29:32.066] [INFO] info - REQUEST=======> 2017-7-19 15:29:32 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:29:32.070] [INFO] info - /system/menu/use/all
+[2017-07-19 15:29:32.070] [INFO] info - undefined
+[2017-07-19 15:29:32.071] [INFO] info - REQUEST=======> 2017-7-19 15:29:32 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:29:32.245] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:29:32.245] [INFO] info - undefined
+[2017-07-19 15:29:32.246] [INFO] info - REQUEST=======> 2017-7-19 15:29:32 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:31:44.693] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:31:44.694] [INFO] info - undefined
+[2017-07-19 15:31:44.694] [INFO] info - REQUEST=======> 2017-7-19 15:31:44 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:31:44.695] [INFO] info - /system/menu/use/all
+[2017-07-19 15:31:44.696] [INFO] info - undefined
+[2017-07-19 15:31:44.696] [INFO] info - REQUEST=======> 2017-7-19 15:31:44 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:31:44.740] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:31:44.740] [INFO] info - undefined
+[2017-07-19 15:31:44.741] [INFO] info - REQUEST=======> 2017-7-19 15:31:44 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:31:56.489] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:31:56.490] [INFO] info - undefined
+[2017-07-19 15:31:56.491] [INFO] info - REQUEST=======> 2017-7-19 15:31:56 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 15:31:56.493] [INFO] info - /system/menu/use/all
+[2017-07-19 15:31:56.493] [INFO] info - undefined
+[2017-07-19 15:31:56.494] [INFO] info - REQUEST=======> 2017-7-19 15:31:56 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:31:56.541] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:31:56.541] [INFO] info - undefined
+[2017-07-19 15:31:56.542] [INFO] info - REQUEST=======> 2017-7-19 15:31:56 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:42:33.417] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:42:33.418] [INFO] info - undefined
+[2017-07-19 15:42:33.420] [INFO] info - REQUEST=======> 2017-7-19 15:42:33 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-07-19 15:42:33.422] [INFO] info - /system/menu/use/all
+[2017-07-19 15:42:33.422] [INFO] info - undefined
+[2017-07-19 15:42:33.424] [INFO] info - REQUEST=======> 2017-7-19 15:42:33 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:42:36.086] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:42:36.086] [INFO] info - undefined
+[2017-07-19 15:42:36.089] [INFO] info - REQUEST=======> 2017-7-19 15:42:36 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-19 15:42:37.849] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:42:37.849] [INFO] info - undefined
+[2017-07-19 15:42:37.851] [INFO] info - REQUEST=======> 2017-7-19 15:42:37 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 15:42:37.852] [INFO] info - /system/menu/use/all
+[2017-07-19 15:42:37.852] [INFO] info - undefined
+[2017-07-19 15:42:37.854] [INFO] info - REQUEST=======> 2017-7-19 15:42:37 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:42:37.902] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:42:37.902] [INFO] info - undefined
+[2017-07-19 15:42:37.904] [INFO] info - REQUEST=======> 2017-7-19 15:42:37 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:42:52.929] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:42:52.929] [INFO] info - undefined
+[2017-07-19 15:42:52.930] [INFO] info - REQUEST=======> 2017-7-19 15:42:52 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:42:52.931] [INFO] info - /system/menu/use/all
+[2017-07-19 15:42:52.931] [INFO] info - undefined
+[2017-07-19 15:42:52.933] [INFO] info - REQUEST=======> 2017-7-19 15:42:52 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:42:52.975] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:42:52.975] [INFO] info - undefined
+[2017-07-19 15:42:52.976] [INFO] info - REQUEST=======> 2017-7-19 15:42:52 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:43:35.299] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:43:35.299] [INFO] info - undefined
+[2017-07-19 15:43:35.300] [INFO] info - REQUEST=======> 2017-7-19 15:43:35 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:43:35.301] [INFO] info - /system/menu/use/all
+[2017-07-19 15:43:35.301] [INFO] info - undefined
+[2017-07-19 15:43:35.304] [INFO] info - REQUEST=======> 2017-7-19 15:43:35 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 15:43:35.356] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:43:35.357] [INFO] info - undefined
+[2017-07-19 15:43:35.358] [INFO] info - REQUEST=======> 2017-7-19 15:43:35 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:44:13.995] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:44:13.995] [INFO] info - undefined
+[2017-07-19 15:44:13.996] [INFO] info - REQUEST=======> 2017-7-19 15:44:13 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:44:13.997] [INFO] info - /system/menu/use/all
+[2017-07-19 15:44:13.997] [INFO] info - undefined
+[2017-07-19 15:44:13.998] [INFO] info - REQUEST=======> 2017-7-19 15:44:13 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:44:14.040] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:44:14.040] [INFO] info - undefined
+[2017-07-19 15:44:14.042] [INFO] info - REQUEST=======> 2017-7-19 15:44:14 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:46:30.390] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:46:30.391] [INFO] info - undefined
+[2017-07-19 15:46:30.391] [INFO] info - REQUEST=======> 2017-7-19 15:46:30 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:46:30.393] [INFO] info - /system/menu/use/all
+[2017-07-19 15:46:30.393] [INFO] info - undefined
+[2017-07-19 15:46:30.394] [INFO] info - REQUEST=======> 2017-7-19 15:46:30 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:46:30.437] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:46:30.437] [INFO] info - undefined
+[2017-07-19 15:46:30.438] [INFO] info - REQUEST=======> 2017-7-19 15:46:30 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:46:39.770] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:46:39.770] [INFO] info - undefined
+[2017-07-19 15:46:39.771] [INFO] info - REQUEST=======> 2017-7-19 15:46:39 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:46:39.772] [INFO] info - /system/menu/use/all
+[2017-07-19 15:46:39.773] [INFO] info - undefined
+[2017-07-19 15:46:39.774] [INFO] info - REQUEST=======> 2017-7-19 15:46:39 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:46:39.830] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:46:39.830] [INFO] info - undefined
+[2017-07-19 15:46:39.831] [INFO] info - REQUEST=======> 2017-7-19 15:46:39 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:46:45.161] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:46:45.161] [INFO] info - undefined
+[2017-07-19 15:46:45.162] [INFO] info - REQUEST=======> 2017-7-19 15:46:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:46:45.164] [INFO] info - /system/menu/use/all
+[2017-07-19 15:46:45.164] [INFO] info - undefined
+[2017-07-19 15:46:45.165] [INFO] info - REQUEST=======> 2017-7-19 15:46:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:46:45.228] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:46:45.228] [INFO] info - undefined
+[2017-07-19 15:46:45.228] [INFO] info - REQUEST=======> 2017-7-19 15:46:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:47:14.479] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:47:14.479] [INFO] info - undefined
+[2017-07-19 15:47:14.480] [INFO] info - REQUEST=======> 2017-7-19 15:47:14 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:47:14.482] [INFO] info - /system/menu/use/all
+[2017-07-19 15:47:14.482] [INFO] info - undefined
+[2017-07-19 15:47:14.483] [INFO] info - REQUEST=======> 2017-7-19 15:47:14 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:47:14.531] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:47:14.532] [INFO] info - undefined
+[2017-07-19 15:47:14.533] [INFO] info - REQUEST=======> 2017-7-19 15:47:14 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:48:25.616] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:48:25.617] [INFO] info - undefined
+[2017-07-19 15:48:25.617] [INFO] info - REQUEST=======> 2017-7-19 15:48:25 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:48:25.619] [INFO] info - /system/menu/use/all
+[2017-07-19 15:48:25.619] [INFO] info - undefined
+[2017-07-19 15:48:25.621] [INFO] info - REQUEST=======> 2017-7-19 15:48:25 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:48:25.665] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:48:25.665] [INFO] info - undefined
+[2017-07-19 15:48:25.666] [INFO] info - REQUEST=======> 2017-7-19 15:48:25 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:48:40.690] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:48:40.690] [INFO] info - undefined
+[2017-07-19 15:48:40.691] [INFO] info - REQUEST=======> 2017-7-19 15:48:40 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 15:48:40.692] [INFO] info - /system/menu/use/all
+[2017-07-19 15:48:40.692] [INFO] info - undefined
+[2017-07-19 15:48:40.693] [INFO] info - REQUEST=======> 2017-7-19 15:48:40 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:48:40.738] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:48:40.738] [INFO] info - undefined
+[2017-07-19 15:48:40.739] [INFO] info - REQUEST=======> 2017-7-19 15:48:40 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:48:45.991] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:48:45.991] [INFO] info - undefined
+[2017-07-19 15:48:45.992] [INFO] info - REQUEST=======> 2017-7-19 15:48:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:48:45.994] [INFO] info - /system/menu/use/all
+[2017-07-19 15:48:45.994] [INFO] info - undefined
+[2017-07-19 15:48:45.995] [INFO] info - REQUEST=======> 2017-7-19 15:48:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:48:46.033] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:48:46.034] [INFO] info - undefined
+[2017-07-19 15:48:46.035] [INFO] info - REQUEST=======> 2017-7-19 15:48:46 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:49:00.291] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:49:00.291] [INFO] info - undefined
+[2017-07-19 15:49:00.292] [INFO] info - REQUEST=======> 2017-7-19 15:49:00 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:49:00.295] [INFO] info - /system/menu/use/all
+[2017-07-19 15:49:00.296] [INFO] info - undefined
+[2017-07-19 15:49:00.296] [INFO] info - REQUEST=======> 2017-7-19 15:49:00 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:49:00.340] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:49:00.341] [INFO] info - undefined
+[2017-07-19 15:49:00.342] [INFO] info - REQUEST=======> 2017-7-19 15:49:00 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:52:34.343] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:52:34.343] [INFO] info - undefined
+[2017-07-19 15:52:34.344] [INFO] info - REQUEST=======> 2017-7-19 15:52:34 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:52:34.345] [INFO] info - /system/menu/use/all
+[2017-07-19 15:52:34.345] [INFO] info - undefined
+[2017-07-19 15:52:34.346] [INFO] info - REQUEST=======> 2017-7-19 15:52:34 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:52:34.392] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:52:34.392] [INFO] info - undefined
+[2017-07-19 15:52:34.393] [INFO] info - REQUEST=======> 2017-7-19 15:52:34 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:53:08.177] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:53:08.177] [INFO] info - undefined
+[2017-07-19 15:53:08.178] [INFO] info - REQUEST=======> 2017-7-19 15:53:08 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:53:08.179] [INFO] info - /system/menu/use/all
+[2017-07-19 15:53:08.180] [INFO] info - undefined
+[2017-07-19 15:53:08.181] [INFO] info - REQUEST=======> 2017-7-19 15:53:08 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:53:08.227] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:53:08.227] [INFO] info - undefined
+[2017-07-19 15:53:08.228] [INFO] info - REQUEST=======> 2017-7-19 15:53:08 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:53:42.561] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:53:42.561] [INFO] info - undefined
+[2017-07-19 15:53:42.562] [INFO] info - REQUEST=======> 2017-7-19 15:53:42 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:53:42.564] [INFO] info - /system/menu/use/all
+[2017-07-19 15:53:42.564] [INFO] info - undefined
+[2017-07-19 15:53:42.565] [INFO] info - REQUEST=======> 2017-7-19 15:53:42 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:53:42.608] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:53:42.608] [INFO] info - undefined
+[2017-07-19 15:53:42.610] [INFO] info - REQUEST=======> 2017-7-19 15:53:42 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:54:04.494] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:54:04.494] [INFO] info - undefined
+[2017-07-19 15:54:04.496] [INFO] info - REQUEST=======> 2017-7-19 15:54:04 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 15:54:04.497] [INFO] info - /system/menu/use/all
+[2017-07-19 15:54:04.497] [INFO] info - undefined
+[2017-07-19 15:54:04.499] [INFO] info - REQUEST=======> 2017-7-19 15:54:04 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:54:04.540] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:54:04.540] [INFO] info - undefined
+[2017-07-19 15:54:04.540] [INFO] info - REQUEST=======> 2017-7-19 15:54:04 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-07-19 15:56:15.339] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:56:15.339] [INFO] info - undefined
+[2017-07-19 15:56:15.340] [INFO] info - REQUEST=======> 2017-7-19 15:56:15 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:56:15.341] [INFO] info - /system/menu/use/all
+[2017-07-19 15:56:15.341] [INFO] info - undefined
+[2017-07-19 15:56:15.342] [INFO] info - REQUEST=======> 2017-7-19 15:56:15 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:56:15.377] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:56:15.378] [INFO] info - undefined
+[2017-07-19 15:56:15.379] [INFO] info - REQUEST=======> 2017-7-19 15:56:15 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 15:57:28.277] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:57:28.278] [INFO] info - undefined
+[2017-07-19 15:57:28.278] [INFO] info - REQUEST=======> 2017-7-19 15:57:28 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:57:28.280] [INFO] info - /system/menu/use/all
+[2017-07-19 15:57:28.280] [INFO] info - undefined
+[2017-07-19 15:57:28.281] [INFO] info - REQUEST=======> 2017-7-19 15:57:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:57:28.319] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:57:28.319] [INFO] info - undefined
+[2017-07-19 15:57:28.320] [INFO] info - REQUEST=======> 2017-7-19 15:57:28 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:57:56.415] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:57:56.415] [INFO] info - undefined
+[2017-07-19 15:57:56.416] [INFO] info - REQUEST=======> 2017-7-19 15:57:56 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:57:56.417] [INFO] info - /system/menu/use/all
+[2017-07-19 15:57:56.417] [INFO] info - undefined
+[2017-07-19 15:57:56.418] [INFO] info - REQUEST=======> 2017-7-19 15:57:56 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:57:56.459] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:57:56.459] [INFO] info - undefined
+[2017-07-19 15:57:56.460] [INFO] info - REQUEST=======> 2017-7-19 15:57:56 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:59:11.528] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:59:11.528] [INFO] info - undefined
+[2017-07-19 15:59:11.528] [INFO] info - REQUEST=======> 2017-7-19 15:59:11 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-19 15:59:11.529] [INFO] info - /system/menu/use/all
+[2017-07-19 15:59:11.529] [INFO] info - undefined
+[2017-07-19 15:59:11.531] [INFO] info - REQUEST=======> 2017-7-19 15:59:11 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 15:59:11.571] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:59:11.571] [INFO] info - undefined
+[2017-07-19 15:59:11.572] [INFO] info - REQUEST=======> 2017-7-19 15:59:11 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 15:59:55.844] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 15:59:55.844] [INFO] info - undefined
+[2017-07-19 15:59:55.845] [INFO] info - REQUEST=======> 2017-7-19 15:59:55 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 15:59:55.846] [INFO] info - /system/menu/use/all
+[2017-07-19 15:59:55.846] [INFO] info - undefined
+[2017-07-19 15:59:55.847] [INFO] info - REQUEST=======> 2017-7-19 15:59:55 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 15:59:55.896] [INFO] info - /manage/sign/currentUser
+[2017-07-19 15:59:55.896] [INFO] info - undefined
+[2017-07-19 15:59:55.898] [INFO] info - REQUEST=======> 2017-7-19 15:59:55 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 16:00:40.529] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:00:40.529] [INFO] info - undefined
+[2017-07-19 16:00:40.530] [INFO] info - REQUEST=======> 2017-7-19 16:00:40 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:00:40.532] [INFO] info - /system/menu/use/all
+[2017-07-19 16:00:40.532] [INFO] info - undefined
+[2017-07-19 16:00:40.533] [INFO] info - REQUEST=======> 2017-7-19 16:00:40 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:00:40.574] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:00:40.575] [INFO] info - undefined
+[2017-07-19 16:00:40.575] [INFO] info - REQUEST=======> 2017-7-19 16:00:40 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:01:29.153] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:01:29.153] [INFO] info - undefined
+[2017-07-19 16:01:29.154] [INFO] info - REQUEST=======> 2017-7-19 16:01:29 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:01:29.155] [INFO] info - /system/menu/use/all
+[2017-07-19 16:01:29.155] [INFO] info - undefined
+[2017-07-19 16:01:29.156] [INFO] info - REQUEST=======> 2017-7-19 16:01:29 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:01:29.202] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:01:29.203] [INFO] info - undefined
+[2017-07-19 16:01:29.203] [INFO] info - REQUEST=======> 2017-7-19 16:01:29 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:02:34.997] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:02:34.997] [INFO] info - undefined
+[2017-07-19 16:02:34.998] [INFO] info - REQUEST=======> 2017-7-19 16:02:34 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:02:35.000] [INFO] info - /system/menu/use/all
+[2017-07-19 16:02:35.000] [INFO] info - undefined
+[2017-07-19 16:02:35.001] [INFO] info - REQUEST=======> 2017-7-19 16:02:35 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:02:35.045] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:02:35.045] [INFO] info - undefined
+[2017-07-19 16:02:35.046] [INFO] info - REQUEST=======> 2017-7-19 16:02:35 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:04:53.428] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:04:53.428] [INFO] info - undefined
+[2017-07-19 16:04:53.429] [INFO] info - REQUEST=======> 2017-7-19 16:04:53 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:04:53.430] [INFO] info - /system/menu/use/all
+[2017-07-19 16:04:53.430] [INFO] info - undefined
+[2017-07-19 16:04:53.431] [INFO] info - REQUEST=======> 2017-7-19 16:04:53 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:04:53.477] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:04:53.477] [INFO] info - undefined
+[2017-07-19 16:04:53.478] [INFO] info - REQUEST=======> 2017-7-19 16:04:53 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:06:05.635] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:06:05.635] [INFO] info - undefined
+[2017-07-19 16:06:05.636] [INFO] info - REQUEST=======> 2017-7-19 16:06:05 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:06:05.637] [INFO] info - /system/menu/use/all
+[2017-07-19 16:06:05.637] [INFO] info - undefined
+[2017-07-19 16:06:05.639] [INFO] info - REQUEST=======> 2017-7-19 16:06:05 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:06:05.680] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:06:05.680] [INFO] info - undefined
+[2017-07-19 16:06:05.681] [INFO] info - REQUEST=======> 2017-7-19 16:06:05 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:08:22.838] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:08:22.839] [INFO] info - undefined
+[2017-07-19 16:08:22.840] [INFO] info - REQUEST=======> 2017-7-19 16:08:22 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 16:08:22.841] [INFO] info - /system/menu/use/all
+[2017-07-19 16:08:22.841] [INFO] info - undefined
+[2017-07-19 16:08:22.843] [INFO] info - REQUEST=======> 2017-7-19 16:08:22 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:08:22.908] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:08:22.908] [INFO] info - undefined
+[2017-07-19 16:08:22.909] [INFO] info - REQUEST=======> 2017-7-19 16:08:22 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:08:58.151] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:08:58.151] [INFO] info - undefined
+[2017-07-19 16:08:58.151] [INFO] info - /system/menu/use/all
+[2017-07-19 16:08:58.151] [INFO] info - undefined
+[2017-07-19 16:08:58.153] [INFO] info - REQUEST=======> 2017-7-19 16:08:58 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 16:08:58.153] [INFO] info - REQUEST=======> 2017-7-19 16:08:58 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:08:58.208] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:08:58.208] [INFO] info - undefined
+[2017-07-19 16:08:58.210] [INFO] info - REQUEST=======> 2017-7-19 16:08:58 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 16:09:15.215] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:09:15.216] [INFO] info - undefined
+[2017-07-19 16:09:15.216] [INFO] info - REQUEST=======> 2017-7-19 16:09:15 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:09:15.217] [INFO] info - /system/menu/use/all
+[2017-07-19 16:09:15.217] [INFO] info - undefined
+[2017-07-19 16:09:15.219] [INFO] info - REQUEST=======> 2017-7-19 16:09:15 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:09:15.276] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:09:15.276] [INFO] info - undefined
+[2017-07-19 16:09:15.277] [INFO] info - REQUEST=======> 2017-7-19 16:09:15 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:09:45.405] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:09:45.406] [INFO] info - undefined
+[2017-07-19 16:09:45.407] [INFO] info - REQUEST=======> 2017-7-19 16:09:45 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 16:09:45.411] [INFO] info - /system/menu/use/all
+[2017-07-19 16:09:45.411] [INFO] info - undefined
+[2017-07-19 16:09:45.412] [INFO] info - REQUEST=======> 2017-7-19 16:09:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:09:45.487] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:09:45.487] [INFO] info - undefined
+[2017-07-19 16:09:45.489] [INFO] info - REQUEST=======> 2017-7-19 16:09:45 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 16:11:36.597] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:11:36.597] [INFO] info - undefined
+[2017-07-19 16:11:36.598] [INFO] info - REQUEST=======> 2017-7-19 16:11:36 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:11:36.599] [INFO] info - /system/menu/use/all
+[2017-07-19 16:11:36.599] [INFO] info - undefined
+[2017-07-19 16:11:36.600] [INFO] info - REQUEST=======> 2017-7-19 16:11:36 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:11:36.637] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:11:36.637] [INFO] info - undefined
+[2017-07-19 16:11:36.638] [INFO] info - REQUEST=======> 2017-7-19 16:11:36 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:11:39.851] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:11:39.851] [INFO] info - undefined
+[2017-07-19 16:11:39.852] [INFO] info - REQUEST=======> 2017-7-19 16:11:39 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:11:39.853] [INFO] info - /system/menu/use/all
+[2017-07-19 16:11:39.853] [INFO] info - undefined
+[2017-07-19 16:11:39.854] [INFO] info - REQUEST=======> 2017-7-19 16:11:39 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:11:39.905] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:11:39.905] [INFO] info - undefined
+[2017-07-19 16:11:39.906] [INFO] info - REQUEST=======> 2017-7-19 16:11:39 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:14:47.151] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:14:47.152] [INFO] info - undefined
+[2017-07-19 16:14:47.153] [INFO] info - REQUEST=======> 2017-7-19 16:14:47 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 16:14:47.154] [INFO] info - /system/menu/use/all
+[2017-07-19 16:14:47.154] [INFO] info - undefined
+[2017-07-19 16:14:47.155] [INFO] info - REQUEST=======> 2017-7-19 16:14:47 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:14:47.303] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:14:47.303] [INFO] info - undefined
+[2017-07-19 16:14:47.304] [INFO] info - REQUEST=======> 2017-7-19 16:14:47 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:14:57.544] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:14:57.544] [INFO] info - undefined
+[2017-07-19 16:14:57.545] [INFO] info - REQUEST=======> 2017-7-19 16:14:57 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:14:57.547] [INFO] info - /system/menu/use/all
+[2017-07-19 16:14:57.547] [INFO] info - undefined
+[2017-07-19 16:14:57.548] [INFO] info - REQUEST=======> 2017-7-19 16:14:57 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:14:57.695] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:14:57.695] [INFO] info - undefined
+[2017-07-19 16:14:57.696] [INFO] info - REQUEST=======> 2017-7-19 16:14:57 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:15:58.901] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:15:58.901] [INFO] info - undefined
+[2017-07-19 16:15:58.902] [INFO] info - REQUEST=======> 2017-7-19 16:15:58 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:15:58.903] [INFO] info - /system/menu/use/all
+[2017-07-19 16:15:58.903] [INFO] info - undefined
+[2017-07-19 16:15:58.904] [INFO] info - REQUEST=======> 2017-7-19 16:15:58 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:15:59.101] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:15:59.101] [INFO] info - undefined
+[2017-07-19 16:15:59.102] [INFO] info - REQUEST=======> 2017-7-19 16:15:59 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:21:03.341] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:21:03.341] [INFO] info - undefined
+[2017-07-19 16:21:03.342] [INFO] info - REQUEST=======> 2017-7-19 16:21:03 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:21:03.344] [INFO] info - /system/menu/use/all
+[2017-07-19 16:21:03.344] [INFO] info - undefined
+[2017-07-19 16:21:03.345] [INFO] info - REQUEST=======> 2017-7-19 16:21:03 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:21:03.510] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:21:03.510] [INFO] info - undefined
+[2017-07-19 16:21:03.511] [INFO] info - REQUEST=======> 2017-7-19 16:21:03 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:22:35.416] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:22:35.416] [INFO] info - undefined
+[2017-07-19 16:22:35.417] [INFO] info - REQUEST=======> 2017-7-19 16:22:35 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:22:35.418] [INFO] info - /system/menu/use/all
+[2017-07-19 16:22:35.418] [INFO] info - undefined
+[2017-07-19 16:22:35.419] [INFO] info - REQUEST=======> 2017-7-19 16:22:35 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:22:35.564] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:22:35.564] [INFO] info - undefined
+[2017-07-19 16:22:35.565] [INFO] info - REQUEST=======> 2017-7-19 16:22:35 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:27:12.994] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:27:12.994] [INFO] info - undefined
+[2017-07-19 16:27:12.995] [INFO] info - REQUEST=======> 2017-7-19 16:27:12 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:27:12.996] [INFO] info - /system/menu/use/all
+[2017-07-19 16:27:12.996] [INFO] info - undefined
+[2017-07-19 16:27:12.998] [INFO] info - REQUEST=======> 2017-7-19 16:27:12 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:27:13.044] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:27:13.044] [INFO] info - undefined
+[2017-07-19 16:27:13.046] [INFO] info - REQUEST=======> 2017-7-19 16:27:13 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 16:30:51.448] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:30:51.448] [INFO] info - undefined
+[2017-07-19 16:30:51.449] [INFO] info - REQUEST=======> 2017-7-19 16:30:51 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:30:51.450] [INFO] info - /system/menu/use/all
+[2017-07-19 16:30:51.450] [INFO] info - undefined
+[2017-07-19 16:30:51.451] [INFO] info - REQUEST=======> 2017-7-19 16:30:51 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:30:51.510] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:30:51.510] [INFO] info - undefined
+[2017-07-19 16:30:51.511] [INFO] info - REQUEST=======> 2017-7-19 16:30:51 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:31:29.625] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:31:29.625] [INFO] info - undefined
+[2017-07-19 16:31:29.626] [INFO] info - REQUEST=======> 2017-7-19 16:31:29 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:31:29.627] [INFO] info - /system/menu/use/all
+[2017-07-19 16:31:29.627] [INFO] info - undefined
+[2017-07-19 16:31:29.628] [INFO] info - REQUEST=======> 2017-7-19 16:31:29 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:31:29.671] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:31:29.671] [INFO] info - undefined
+[2017-07-19 16:31:29.672] [INFO] info - REQUEST=======> 2017-7-19 16:31:29 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:31:45.314] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:31:45.314] [INFO] info - undefined
+[2017-07-19 16:31:45.315] [INFO] info - REQUEST=======> 2017-7-19 16:31:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:31:45.317] [INFO] info - /system/menu/use/all
+[2017-07-19 16:31:45.317] [INFO] info - undefined
+[2017-07-19 16:31:45.318] [INFO] info - REQUEST=======> 2017-7-19 16:31:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:31:45.358] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:31:45.358] [INFO] info - undefined
+[2017-07-19 16:31:45.359] [INFO] info - REQUEST=======> 2017-7-19 16:31:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:32:21.216] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:32:21.216] [INFO] info - undefined
+[2017-07-19 16:32:21.217] [INFO] info - REQUEST=======> 2017-7-19 16:32:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:32:21.218] [INFO] info - /system/menu/use/all
+[2017-07-19 16:32:21.218] [INFO] info - undefined
+[2017-07-19 16:32:21.219] [INFO] info - REQUEST=======> 2017-7-19 16:32:21 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:32:21.255] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:32:21.255] [INFO] info - undefined
+[2017-07-19 16:32:21.256] [INFO] info - REQUEST=======> 2017-7-19 16:32:21 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:32:46.091] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:32:46.092] [INFO] info - undefined
+[2017-07-19 16:32:46.092] [INFO] info - REQUEST=======> 2017-7-19 16:32:46 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:32:46.094] [INFO] info - /system/menu/use/all
+[2017-07-19 16:32:46.094] [INFO] info - undefined
+[2017-07-19 16:32:46.095] [INFO] info - REQUEST=======> 2017-7-19 16:32:46 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:32:46.134] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:32:46.134] [INFO] info - undefined
+[2017-07-19 16:32:46.135] [INFO] info - REQUEST=======> 2017-7-19 16:32:46 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:34:00.257] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:34:00.257] [INFO] info - undefined
+[2017-07-19 16:34:00.258] [INFO] info - REQUEST=======> 2017-7-19 16:34:00 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:34:00.259] [INFO] info - /system/menu/use/all
+[2017-07-19 16:34:00.259] [INFO] info - undefined
+[2017-07-19 16:34:00.260] [INFO] info - REQUEST=======> 2017-7-19 16:34:00 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:34:00.457] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:34:00.458] [INFO] info - undefined
+[2017-07-19 16:34:00.458] [INFO] info - REQUEST=======> 2017-7-19 16:34:00 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:34:32.812] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:34:32.813] [INFO] info - undefined
+[2017-07-19 16:34:32.813] [INFO] info - REQUEST=======> 2017-7-19 16:34:32 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:34:32.816] [INFO] info - /system/menu/use/all
+[2017-07-19 16:34:32.816] [INFO] info - undefined
+[2017-07-19 16:34:32.817] [INFO] info - REQUEST=======> 2017-7-19 16:34:32 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:34:32.869] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:34:32.869] [INFO] info - undefined
+[2017-07-19 16:34:32.870] [INFO] info - REQUEST=======> 2017-7-19 16:34:32 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:47:31.244] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:47:31.244] [INFO] info - undefined
+[2017-07-19 16:47:31.246] [INFO] info - REQUEST=======> 2017-7-19 16:47:31 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 16:47:31.248] [INFO] info - /system/menu/use/all
+[2017-07-19 16:47:31.248] [INFO] info - undefined
+[2017-07-19 16:47:31.249] [INFO] info - REQUEST=======> 2017-7-19 16:47:31 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:47:31.286] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:47:31.286] [INFO] info - undefined
+[2017-07-19 16:47:31.288] [INFO] info - REQUEST=======> 2017-7-19 16:47:31 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 16:47:39.557] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:47:39.557] [INFO] info - undefined
+[2017-07-19 16:47:39.558] [INFO] info - REQUEST=======> 2017-7-19 16:47:39 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:47:39.560] [INFO] info - /system/menu/use/all
+[2017-07-19 16:47:39.560] [INFO] info - undefined
+[2017-07-19 16:47:39.562] [INFO] info - REQUEST=======> 2017-7-19 16:47:39 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:47:39.600] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:47:39.600] [INFO] info - undefined
+[2017-07-19 16:47:39.602] [INFO] info - REQUEST=======> 2017-7-19 16:47:39 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 16:47:46.711] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:47:46.711] [INFO] info - undefined
+[2017-07-19 16:47:46.712] [INFO] info - REQUEST=======> 2017-7-19 16:47:46 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:47:46.714] [INFO] info - /system/menu/use/all
+[2017-07-19 16:47:46.714] [INFO] info - undefined
+[2017-07-19 16:47:46.716] [INFO] info - REQUEST=======> 2017-7-19 16:47:46 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:47:46.770] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:47:46.770] [INFO] info - undefined
+[2017-07-19 16:47:46.771] [INFO] info - REQUEST=======> 2017-7-19 16:47:46 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:48:28.039] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:48:28.039] [INFO] info - undefined
+[2017-07-19 16:48:28.040] [INFO] info - REQUEST=======> 2017-7-19 16:48:28 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:48:28.041] [INFO] info - /system/menu/use/all
+[2017-07-19 16:48:28.041] [INFO] info - undefined
+[2017-07-19 16:48:28.042] [INFO] info - REQUEST=======> 2017-7-19 16:48:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:48:28.082] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:48:28.083] [INFO] info - undefined
+[2017-07-19 16:48:28.083] [INFO] info - REQUEST=======> 2017-7-19 16:48:28 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:48:32.891] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:48:32.891] [INFO] info - undefined
+[2017-07-19 16:48:32.892] [INFO] info - REQUEST=======> 2017-7-19 16:48:32 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:48:32.893] [INFO] info - /system/menu/use/all
+[2017-07-19 16:48:32.894] [INFO] info - undefined
+[2017-07-19 16:48:32.895] [INFO] info - REQUEST=======> 2017-7-19 16:48:32 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 16:48:32.948] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:48:32.948] [INFO] info - undefined
+[2017-07-19 16:48:32.949] [INFO] info - REQUEST=======> 2017-7-19 16:48:32 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:49:45.491] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:49:45.491] [INFO] info - undefined
+[2017-07-19 16:49:45.492] [INFO] info - REQUEST=======> 2017-7-19 16:49:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:49:45.493] [INFO] info - /system/menu/use/all
+[2017-07-19 16:49:45.493] [INFO] info - undefined
+[2017-07-19 16:49:45.494] [INFO] info - REQUEST=======> 2017-7-19 16:49:45 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:49:45.537] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:49:45.537] [INFO] info - undefined
+[2017-07-19 16:49:45.538] [INFO] info - REQUEST=======> 2017-7-19 16:49:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:50:07.261] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:50:07.261] [INFO] info - undefined
+[2017-07-19 16:50:07.262] [INFO] info - REQUEST=======> 2017-7-19 16:50:07 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:50:07.264] [INFO] info - /system/menu/use/all
+[2017-07-19 16:50:07.264] [INFO] info - undefined
+[2017-07-19 16:50:07.266] [INFO] info - REQUEST=======> 2017-7-19 16:50:07 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 16:50:07.305] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:50:07.305] [INFO] info - undefined
+[2017-07-19 16:50:07.306] [INFO] info - REQUEST=======> 2017-7-19 16:50:07 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:50:56.006] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:50:56.006] [INFO] info - undefined
+[2017-07-19 16:50:56.007] [INFO] info - REQUEST=======> 2017-7-19 16:50:56 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:50:56.008] [INFO] info - /system/menu/use/all
+[2017-07-19 16:50:56.008] [INFO] info - undefined
+[2017-07-19 16:50:56.009] [INFO] info - REQUEST=======> 2017-7-19 16:50:56 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:50:56.165] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:50:56.166] [INFO] info - undefined
+[2017-07-19 16:50:56.166] [INFO] info - REQUEST=======> 2017-7-19 16:50:56 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:52:46.636] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:52:46.636] [INFO] info - undefined
+[2017-07-19 16:52:46.637] [INFO] info - REQUEST=======> 2017-7-19 16:52:46 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:52:46.639] [INFO] info - /system/menu/use/all
+[2017-07-19 16:52:46.639] [INFO] info - undefined
+[2017-07-19 16:52:46.640] [INFO] info - REQUEST=======> 2017-7-19 16:52:46 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:52:46.686] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:52:46.686] [INFO] info - undefined
+[2017-07-19 16:52:46.687] [INFO] info - REQUEST=======> 2017-7-19 16:52:46 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:52:49.467] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:52:49.467] [INFO] info - undefined
+[2017-07-19 16:52:49.468] [INFO] info - REQUEST=======> 2017-7-19 16:52:49 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:52:49.469] [INFO] info - /system/menu/use/all
+[2017-07-19 16:52:49.469] [INFO] info - undefined
+[2017-07-19 16:52:49.470] [INFO] info - REQUEST=======> 2017-7-19 16:52:49 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:52:49.513] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:52:49.513] [INFO] info - undefined
+[2017-07-19 16:52:49.514] [INFO] info - REQUEST=======> 2017-7-19 16:52:49 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:53:44.127] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:53:44.127] [INFO] info - undefined
+[2017-07-19 16:53:44.128] [INFO] info - REQUEST=======> 2017-7-19 16:53:44 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:53:44.130] [INFO] info - /system/menu/use/all
+[2017-07-19 16:53:44.130] [INFO] info - undefined
+[2017-07-19 16:53:44.131] [INFO] info - REQUEST=======> 2017-7-19 16:53:44 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:53:44.283] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:53:44.283] [INFO] info - undefined
+[2017-07-19 16:53:44.284] [INFO] info - REQUEST=======> 2017-7-19 16:53:44 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 16:57:10.307] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:57:10.307] [INFO] info - undefined
+[2017-07-19 16:57:10.308] [INFO] info - REQUEST=======> 2017-7-19 16:57:10 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:57:10.309] [INFO] info - /system/menu/use/all
+[2017-07-19 16:57:10.309] [INFO] info - undefined
+[2017-07-19 16:57:10.310] [INFO] info - REQUEST=======> 2017-7-19 16:57:10 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:57:10.349] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:57:10.350] [INFO] info - undefined
+[2017-07-19 16:57:10.351] [INFO] info - REQUEST=======> 2017-7-19 16:57:10 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 16:59:24.304] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 16:59:24.304] [INFO] info - undefined
+[2017-07-19 16:59:24.305] [INFO] info - REQUEST=======> 2017-7-19 16:59:24 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 16:59:24.308] [INFO] info - /system/menu/use/all
+[2017-07-19 16:59:24.308] [INFO] info - undefined
+[2017-07-19 16:59:24.309] [INFO] info - REQUEST=======> 2017-7-19 16:59:24 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 16:59:24.349] [INFO] info - /manage/sign/currentUser
+[2017-07-19 16:59:24.349] [INFO] info - undefined
+[2017-07-19 16:59:24.351] [INFO] info - REQUEST=======> 2017-7-19 16:59:24 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 17:03:51.385] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:03:51.385] [INFO] info - undefined
+[2017-07-19 17:03:51.386] [INFO] info - REQUEST=======> 2017-7-19 17:03:51 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:03:51.387] [INFO] info - /system/menu/use/all
+[2017-07-19 17:03:51.387] [INFO] info - undefined
+[2017-07-19 17:03:51.388] [INFO] info - REQUEST=======> 2017-7-19 17:03:51 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:03:51.432] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:03:51.432] [INFO] info - undefined
+[2017-07-19 17:03:51.433] [INFO] info - REQUEST=======> 2017-7-19 17:03:51 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:04:20.428] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:04:20.428] [INFO] info - undefined
+[2017-07-19 17:04:20.429] [INFO] info - REQUEST=======> 2017-7-19 17:04:20 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:04:20.432] [INFO] info - /system/menu/use/all
+[2017-07-19 17:04:20.433] [INFO] info - undefined
+[2017-07-19 17:04:20.435] [INFO] info - REQUEST=======> 2017-7-19 17:04:20 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 17:04:20.468] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:04:20.468] [INFO] info - undefined
+[2017-07-19 17:04:20.469] [INFO] info - REQUEST=======> 2017-7-19 17:04:20 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:20:06.595] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:20:06.596] [INFO] info - undefined
+[2017-07-19 17:20:06.597] [INFO] info - REQUEST=======> 2017-7-19 17:20:06 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 17:20:06.598] [INFO] info - /system/menu/use/all
+[2017-07-19 17:20:06.598] [INFO] info - undefined
+[2017-07-19 17:20:06.599] [INFO] info - REQUEST=======> 2017-7-19 17:20:06 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:20:06.652] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:20:06.652] [INFO] info - undefined
+[2017-07-19 17:20:06.653] [INFO] info - REQUEST=======> 2017-7-19 17:20:06 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:20:58.738] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:20:58.738] [INFO] info - undefined
+[2017-07-19 17:20:58.739] [INFO] info - REQUEST=======> 2017-7-19 17:20:58 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:20:58.741] [INFO] info - /system/menu/use/all
+[2017-07-19 17:20:58.741] [INFO] info - undefined
+[2017-07-19 17:20:58.742] [INFO] info - REQUEST=======> 2017-7-19 17:20:58 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:20:58.786] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:20:58.786] [INFO] info - undefined
+[2017-07-19 17:20:58.787] [INFO] info - REQUEST=======> 2017-7-19 17:20:58 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:21:30.729] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:21:30.729] [INFO] info - undefined
+[2017-07-19 17:21:30.730] [INFO] info - REQUEST=======> 2017-7-19 17:21:30 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:21:30.732] [INFO] info - /system/menu/use/all
+[2017-07-19 17:21:30.732] [INFO] info - undefined
+[2017-07-19 17:21:30.733] [INFO] info - REQUEST=======> 2017-7-19 17:21:30 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:21:30.778] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:21:30.778] [INFO] info - undefined
+[2017-07-19 17:21:30.779] [INFO] info - REQUEST=======> 2017-7-19 17:21:30 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:22:10.351] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:22:10.351] [INFO] info - undefined
+[2017-07-19 17:22:10.352] [INFO] info - REQUEST=======> 2017-7-19 17:22:10 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:22:10.354] [INFO] info - /system/menu/use/all
+[2017-07-19 17:22:10.354] [INFO] info - undefined
+[2017-07-19 17:22:10.355] [INFO] info - REQUEST=======> 2017-7-19 17:22:10 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:22:10.394] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:22:10.394] [INFO] info - undefined
+[2017-07-19 17:22:10.395] [INFO] info - REQUEST=======> 2017-7-19 17:22:10 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:22:21.955] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:22:21.955] [INFO] info - undefined
+[2017-07-19 17:22:21.956] [INFO] info - REQUEST=======> 2017-7-19 17:22:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:22:21.957] [INFO] info - /system/menu/use/all
+[2017-07-19 17:22:21.957] [INFO] info - undefined
+[2017-07-19 17:22:21.958] [INFO] info - REQUEST=======> 2017-7-19 17:22:21 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:22:22.001] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:22:22.001] [INFO] info - undefined
+[2017-07-19 17:22:22.003] [INFO] info - REQUEST=======> 2017-7-19 17:22:22 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 17:22:45.447] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:22:45.447] [INFO] info - undefined
+[2017-07-19 17:22:45.448] [INFO] info - REQUEST=======> 2017-7-19 17:22:45 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:22:45.455] [INFO] info - /system/menu/use/all
+[2017-07-19 17:22:45.456] [INFO] info - undefined
+[2017-07-19 17:22:45.458] [INFO] info - REQUEST=======> 2017-7-19 17:22:45 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 17:22:45.515] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:22:45.516] [INFO] info - undefined
+[2017-07-19 17:22:45.516] [INFO] info - REQUEST=======> 2017-7-19 17:22:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:23:16.624] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:23:16.624] [INFO] info - undefined
+[2017-07-19 17:23:16.625] [INFO] info - REQUEST=======> 2017-7-19 17:23:16 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:23:16.626] [INFO] info - /system/menu/use/all
+[2017-07-19 17:23:16.626] [INFO] info - undefined
+[2017-07-19 17:23:16.627] [INFO] info - REQUEST=======> 2017-7-19 17:23:16 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:23:16.675] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:23:16.675] [INFO] info - undefined
+[2017-07-19 17:23:16.678] [INFO] info - REQUEST=======> 2017-7-19 17:23:16 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-07-19 17:24:00.584] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:24:00.584] [INFO] info - undefined
+[2017-07-19 17:24:00.584] [INFO] info - REQUEST=======> 2017-7-19 17:24:00 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-19 17:24:00.585] [INFO] info - /system/menu/use/all
+[2017-07-19 17:24:00.586] [INFO] info - undefined
+[2017-07-19 17:24:00.588] [INFO] info - REQUEST=======> 2017-7-19 17:24:00 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 17:24:00.625] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:24:00.625] [INFO] info - undefined
+[2017-07-19 17:24:00.626] [INFO] info - REQUEST=======> 2017-7-19 17:24:00 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:24:22.842] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:24:22.842] [INFO] info - undefined
+[2017-07-19 17:24:22.842] [INFO] info - REQUEST=======> 2017-7-19 17:24:22 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-19 17:24:22.843] [INFO] info - /system/menu/use/all
+[2017-07-19 17:24:22.843] [INFO] info - undefined
+[2017-07-19 17:24:22.844] [INFO] info - REQUEST=======> 2017-7-19 17:24:22 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:24:22.884] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:24:22.884] [INFO] info - undefined
+[2017-07-19 17:24:22.885] [INFO] info - REQUEST=======> 2017-7-19 17:24:22 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:25:17.947] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:25:17.947] [INFO] info - undefined
+[2017-07-19 17:25:17.947] [INFO] info - /system/menu/use/all
+[2017-07-19 17:25:17.947] [INFO] info - undefined
+[2017-07-19 17:25:17.949] [INFO] info - REQUEST=======> 2017-7-19 17:25:17 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 17:25:17.950] [INFO] info - REQUEST=======> 2017-7-19 17:25:17 [GET] /system/menu/use/all，耗时:3ms
+[2017-07-19 17:25:17.987] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:25:17.987] [INFO] info - undefined
+[2017-07-19 17:25:17.988] [INFO] info - REQUEST=======> 2017-7-19 17:25:17 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:25:19.555] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:25:19.555] [INFO] info - undefined
+[2017-07-19 17:25:19.556] [INFO] info - REQUEST=======> 2017-7-19 17:25:19 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:25:19.557] [INFO] info - /system/menu/use/all
+[2017-07-19 17:25:19.557] [INFO] info - undefined
+[2017-07-19 17:25:19.558] [INFO] info - REQUEST=======> 2017-7-19 17:25:19 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:25:19.597] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:25:19.597] [INFO] info - undefined
+[2017-07-19 17:25:19.598] [INFO] info - REQUEST=======> 2017-7-19 17:25:19 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:29:12.543] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:29:12.543] [INFO] info - undefined
+[2017-07-19 17:29:12.545] [INFO] info - REQUEST=======> 2017-7-19 17:29:12 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 17:29:12.546] [INFO] info - /system/menu/use/all
+[2017-07-19 17:29:12.546] [INFO] info - undefined
+[2017-07-19 17:29:12.547] [INFO] info - REQUEST=======> 2017-7-19 17:29:12 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:29:12.636] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:29:12.636] [INFO] info - undefined
+[2017-07-19 17:29:12.637] [INFO] info - REQUEST=======> 2017-7-19 17:29:12 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:29:58.190] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:29:58.190] [INFO] info - undefined
+[2017-07-19 17:29:58.191] [INFO] info - REQUEST=======> 2017-7-19 17:29:58 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:29:58.192] [INFO] info - /system/menu/use/all
+[2017-07-19 17:29:58.192] [INFO] info - undefined
+[2017-07-19 17:29:58.193] [INFO] info - REQUEST=======> 2017-7-19 17:29:58 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:29:58.234] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:29:58.234] [INFO] info - undefined
+[2017-07-19 17:29:58.235] [INFO] info - REQUEST=======> 2017-7-19 17:29:58 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:31:28.681] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:31:28.681] [INFO] info - undefined
+[2017-07-19 17:31:28.683] [INFO] info - REQUEST=======> 2017-7-19 17:31:28 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-07-19 17:31:28.684] [INFO] info - /system/menu/use/all
+[2017-07-19 17:31:28.684] [INFO] info - undefined
+[2017-07-19 17:31:28.685] [INFO] info - REQUEST=======> 2017-7-19 17:31:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:31:28.723] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:31:28.723] [INFO] info - undefined
+[2017-07-19 17:31:28.725] [INFO] info - REQUEST=======> 2017-7-19 17:31:28 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 17:32:05.394] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:32:05.395] [INFO] info - undefined
+[2017-07-19 17:32:05.395] [INFO] info - REQUEST=======> 2017-7-19 17:32:05 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:32:05.396] [INFO] info - /system/menu/use/all
+[2017-07-19 17:32:05.396] [INFO] info - undefined
+[2017-07-19 17:32:05.398] [INFO] info - REQUEST=======> 2017-7-19 17:32:05 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:32:05.440] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:32:05.440] [INFO] info - undefined
+[2017-07-19 17:32:05.441] [INFO] info - REQUEST=======> 2017-7-19 17:32:05 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:32:37.057] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:32:37.057] [INFO] info - undefined
+[2017-07-19 17:32:37.058] [INFO] info - REQUEST=======> 2017-7-19 17:32:37 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:32:37.059] [INFO] info - /system/menu/use/all
+[2017-07-19 17:32:37.059] [INFO] info - undefined
+[2017-07-19 17:32:37.060] [INFO] info - REQUEST=======> 2017-7-19 17:32:37 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:32:37.094] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:32:37.095] [INFO] info - undefined
+[2017-07-19 17:32:37.096] [INFO] info - REQUEST=======> 2017-7-19 17:32:37 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 17:33:12.650] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:33:12.650] [INFO] info - undefined
+[2017-07-19 17:33:12.651] [INFO] info - REQUEST=======> 2017-7-19 17:33:12 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:33:12.656] [INFO] info - /system/menu/use/all
+[2017-07-19 17:33:12.656] [INFO] info - undefined
+[2017-07-19 17:33:12.657] [INFO] info - REQUEST=======> 2017-7-19 17:33:12 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:33:12.697] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:33:12.697] [INFO] info - undefined
+[2017-07-19 17:33:12.698] [INFO] info - REQUEST=======> 2017-7-19 17:33:12 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:35:44.345] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:35:44.346] [INFO] info - undefined
+[2017-07-19 17:35:44.346] [INFO] info - REQUEST=======> 2017-7-19 17:35:44 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:35:44.347] [INFO] info - /system/menu/use/all
+[2017-07-19 17:35:44.347] [INFO] info - undefined
+[2017-07-19 17:35:44.349] [INFO] info - REQUEST=======> 2017-7-19 17:35:44 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:35:44.436] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:35:44.436] [INFO] info - undefined
+[2017-07-19 17:35:44.437] [INFO] info - REQUEST=======> 2017-7-19 17:35:44 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:36:03.291] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:36:03.291] [INFO] info - undefined
+[2017-07-19 17:36:03.292] [INFO] info - REQUEST=======> 2017-7-19 17:36:03 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:36:03.295] [INFO] info - /system/menu/use/all
+[2017-07-19 17:36:03.296] [INFO] info - undefined
+[2017-07-19 17:36:03.297] [INFO] info - REQUEST=======> 2017-7-19 17:36:03 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:36:03.380] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:36:03.380] [INFO] info - undefined
+[2017-07-19 17:36:03.381] [INFO] info - REQUEST=======> 2017-7-19 17:36:03 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:37:05.073] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:37:05.073] [INFO] info - undefined
+[2017-07-19 17:37:05.074] [INFO] info - REQUEST=======> 2017-7-19 17:37:05 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:37:05.075] [INFO] info - /system/menu/use/all
+[2017-07-19 17:37:05.075] [INFO] info - undefined
+[2017-07-19 17:37:05.076] [INFO] info - REQUEST=======> 2017-7-19 17:37:05 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:37:05.254] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:37:05.255] [INFO] info - undefined
+[2017-07-19 17:37:05.255] [INFO] info - REQUEST=======> 2017-7-19 17:37:05 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:37:51.606] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:37:51.606] [INFO] info - undefined
+[2017-07-19 17:37:51.606] [INFO] info - REQUEST=======> 2017-7-19 17:37:51 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-07-19 17:37:51.608] [INFO] info - /system/menu/use/all
+[2017-07-19 17:37:51.608] [INFO] info - undefined
+[2017-07-19 17:37:51.609] [INFO] info - REQUEST=======> 2017-7-19 17:37:51 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:37:51.689] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:37:51.689] [INFO] info - undefined
+[2017-07-19 17:37:51.690] [INFO] info - REQUEST=======> 2017-7-19 17:37:51 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:39:38.899] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:39:38.899] [INFO] info - undefined
+[2017-07-19 17:39:38.900] [INFO] info - REQUEST=======> 2017-7-19 17:39:38 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:39:38.903] [INFO] info - /system/menu/use/all
+[2017-07-19 17:39:38.903] [INFO] info - undefined
+[2017-07-19 17:39:38.904] [INFO] info - REQUEST=======> 2017-7-19 17:39:38 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:39:38.981] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:39:38.981] [INFO] info - undefined
+[2017-07-19 17:39:38.981] [INFO] info - REQUEST=======> 2017-7-19 17:39:38 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-07-19 17:40:30.397] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:40:30.397] [INFO] info - undefined
+[2017-07-19 17:40:30.398] [INFO] info - REQUEST=======> 2017-7-19 17:40:30 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:40:30.400] [INFO] info - /system/menu/use/all
+[2017-07-19 17:40:30.400] [INFO] info - undefined
+[2017-07-19 17:40:30.401] [INFO] info - REQUEST=======> 2017-7-19 17:40:30 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:40:30.439] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:40:30.439] [INFO] info - undefined
+[2017-07-19 17:40:30.439] [INFO] info - REQUEST=======> 2017-7-19 17:40:30 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-07-19 17:40:38.029] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:40:38.029] [INFO] info - undefined
+[2017-07-19 17:40:38.030] [INFO] info - REQUEST=======> 2017-7-19 17:40:38 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:40:38.031] [INFO] info - /system/menu/use/all
+[2017-07-19 17:40:38.031] [INFO] info - undefined
+[2017-07-19 17:40:38.032] [INFO] info - REQUEST=======> 2017-7-19 17:40:38 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:40:38.102] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:40:38.102] [INFO] info - undefined
+[2017-07-19 17:40:38.103] [INFO] info - REQUEST=======> 2017-7-19 17:40:38 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:42:05.489] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:42:05.489] [INFO] info - undefined
+[2017-07-19 17:42:05.490] [INFO] info - REQUEST=======> 2017-7-19 17:42:05 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:42:05.492] [INFO] info - /system/menu/use/all
+[2017-07-19 17:42:05.492] [INFO] info - undefined
+[2017-07-19 17:42:05.493] [INFO] info - REQUEST=======> 2017-7-19 17:42:05 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:42:05.565] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:42:05.565] [INFO] info - undefined
+[2017-07-19 17:42:05.566] [INFO] info - REQUEST=======> 2017-7-19 17:42:05 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:45:50.986] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:45:50.986] [INFO] info - undefined
+[2017-07-19 17:45:50.987] [INFO] info - REQUEST=======> 2017-7-19 17:45:50 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:45:50.988] [INFO] info - /system/menu/use/all
+[2017-07-19 17:45:50.988] [INFO] info - undefined
+[2017-07-19 17:45:50.989] [INFO] info - REQUEST=======> 2017-7-19 17:45:50 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:45:51.044] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:45:51.044] [INFO] info - undefined
+[2017-07-19 17:45:51.045] [INFO] info - REQUEST=======> 2017-7-19 17:45:51 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:46:38.511] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:46:38.511] [INFO] info - undefined
+[2017-07-19 17:46:38.512] [INFO] info - REQUEST=======> 2017-7-19 17:46:38 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:46:38.513] [INFO] info - /system/menu/use/all
+[2017-07-19 17:46:38.513] [INFO] info - undefined
+[2017-07-19 17:46:38.514] [INFO] info - REQUEST=======> 2017-7-19 17:46:38 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:46:38.556] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:46:38.556] [INFO] info - undefined
+[2017-07-19 17:46:38.557] [INFO] info - REQUEST=======> 2017-7-19 17:46:38 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:47:24.375] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:47:24.375] [INFO] info - undefined
+[2017-07-19 17:47:24.376] [INFO] info - REQUEST=======> 2017-7-19 17:47:24 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:47:24.377] [INFO] info - /system/menu/use/all
+[2017-07-19 17:47:24.377] [INFO] info - undefined
+[2017-07-19 17:47:24.379] [INFO] info - REQUEST=======> 2017-7-19 17:47:24 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:47:24.425] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:47:24.425] [INFO] info - undefined
+[2017-07-19 17:47:24.426] [INFO] info - REQUEST=======> 2017-7-19 17:47:24 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:48:38.912] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:48:38.912] [INFO] info - undefined
+[2017-07-19 17:48:38.913] [INFO] info - REQUEST=======> 2017-7-19 17:48:38 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:48:38.914] [INFO] info - /system/menu/use/all
+[2017-07-19 17:48:38.914] [INFO] info - undefined
+[2017-07-19 17:48:38.915] [INFO] info - REQUEST=======> 2017-7-19 17:48:38 [GET] /system/menu/use/all，耗时:1ms
+[2017-07-19 17:48:38.976] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:48:38.976] [INFO] info - undefined
+[2017-07-19 17:48:38.977] [INFO] info - REQUEST=======> 2017-7-19 17:48:38 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 17:49:25.403] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:49:25.404] [INFO] info - undefined
+[2017-07-19 17:49:25.404] [INFO] info - REQUEST=======> 2017-7-19 17:49:25 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:49:25.405] [INFO] info - /system/menu/use/all
+[2017-07-19 17:49:25.405] [INFO] info - undefined
+[2017-07-19 17:49:25.407] [INFO] info - REQUEST=======> 2017-7-19 17:49:25 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:49:25.449] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:49:25.449] [INFO] info - undefined
+[2017-07-19 17:49:25.450] [INFO] info - REQUEST=======> 2017-7-19 17:49:25 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-07-19 17:50:21.869] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:50:21.869] [INFO] info - undefined
+[2017-07-19 17:50:21.870] [INFO] info - REQUEST=======> 2017-7-19 17:50:21 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:50:21.871] [INFO] info - /system/menu/use/all
+[2017-07-19 17:50:21.871] [INFO] info - undefined
+[2017-07-19 17:50:21.873] [INFO] info - REQUEST=======> 2017-7-19 17:50:21 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:50:21.966] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:50:21.966] [INFO] info - undefined
+[2017-07-19 17:50:21.967] [INFO] info - REQUEST=======> 2017-7-19 17:50:21 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-07-19 17:50:48.088] [INFO] info - /system/dictionaryItem/use/all
+[2017-07-19 17:50:48.088] [INFO] info - undefined
+[2017-07-19 17:50:48.089] [INFO] info - REQUEST=======> 2017-7-19 17:50:48 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-07-19 17:50:48.091] [INFO] info - /system/menu/use/all
+[2017-07-19 17:50:48.091] [INFO] info - undefined
+[2017-07-19 17:50:48.093] [INFO] info - REQUEST=======> 2017-7-19 17:50:48 [GET] /system/menu/use/all，耗时:2ms
+[2017-07-19 17:50:48.147] [INFO] info - /manage/sign/currentUser
+[2017-07-19 17:50:48.147] [INFO] info - undefined
+[2017-07-19 17:50:48.148] [INFO] info - REQUEST=======> 2017-7-19 17:50:48 [GET] /manage/sign/currentUser，耗时:1ms

@@ -1,0 +1,167 @@
+[2017-05-12 17:35:35.625] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:35:35.627] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:35:35.634] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:35:35.635] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:35:54.712] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:35:54.713] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:35:54.714] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:35:54.715] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:36:16.438] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:36:16.438] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:36:16.442] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:36:16.442] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:36:28.225] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:36:28.225] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:36:28.260] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:36:28.260] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:36:35.944] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:36:35.945] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:36:35.962] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:36:35.962] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-05-12 17:38:53.738] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-05-12 17:38:53.738] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at middleware (d:\workspace\JS\git\peaimage-manage-server-2017\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:326:16
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:331:31)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at allowedMethods (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:366:12)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.7.1.1@koa-router\lib\router.js:317:32) message: '用户未登录' }
+[2017-05-12 17:46:04.676] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-05-12 17:46:04.676] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:42:26)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }

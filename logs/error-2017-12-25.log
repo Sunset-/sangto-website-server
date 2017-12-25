@@ -1,0 +1,690 @@
+[2017-12-25 14:16:45.049] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 14:16:45.051] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 14:16:48.817] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 14:16:48.817] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 14:53:15.096] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 14:53:15.098] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 15:03:33.449] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 15:03:33.451] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 15:12:27.622] [ERROR] error - { code: 500, message: 'startTime is not defined' }
+[2017-12-25 15:12:27.622] [ERROR] error - ReferenceError: startTime is not defined
+    at Object.pageFilter (d:\workspace\other\sangto-website-server\business\router\ContentRouter.js:15:13)
+    at middleware (d:\workspace\other\sangto-website-server\base\BaseRouter.js:39:50)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at Promise.propagateAslWrapper (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\index.js:502:23)
+    at Promise.__asl_wrapper (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+    at D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\index.js:539:70
+    at D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31
+[2017-12-25 15:12:29.200] [ERROR] error - { code: 500, message: 'startTime is not defined' }
+[2017-12-25 15:12:29.200] [ERROR] error - ReferenceError: startTime is not defined
+    at Object.pageFilter (d:\workspace\other\sangto-website-server\business\router\ContentRouter.js:15:13)
+    at middleware (d:\workspace\other\sangto-website-server\base\BaseRouter.js:39:50)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at Promise.propagateAslWrapper (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\index.js:502:23)
+    at Promise.__asl_wrapper (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+    at D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\index.js:539:70
+    at D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31
+[2017-12-25 15:13:43.787] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 15:13:43.788] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 16:26:07.919] [ERROR] error - { code: 500, message: 'type cannot be null' }
+[2017-12-25 16:26:07.919] [ERROR] error - { Error: type cannot be null
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 16:27:02.797] [ERROR] error - { code: 500, message: 'createUser cannot be null' }
+[2017-12-25 16:27:02.797] [ERROR] error - { Error: createUser cannot be null
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 16:28:05.429] [ERROR] error - { code: 500, message: 'createUser cannot be null' }
+[2017-12-25 16:28:05.429] [ERROR] error - { Error: createUser cannot be null
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 16:28:52.107] [ERROR] error - { code: 500, message: 'createUser cannot be null' }
+[2017-12-25 16:28:52.108] [ERROR] error - { Error: createUser cannot be null
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 16:29:27.984] [ERROR] error - { code: 500, message: 'createUser cannot be null' }
+[2017-12-25 16:29:27.986] [ERROR] error - { Error: createUser cannot be null
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 16:34:54.718] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 16:34:54.719] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 16:39:36.081] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 16:39:36.083] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 16:40:18.475] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 16:40:18.476] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 16:45:36.719] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 16:45:36.721] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 16:46:26.378] [ERROR] error - { code: 500, message: 'status cannot be null' }
+[2017-12-25 16:46:26.383] [ERROR] error - { Error: status cannot be null
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 16:48:34.131] [ERROR] error - { code: 500,
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'cover_\' at row 1' }
+[2017-12-25 16:48:34.131] [ERROR] error - { Error: ER_DATA_TOO_LONG: Data too long for column 'cover_' at row 1
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 16:48:37.104] [ERROR] error - { code: 500,
+  message: 'ER_DATA_TOO_LONG: Data too long for column \'cover_\' at row 1' }
+[2017-12-25 16:48:37.104] [ERROR] error - { Error: ER_DATA_TOO_LONG: Data too long for column 'cover_' at row 1
+    at validate.then.catch.e (d:\workspace\other\sangto-website-server\base\BaseService.js:48:19)
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+    at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:689:18)
+    at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5) 'error@context': {} }
+[2017-12-25 17:05:32.592] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 17:05:32.594] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 17:22:26.364] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 17:22:26.366] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 17:22:31.455] [ERROR] error - { code: 500, message: 'Service is not defined' }
+[2017-12-25 17:22:31.455] [ERROR] error - ReferenceError: Service is not defined
+    at middleware (d:\workspace\other\sangto-website-server\business\router\ContentRouter.js:43:34)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at Promise.propagateAslWrapper (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\index.js:502:23)
+    at Promise.__asl_wrapper (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+    at D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\index.js:539:70
+    at D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31
+[2017-12-25 17:23:10.286] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 17:23:10.288] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }
+[2017-12-25 17:23:16.221] [ERROR] error - { code: 500,
+  message: 'ER_NO_SUCH_TABLE: Table \'sangto.tb_c\' doesn\'t exist' }
+[2017-12-25 17:23:16.221] [ERROR] error - { SequelizeBaseError: ER_NO_SUCH_TABLE: Table 'sangto.tb_c' doesn't exist
+    at Query.formatError (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_NO_SUCH_TABLE: Table \'sangto.tb_c\' doesn\'t exist',
+  parent: 
+   { Error: ER_NO_SUCH_TABLE: Table 'sangto.tb_c' doesn't exist
+       at Query.Sequence._packetToError (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:279:23)
+       at Parser.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Parser.js:76:12)
+       at Protocol.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:145:48)
+       at Connection.query (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:39:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:29:10)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+     code: 'ER_NO_SUCH_TABLE',
+     errno: 1146,
+     sqlMessage: 'Table \'sangto.tb_c\' doesn\'t exist',
+     sqlState: '42S02',
+     index: 0,
+     sql: 'SELECT COUNT(1) AS total \n                        FROM tb_c\n                        WHERE \n                        tb_c.type_=\'1\'' },
+  original: 
+   { Error: ER_NO_SUCH_TABLE: Table 'sangto.tb_c' doesn't exist
+       at Query.Sequence._packetToError (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:279:23)
+       at Parser.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Parser.js:76:12)
+       at Protocol.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:145:48)
+       at Connection.query (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:39:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:29:10)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+     code: 'ER_NO_SUCH_TABLE',
+     errno: 1146,
+     sqlMessage: 'Table \'sangto.tb_c\' doesn\'t exist',
+     sqlState: '42S02',
+     index: 0,
+     sql: 'SELECT COUNT(1) AS total \n                        FROM tb_c\n                        WHERE \n                        tb_c.type_=\'1\'' },
+  sql: 'SELECT COUNT(1) AS total \n                        FROM tb_c\n                        WHERE \n                        tb_c.type_=\'1\'' }
+[2017-12-25 17:23:18.214] [ERROR] error - { code: 500,
+  message: 'ER_NO_SUCH_TABLE: Table \'sangto.tb_c\' doesn\'t exist' }
+[2017-12-25 17:23:18.214] [ERROR] error - { SequelizeBaseError: ER_NO_SUCH_TABLE: Table 'sangto.tb_c' doesn't exist
+    at Query.formatError (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Sequence.js:88:24)
+    at Query.ErrorPacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Query.js:90:8)
+    at Protocol._parsePacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_NO_SUCH_TABLE: Table \'sangto.tb_c\' doesn\'t exist',
+  parent: 
+   { Error: ER_NO_SUCH_TABLE: Table 'sangto.tb_c' doesn't exist
+       at Query.Sequence._packetToError (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:279:23)
+       at Parser.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Parser.js:76:12)
+       at Protocol.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:145:48)
+       at Connection.query (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:39:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:29:10)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+     code: 'ER_NO_SUCH_TABLE',
+     errno: 1146,
+     sqlMessage: 'Table \'sangto.tb_c\' doesn\'t exist',
+     sqlState: '42S02',
+     index: 0,
+     sql: 'SELECT COUNT(1) AS total \n                        FROM tb_c\n                        WHERE \n                        tb_c.type_=\'1\'' },
+  original: 
+   { Error: ER_NO_SUCH_TABLE: Table 'sangto.tb_c' doesn't exist
+       at Query.Sequence._packetToError (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:279:23)
+       at Parser.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Parser.js:76:12)
+       at Protocol.write (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\other\sangto-website-server\node_modules\.0.6.9@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\protocol\Protocol.js:145:48)
+       at Connection.query (D:\workspace\other\sangto-website-server\node_modules\.2.15.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.31.1@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:39:21
+       at Promise._execute (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\debuggability.js:303:9)
+       at Promise._resolveFromExecutor (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\other\sangto-website-server\node_modules\.2.3.2@retry-as-promised\index.js:29:10)
+       at D:\workspace\other\sangto-website-server\node_modules\.3.2.1@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromise0 (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\promise.js:693:18)
+       at Async._drainQueue (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:133:16)
+       at Async._drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\other\sangto-website-server\node_modules\.3.5.1@bluebird\js\release\async.js:17:14)
+     code: 'ER_NO_SUCH_TABLE',
+     errno: 1146,
+     sqlMessage: 'Table \'sangto.tb_c\' doesn\'t exist',
+     sqlState: '42S02',
+     index: 0,
+     sql: 'SELECT COUNT(1) AS total \n                        FROM tb_c\n                        WHERE \n                        tb_c.type_=\'1\'' },
+  sql: 'SELECT COUNT(1) AS total \n                        FROM tb_c\n                        WHERE \n                        tb_c.type_=\'1\'' }
+[2017-12-25 17:25:13.138] [ERROR] error - { code: 401, message: '用户未登录' }
+[2017-12-25 17:25:13.140] [ERROR] error - { UnauthorizedError: 用户未登录
+    at Object.throw (D:\workspace\other\sangto-website-server\node_modules\.2.4.1@koa\lib\context.js:92:11)
+    at middleware (d:\workspace\other\sangto-website-server\system\router\ManagerSignRouter.js:45:30)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:345:16
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:350:31)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at allowedMethods (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:406:12)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.4.0.0@koa-compose\index.js:42:32)
+    at dispatch (D:\workspace\other\sangto-website-server\node_modules\.7.3.0@koa-router\lib\router.js:332:32) message: '用户未登录' }

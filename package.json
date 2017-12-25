@@ -1,0 +1,43 @@
+{
+  "name": "MDP-ManagerServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "sunrise": {
+    "message": "Hello , Sunset !"
+  },
+  "scripts": {
+    "test": "mocha",
+    "initModels": "node tools/SequelizeReverseTool",
+    "initTables": "node --harmony tools/SequelizeTableTool",
+    "publish": "set NODE_ENV=production&& gulp publish",
+    "sunset": "node sunset.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "continuation-local-storage": "^3.2.0",
+    "http-proxy": "^1.16.2",
+    "koa": "^2.0.0",
+    "koa-body": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^7.0.1",
+    "koa-session": "^3.4.0",
+    "koa-static": "^2.0.0",
+    "koa-static-cache": "^3.1.7",
+    "log4js": "^1.0.1",
+    "mysql": "^2.12.0",
+    "node-fetch": "^1.6.3",
+    "node-schedule": "^1.2.0",
+    "node-uuid": "^1.4.7",
+    "promise-redis": "0.0.5",
+    "redis": "^2.6.3",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "sequelize": "^3.29.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "sequelize-auto": "^0.4.17"
+  }
+}

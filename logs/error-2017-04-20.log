@@ -1,0 +1,114 @@
+[2017-04-20 14:34:40.942] [ERROR] error - { code: 403, message: '无操作权限' }
+[2017-04-20 14:34:40.943] [ERROR] error - { ForbiddenError: 无操作权限
+    at Object.throw (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@koa\lib\context.js:91:23)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\authorityIntercept.js:39:22)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\LoginedChecker.js:11:19)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\responseWrapper.js:33:19
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at app.use (d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\logger.js:7:15)
+    at dispatch (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.1@koa-compose\index.js:44:32)
+    at d:\workspace\JS\git\peaimage-manage-server-2017\middlewares\redisSession.js:49:15
+    at process._tickCallback (internal/process/next_tick.js:103:7) message: '无操作权限' }
+[2017-04-20 14:35:21.113] [ERROR] error - { code: 500,
+  message: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: \'index\' for column \'order_field_\' at row 1' }
+[2017-04-20 14:35:21.115] [ERROR] error - { SequelizeBaseError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'index' for column 'order_field_' at row 1
+    at Query.formatError (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:175:14)
+    at Query._callback (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:49:21)
+    at Query.Sequence.end (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query.ErrorPacket (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:88:8)
+    at Protocol._parsePacket (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at TCP.onread [as _originalOnread] (net.js:551:20)
+    at TCP.onread (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31)
+  name: 'SequelizeDatabaseError',
+  message: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: \'index\' for column \'order_field_\' at row 1',
+  parent: 
+   { Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'index' for column 'order_field_' at row 1
+       at Query.Sequence._packetToError (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromiseCtx (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+       at Async._drainQueue (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+       at Async._drainQueues (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+     code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD',
+     errno: 1366,
+     sqlState: 'HY000',
+     index: 0,
+     sql: 'UPDATE `tb_dictionary_item` SET `order_field_`=\'index\' WHERE `id_` = \'132\'' },
+  original: 
+   { Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'index' for column 'order_field_' at row 1
+       at Query.Sequence._packetToError (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:96:13)
+       at Socket.emit (events.js:188:7)
+       at readableAddChunk (_stream_readable.js:176:18)
+       at TCP.onread [as _originalOnread] (net.js:551:20)
+       at TCP.onread (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.0.6.5@async-listener\glue.js:188:31)
+       --------------------
+       at Protocol._enqueue (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+       at Connection.query (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.13.0@mysql\lib\Connection.js:208:25)
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:40:21
+       at Promise._execute (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at Query.run (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\dialects\mysql\query.js:39:17)
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.30.4@sequelize\lib\sequelize.js:849:20
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@retry-as-promised\index.js:40:21
+       at Promise._execute (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\debuggability.js:300:9)
+       at Promise._resolveFromExecutor (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:483:18)
+       at new Promise (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:79:10)
+       at retryAsPromised (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.2.2.0@retry-as-promised\index.js:30:10)
+       at D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.2.0@continuation-local-storage\context.js:84:17
+       at tryCatcher (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\util.js:16:23)
+       at Promise._settlePromiseFromHandler (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:512:31)
+       at Promise._settlePromise (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:569:18)
+       at Promise._settlePromiseCtx (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\promise.js:606:10)
+       at Async._drainQueue (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\async.js:138:12)
+       at Async._drainQueues (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\async.js:143:10)
+       at Immediate.Async.drainQueues (D:\workspace\JS\git\peaimage-manage-server-2017\node_modules\.3.5.0@bluebird\js\release\async.js:17:14)
+       at tryOnImmediate (timers.js:622:5)
+     code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD',
+     errno: 1366,
+     sqlState: 'HY000',
+     index: 0,
+     sql: 'UPDATE `tb_dictionary_item` SET `order_field_`=\'index\' WHERE `id_` = \'132\'' },
+  sql: 'UPDATE `tb_dictionary_item` SET `order_field_`=\'index\' WHERE `id_` = \'132\'' }

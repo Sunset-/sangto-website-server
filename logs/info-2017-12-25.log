@@ -1,0 +1,549 @@
+[2017-12-25 14:10:30.766] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 14:10:30.820] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 14:10:30.843] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 14:11:35.226] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 14:11:35.237] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 14:11:35.243] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 14:11:47.754] [INFO] info - REQUEST=======> 2017-12-25 14:11:47 [GET] /system/dictionary/user/all，耗时:6ms
+[2017-12-25 14:11:47.809] [INFO] info - REQUEST=======> 2017-12-25 14:11:47 [GET] /favicon.ico，耗时:2ms
+[2017-12-25 14:12:00.954] [INFO] info - REQUEST=======> 2017-12-25 14:12:00 [GET] /system/dictionaryItem/user/all，耗时:3ms
+[2017-12-25 14:12:00.967] [INFO] info - REQUEST=======> 2017-12-25 14:12:00 [GET] /favicon.ico，耗时:1ms
+[2017-12-25 14:12:03.416] [INFO] info - REQUEST=======> 2017-12-25 14:12:03 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 14:12:03.459] [INFO] info - REQUEST=======> 2017-12-25 14:12:03 [GET] /favicon.ico，耗时:0ms
+[2017-12-25 14:15:58.109] [INFO] info - REQUEST=======> 2017-12-25 14:15:58 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 14:16:02.163] [INFO] info - REQUEST=======> 2017-12-25 14:16:02 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:16:44.979] [INFO] info - REQUEST=======> 2017-12-25 14:16:44 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 14:16:44.982] [INFO] info - REQUEST=======> 2017-12-25 14:16:44 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 14:16:45.054] [INFO] info - REQUEST=======> 2017-12-25 14:16:45 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-12-25 14:16:48.775] [INFO] info - REQUEST=======> 2017-12-25 14:16:48 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 14:16:48.777] [INFO] info - REQUEST=======> 2017-12-25 14:16:48 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 14:16:48.818] [INFO] info - REQUEST=======> 2017-12-25 14:16:48 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-12-25 14:16:51.842] [INFO] info - REQUEST=======> 2017-12-25 14:16:51 [POST] /manage/sign/login，耗时:84ms
+[2017-12-25 14:16:52.013] [INFO] info - REQUEST=======> 2017-12-25 14:16:52 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-12-25 14:16:55.079] [INFO] info - REQUEST=======> 2017-12-25 14:16:55 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:16:55.955] [INFO] info - REQUEST=======> 2017-12-25 14:16:55 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:8ms
+[2017-12-25 14:16:56.554] [INFO] info - REQUEST=======> 2017-12-25 14:16:56 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:16:57.130] [INFO] info - REQUEST=======> 2017-12-25 14:16:57 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:5ms
+[2017-12-25 14:16:59.618] [INFO] info - REQUEST=======> 2017-12-25 14:16:59 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:41:09.360] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 14:41:09.371] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 14:41:09.375] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 14:50:11.214] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 14:50:11.223] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 14:50:11.226] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 14:53:12.262] [INFO] info - REQUEST=======> 2017-12-25 14:53:12 [GET] /system/dictionaryItem/use/all，耗时:6ms
+[2017-12-25 14:53:12.268] [INFO] info - REQUEST=======> 2017-12-25 14:53:12 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:53:15.101] [INFO] info - REQUEST=======> 2017-12-25 14:53:15 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-12-25 14:55:23.049] [INFO] info - REQUEST=======> 2017-12-25 14:55:23 [POST] /manage/sign/login，耗时:29ms
+[2017-12-25 14:55:23.302] [INFO] info - REQUEST=======> 2017-12-25 14:55:23 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-12-25 14:55:25.886] [INFO] info - REQUEST=======> 2017-12-25 14:55:25 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 14:55:32.046] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 14:55:32.051] [INFO] info - REQUEST=======> 2017-12-25 14:55:31 [POST] /system/menu，耗时:82ms
+[2017-12-25 14:55:35.741] [INFO] info - REQUEST=======> 2017-12-25 14:55:35 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 14:55:35.744] [INFO] info - REQUEST=======> 2017-12-25 14:55:35 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:55:35.794] [INFO] info - REQUEST=======> 2017-12-25 14:55:35 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 14:55:35.935] [INFO] info - REQUEST=======> 2017-12-25 14:55:35 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:55:44.143] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 14:55:44.178] [INFO] info - REQUEST=======> 2017-12-25 14:55:44 [PUT] /system/menu/order/change，耗时:104ms
+[2017-12-25 14:55:46.507] [INFO] info - REQUEST=======> 2017-12-25 14:55:46 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 14:55:46.508] [INFO] info - REQUEST=======> 2017-12-25 14:55:46 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 14:55:46.547] [INFO] info - REQUEST=======> 2017-12-25 14:55:46 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 14:55:46.706] [INFO] info - REQUEST=======> 2017-12-25 14:55:46 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:55:50.711] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 14:55:50.782] [INFO] info - REQUEST=======> 2017-12-25 14:55:50 [PUT] /system/menu/order/change，耗时:87ms
+[2017-12-25 14:55:52.502] [INFO] info - REQUEST=======> 2017-12-25 14:55:52 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 14:55:52.504] [INFO] info - REQUEST=======> 2017-12-25 14:55:52 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:55:52.549] [INFO] info - REQUEST=======> 2017-12-25 14:55:52 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 14:55:52.741] [INFO] info - REQUEST=======> 2017-12-25 14:55:52 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 14:55:58.615] [INFO] info - REQUEST=======> 2017-12-25 14:55:58 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:7ms
+[2017-12-25 14:56:03.042] [INFO] info - REQUEST=======> 2017-12-25 14:56:02 [PUT] /system/role，耗时:161ms
+[2017-12-25 14:56:05.031] [INFO] info - REQUEST=======> 2017-12-25 14:56:05 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 14:56:05.034] [INFO] info - REQUEST=======> 2017-12-25 14:56:05 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 14:56:05.071] [INFO] info - REQUEST=======> 2017-12-25 14:56:05 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 14:56:05.345] [INFO] info - REQUEST=======> 2017-12-25 14:56:05 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:3ms
+[2017-12-25 14:56:08.440] [INFO] info - REQUEST=======> 2017-12-25 14:56:08 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 14:56:08.441] [INFO] info - REQUEST=======> 2017-12-25 14:56:08 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 14:56:08.476] [INFO] info - REQUEST=======> 2017-12-25 14:56:08 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 14:56:08.804] [INFO] info - REQUEST=======> 2017-12-25 14:56:08 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:5ms
+[2017-12-25 14:56:10.034] [INFO] info - REQUEST=======> 2017-12-25 14:56:10 [GET] /manage/sign/logout，耗时:1ms
+[2017-12-25 14:56:12.878] [INFO] info - REQUEST=======> 2017-12-25 14:56:12 [POST] /manage/sign/login，耗时:5ms
+[2017-12-25 14:56:13.004] [INFO] info - REQUEST=======> 2017-12-25 14:56:13 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:3ms
+[2017-12-25 14:56:25.155] [INFO] info - REQUEST=======> 2017-12-25 14:56:25 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 14:56:25.157] [INFO] info - REQUEST=======> 2017-12-25 14:56:25 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 14:56:25.204] [INFO] info - REQUEST=======> 2017-12-25 14:56:25 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:03:12.441] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 15:03:12.450] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 15:03:12.454] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 15:03:33.406] [INFO] info - REQUEST=======> 2017-12-25 15:03:33 [GET] /system/dictionaryItem/use/all，耗时:6ms
+[2017-12-25 15:03:33.412] [INFO] info - REQUEST=======> 2017-12-25 15:03:33 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:03:33.454] [INFO] info - REQUEST=======> 2017-12-25 15:03:33 [GET] /manage/sign/currentUser，耗时:8ms
+[2017-12-25 15:03:36.524] [INFO] info - REQUEST=======> 2017-12-25 15:03:36 [POST] /manage/sign/login，耗时:30ms
+[2017-12-25 15:03:36.704] [INFO] info - REQUEST=======> 2017-12-25 15:03:36 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-12-25 15:03:46.698] [INFO] info - REQUEST=======> 2017-12-25 15:03:46 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:03:46.700] [INFO] info - REQUEST=======> 2017-12-25 15:03:46 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 15:03:46.740] [INFO] info - REQUEST=======> 2017-12-25 15:03:46 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:07:21.799] [INFO] info - REQUEST=======> 2017-12-25 15:07:21 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 15:07:21.802] [INFO] info - REQUEST=======> 2017-12-25 15:07:21 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:07:21.836] [INFO] info - REQUEST=======> 2017-12-25 15:07:21 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 15:09:13.257] [INFO] info - REQUEST=======> 2017-12-25 15:09:13 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:09:13.259] [INFO] info - REQUEST=======> 2017-12-25 15:09:13 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:09:13.298] [INFO] info - REQUEST=======> 2017-12-25 15:09:13 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 15:09:29.982] [INFO] info - REQUEST=======> 2017-12-25 15:09:29 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:09:29.984] [INFO] info - REQUEST=======> 2017-12-25 15:09:29 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 15:09:30.036] [INFO] info - REQUEST=======> 2017-12-25 15:09:30 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 15:11:02.644] [INFO] info - REQUEST=======> 2017-12-25 15:11:02 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 15:11:02.646] [INFO] info - REQUEST=======> 2017-12-25 15:11:02 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:11:02.680] [INFO] info - REQUEST=======> 2017-12-25 15:11:02 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:12:27.623] [INFO] info - REQUEST=======> 2017-12-25 15:12:27 [GET] /business/content?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 15:12:28.980] [INFO] info - REQUEST=======> 2017-12-25 15:12:28 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:12:28.981] [INFO] info - REQUEST=======> 2017-12-25 15:12:28 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 15:12:29.019] [INFO] info - REQUEST=======> 2017-12-25 15:12:29 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:12:29.202] [INFO] info - REQUEST=======> 2017-12-25 15:12:29 [GET] /business/content?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 15:13:42.920] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 15:13:42.928] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 15:13:42.932] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 15:13:43.756] [INFO] info - REQUEST=======> 2017-12-25 15:13:43 [GET] /system/dictionaryItem/use/all，耗时:6ms
+[2017-12-25 15:13:43.761] [INFO] info - REQUEST=======> 2017-12-25 15:13:43 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:13:43.791] [INFO] info - REQUEST=======> 2017-12-25 15:13:43 [GET] /manage/sign/currentUser，耗时:6ms
+[2017-12-25 15:13:46.516] [INFO] info - REQUEST=======> 2017-12-25 15:13:46 [POST] /manage/sign/login，耗时:28ms
+[2017-12-25 15:13:46.694] [INFO] info - REQUEST=======> 2017-12-25 15:13:46 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:9ms
+[2017-12-25 15:13:49.349] [INFO] info - REQUEST=======> 2017-12-25 15:13:49 [GET] /business/content?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 15:14:28.760] [INFO] info - REQUEST=======> 2017-12-25 15:14:28 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:28ms
+[2017-12-25 15:14:47.366] [INFO] info - REQUEST=======> 2017-12-25 15:14:47 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 15:14:48.096] [INFO] info - REQUEST=======> 2017-12-25 15:14:48 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:14:48.099] [INFO] info - REQUEST=======> 2017-12-25 15:14:48 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 15:14:48.141] [INFO] info - REQUEST=======> 2017-12-25 15:14:48 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:14:48.336] [INFO] info - REQUEST=======> 2017-12-25 15:14:48 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 15:16:25.432] [INFO] info - REQUEST=======> 2017-12-25 15:16:25 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 15:16:25.434] [INFO] info - REQUEST=======> 2017-12-25 15:16:25 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:16:25.480] [INFO] info - REQUEST=======> 2017-12-25 15:16:25 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 15:16:25.677] [INFO] info - REQUEST=======> 2017-12-25 15:16:25 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 15:21:26.046] [INFO] info - REQUEST=======> 2017-12-25 15:21:26 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:21:26.047] [INFO] info - REQUEST=======> 2017-12-25 15:21:26 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 15:21:26.082] [INFO] info - REQUEST=======> 2017-12-25 15:21:26 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 15:21:26.262] [INFO] info - REQUEST=======> 2017-12-25 15:21:26 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 15:21:55.698] [INFO] info - REQUEST=======> 2017-12-25 15:21:55 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 15:21:57.411] [INFO] info - REQUEST=======> 2017-12-25 15:21:57 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:21:57.413] [INFO] info - REQUEST=======> 2017-12-25 15:21:57 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:21:57.469] [INFO] info - REQUEST=======> 2017-12-25 15:21:57 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 15:21:57.657] [INFO] info - REQUEST=======> 2017-12-25 15:21:57 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 15:22:04.361] [INFO] info - REQUEST=======> 2017-12-25 15:22:04 [POST] /system/file/upload，耗时:8ms
+[2017-12-25 15:22:27.311] [INFO] info - REQUEST=======> 2017-12-25 15:22:27 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:1ms
+[2017-12-25 15:22:28.467] [INFO] info - REQUEST=======> 2017-12-25 15:22:28 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 15:22:28.470] [INFO] info - REQUEST=======> 2017-12-25 15:22:28 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:22:28.510] [INFO] info - REQUEST=======> 2017-12-25 15:22:28 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:22:28.706] [INFO] info - REQUEST=======> 2017-12-25 15:22:28 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 15:22:47.911] [INFO] info - REQUEST=======> 2017-12-25 15:22:47 [POST] /system/file/upload，耗时:10ms
+[2017-12-25 15:23:33.836] [INFO] info - REQUEST=======> 2017-12-25 15:23:33 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 15:25:50.978] [INFO] info - REQUEST=======> 2017-12-25 15:25:50 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 15:25:50.979] [INFO] info - REQUEST=======> 2017-12-25 15:25:50 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 15:25:51.110] [INFO] info - REQUEST=======> 2017-12-25 15:25:51 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:25:51.303] [INFO] info - REQUEST=======> 2017-12-25 15:25:51 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 15:25:54.327] [INFO] info - REQUEST=======> 2017-12-25 15:25:54 [POST] /system/file/upload，耗时:3ms
+[2017-12-25 15:26:07.619] [INFO] info - REQUEST=======> 2017-12-25 15:26:07 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:1ms
+[2017-12-25 15:26:08.328] [INFO] info - REQUEST=======> 2017-12-25 15:26:08 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 15:26:08.330] [INFO] info - REQUEST=======> 2017-12-25 15:26:08 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:26:08.452] [INFO] info - REQUEST=======> 2017-12-25 15:26:08 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:26:08.670] [INFO] info - REQUEST=======> 2017-12-25 15:26:08 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 15:26:23.888] [INFO] info - REQUEST=======> 2017-12-25 15:26:23 [POST] /system/file/upload，耗时:7ms
+[2017-12-25 15:27:46.142] [INFO] info - REQUEST=======> 2017-12-25 15:27:46 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 15:28:00.841] [INFO] info - REQUEST=======> 2017-12-25 15:28:00 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:28:00.843] [INFO] info - REQUEST=======> 2017-12-25 15:28:00 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 15:28:00.975] [INFO] info - REQUEST=======> 2017-12-25 15:28:00 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:28:01.177] [INFO] info - REQUEST=======> 2017-12-25 15:28:01 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 15:28:06.803] [INFO] info - REQUEST=======> 2017-12-25 15:28:06 [POST] /system/file/upload，耗时:3ms
+[2017-12-25 15:28:43.295] [INFO] info - REQUEST=======> 2017-12-25 15:28:43 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 15:28:43.297] [INFO] info - REQUEST=======> 2017-12-25 15:28:43 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 15:28:43.429] [INFO] info - REQUEST=======> 2017-12-25 15:28:43 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 15:28:43.630] [INFO] info - REQUEST=======> 2017-12-25 15:28:43 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 15:28:50.594] [INFO] info - REQUEST=======> 2017-12-25 15:28:50 [POST] /system/file/upload，耗时:2ms
+[2017-12-25 15:29:21.127] [INFO] info - REQUEST=======> 2017-12-25 15:29:21 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:19:40.393] [INFO] info - REQUEST=======> 2017-12-25 16:19:40 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-12-25 16:19:40.395] [INFO] info - REQUEST=======> 2017-12-25 16:19:40 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:19:40.415] [INFO] info - REQUEST=======> 2017-12-25 16:19:40 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 16:19:42.267] [INFO] info - REQUEST=======> 2017-12-25 16:19:42 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:9ms
+[2017-12-25 16:19:46.412] [INFO] info - REQUEST=======> 2017-12-25 16:19:46 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:19:59.247] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:19:59.249] [INFO] info - REQUEST=======> 2017-12-25 16:19:59 [PUT] /system/menu，耗时:83ms
+[2017-12-25 16:19:59.568] [INFO] info - REQUEST=======> 2017-12-25 16:19:59 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:20:01.466] [INFO] info - REQUEST=======> 2017-12-25 16:20:01 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:20:01.468] [INFO] info - REQUEST=======> 2017-12-25 16:20:01 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 16:20:01.493] [INFO] info - REQUEST=======> 2017-12-25 16:20:01 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:20:01.617] [INFO] info - REQUEST=======> 2017-12-25 16:20:01 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 16:20:04.211] [INFO] info - REQUEST=======> 2017-12-25 16:20:04 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:5ms
+[2017-12-25 16:20:06.520] [INFO] info - REQUEST=======> 2017-12-25 16:20:06 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:20:09.607] [INFO] info - REQUEST=======> 2017-12-25 16:20:09 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:20:12.568] [INFO] info - REQUEST=======> 2017-12-25 16:20:12 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 16:20:12.570] [INFO] info - REQUEST=======> 2017-12-25 16:20:12 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:20:12.601] [INFO] info - REQUEST=======> 2017-12-25 16:20:12 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:20:15.587] [INFO] info - REQUEST=======> 2017-12-25 16:20:15 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:24:22.156] [INFO] info - REQUEST=======> 2017-12-25 16:24:22 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:24:23.379] [INFO] info - REQUEST=======> 2017-12-25 16:24:23 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 16:24:23.383] [INFO] info - REQUEST=======> 2017-12-25 16:24:23 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:24:23.408] [INFO] info - REQUEST=======> 2017-12-25 16:24:23 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 16:24:23.575] [INFO] info - REQUEST=======> 2017-12-25 16:24:23 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:24:37.524] [INFO] info - REQUEST=======> 2017-12-25 16:24:37 [POST] /system/file/upload，耗时:2ms
+[2017-12-25 16:25:03.827] [INFO] info - REQUEST=======> 2017-12-25 16:25:03 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:25:07.550] [INFO] info - REQUEST=======> 2017-12-25 16:25:07 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:25:07.551] [INFO] info - REQUEST=======> 2017-12-25 16:25:07 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:25:07.579] [INFO] info - REQUEST=======> 2017-12-25 16:25:07 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 16:25:07.745] [INFO] info - REQUEST=======> 2017-12-25 16:25:07 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:25:15.968] [INFO] info - REQUEST=======> 2017-12-25 16:25:15 [POST] /system/file/upload，耗时:2ms
+[2017-12-25 16:25:46.210] [INFO] info - REQUEST=======> 2017-12-25 16:25:46 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:25:48.740] [INFO] info - REQUEST=======> 2017-12-25 16:25:48 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:25:48.741] [INFO] info - REQUEST=======> 2017-12-25 16:25:48 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 16:25:48.767] [INFO] info - REQUEST=======> 2017-12-25 16:25:48 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:25:48.938] [INFO] info - REQUEST=======> 2017-12-25 16:25:48 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:25:55.785] [INFO] info - REQUEST=======> 2017-12-25 16:25:55 [POST] /system/file/upload，耗时:1ms
+[2017-12-25 16:26:07.921] [INFO] info - REQUEST=======> 2017-12-25 16:26:07 [POST] /business/content，耗时:6ms
+[2017-12-25 16:26:44.999] [INFO] info - REQUEST=======> 2017-12-25 16:26:44 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:1ms
+[2017-12-25 16:26:46.983] [INFO] info - REQUEST=======> 2017-12-25 16:26:46 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 16:26:46.985] [INFO] info - REQUEST=======> 2017-12-25 16:26:46 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:26:47.023] [INFO] info - REQUEST=======> 2017-12-25 16:26:47 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:26:47.219] [INFO] info - REQUEST=======> 2017-12-25 16:26:47 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:1ms
+[2017-12-25 16:26:53.365] [INFO] info - REQUEST=======> 2017-12-25 16:26:53 [POST] /system/file/upload，耗时:5ms
+[2017-12-25 16:27:02.798] [INFO] info - REQUEST=======> 2017-12-25 16:27:02 [POST] /business/content，耗时:4ms
+[2017-12-25 16:28:05.430] [INFO] info - REQUEST=======> 2017-12-25 16:28:05 [POST] /business/content，耗时:3ms
+[2017-12-25 16:28:52.109] [INFO] info - REQUEST=======> 2017-12-25 16:28:52 [POST] /business/content，耗时:5ms
+[2017-12-25 16:29:11.549] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:29:11.559] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:29:11.562] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:29:27.994] [INFO] info - REQUEST=======> 2017-12-25 16:29:27 [POST] /business/content，耗时:32ms
+[2017-12-25 16:34:17.632] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:34:17.641] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:34:17.644] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:34:54.676] [INFO] info - REQUEST=======> 2017-12-25 16:34:54 [GET] /system/dictionaryItem/use/all，耗时:13ms
+[2017-12-25 16:34:54.682] [INFO] info - REQUEST=======> 2017-12-25 16:34:54 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:34:54.722] [INFO] info - REQUEST=======> 2017-12-25 16:34:54 [GET] /manage/sign/currentUser，耗时:6ms
+[2017-12-25 16:34:57.808] [INFO] info - REQUEST=======> 2017-12-25 16:34:57 [POST] /manage/sign/login，耗时:29ms
+[2017-12-25 16:34:57.986] [INFO] info - REQUEST=======> 2017-12-25 16:34:57 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-12-25 16:35:00.990] [INFO] info - REQUEST=======> 2017-12-25 16:35:00 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:35:02.114] [INFO] info - REQUEST=======> 2017-12-25 16:35:02 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 16:35:02.119] [INFO] info - REQUEST=======> 2017-12-25 16:35:02 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:35:02.168] [INFO] info - REQUEST=======> 2017-12-25 16:35:02 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:35:02.358] [INFO] info - REQUEST=======> 2017-12-25 16:35:02 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:37:32.713] [INFO] info - REQUEST=======> 2017-12-25 16:37:32 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:37:32.715] [INFO] info - REQUEST=======> 2017-12-25 16:37:32 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:37:32.766] [INFO] info - REQUEST=======> 2017-12-25 16:37:32 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:37:32.954] [INFO] info - REQUEST=======> 2017-12-25 16:37:32 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:37:45.102] [INFO] info - REQUEST=======> 2017-12-25 16:37:45 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 16:37:45.103] [INFO] info - REQUEST=======> 2017-12-25 16:37:45 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:37:45.143] [INFO] info - REQUEST=======> 2017-12-25 16:37:45 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:37:45.323] [INFO] info - REQUEST=======> 2017-12-25 16:37:45 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 16:39:00.923] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:39:00.934] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:39:00.937] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:39:16.784] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:39:16.794] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:39:16.798] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:39:30.304] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:39:30.315] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:39:30.319] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:39:36.041] [INFO] info - REQUEST=======> 2017-12-25 16:39:36 [GET] /system/dictionaryItem/use/all，耗时:8ms
+[2017-12-25 16:39:36.047] [INFO] info - REQUEST=======> 2017-12-25 16:39:36 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 16:39:36.086] [INFO] info - REQUEST=======> 2017-12-25 16:39:36 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-12-25 16:39:39.167] [INFO] info - REQUEST=======> 2017-12-25 16:39:39 [POST] /manage/sign/login，耗时:30ms
+[2017-12-25 16:39:50.805] [INFO] info - REQUEST=======> 2017-12-25 16:39:39 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:11471ms
+[2017-12-25 16:40:06.618] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:40:06.630] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:40:06.634] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:40:18.442] [INFO] info - REQUEST=======> 2017-12-25 16:40:18 [GET] /system/dictionaryItem/use/all，耗时:7ms
+[2017-12-25 16:40:18.448] [INFO] info - REQUEST=======> 2017-12-25 16:40:18 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:40:18.479] [INFO] info - REQUEST=======> 2017-12-25 16:40:18 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-12-25 16:40:21.532] [INFO] info - REQUEST=======> 2017-12-25 16:40:21 [POST] /manage/sign/login，耗时:28ms
+[2017-12-25 16:40:21.708] [INFO] info - REQUEST=======> 2017-12-25 16:40:21 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-12-25 16:40:31.530] [INFO] info - REQUEST=======> 2017-12-25 16:40:31 [GET] /system/dictionaryItem/use/all，耗时:4ms
+[2017-12-25 16:40:31.538] [INFO] info - REQUEST=======> 2017-12-25 16:40:31 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 16:40:31.593] [INFO] info - REQUEST=======> 2017-12-25 16:40:31 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:41:23.483] [INFO] info - REQUEST=======> 2017-12-25 16:40:31 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:51717ms
+[2017-12-25 16:43:21.983] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:43:21.995] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:43:22.000] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:45:32.287] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 16:45:32.299] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 16:45:32.303] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 16:45:35.941] [INFO] info - REQUEST=======> 2017-12-25 16:45:35 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:13ms
+[2017-12-25 16:45:36.681] [INFO] info - REQUEST=======> 2017-12-25 16:45:36 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:45:36.684] [INFO] info - REQUEST=======> 2017-12-25 16:45:36 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:45:36.724] [INFO] info - REQUEST=======> 2017-12-25 16:45:36 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-12-25 16:45:39.580] [INFO] info - REQUEST=======> 2017-12-25 16:45:39 [POST] /manage/sign/login，耗时:28ms
+[2017-12-25 16:45:39.754] [INFO] info - REQUEST=======> 2017-12-25 16:45:39 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-12-25 16:45:41.962] [INFO] info - REQUEST=======> 2017-12-25 16:45:41 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:46:05.212] [INFO] info - REQUEST=======> 2017-12-25 16:46:05 [POST] /system/file/upload，耗时:12ms
+[2017-12-25 16:46:26.388] [INFO] info - REQUEST=======> 2017-12-25 16:46:06 [POST] /business/content，耗时:20311ms
+[2017-12-25 16:47:16.504] [INFO] info - REQUEST=======> 2017-12-25 16:47:16 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:16ms
+[2017-12-25 16:48:08.021] [INFO] info - REQUEST=======> 2017-12-25 16:48:08 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 16:48:08.024] [INFO] info - REQUEST=======> 2017-12-25 16:48:08 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 16:48:08.077] [INFO] info - REQUEST=======> 2017-12-25 16:48:08 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:48:08.661] [INFO] info - REQUEST=======> 2017-12-25 16:48:08 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:48:08.666] [INFO] info - REQUEST=======> 2017-12-25 16:48:08 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:48:08.714] [INFO] info - REQUEST=======> 2017-12-25 16:48:08 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 16:48:08.905] [INFO] info - REQUEST=======> 2017-12-25 16:48:08 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 16:48:18.481] [INFO] info - REQUEST=======> 2017-12-25 16:48:18 [POST] /system/file/upload，耗时:11ms
+[2017-12-25 16:48:34.133] [INFO] info - REQUEST=======> 2017-12-25 16:48:34 [POST] /business/content，耗时:29ms
+[2017-12-25 16:48:37.105] [INFO] info - REQUEST=======> 2017-12-25 16:48:37 [POST] /business/content，耗时:5ms
+[2017-12-25 16:49:19.296] [INFO] info - REQUEST=======> 2017-12-25 16:49:19 [POST] /business/content，耗时:44ms
+[2017-12-25 16:49:19.514] [INFO] info - REQUEST=======> 2017-12-25 16:49:19 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:8ms
+[2017-12-25 16:50:39.733] [INFO] info - REQUEST=======> 2017-12-25 16:50:39 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms
+[2017-12-25 16:50:50.568] [INFO] info - REQUEST=======> 2017-12-25 16:50:50 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:51:01.211] [INFO] info - REQUEST=======> 2017-12-25 16:51:01 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:51:02.921] [INFO] info - REQUEST=======> 2017-12-25 16:51:02 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:51:02.923] [INFO] info - REQUEST=======> 2017-12-25 16:51:02 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:51:02.972] [INFO] info - REQUEST=======> 2017-12-25 16:51:02 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:51:03.162] [INFO] info - REQUEST=======> 2017-12-25 16:51:03 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms
+[2017-12-25 16:51:26.082] [INFO] info - REQUEST=======> 2017-12-25 16:51:26 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:51:26.904] [INFO] info - REQUEST=======> 2017-12-25 16:51:26 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:51:26.907] [INFO] info - REQUEST=======> 2017-12-25 16:51:26 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 16:51:26.944] [INFO] info - REQUEST=======> 2017-12-25 16:51:26 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 16:51:27.138] [INFO] info - REQUEST=======> 2017-12-25 16:51:27 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:51:38.517] [INFO] info - REQUEST=======> 2017-12-25 16:51:38 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:51:39.266] [INFO] info - REQUEST=======> 2017-12-25 16:51:39 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:51:39.268] [INFO] info - REQUEST=======> 2017-12-25 16:51:39 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:51:39.308] [INFO] info - REQUEST=======> 2017-12-25 16:51:39 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:51:39.499] [INFO] info - REQUEST=======> 2017-12-25 16:51:39 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 16:51:53.735] [INFO] info - REQUEST=======> 2017-12-25 16:51:53 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:51:54.440] [INFO] info - REQUEST=======> 2017-12-25 16:51:54 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:51:54.441] [INFO] info - REQUEST=======> 2017-12-25 16:51:54 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:51:54.470] [INFO] info - REQUEST=======> 2017-12-25 16:51:54 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:51:54.658] [INFO] info - REQUEST=======> 2017-12-25 16:51:54 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 16:52:15.716] [INFO] info - REQUEST=======> 2017-12-25 16:52:15 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:52:18.601] [INFO] info - REQUEST=======> 2017-12-25 16:52:18 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:52:18.602] [INFO] info - REQUEST=======> 2017-12-25 16:52:18 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:52:18.644] [INFO] info - REQUEST=======> 2017-12-25 16:52:18 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 16:52:18.831] [INFO] info - REQUEST=======> 2017-12-25 16:52:18 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 16:52:43.175] [INFO] info - REQUEST=======> 2017-12-25 16:52:43 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:52:43.874] [INFO] info - REQUEST=======> 2017-12-25 16:52:43 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:52:43.875] [INFO] info - REQUEST=======> 2017-12-25 16:52:43 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:52:43.916] [INFO] info - REQUEST=======> 2017-12-25 16:52:43 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:52:44.166] [INFO] info - REQUEST=======> 2017-12-25 16:52:44 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 16:53:00.012] [INFO] info - REQUEST=======> 2017-12-25 16:53:00 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 16:53:00.830] [INFO] info - REQUEST=======> 2017-12-25 16:53:00 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 16:53:00.833] [INFO] info - REQUEST=======> 2017-12-25 16:53:00 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:53:00.881] [INFO] info - REQUEST=======> 2017-12-25 16:53:00 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 16:53:01.064] [INFO] info - REQUEST=======> 2017-12-25 16:53:01 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 16:53:19.711] [INFO] info - REQUEST=======> 2017-12-25 16:53:19 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 16:53:20.546] [INFO] info - REQUEST=======> 2017-12-25 16:53:20 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:53:20.548] [INFO] info - REQUEST=======> 2017-12-25 16:53:20 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 16:53:20.599] [INFO] info - REQUEST=======> 2017-12-25 16:53:20 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:53:20.783] [INFO] info - REQUEST=======> 2017-12-25 16:53:20 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:8ms
+[2017-12-25 16:53:51.935] [INFO] info - REQUEST=======> 2017-12-25 16:53:51 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:7ms
+[2017-12-25 16:53:54.911] [INFO] info - REQUEST=======> 2017-12-25 16:53:54 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:54:21.395] [INFO] info - REQUEST=======> 2017-12-25 16:54:21 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 16:54:23.906] [INFO] info - REQUEST=======> 2017-12-25 16:54:23 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:54:23.909] [INFO] info - REQUEST=======> 2017-12-25 16:54:23 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:54:23.945] [INFO] info - REQUEST=======> 2017-12-25 16:54:23 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:55:41.627] [INFO] info - REQUEST=======> 2017-12-25 16:55:41 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 16:55:41.628] [INFO] info - REQUEST=======> 2017-12-25 16:55:41 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 16:55:41.668] [INFO] info - REQUEST=======> 2017-12-25 16:55:41 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 16:55:41.880] [INFO] info - REQUEST=======> 2017-12-25 16:55:41 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 16:55:46.099] [INFO] info - REQUEST=======> 2017-12-25 16:55:46 [GET] /system/dictionaryType?pageNumber=2&pageSize=10，耗时:4ms
+[2017-12-25 16:55:47.141] [INFO] info - REQUEST=======> 2017-12-25 16:55:47 [GET] /system/dictionaryType?pageNumber=3&pageSize=10，耗时:4ms
+[2017-12-25 16:55:49.431] [INFO] info - REQUEST=======> 2017-12-25 16:55:49 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 16:55:53.810] [INFO] info - REQUEST=======> 2017-12-25 16:55:53 [GET] /system/dictionaryItem/getByType/TEAM_MEMBER_LEVEL，耗时:3ms
+[2017-12-25 17:04:10.087] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:04:10.100] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 17:04:10.105] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 17:05:32.550] [INFO] info - REQUEST=======> 2017-12-25 17:05:32 [GET] /system/dictionaryItem/use/all，耗时:7ms
+[2017-12-25 17:05:32.556] [INFO] info - REQUEST=======> 2017-12-25 17:05:32 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 17:05:32.598] [INFO] info - REQUEST=======> 2017-12-25 17:05:32 [GET] /manage/sign/currentUser，耗时:9ms
+[2017-12-25 17:05:36.062] [INFO] info - REQUEST=======> 2017-12-25 17:05:36 [POST] /manage/sign/login，耗时:32ms
+[2017-12-25 17:05:36.240] [INFO] info - REQUEST=======> 2017-12-25 17:05:36 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-12-25 17:05:37.638] [INFO] info - REQUEST=======> 2017-12-25 17:05:37 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-12-25 17:05:40.848] [INFO] info - REQUEST=======> 2017-12-25 17:05:40 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 17:05:40.851] [INFO] info - REQUEST=======> 2017-12-25 17:05:40 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:05:40.900] [INFO] info - REQUEST=======> 2017-12-25 17:05:40 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-12-25 17:05:41.134] [INFO] info - REQUEST=======> 2017-12-25 17:05:41 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-12-25 17:06:03.813] [INFO] info - REQUEST=======> 2017-12-25 17:06:03 [POST] /system/dictionaryType，耗时:54ms
+[2017-12-25 17:06:03.834] [INFO] info - REQUEST=======> 2017-12-25 17:06:03 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-12-25 17:06:05.562] [INFO] info - REQUEST=======> 2017-12-25 17:06:05 [GET] /system/dictionaryType?pageNumber=3&pageSize=10，耗时:4ms
+[2017-12-25 17:06:08.523] [INFO] info - REQUEST=======> 2017-12-25 17:06:08 [GET] /system/dictionaryItem/getByType/CONTENT_TYPE，耗时:4ms
+[2017-12-25 17:06:22.134] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:06:22.136] [INFO] info - REQUEST=======> 2017-12-25 17:06:21 [POST] /system/dictionaryItem，耗时:180ms
+[2017-12-25 17:06:22.210] [INFO] info - REQUEST=======> 2017-12-25 17:06:22 [GET] /system/dictionaryItem/getByType/CONTENT_TYPE，耗时:2ms
+[2017-12-25 17:06:46.329] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:06:46.335] [INFO] info - REQUEST=======> 2017-12-25 17:06:46 [POST] /system/dictionaryItem，耗时:73ms
+[2017-12-25 17:06:46.514] [INFO] info - REQUEST=======> 2017-12-25 17:06:46 [GET] /system/dictionaryItem/getByType/CONTENT_TYPE，耗时:4ms
+[2017-12-25 17:06:56.480] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:06:56.484] [INFO] info - REQUEST=======> 2017-12-25 17:06:56 [POST] /system/dictionaryItem，耗时:54ms
+[2017-12-25 17:06:56.810] [INFO] info - REQUEST=======> 2017-12-25 17:06:56 [GET] /system/dictionaryItem/getByType/CONTENT_TYPE，耗时:6ms
+[2017-12-25 17:07:09.322] [INFO] info - REQUEST=======> 2017-12-25 17:07:09 [POST] /system/dictionaryType，耗时:47ms
+[2017-12-25 17:07:09.529] [INFO] info - REQUEST=======> 2017-12-25 17:07:09 [GET] /system/dictionaryType?pageNumber=3&pageSize=10，耗时:4ms
+[2017-12-25 17:07:11.609] [INFO] info - REQUEST=======> 2017-12-25 17:07:11 [GET] /system/dictionaryItem/getByType/CONTENT_STATUS，耗时:2ms
+[2017-12-25 17:07:15.038] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:07:15.156] [INFO] info - REQUEST=======> 2017-12-25 17:07:15 [PUT] /system/dictionaryType，耗时:154ms
+[2017-12-25 17:07:15.257] [INFO] info - REQUEST=======> 2017-12-25 17:07:15 [GET] /system/dictionaryType?pageNumber=3&pageSize=10，耗时:4ms
+[2017-12-25 17:07:18.005] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:07:18.045] [INFO] info - REQUEST=======> 2017-12-25 17:07:17 [PUT] /system/dictionaryType，耗时:104ms
+[2017-12-25 17:07:18.361] [INFO] info - REQUEST=======> 2017-12-25 17:07:18 [GET] /system/dictionaryType?pageNumber=3&pageSize=10，耗时:3ms
+[2017-12-25 17:07:19.675] [INFO] info - REQUEST=======> 2017-12-25 17:07:19 [GET] /system/dictionaryItem/getByType/CONTENT_STATUS，耗时:3ms
+[2017-12-25 17:07:30.341] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:07:30.342] [INFO] info - REQUEST=======> 2017-12-25 17:07:30 [POST] /system/dictionaryItem，耗时:50ms
+[2017-12-25 17:07:30.545] [INFO] info - REQUEST=======> 2017-12-25 17:07:30 [GET] /system/dictionaryItem/getByType/CONTENT_STATUS，耗时:3ms
+[2017-12-25 17:07:48.010] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:07:48.017] [INFO] info - REQUEST=======> 2017-12-25 17:07:47 [POST] /system/dictionaryItem，耗时:127ms
+[2017-12-25 17:07:48.154] [INFO] info - REQUEST=======> 2017-12-25 17:07:48 [GET] /system/dictionaryItem/getByType/CONTENT_STATUS，耗时:5ms
+[2017-12-25 17:08:01.336] [INFO] info - REQUEST=======> 2017-12-25 17:08:01 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms
+[2017-12-25 17:08:23.374] [INFO] info - REQUEST=======> 2017-12-25 17:08:23 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:08:23.377] [INFO] info - REQUEST=======> 2017-12-25 17:08:23 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:08:23.414] [INFO] info - REQUEST=======> 2017-12-25 17:08:23 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 17:08:23.604] [INFO] info - REQUEST=======> 2017-12-25 17:08:23 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 17:09:20.990] [INFO] info - REQUEST=======> 2017-12-25 17:09:20 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:09:20.992] [INFO] info - REQUEST=======> 2017-12-25 17:09:20 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:09:21.043] [INFO] info - REQUEST=======> 2017-12-25 17:09:21 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:09:21.219] [INFO] info - REQUEST=======> 2017-12-25 17:09:21 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 17:09:24.486] [INFO] info - REQUEST=======> 2017-12-25 17:09:24 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms
+[2017-12-25 17:22:23.315] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:22:23.328] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 17:22:23.333] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 17:22:26.329] [INFO] info - REQUEST=======> 2017-12-25 17:22:26 [GET] /system/dictionaryItem/use/all，耗时:8ms
+[2017-12-25 17:22:26.335] [INFO] info - REQUEST=======> 2017-12-25 17:22:26 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 17:22:26.369] [INFO] info - REQUEST=======> 2017-12-25 17:22:26 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-12-25 17:22:29.471] [INFO] info - REQUEST=======> 2017-12-25 17:22:29 [POST] /manage/sign/login，耗时:34ms
+[2017-12-25 17:22:29.655] [INFO] info - REQUEST=======> 2017-12-25 17:22:29 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-12-25 17:22:31.456] [INFO] info - REQUEST=======> 2017-12-25 17:22:31 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 17:23:09.039] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:23:09.053] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 17:23:09.057] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 17:23:10.246] [INFO] info - REQUEST=======> 2017-12-25 17:23:10 [GET] /system/dictionaryItem/use/all，耗时:7ms
+[2017-12-25 17:23:10.253] [INFO] info - REQUEST=======> 2017-12-25 17:23:10 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 17:23:10.291] [INFO] info - REQUEST=======> 2017-12-25 17:23:10 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-12-25 17:23:13.276] [INFO] info - REQUEST=======> 2017-12-25 17:23:13 [POST] /manage/sign/login，耗时:32ms
+[2017-12-25 17:23:13.466] [INFO] info - REQUEST=======> 2017-12-25 17:23:13 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:9ms
+[2017-12-25 17:23:16.222] [INFO] info - REQUEST=======> 2017-12-25 17:23:16 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:22ms
+[2017-12-25 17:23:17.949] [INFO] info - REQUEST=======> 2017-12-25 17:23:17 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:23:17.954] [INFO] info - REQUEST=======> 2017-12-25 17:23:17 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:23:17.997] [INFO] info - REQUEST=======> 2017-12-25 17:23:17 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:23:18.215] [INFO] info - REQUEST=======> 2017-12-25 17:23:18 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms
+[2017-12-25 17:24:29.867] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:24:29.880] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 17:24:29.885] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 17:25:08.112] [INFO] info - Redis connecting!
+[2017-12-25 17:25:08.514] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:25:08.529] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 17:25:08.533] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 17:25:08.545] [INFO] info - Redis auth pass!
+[2017-12-25 17:25:13.096] [INFO] info - REQUEST=======> 2017-12-25 17:25:13 [GET] /system/dictionaryItem/use/all，耗时:7ms
+[2017-12-25 17:25:13.102] [INFO] info - REQUEST=======> 2017-12-25 17:25:13 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:25:13.143] [INFO] info - REQUEST=======> 2017-12-25 17:25:13 [GET] /manage/sign/currentUser，耗时:8ms
+[2017-12-25 17:25:15.902] [INFO] info - REQUEST=======> 2017-12-25 17:25:15 [POST] /manage/sign/login，耗时:30ms
+[2017-12-25 17:25:16.086] [INFO] info - REQUEST=======> 2017-12-25 17:25:16 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-12-25 17:25:18.195] [INFO] info - REQUEST=======> 2017-12-25 17:25:18 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 17:25:19.720] [INFO] info - REQUEST=======> 2017-12-25 17:25:19 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:25:19.724] [INFO] info - REQUEST=======> 2017-12-25 17:25:19 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:25:19.771] [INFO] info - REQUEST=======> 2017-12-25 17:25:19 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:25:19.970] [INFO] info - REQUEST=======> 2017-12-25 17:25:19 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 17:25:37.529] [INFO] info - REQUEST=======> 2017-12-25 17:25:37 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms
+[2017-12-25 17:25:38.258] [INFO] info - REQUEST=======> 2017-12-25 17:25:38 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 17:25:38.259] [INFO] info - REQUEST=======> 2017-12-25 17:25:38 [GET] /system/menu/use/all，耗时:3ms
+[2017-12-25 17:25:38.307] [INFO] info - REQUEST=======> 2017-12-25 17:25:38 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:25:38.505] [INFO] info - REQUEST=======> 2017-12-25 17:25:38 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 17:25:58.684] [INFO] info - REQUEST=======> 2017-12-25 17:25:58 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 17:28:02.417] [INFO] info - REQUEST=======> 2017-12-25 17:28:02 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:28:02.420] [INFO] info - REQUEST=======> 2017-12-25 17:28:02 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 17:28:02.462] [INFO] info - REQUEST=======> 2017-12-25 17:28:02 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:28:02.656] [INFO] info - REQUEST=======> 2017-12-25 17:28:02 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 17:28:26.740] [INFO] info - REQUEST=======> 2017-12-25 17:28:26 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:5ms
+[2017-12-25 17:28:28.950] [INFO] info - REQUEST=======> 2017-12-25 17:28:28 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 17:28:30.498] [INFO] info - REQUEST=======> 2017-12-25 17:28:30 [GET] /system/dictionaryItem/use/all，耗时:2ms
+[2017-12-25 17:28:30.501] [INFO] info - REQUEST=======> 2017-12-25 17:28:30 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:28:30.539] [INFO] info - REQUEST=======> 2017-12-25 17:28:30 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:28:30.731] [INFO] info - REQUEST=======> 2017-12-25 17:28:30 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 17:28:49.759] [INFO] info - REQUEST=======> 2017-12-25 17:28:49 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:6ms
+[2017-12-25 17:28:51.983] [INFO] info - REQUEST=======> 2017-12-25 17:28:51 [GET] /system/dictionaryType?pageNumber=3&pageSize=10，耗时:4ms
+[2017-12-25 17:28:54.748] [INFO] info - REQUEST=======> 2017-12-25 17:28:54 [GET] /system/dictionaryType?pageNumber=2&pageSize=10，耗时:4ms
+[2017-12-25 17:28:56.777] [INFO] info - REQUEST=======> 2017-12-25 17:28:56 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:6ms
+[2017-12-25 17:28:59.912] [INFO] info - REQUEST=======> 2017-12-25 17:28:59 [GET] /system/dictionaryItem/getByType/ROLE_TYPE，耗时:4ms
+[2017-12-25 17:29:10.249] [INFO] info - REQUEST=======> 2017-12-25 17:29:10 [GET] /system/role?pageNumber=1&pageSize=10000，耗时:6ms
+[2017-12-25 17:29:15.407] [INFO] info - REQUEST=======> 2017-12-25 17:29:15 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-12-25 17:29:28.001] [INFO] info - REQUEST=======> 2017-12-25 17:29:27 [DELETE] /system/dictionaryType/45，耗时:60ms
+[2017-12-25 17:29:28.024] [INFO] info - REQUEST=======> 2017-12-25 17:29:28 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-12-25 17:29:30.277] [INFO] info - REQUEST=======> 2017-12-25 17:29:30 [DELETE] /system/dictionaryType/46，耗时:49ms
+[2017-12-25 17:29:30.593] [INFO] info - REQUEST=======> 2017-12-25 17:29:30 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 17:29:33.340] [INFO] info - REQUEST=======> 2017-12-25 17:29:33 [DELETE] /system/dictionaryType/47，耗时:64ms
+[2017-12-25 17:29:33.657] [INFO] info - REQUEST=======> 2017-12-25 17:29:33 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 17:29:34.893] [INFO] info - REQUEST=======> 2017-12-25 17:29:34 [DELETE] /system/dictionaryType/48，耗时:49ms
+[2017-12-25 17:29:35.220] [INFO] info - REQUEST=======> 2017-12-25 17:29:35 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:12ms
+[2017-12-25 17:29:37.536] [INFO] info - REQUEST=======> 2017-12-25 17:29:37 [DELETE] /system/dictionaryType/49，耗时:43ms
+[2017-12-25 17:29:37.851] [INFO] info - REQUEST=======> 2017-12-25 17:29:37 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 17:29:47.408] [INFO] info - REQUEST=======> 2017-12-25 17:29:47 [DELETE] /system/dictionaryType/52，耗时:36ms
+[2017-12-25 17:29:47.733] [INFO] info - REQUEST=======> 2017-12-25 17:29:47 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:8ms
+[2017-12-25 17:29:49.663] [INFO] info - REQUEST=======> 2017-12-25 17:29:49 [DELETE] /system/dictionaryType/54，耗时:83ms
+[2017-12-25 17:29:49.981] [INFO] info - REQUEST=======> 2017-12-25 17:29:49 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 17:29:51.837] [INFO] info - REQUEST=======> 2017-12-25 17:29:51 [DELETE] /system/dictionaryType/53，耗时:154ms
+[2017-12-25 17:29:52.155] [INFO] info - REQUEST=======> 2017-12-25 17:29:52 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:3ms
+[2017-12-25 17:29:54.359] [INFO] info - REQUEST=======> 2017-12-25 17:29:54 [DELETE] /system/dictionaryType/55，耗时:35ms
+[2017-12-25 17:29:54.678] [INFO] info - REQUEST=======> 2017-12-25 17:29:54 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-12-25 17:29:57.022] [INFO] info - REQUEST=======> 2017-12-25 17:29:56 [DELETE] /system/dictionaryType/60，耗时:59ms
+[2017-12-25 17:29:57.345] [INFO] info - REQUEST=======> 2017-12-25 17:29:57 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-12-25 17:29:59.004] [INFO] info - REQUEST=======> 2017-12-25 17:29:58 [DELETE] /system/dictionaryType/57，耗时:56ms
+[2017-12-25 17:29:59.321] [INFO] info - REQUEST=======> 2017-12-25 17:29:59 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 17:30:01.126] [INFO] info - REQUEST=======> 2017-12-25 17:30:01 [DELETE] /system/dictionaryType/50，耗时:57ms
+[2017-12-25 17:30:01.443] [INFO] info - REQUEST=======> 2017-12-25 17:30:01 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:3ms
+[2017-12-25 17:30:03.938] [INFO] info - REQUEST=======> 2017-12-25 17:30:03 [DELETE] /system/dictionaryType/51，耗时:29ms
+[2017-12-25 17:30:04.254] [INFO] info - REQUEST=======> 2017-12-25 17:30:04 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:3ms
+[2017-12-25 17:30:05.827] [INFO] info - REQUEST=======> 2017-12-25 17:30:05 [DELETE] /system/dictionaryType/56，耗时:47ms
+[2017-12-25 17:30:06.143] [INFO] info - REQUEST=======> 2017-12-25 17:30:06 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:3ms
+[2017-12-25 17:30:07.539] [INFO] info - REQUEST=======> 2017-12-25 17:30:07 [DELETE] /system/dictionaryType/58，耗时:142ms
+[2017-12-25 17:30:07.858] [INFO] info - REQUEST=======> 2017-12-25 17:30:07 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 17:30:09.489] [INFO] info - REQUEST=======> 2017-12-25 17:30:09 [DELETE] /system/dictionaryType/59，耗时:37ms
+[2017-12-25 17:30:09.804] [INFO] info - REQUEST=======> 2017-12-25 17:30:09 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 17:30:11.920] [INFO] info - REQUEST=======> 2017-12-25 17:30:11 [DELETE] /system/dictionaryType/61，耗时:35ms
+[2017-12-25 17:30:12.237] [INFO] info - REQUEST=======> 2017-12-25 17:30:12 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 17:30:14.078] [INFO] info - REQUEST=======> 2017-12-25 17:30:14 [DELETE] /system/dictionaryType/62，耗时:32ms
+[2017-12-25 17:30:14.397] [INFO] info - REQUEST=======> 2017-12-25 17:30:14 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:4ms
+[2017-12-25 17:30:15.573] [INFO] info - REQUEST=======> 2017-12-25 17:30:15 [DELETE] /system/dictionaryType/63，耗时:72ms
+[2017-12-25 17:30:15.898] [INFO] info - REQUEST=======> 2017-12-25 17:30:15 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:7ms
+[2017-12-25 17:30:17.654] [INFO] info - REQUEST=======> 2017-12-25 17:30:17 [DELETE] /system/dictionaryType/64，耗时:31ms
+[2017-12-25 17:30:17.969] [INFO] info - REQUEST=======> 2017-12-25 17:30:17 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 17:30:22.672] [INFO] info - REQUEST=======> 2017-12-25 17:30:22 [GET] /system/dictionaryItem/getByType/CONTENT_STATUS，耗时:2ms
+[2017-12-25 17:30:41.365] [INFO] info - REQUEST=======> 2017-12-25 17:30:41 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:37ms
+[2017-12-25 17:30:42.948] [INFO] info - REQUEST=======> 2017-12-25 17:30:42 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 17:30:44.182] [INFO] info - REQUEST=======> 2017-12-25 17:30:44 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 17:30:44.185] [INFO] info - REQUEST=======> 2017-12-25 17:30:44 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 17:30:44.223] [INFO] info - REQUEST=======> 2017-12-25 17:30:44 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:30:44.461] [INFO] info - REQUEST=======> 2017-12-25 17:30:44 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 17:30:56.149] [INFO] info - REQUEST=======> 2017-12-25 17:30:56 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:30:56.150] [INFO] info - REQUEST=======> 2017-12-25 17:30:56 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 17:30:56.199] [INFO] info - REQUEST=======> 2017-12-25 17:30:56 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:30:56.386] [INFO] info - REQUEST=======> 2017-12-25 17:30:56 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 17:31:06.967] [INFO] info - REQUEST=======> 2017-12-25 17:31:06 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 17:31:07.711] [INFO] info - REQUEST=======> 2017-12-25 17:31:07 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:31:07.715] [INFO] info - REQUEST=======> 2017-12-25 17:31:07 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 17:31:07.754] [INFO] info - REQUEST=======> 2017-12-25 17:31:07 [GET] /manage/sign/currentUser，耗时:0ms
+[2017-12-25 17:31:07.927] [INFO] info - REQUEST=======> 2017-12-25 17:31:07 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:1ms
+[2017-12-25 17:31:12.376] [INFO] info - REQUEST=======> 2017-12-25 17:31:12 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:5ms
+[2017-12-25 17:31:19.930] [INFO] info - REQUEST=======> 2017-12-25 17:31:19 [GET] /system/dictionaryItem/getByType/CONTENT_STATUS，耗时:3ms
+[2017-12-25 17:31:35.438] [INFO] info - REQUEST=======> 2017-12-25 17:31:35 [GET] /system/dictionaryItem/use/all，耗时:0ms
+[2017-12-25 17:31:35.440] [INFO] info - REQUEST=======> 2017-12-25 17:31:35 [GET] /system/menu/use/all，耗时:0ms
+[2017-12-25 17:31:35.503] [INFO] info - REQUEST=======> 2017-12-25 17:31:35 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:31:35.773] [INFO] info - REQUEST=======> 2017-12-25 17:31:35 [GET] /system/dictionaryType?pageNumber=1&pageSize=10，耗时:2ms
+[2017-12-25 17:31:39.379] [INFO] info - REQUEST=======> 2017-12-25 17:31:39 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:2ms
+[2017-12-25 17:31:40.554] [INFO] info - REQUEST=======> 2017-12-25 17:31:40 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:31:40.558] [INFO] info - REQUEST=======> 2017-12-25 17:31:40 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:31:40.597] [INFO] info - REQUEST=======> 2017-12-25 17:31:40 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:31:40.862] [INFO] info - REQUEST=======> 2017-12-25 17:31:40 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:1ms
+[2017-12-25 17:31:48.144] [INFO] info - Redis connecting!
+[2017-12-25 17:31:48.569] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-12-25 17:31:48.581] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-12-25 17:31:48.586] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-12-25 17:31:48.598] [INFO] info - Redis auth pass!
+[2017-12-25 17:31:50.043] [INFO] info - REQUEST=======> 2017-12-25 17:31:50 [GET] /system/dictionaryItem/use/all，耗时:8ms
+[2017-12-25 17:31:50.049] [INFO] info - REQUEST=======> 2017-12-25 17:31:50 [GET] /system/menu/use/all，耗时:2ms
+[2017-12-25 17:31:50.090] [INFO] info - REQUEST=======> 2017-12-25 17:31:50 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-12-25 17:31:50.283] [INFO] info - REQUEST=======> 2017-12-25 17:31:50 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms
+[2017-12-25 17:31:52.599] [INFO] info - REQUEST=======> 2017-12-25 17:31:52 [GET] /system/dictionaryItem/use/all，耗时:3ms
+[2017-12-25 17:31:52.600] [INFO] info - REQUEST=======> 2017-12-25 17:31:52 [GET] /system/menu/use/all，耗时:4ms
+[2017-12-25 17:31:52.651] [INFO] info - REQUEST=======> 2017-12-25 17:31:52 [GET] /manage/sign/currentUser，耗时:5ms
+[2017-12-25 17:31:52.847] [INFO] info - REQUEST=======> 2017-12-25 17:31:52 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 17:32:24.175] [INFO] info - REQUEST=======> 2017-12-25 17:32:24 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:32:24.177] [INFO] info - REQUEST=======> 2017-12-25 17:32:24 [GET] /system/menu/use/all，耗时:1ms
+[2017-12-25 17:32:24.211] [INFO] info - REQUEST=======> 2017-12-25 17:32:24 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-12-25 17:32:24.400] [INFO] info - REQUEST=======> 2017-12-25 17:32:24 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 17:32:48.467] [INFO] info - REQUEST=======> 2017-12-25 17:32:48 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:4ms
+[2017-12-25 17:32:51.188] [INFO] info - REQUEST=======> 2017-12-25 17:32:51 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 17:32:52.386] [INFO] info - REQUEST=======> 2017-12-25 17:32:52 [GET] /system/dictionaryItem/use/all，耗时:1ms
+[2017-12-25 17:32:52.390] [INFO] info - REQUEST=======> 2017-12-25 17:32:52 [GET] /system/menu/use/all，耗时:3ms
+[2017-12-25 17:32:52.439] [INFO] info - REQUEST=======> 2017-12-25 17:32:52 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-12-25 17:32:52.624] [INFO] info - REQUEST=======> 2017-12-25 17:32:52 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:3ms
+[2017-12-25 17:33:11.734] [INFO] info - REQUEST=======> 2017-12-25 17:33:11 [PUT] /business/content，耗时:69ms
+[2017-12-25 17:33:12.064] [INFO] info - REQUEST=======> 2017-12-25 17:33:12 [GET] /business/content?pageNumber=1&pageSize=10&type=1，耗时:6ms

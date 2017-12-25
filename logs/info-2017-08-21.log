@@ -1,0 +1,108 @@
+[2017-08-21 08:46:21.879] [INFO] info - 刷新缓存：DICTIONARY_ITEM_USE_ALL
+[2017-08-21 08:46:22.065] [INFO] info - 刷新缓存：MENU_USE_ALL
+[2017-08-21 08:46:22.145] [INFO] info - 刷新缓存：SYSTEMVARIABLE_USE_ALL
+[2017-08-21 09:18:01.848] [INFO] info - /system/menu/use/all
+[2017-08-21 09:18:01.848] [INFO] info - undefined
+[2017-08-21 09:18:01.848] [INFO] info - REQUEST=======> 2017-8-21 09:18:01 [GET] /system/menu/use/all，耗时:0ms
+[2017-08-21 09:18:02.675] [INFO] info - /manage/sign/currentUser
+[2017-08-21 09:18:02.675] [INFO] info - undefined
+[2017-08-21 09:18:02.682] [INFO] info - REQUEST=======> 2017-8-21 09:18:02 [GET] /manage/sign/currentUser，耗时:7ms
+[2017-08-21 09:18:06.170] [INFO] info - /manage/sign/login
+[2017-08-21 09:18:06.170] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 09:18:06.483] [INFO] info - REQUEST=======> 2017-8-21 09:18:06 [POST] /manage/sign/login，耗时:313ms
+[2017-08-21 09:18:06.640] [INFO] info - /manage/account
+[2017-08-21 09:18:06.640] [INFO] info - undefined
+[2017-08-21 09:18:06.648] [INFO] info - REQUEST=======> 2017-8-21 09:18:06 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:8ms
+[2017-08-21 10:19:42.070] [INFO] info - /system/menu/use/all
+[2017-08-21 10:19:42.070] [INFO] info - undefined
+[2017-08-21 10:19:42.072] [INFO] info - REQUEST=======> 2017-8-21 10:19:42 [GET] /system/menu/use/all，耗时:2ms
+[2017-08-21 10:19:42.146] [INFO] info - /manage/sign/currentUser
+[2017-08-21 10:19:42.146] [INFO] info - undefined
+[2017-08-21 10:19:42.149] [INFO] info - REQUEST=======> 2017-8-21 10:19:42 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-08-21 10:20:22.661] [INFO] info - /manage/sign/login
+[2017-08-21 10:20:22.661] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 10:20:22.670] [INFO] info - REQUEST=======> 2017-8-21 10:20:22 [POST] /manage/sign/login，耗时:9ms
+[2017-08-21 10:20:22.841] [INFO] info - /manage/account
+[2017-08-21 10:20:22.841] [INFO] info - undefined
+[2017-08-21 10:20:22.846] [INFO] info - REQUEST=======> 2017-8-21 10:20:22 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-08-21 10:22:30.662] [INFO] info - /system/menu/use/all
+[2017-08-21 10:22:30.662] [INFO] info - undefined
+[2017-08-21 10:22:30.664] [INFO] info - REQUEST=======> 2017-8-21 10:22:30 [GET] /system/menu/use/all，耗时:2ms
+[2017-08-21 10:22:30.698] [INFO] info - /manage/sign/currentUser
+[2017-08-21 10:22:30.699] [INFO] info - undefined
+[2017-08-21 10:22:30.702] [INFO] info - REQUEST=======> 2017-8-21 10:22:30 [GET] /manage/sign/currentUser，耗时:4ms
+[2017-08-21 10:22:37.593] [INFO] info - /manage/sign/login
+[2017-08-21 10:22:37.594] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 10:22:37.601] [INFO] info - REQUEST=======> 2017-8-21 10:22:37 [POST] /manage/sign/login，耗时:8ms
+[2017-08-21 10:22:37.752] [INFO] info - /manage/account
+[2017-08-21 10:22:37.753] [INFO] info - undefined
+[2017-08-21 10:22:37.757] [INFO] info - REQUEST=======> 2017-8-21 10:22:37 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:5ms
+[2017-08-21 11:36:16.756] [INFO] info - /system/menu/use/all
+[2017-08-21 11:36:16.756] [INFO] info - undefined
+[2017-08-21 11:36:16.758] [INFO] info - REQUEST=======> 2017-8-21 11:36:16 [GET] /system/menu/use/all，耗时:2ms
+[2017-08-21 11:36:16.851] [INFO] info - /manage/sign/currentUser
+[2017-08-21 11:36:16.851] [INFO] info - undefined
+[2017-08-21 11:36:16.853] [INFO] info - REQUEST=======> 2017-8-21 11:36:16 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-08-21 11:36:22.794] [INFO] info - /manage/sign/login
+[2017-08-21 11:36:22.795] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 11:36:22.803] [INFO] info - REQUEST=======> 2017-8-21 11:36:22 [POST] /manage/sign/login，耗时:9ms
+[2017-08-21 11:36:23.135] [INFO] info - /manage/account
+[2017-08-21 11:36:23.135] [INFO] info - undefined
+[2017-08-21 11:36:23.142] [INFO] info - REQUEST=======> 2017-8-21 11:36:23 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-08-21 15:44:52.417] [INFO] info - /system/menu/use/all
+[2017-08-21 15:44:52.417] [INFO] info - undefined
+[2017-08-21 15:44:52.418] [INFO] info - REQUEST=======> 2017-8-21 15:44:52 [GET] /system/menu/use/all，耗时:1ms
+[2017-08-21 15:44:52.498] [INFO] info - /manage/sign/currentUser
+[2017-08-21 15:44:52.498] [INFO] info - undefined
+[2017-08-21 15:44:52.500] [INFO] info - REQUEST=======> 2017-8-21 15:44:52 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-08-21 15:44:55.732] [INFO] info - /manage/sign/login
+[2017-08-21 15:44:55.733] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 15:44:55.738] [INFO] info - REQUEST=======> 2017-8-21 15:44:55 [POST] /manage/sign/login，耗时:6ms
+[2017-08-21 15:44:55.886] [INFO] info - /manage/account
+[2017-08-21 15:44:55.886] [INFO] info - undefined
+[2017-08-21 15:44:55.890] [INFO] info - REQUEST=======> 2017-8-21 15:44:55 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:4ms
+[2017-08-21 16:48:47.974] [INFO] info - /system/menu/use/all
+[2017-08-21 16:48:47.974] [INFO] info - undefined
+[2017-08-21 16:48:47.975] [INFO] info - REQUEST=======> 2017-8-21 16:48:47 [GET] /system/menu/use/all，耗时:1ms
+[2017-08-21 16:48:48.056] [INFO] info - /manage/sign/currentUser
+[2017-08-21 16:48:48.056] [INFO] info - undefined
+[2017-08-21 16:48:48.059] [INFO] info - REQUEST=======> 2017-8-21 16:48:48 [GET] /manage/sign/currentUser，耗时:3ms
+[2017-08-21 16:48:54.441] [INFO] info - /manage/sign/login
+[2017-08-21 16:48:54.441] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 16:48:54.449] [INFO] info - REQUEST=======> 2017-8-21 16:48:54 [POST] /manage/sign/login，耗时:8ms
+[2017-08-21 16:48:54.650] [INFO] info - /manage/account
+[2017-08-21 16:48:54.651] [INFO] info - undefined
+[2017-08-21 16:48:54.657] [INFO] info - REQUEST=======> 2017-8-21 16:48:54 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:7ms
+[2017-08-21 16:55:18.160] [INFO] info - /system/menu/use/all
+[2017-08-21 16:55:18.161] [INFO] info - undefined
+[2017-08-21 16:55:18.162] [INFO] info - REQUEST=======> 2017-8-21 16:55:18 [GET] /system/menu/use/all，耗时:2ms
+[2017-08-21 16:55:53.594] [INFO] info - /system/menu/use/all
+[2017-08-21 16:55:53.595] [INFO] info - undefined
+[2017-08-21 16:55:53.598] [INFO] info - REQUEST=======> 2017-8-21 16:55:53 [GET] /system/menu/use/all，耗时:4ms
+[2017-08-21 16:55:57.344] [INFO] info - /manage/sign/currentUser
+[2017-08-21 16:55:57.344] [INFO] info - undefined
+[2017-08-21 16:55:57.349] [INFO] info - REQUEST=======> 2017-8-21 16:55:57 [GET] /manage/sign/currentUser，耗时:5ms
+[2017-08-21 16:56:05.457] [INFO] info - /manage/sign/login
+[2017-08-21 16:56:05.457] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 16:56:05.462] [INFO] info - REQUEST=======> 2017-8-21 16:56:05 [POST] /manage/sign/login，耗时:5ms
+[2017-08-21 16:56:05.698] [INFO] info - /manage/account
+[2017-08-21 16:56:05.698] [INFO] info - undefined
+[2017-08-21 16:56:05.704] [INFO] info - REQUEST=======> 2017-8-21 16:56:05 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:6ms
+[2017-08-21 16:56:09.718] [INFO] info - /system/menu/use/all
+[2017-08-21 16:56:09.719] [INFO] info - undefined
+[2017-08-21 16:56:09.720] [INFO] info - REQUEST=======> 2017-8-21 16:56:09 [GET] /system/menu/use/all，耗时:2ms
+[2017-08-21 16:56:09.815] [INFO] info - /manage/sign/currentUser
+[2017-08-21 16:56:09.815] [INFO] info - undefined
+[2017-08-21 16:56:09.816] [INFO] info - REQUEST=======> 2017-8-21 16:56:09 [GET] /manage/sign/currentUser，耗时:1ms
+[2017-08-21 16:56:50.198] [INFO] info - /system/menu/use/all
+[2017-08-21 16:56:50.198] [INFO] info - undefined
+[2017-08-21 16:56:50.199] [INFO] info - REQUEST=======> 2017-8-21 16:56:50 [GET] /system/menu/use/all，耗时:1ms
+[2017-08-21 16:56:50.237] [INFO] info - /manage/sign/currentUser
+[2017-08-21 16:56:50.237] [INFO] info - undefined
+[2017-08-21 16:56:50.239] [INFO] info - REQUEST=======> 2017-8-21 16:56:50 [GET] /manage/sign/currentUser，耗时:2ms
+[2017-08-21 16:56:55.282] [INFO] info - /manage/sign/login
+[2017-08-21 16:56:55.282] [INFO] info - application/x-www-form-urlencoded; charset=UTF-8
+[2017-08-21 16:56:55.286] [INFO] info - REQUEST=======> 2017-8-21 16:56:55 [POST] /manage/sign/login，耗时:4ms
+[2017-08-21 16:56:55.445] [INFO] info - /manage/account
+[2017-08-21 16:56:55.445] [INFO] info - undefined
+[2017-08-21 16:56:55.448] [INFO] info - REQUEST=======> 2017-8-21 16:56:55 [GET] /manage/account?pageNumber=1&pageSize=10，耗时:3ms
