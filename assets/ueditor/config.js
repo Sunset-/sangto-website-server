@@ -1,5 +1,5 @@
 /* 前后端通信相关的配置,注释只允许使用多行方式 */
-{
+module.exports = {
     /* 上传图片配置项 */
     "imageActionName": "uploadimage", /* 执行上传图片的action名称 */
     "imageFieldName": "upfile", /* 提交的图片表单名称 */
@@ -90,5 +90,4 @@
         ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
         ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
     ] /* 列出的文件类型 */
-
 }
