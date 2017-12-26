@@ -1,4 +1,4 @@
-const mws = ['./static', './redisSession', './logger', './responseWrapper', './LoginedChecker','./requestBody'];
+const mws = ['./static','./template-ejs', './redisSession', './logger', './responseWrapper', './LoginedChecker','./requestBody'];
 //'./redisSession','
 //'./memorySession',
 //const mws = ['./static', './memorySession', './logger', './responseWrapper', './LoginedChecker', './authorityIntercept.js', './wechatXml', './requestBody', './proxy'];
