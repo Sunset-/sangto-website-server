@@ -4,13 +4,21 @@ const logger = require('../../components/logger');
 module.exports = {
     prefix: '/sangto',
     routes: Object.assign({
-        'GET/': {
+        'GET/index': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
-                let model = ctx.request.body;
                 logger.info('----123----')
                 await ctx.render('index', {
-                    title: '商通123官网',
+                    title: 'Bootstrap学习',
+                });
+            }
+        },
+        'GET/news': {
+            middleware: async function (ctx, next) {
+                ctx.useOriginResponseBody = true;
+                logger.info('----123----')
+                await ctx.render('news', {
+                    title: 'Bootstrap学习',
                 });
             }
         }

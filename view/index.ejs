@@ -1,12 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= title %></title>
+    <title>
+        <%= title %>
+    </title>
+    <!-- style -->
+    <link rel="stylesheet" href="/vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/vendor/swiper/swiper-3.4.2.min.css" />
+    <link rel="stylesheet" href="/css/index.css" />
 </head>
+
 <body>
-    22212355111
+    <!-- header -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navgation">
+        <div class="container-fluid">
+            <div class="navbar-head">
+                <a href="#" class="navbar-brand">
+                    <img width="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAB+0lEQVR4AcyYg5LkUBhG+1X2PdZGaW3btm3btm3bHttWrPomd1r/2Jn/VJ02TpxcH4CQ/dsuazWgzbIdrm9dZVd4pBz4zx2igTaFHrhvjneVXNHCSqIlFEjiwMyyyOBilRgGSqLNF1jnwNQdIvAt48C3IlBmHCiLQHC2zoHDu6zG1iXn6+y62ScxY9AODO6w0pvAqf23oSE4joOfH6OxfMoRnoGUm+de8wykbFt6wZtA07QwtNOqKh3ZbS3Wzz2F+1c/QJY0UCJ/J3kXWJfv7VhxCRRV1jGw7XI+gcO7rEFFRvdYxydwcPsVsC0bQdKScngt4iUTD4Fy/8p7PoHzRu1DclwmgmiqgUXjD3oTKHbAt869qdJ7l98jNTEblPTkXMwetpvnftA0LLHb4X8kiY9Kx6Q+W7wJtG0HR7fdrtYz+x7iya0vkEtUULIzCjC21wY+W/GYXusRH5kGytWTLxgEEhePPwhKYb7EK3BQuxWwTBuUkd3X8goUn6fMHLyTT+DCsQdAEXNzSMeVPAJHdF2DmH8poCREp3uwm7HsGq9J9q69iuunX6EgrwQVObjpBt8z6rdPfvE8kiiyhsvHnomrQx6BxYUyYiNS8f75H1w4/ISepDZLoDhNJ9cdNUquhRsv+6EP9oNH7Iff2A9g8h8CLt1gH0Qf9NMQAFnO60BJFQe0AAAAAElFTkSuQmCC"
+                        alt="Brand">
+                </a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="navbar-nav nav">
+                    <li class="active">
+                        <a href="#">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">产品与方案</a>
+                    </li>
+                    <li>
+                        <a href="#">服务与支持</a>
+                    </li>
+                    <li>
+                        <a href="#">成功案例</a>
+                    </li>
+                    <li>
+                        <a href="#">新闻中心</a>
+                    </li>
+                    <li>
+                        <a href="#">关于我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+    <div class="swiper-container banner-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/img/banner/1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/banner/2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/banner/3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/banner/4.png" alt="">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!-- products -->
+    <div class="container-fluid plate">
+        <div class="plate-title">
+            <div class="main-title">产品与方案</div>
+            <div class="sub-title">Products And Cases</div>
+        </div>
+        <div class="index-swiper-container">
+            <div class="swiper-outer-trigger prev"></div>
+            <div class="swiper-outer-trigger next"></div>
+            <div class="swiper-container product-swiper">
+                <div class="swiper-wrapper">
+                    <% for(var i=0; i<6; i++) { %>
+                        <div class="swiper-slide col-xs-4 swiper-slide-product">
+                            <div class="img-box">
+                                <img src="/img/banner/1.png" alt="">
+                            </div>
+                            <div class="product-title">
+                                微信移动终端解决方案
+                                <%=i %>
+                            </div>
+                            <p>
+                                微信业务系统 -> 会员卡管理系统
+                            </p>
+                        </div>
+                        <% } %>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- successful-cases -->
+    <div class="container-fluid plate">
+        <div class="plate-title">
+            <div class="main-title">成功案例</div>
+            <div class="sub-title">Successful Stories</div>
+        </div>
+        <div class="row case-container">
+            <% for(var i=0; i<5; i++) { %>
+                <div class="case-item col-xs-6 col-sm-4">
+                    <img />
+                    <div class="case-title">兰州国芳百盛</div>
+                    <div class="sub-title">大型连锁百货 -> 兰州国芳百盛</div>
+                </div>
+                <% } %>
+                    <div class="case-item col-xs-6 col-sm-4">
+                        <img />
+                        <div class="case-title">查看更多</div>
+                        <div class="sub-title">查看更多</div>
+                    </div>
+        </div>
+    </div>
+    <!-- news -->
+    <div class="container-fluid plate">
+        <div class="plate-title">
+            <div class="main-title">新闻中心</div>
+            <div class="sub-title">News Center</div>
+        </div>
+        <div class="row news-container">
+            <% for(var i=0; i<4; i++) { %>
+                <div class="news-item col-sm-6">
+                    <img />
+                    <div>
+                        <div>
+                            <div class="news-date">
+                                <div>
+                                    06
+                                </div>
+                                <div>
+                                    2017.12
+                                </div>
+                            </div>
+                            <div class="news-title">
+                                万达进入影视行业深水区34
+                            </div>
+                        </div>
+                        <div class="news-digest">
+                            绯闻绯闻绯闻绯闻非法违法未服务器是佛短驳费大部分的百分点不是吧是AV按啥本地戊二醛若翁人未还 有人同意让他
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div class="about-us">
+        <div class="title">
+            关于我们
+            <br> About us
+        </div>
+        <div class="content">
+            绯闻绯闻绯闻绯闻非法违法未服务器是佛短驳费大部分的百分点不是吧是AV按啥本地戊二醛若翁人未还 有人同意让他绯闻绯闻绯闻绯闻非法违法未服务器是佛短驳费大部分的百分点不是吧是AV按啥本地戊二醛若翁人未还 有人同意让他绯闻绯闻绯闻绯闻非法违法未服务器是佛短驳费大部分的百分点不是吧是AV按啥本地戊二醛若翁人未还
+            有人同意让他绯闻绯闻绯闻绯闻非法违法未服务器是佛短驳费大部分的百分点不是吧是AV按啥本地戊二醛若翁人未还 有人同意让他
+        </div>
+    </div>
+
+    <!-- foot -->
+    <%include foot.ejs %>
+
+    <!-- jquery -->
+    <script src="/vendor/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <!-- swiper -->
+    <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
+    <!-- main -->
+    <script src="/js/global.js"></script>
+    <script src="/js/index.js"></script>
 </body>
+
 </html>

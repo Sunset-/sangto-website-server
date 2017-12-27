@@ -1,0 +1,28 @@
+body {
+  padding-top: 50px; }
+
+.huge-banner {
+  display: block;
+  width: 100%; }
+
+.foot-category {
+  margin-top: 20px;
+  padding: 30px 0px;
+  background: #bebebe; }
+  .foot-category > .row {
+    margin: 0px auto;
+    max-width: 1000px; }
+    .foot-category > .row ul li {
+      list-style: none;
+      font-size: 12px;
+      padding: 5px 0px; }
+      .foot-category > .row ul li:first-child {
+        font-size: 14px;
+        font-weight: bold; }
+
+.copyright {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 1px;
+  background: #bebebe;
+  text-align: center; }

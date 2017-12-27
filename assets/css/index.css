@@ -1,0 +1,168 @@
+body {
+  padding-top: 50px; }
+
+.huge-banner {
+  display: block;
+  width: 100%; }
+
+.foot-category {
+  margin-top: 20px;
+  padding: 30px 0px;
+  background: #bebebe; }
+  .foot-category > .row {
+    margin: 0px auto;
+    max-width: 1000px; }
+    .foot-category > .row ul li {
+      list-style: none;
+      font-size: 12px;
+      padding: 5px 0px; }
+      .foot-category > .row ul li:first-child {
+        font-size: 14px;
+        font-weight: bold; }
+
+.copyright {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 1px;
+  background: #bebebe;
+  text-align: center; }
+
+.swiper-container {
+  width: 100%; }
+
+.swiper-container .swiper-slide > img {
+  width: 100%; }
+
+.banner-swiper {
+  margin-bottom: 30px; }
+
+.plate {
+  padding-bottom: 30px;
+  max-width: 1200px;
+  margin: 0px auto; }
+  .plate .plate-title {
+    text-align: center;
+    border-bottom: 2px solid #ccc; }
+    .plate .plate-title .main-title {
+      width: 200px;
+      font-size: 18px;
+      padding: 5px 0px;
+      color: #FFF;
+      margin: 0px auto;
+      background: #ff9900; }
+    .plate .plate-title .sub-title {
+      font-size: 26px;
+      padding: 5px 0px;
+      color: #bcbcbc; }
+
+/* swiper */
+.index-swiper-container {
+  position: relative;
+  padding: 0px 30px;
+  font-size: 0px; }
+  .index-swiper-container .swiper-outer-trigger {
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    cursor: pointer; }
+    .index-swiper-container .swiper-outer-trigger.prev {
+      left: 0px; }
+      .index-swiper-container .swiper-outer-trigger.prev:hover:before {
+        color: #464c5b; }
+      .index-swiper-container .swiper-outer-trigger.prev:before {
+        content: "\e257";
+        font-family: 'Glyphicons Halflings';
+        font-size: 30px; }
+    .index-swiper-container .swiper-outer-trigger.next {
+      right: 0px; }
+      .index-swiper-container .swiper-outer-trigger.next:hover:before {
+        color: #464c5b; }
+      .index-swiper-container .swiper-outer-trigger.next:before {
+        content: "\e258";
+        font-family: 'Glyphicons Halflings';
+        font-size: 30px; }
+
+/* product */
+.swiper-slide-product {
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #898989; }
+  .swiper-slide-product .img-box {
+    width: 100%;
+    overflow: hidden; }
+    .swiper-slide-product .img-box img {
+      width: 100%; }
+  .swiper-slide-product .product-title {
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    color: #454545;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc; }
+
+/* case */
+.case-container {
+  margin: 0px auto;
+  max-width: 900px; }
+  .case-container .case-item {
+    text-align: center;
+    padding: 10px; }
+    .case-container .case-item img {
+      width: 80px;
+      height: 80px;
+      padding: 10px; }
+    .case-container .case-item .case-title {
+      color: #454545; }
+    .case-container .case-item .sub-title {
+      color: #ababab; }
+
+/* news */
+.news-item {
+  display: table;
+  padding: 20px 40px; }
+  .news-item > img {
+    display: table-cell;
+    vertical-align: top;
+    width: 120px;
+    height: 120px; }
+  .news-item > div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0px 10px; }
+    .news-item > div > div {
+      vertical-align: top;
+      display: table; }
+      .news-item > div > div .news-date {
+        display: table-cell;
+        box-sizing: border-box;
+        padding: 5px;
+        width: 50px;
+        height: 50px;
+        background: #09c;
+        color: #FFF;
+        text-align: center; }
+        .news-item > div > div .news-date > div:last-child {
+          border-top: 1px solid #FFF;
+          padding-top: 5px;
+          font-size: 10px; }
+      .news-item > div > div .news-title {
+        display: table-cell;
+        padding: 0px 10px;
+        color: #09c; }
+    .news-item > div .news-digest {
+      padding: 5px;
+      font-size: 12px; }
+
+.about-us {
+  padding: 20px;
+  background: #09c;
+  color: #FFF; }
+  .about-us .title {
+    text-align: center;
+    font-size: 22px; }
+  .about-us .content {
+    margin: 0px auto;
+    max-width: 1000px;
+    font-size: 14px;
+    padding: 10px;
+    text-indent: 28px; }
