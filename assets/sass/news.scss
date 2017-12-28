@@ -1,3 +1,41 @@
 @import 'variables';
 @import 'common';
-
+.news-container {
+    max-width: $content-max-width;
+    margin: 0px auto;
+    padding:10px 0px;
+    .news-item {
+        border-bottom:1px solid $border;
+        padding:10px;
+        margin:0px;
+        &>img {
+            vertical-align: top;
+            max-width:250px;
+        }
+        &>div {
+            vertical-align: top;
+            padding: 5px 0px;
+            .news-title {
+                font-size:16px;
+                color:$dark;
+            }
+            .news-info {
+                font-size:14px;
+                color:$light;
+                padding:5px 0px;
+            }
+            .news-info-xs {
+                font-size:14px;
+                color:$light;
+            }
+            .news-degist {
+                text-indent: 28px;
+                padding-bottom:10px;
+                color:$light;
+            }
+            .news-toolbar {
+                overflow:hidden;
+            }
+        }
+    }
+}

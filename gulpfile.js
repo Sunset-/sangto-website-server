@@ -75,7 +75,7 @@ var sass = require('gulp-sass');
 gulp.task('sass', function () {
 	return gulp.src('./assets/sass/**/*.scss')
 		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest('./assets/css'));
+		.pipe(gulp.dest('./assets/css'))
 });
 gulp.task('sass:watch', function () {
 	return gulp.watch('./assets/sass/**/*.scss', ['sass']);
@@ -84,9 +84,18 @@ gulp.task('sass:watch', function () {
 
 // connect
 var connect = require('gulp-connect');
+var proxy = require('http-proxy-middleware');
 gulp.task('connect', function () {
 	connect.server({
-		livereload: true
+		livereload: true,
+		middleware: function(connect, opt) {
+            return [
+                proxy('/',  {
+                    target: 'http://localhost:9090',
+                    changeOrigin:true
+                })
+            ]
+        }
 	});
 });
 
@@ -95,11 +104,17 @@ gulp.task('html', function () {
 		.pipe(connect.reload());
 
 });
+gulp.task('css', function () {
+	gulp.src('./assets/css/**/*')
+		.pipe(connect.reload());
+
+});
 
 
 gulp.task('watch', function () {
 	gulp.watch('./view/**/*', ['html']);
+	gulp.watch('./assets/css/**/*', ['css']);
 });
 
 
-gulp.task('default', ['html', 'watch', 'connect']);
+gulp.task('default', ['sass:watch','html', 'watch', 'connect']);

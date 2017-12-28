@@ -170,13 +170,15 @@
     padding: 20px;
     background: $primary;
     color: #FFF;
+    background-image: url(/img/demo/about-bg.png);
+    background-size: cover;
     .title {
         text-align: center;
         font-size: 22px;
     }
     .content {
         margin: 0px auto;
-        max-width: 1000px;
+        max-width: $content-max-width;
         font-size: 14px;
         padding: 10px;
         text-indent: 28px;

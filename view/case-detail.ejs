@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%= title %>
+    </title>
+    <!-- style -->
+    <link rel="stylesheet" href="/vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/vendor/swiper/swiper-3.4.2.min.css" />
+    <link rel="stylesheet" href="/css/case-detail.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <%include header.ejs %>
+
+        <!-- banner -->
+        <img class="huge-banner" src="/img/banner/4.png" alt="">
+        <!-- category -->
+        <div class="plate-breadcrumb">
+            <ul>
+                <li>首页</li>
+                <li>成功案例</li>
+                <li>恭贺四川德阳洋洋百货悦家店开业大吉</li>
+            </ul>
+        </div>
+
+        <!-- news -->
+        <div class="case-detail-container">
+            <div class="case-detail-content">
+                <img src="/img/demo/banner.png" alt="">
+            </div>
+        </div>
+
+        <!-- foot -->
+        <%include foot.ejs %>
+
+            <!-- jquery -->
+            <script src="/vendor/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <!-- swiper -->
+            <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
+            <!-- main -->
+            <script src="/js/global.js"></script>
+            <script src="/js/case-detail.js"></script>
+</body>
+
+</html>

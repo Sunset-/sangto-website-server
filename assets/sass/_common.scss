@@ -1,4 +1,6 @@
 
+@import 'variables';
+
 body {
     padding-top: 50px;
 }
@@ -8,21 +10,74 @@ body {
     width:100%;
 }
 
+.swiper-container .swiper-slide img {
+    max-width: 100%;
+}
+
 .plate-category{
     width:100%;
     height:40px;
-    background:$yellow;
+    background:$light-yellow;
+    ul{
+        max-width:$content-max-width;
+        margin:0 auto;
+        padding: 0px;
+        li{
+            display:inline-block;
+            line-height:40px;
+            cursor:pointer;
+            padding:0px 10px;
+            &:hover{
+                background : lighten($warning,10%);
+                color:#FFF;
+            }
+            &.active{
+                background : $warning;
+                color:#FFF;
+            }
+        }
+    }
+}
+
+.plate-breadcrumb{
+    width:100%;
+    height:40px;
+    background:$light-yellow;
+    overflow:hidden;
+    ul{
+        max-width:$content-max-width;
+        margin:0 auto;
+        padding: 0px 10px;
+        li{
+            display:inline-block;
+            line-height:40px;
+            color:$dark;
+            &:not(:last-child){
+                cursor:pointer;
+                &:after{
+                    content:'>';
+                    padding:0px 2px;
+                }
+                &:hover{
+                    color:$primary;
+                    &:after{
+                        color:$dark;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // foot category
 .foot-category {
     margin-top: 20px;
     padding: 30px 0px;
-    background: #bebebe;
+    background: $light-purple;
     &>.row {
         margin: 0px auto;
-        max-width: 1000px;
-        ul {
+        max-width: $content-max-width;
+        ul {    
             li {
                 list-style: none;
                 font-size: 12px;
@@ -42,6 +97,6 @@ body {
     height: 30px;
     line-height: 30px;
     margin-top: 1px;
-    background: #bebebe;
+    background: $light-purple;
     text-align: center;
 }

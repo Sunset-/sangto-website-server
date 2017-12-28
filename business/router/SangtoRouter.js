@@ -7,7 +7,6 @@ module.exports = {
         'GET/index': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
-                logger.info('----123----')
                 await ctx.render('index', {
                     title: 'Bootstrap学习',
                 });
@@ -16,9 +15,32 @@ module.exports = {
         'GET/news': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
-                logger.info('----123----')
                 await ctx.render('news', {
                     title: 'Bootstrap学习',
+                });
+            }
+        },
+        'GET/news/:id': {
+            middleware: async function (ctx, next) {
+                ctx.useOriginResponseBody = true;
+                await ctx.render('news-detail', {
+                    title: 'Bootstrap学习'
+                });
+            }
+        },
+        'GET/cases': {
+            middleware: async function (ctx, next) {
+                ctx.useOriginResponseBody = true;
+                await ctx.render('cases', {
+                    title: 'Bootstrap学习',
+                });
+            }
+        },
+        'GET/cases/:id': {
+            middleware: async function (ctx, next) {
+                ctx.useOriginResponseBody = true;
+                await ctx.render('case-detail', {
+                    title: 'Bootstrap学习'
                 });
             }
         }

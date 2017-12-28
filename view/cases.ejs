@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%= title %>
+    </title>
+    <!-- style -->
+    <link rel="stylesheet" href="/vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/vendor/swiper/swiper-3.4.2.min.css" />
+    <link rel="stylesheet" href="/css/cases.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <%include header.ejs %>
+
+        <!-- banner -->
+        <img class="huge-banner" src="/img/banner/4.png" alt="">
+        <!-- category -->
+        <div class="plate-category">
+            <ul>
+                <li>成功案例</li>
+            </ul>
+        </div>
+
+        <!-- cases -->
+        <div class="cases-container">
+            <div class="cases-swiper-container">
+                <div class="swiper-outer-trigger prev"></div>
+                <div class="swiper-outer-trigger next"></div>
+                <div class="swiper-container cases-swiper">
+                    <div class="swiper-wrapper">
+                        <% for(var i=0; i<15; i++) { %>
+                            <div class="swiper-slide swiper-slide-case">
+                                <div class="case-item">
+                                    <img src="/img/demo/succes01.png" alt="">
+                                    <p>微信移动终端解决方案</p>
+                                </div>
+                            </div>
+                            <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- foot -->
+        <%include foot.ejs %>
+
+            <!-- jquery -->
+            <script src="/vendor/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <!-- swiper -->
+            <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
+            <!-- main -->
+            <script src="/js/global.js"></script>
+            <script src="/js/cases.js"></script>
+</body>
+
+</html>

@@ -73,33 +73,11 @@ body {
   background: #CAD9EC;
   text-align: center; }
 
-.news-container {
+.case-detail-container {
   max-width: 1000px;
   margin: 0px auto;
   padding: 10px 0px; }
-  .news-container .news-item {
-    border-bottom: 1px solid #d7dde4;
-    padding: 10px;
-    margin: 0px; }
-    .news-container .news-item > img {
-      vertical-align: top;
-      max-width: 250px; }
-    .news-container .news-item > div {
-      vertical-align: top;
-      padding: 5px 0px; }
-      .news-container .news-item > div .news-title {
-        font-size: 16px;
-        color: #464c5b; }
-      .news-container .news-item > div .news-info {
-        font-size: 14px;
-        color: #9ea7b4;
-        padding: 5px 0px; }
-      .news-container .news-item > div .news-info-xs {
-        font-size: 14px;
-        color: #9ea7b4; }
-      .news-container .news-item > div .news-degist {
-        text-indent: 28px;
-        padding-bottom: 10px;
-        color: #9ea7b4; }
-      .news-container .news-item > div .news-toolbar {
-        overflow: hidden; }
+  .case-detail-container .case-detail-content {
+    padding: 15px 10px; }
+    .case-detail-container .case-detail-content img {
+      max-width: 100% !important; }

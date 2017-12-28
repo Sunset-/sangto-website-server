@@ -73,33 +73,44 @@ body {
   background: #CAD9EC;
   text-align: center; }
 
-.news-container {
+.cases-container {
   max-width: 1000px;
   margin: 0px auto;
-  padding: 10px 0px; }
-  .news-container .news-item {
-    border-bottom: 1px solid #d7dde4;
-    padding: 10px;
-    margin: 0px; }
-    .news-container .news-item > img {
-      vertical-align: top;
-      max-width: 250px; }
-    .news-container .news-item > div {
-      vertical-align: top;
-      padding: 5px 0px; }
-      .news-container .news-item > div .news-title {
-        font-size: 16px;
-        color: #464c5b; }
-      .news-container .news-item > div .news-info {
-        font-size: 14px;
-        color: #9ea7b4;
-        padding: 5px 0px; }
-      .news-container .news-item > div .news-info-xs {
-        font-size: 14px;
-        color: #9ea7b4; }
-      .news-container .news-item > div .news-degist {
-        text-indent: 28px;
-        padding-bottom: 10px;
-        color: #9ea7b4; }
-      .news-container .news-item > div .news-toolbar {
-        overflow: hidden; }
+  padding: 20px 0px; }
+  .cases-container .cases-swiper-container {
+    position: relative;
+    padding: 0px 30px;
+    font-size: 0px; }
+    .cases-container .cases-swiper-container .swiper-outer-trigger {
+      position: absolute;
+      z-index: 10;
+      top: 45%;
+      cursor: pointer; }
+      .cases-container .cases-swiper-container .swiper-outer-trigger.prev {
+        left: 0px; }
+        .cases-container .cases-swiper-container .swiper-outer-trigger.prev:hover:before {
+          color: #464c5b; }
+        .cases-container .cases-swiper-container .swiper-outer-trigger.prev:before {
+          content: "\e257";
+          font-family: 'Glyphicons Halflings';
+          font-size: 30px; }
+      .cases-container .cases-swiper-container .swiper-outer-trigger.next {
+        right: 0px; }
+        .cases-container .cases-swiper-container .swiper-outer-trigger.next:hover:before {
+          color: #464c5b; }
+        .cases-container .cases-swiper-container .swiper-outer-trigger.next:before {
+          content: "\e258";
+          font-family: 'Glyphicons Halflings';
+          font-size: 30px; }
+  .cases-container .swiper-slide-case {
+    font-size: 14px; }
+    .cases-container .swiper-slide-case .case-item {
+      width: 90%;
+      margin: 10px auto;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 20px;
+      border: 1px solid #FFC50A;
+      border-radius: 10px; }
+      .cases-container .swiper-slide-case .case-item img {
+        margin-bottom: 10px; }

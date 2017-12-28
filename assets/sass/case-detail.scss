@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'common';
+
+.case-detail-container{
+    max-width: $content-max-width;
+    margin: 0px auto;
+    padding:10px 0px;
+    .case-detail-content{
+        padding:15px 10px;
+        img{
+            max-width:100% !important;
+        }
+    }
+}

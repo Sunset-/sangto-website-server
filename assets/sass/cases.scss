@@ -1,0 +1,55 @@
+@import 'variables';
+@import 'common';
+.cases-container {
+    max-width: $content-max-width;
+    margin: 0px auto;
+    padding:20px 0px;
+    .cases-swiper-container {
+        position: relative;
+        padding: 0px 30px;
+        font-size: 0px;
+        .swiper-outer-trigger {
+            position: absolute;
+            z-index: 10;
+            top: 45%;
+            cursor: pointer;
+            &.prev {
+                left: 0px;
+                &:hover:before {
+                    color: $dark;
+                }
+                &:before {
+                    content: "\e257";
+                    font-family: 'Glyphicons Halflings';
+                    font-size: 30px;
+                }
+            }
+            &.next {
+                right: 0px;
+                &:hover:before {
+                    color: $dark;
+                }
+                &:before {
+                    content: "\e258";
+                    font-family: 'Glyphicons Halflings';
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .swiper-slide-case{
+        font-size:14px;
+        .case-item{
+            width: 90%;
+            margin: 10px auto;
+            text-align:center;
+            box-sizing:border-box;
+            padding:20px;
+            border:1px solid $warning;
+            border-radius : 10px;
+            img{
+                margin-bottom:10px;
+            }
+        }
+    }
+}
