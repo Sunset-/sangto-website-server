@@ -1,0 +1,109 @@
+@import 'variables';
+@import 'common';
+
+.about-container{
+    max-width:$content-max-width;
+    margin:0px auto;
+    img{
+        max-width:100%;
+    }
+}
+
+// synopsis
+.synopsis-container{
+    .synopsis-content{
+        padding:10px;
+    }
+}
+
+.vision-wrapper{
+    background:$light-blue;
+    .vision{
+        max-width:$content-max-width;
+        margin:0px auto;
+        padding:30px 0px;
+        text-align:center;
+        &>div{
+            p{
+                color:$stable;
+            }
+        }
+    }
+}
+
+//progress
+.progress-content{
+    margin:0px;
+    .progress-list{
+        padding:10px;
+        p{
+            span{
+                color : $primary;
+            }
+        }
+    }
+}
+
+// honor
+.honor-content{
+    padding:20px 0px;
+    margin:0px;
+    .honor-item{
+        text-align:center;
+        .honor-img{
+            display: inline-block;
+            padding:10px;
+            border:1px solid $warning;
+            margin:15px 0px;
+        }
+    }
+}
+
+// recruit
+.recruit-content{
+    .recruit-item{
+        background:$light-blue;
+        margin:20px 0px;
+        padding:10px;
+        .recruit-title{
+            font-size:18px;
+            color:$primary;
+            font-weight: bold;
+        }
+        .recruit-sub-title{
+            color:$stable;
+            padding-bottom:5px;
+            margin:0px;
+        }
+        &>div{
+            padding-bottom:10px;
+        }
+    }
+}
+
+// partner
+.partner-content{
+    padding:20px 0px;
+    margin:0px;
+    .partner-item{
+        text-align:center;
+        .partner-img{
+            display: inline-block;
+            padding:10px;
+            border:1px solid $warning;
+            margin:15px 0px;
+        }
+    }
+}
+
+
+// contact
+.contact-content{
+    margin:20px 0px;
+    background:#04A4E2;
+    color:#FFF;
+    font-size:14px;
+    &>div{
+        padding:15px;
+    }
+}

@@ -1,6 +1,7 @@
 
 const logger = require('../../components/logger');
 
+
 module.exports = {
     prefix: '/sangto',
     routes: Object.assign({
@@ -40,6 +41,14 @@ module.exports = {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
                 await ctx.render('case-detail', {
+                    title: 'Bootstrap学习'
+                });
+            }
+        },
+        'GET/about/:type': {
+            middleware: async function (ctx, next) {
+                ctx.useOriginResponseBody = true;
+                await ctx.render(`about-${ctx.params.type}`, {
                     title: 'Bootstrap学习'
                 });
             }
