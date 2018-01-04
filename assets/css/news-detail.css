@@ -12,19 +12,22 @@ body {
   width: 100%;
   height: 40px;
   background: #FDECB6; }
-  .plate-category ul {
+  .plate-category div {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0px; }
-    .plate-category ul li {
+    padding: 0px;
+    font-size: 0px; }
+    .plate-category div a {
       display: inline-block;
       line-height: 40px;
       cursor: pointer;
-      padding: 0px 10px; }
-      .plate-category ul li:hover {
+      padding: 0px 10px;
+      font-size: 14px;
+      color: #657180; }
+      .plate-category div a:hover {
         background: #ffd13d;
         color: #FFF; }
-      .plate-category ul li.active {
+      .plate-category div a.active {
         background: #FFC50A;
         color: #FFF; }
 

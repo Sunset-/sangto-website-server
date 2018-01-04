@@ -1,67 +1,68 @@
-
 @import 'variables';
-
 body {
     padding-top: 50px;
 }
 
-.huge-banner{
-    display:block;
-    width:100%;
+.huge-banner {
+    display: block;
+    width: 100%;
 }
 
 .swiper-container .swiper-slide img {
     max-width: 100%;
 }
 
-.plate-category{
-    width:100%;
-    height:40px;
-    background:$light-yellow;
-    ul{
-        max-width:$content-max-width;
-        margin:0 auto;
+.plate-category {
+    width: 100%;
+    height: 40px;
+    background: $light-yellow;
+    div {
+        max-width: $content-max-width;
+        margin: 0 auto;
         padding: 0px;
-        li{
-            display:inline-block;
-            line-height:40px;
-            cursor:pointer;
-            padding:0px 10px;
-            &:hover{
-                background : lighten($warning,10%);
-                color:#FFF;
+        font-size: 0px;
+        a {
+            display: inline-block;
+            line-height: 40px;
+            cursor: pointer;
+            padding: 0px 10px;
+            font-size: 14px;
+            color: $stable;
+            &:hover {
+                background: lighten($warning, 10%);
+                color: #FFF;
             }
-            &.active{
-                background : $warning;
-                color:#FFF;
+            &.active {
+                background: $warning;
+                color: #FFF;
             }
         }
     }
 }
 
-.plate-breadcrumb{
-    width:100%;
-    height:40px;
-    background:$light-yellow;
-    overflow:hidden;
-    ul{
-        max-width:$content-max-width;
-        margin:0 auto;
+.plate-breadcrumb {
+    width: 100%;
+    height: 40px;
+    background: $light-yellow;
+    overflow: hidden;
+    ul {
+        max-width: $content-max-width;
+        margin: 0 auto;
         padding: 0px 10px;
-        li{
-            display:inline-block;
-            line-height:40px;
-            color:$dark;
-            &:not(:last-child){
-                cursor:pointer;
-                &:after{
-                    content:'>';
-                    padding:0px 2px;
+        li {
+            display: inline-block;
+            line-height: 40px;
+            color: $dark;
+            &:not(:last-child) {
+                cursor: pointer;
+                &:after {
+                    content: '>';
+                    padding: 0px 2px;
                 }
-                &:hover{
-                    color:$primary;
-                    &:after{
-                        color:$dark;
+                &:hover {
+                    color: $primary;
+                    &:after {
+                        color: $dark;
                     }
                 }
             }
@@ -77,7 +78,7 @@ body {
     &>.row {
         margin: 0px auto;
         max-width: $content-max-width;
-        ul {    
+        ul {
             li {
                 list-style: none;
                 font-size: 12px;
@@ -90,7 +91,6 @@ body {
         }
     }
 }
-
 
 // copyright
 .copyright {

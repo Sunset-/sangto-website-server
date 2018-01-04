@@ -1,6 +1,7 @@
 const lang = require('../../common/lang');
 const BaseService = require('../../base/BaseService');
 const MemoryCache = require('../../components/MemoryCache');
+const Enums = require('../enum/ContentEnums');
 const MODEL = 'Content';
 
 class SystemVariableService extends BaseService {
@@ -31,7 +32,8 @@ class SystemVariableService extends BaseService {
                         JOIN tb_manager_account tb_ma ON tb_ma.id_=tb_c.create_user_
                         WHERE 
                         tb_c.type_='${query.type}'
-                        ${query.status?` AND tb_c.status_=${query.status}} `:''}
+                        ${query.status?` AND tb_c.status_=${query.status} `:''}
+                        ${query.category?` AND tb_c.category_=${query.category} `:''}
                         ${query.keyword?` AND (tb_c.title_ LIKE '%${query.keyword}%' OR tb_c.keywords_ LIKE '%${query.keyword}%') `:''}
                         ORDER BY tb_c.create_time_ DESC
                         LIMIT ${pager.offset},${pager.limit}
@@ -43,7 +45,8 @@ class SystemVariableService extends BaseService {
                         FROM tb_content tb_c
                         WHERE 
                         tb_c.type_='${query.type}'
-                        ${query.status?` AND tb_c.status_=${query.status}} `:''}
+                        ${query.status?` AND tb_c.status_=${query.status} `:''}
+                        ${query.category?` AND tb_c.category_=${query.category} `:''}
                         ${query.keyword?` AND (tb_c.title_ LIKE '%${query.keyword}%' OR tb_c.keywords_ LIKE '%${query.keyword}%') `:''}
                     `, {
                 type: sequelize.QueryTypes.SELECT
@@ -55,6 +58,19 @@ class SystemVariableService extends BaseService {
             };
         }).catch(err => {
             throw err;
+        });
+    }
+    findNextOne(createTime) {
+        let filter = {
+            createTime: {
+                $lt: createTime
+            },
+            status: Enums.CONTENT_STATUS.NORMAL
+        };
+        return this.getModel().findOne({
+            where: filter,
+            limit: 1,
+            order: 'createTime DESC'
         });
     }
 }

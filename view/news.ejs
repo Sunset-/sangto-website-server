@@ -22,52 +22,62 @@
         <img class="huge-banner" src="/img/banner/4.png" alt="">
         <!-- category -->
         <div class="plate-category">
-            <ul>
-                <li>公司动态</li>
-                <li>行业新闻</li>
-            </ul>
+            <div>
+                <% for(var i=0; i<newsCategories.length; i++) { %>
+                    <a class="<%= currentCategory==newsCategories[i].value?'active':'' %>" href="<%= currentCategory==newsCategories[i].value?'javascript:;':('/sangto/news?category='+newsCategories[i].value) %>"><%=newsCategories[i].name%></a>
+                <% } %>
+            </div>
         </div>
 
         <!-- news -->
         <div class="news-container">
-            <% for(var i=0; i<6; i++) { %>
+            <% for(var i=0,item; item=news.rows[i++];) { %>
                 <div class="news-item row">
-                    <img class="col-xs-3" src="/img/demo/news03.png" alt="">
+                    <img class="col-xs-3" src="/<%= item.cover %>" alt="">
                     <div class="col-xs-9">
                         <div class="news-title">
-                            恭贺四川德阳洋洋百货悦家店开业大吉
+                            <a href="<%= '/sangto/news/'+item.id %>"><%=item.title %></a>
                         </div>
                         <div class="hidden-xs news-info">
-                            2017-02-16
+                                <%= moment(item.createTime).format('YYYY-MM-DD HH:mm:ss') %>
                         </div>
                         <div class="news-degist">
-                            因对政府征地拆迁中的做法不满，山东省济宁市泗水县30名农民向作出批复的山东省政府申请行政复议，在省政府作出维持批复的决定后，他们又向国务院申请最终裁决。日前，国务院作出行政复议裁决，确认山东省政府在该征地项目中的批复违法
+                            <%=item.digest %>
                         </div>
                         <div class="news-toolbar">
                             <div class="news-info-xs visible-xs pull-left">
-                                2017-02-16
+                                    <%= moment(item.createTime).format('YYYY-MM-DD HH:mm:ss') %>
                             </div>
-                            <button class="btn btn-warning hidden-xs pull-right">查看更多</button>
-                            <button class="btn btn-xs btn-warning visible-xs pull-right">查看更多</button>
+                            <a href="<%= '/sangto/news/'+item.id %>" class="btn btn-warning hidden-xs pull-right">查看更多</a>
+                            <a href="<%= '/sangto/news/'+item.id %>" class="btn btn-xs btn-warning visible-xs pull-right">查看更多</a>
                         </div>
                     </div>
                 </div>
 
                 <% } %>
+                
+                <% if(totalPage>1){ %>
                     <nav aria-label="..." style="text-align:center;">
                         <ul class="pagination">
-                            <li class="disabled">
-                                <a href="#" aria-label="Previous">
+                            <li class="<%= currentPage==1?'disabled':'' %>">
+                                <a href="<%= currentPage==1?'javascript:;':('/sangto/news?category='+currentCategory+'&pageNumber='+(+currentPage-1)) %>" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                 </a>
                             </li>
-                            <li class="active">
-                                <a href="#">1
-                                    <span class="sr-only">(current)</span>
+                            <% for(var i=1; i<=totalPage;i++) { %>
+                            <li class="<%= currentPage==i?'active':'' %>">
+                                <a href="<%= currentPage==i?'javascript:;':('/sangto/news?category='+currentCategory+'&pageNumber='+i) %>"> <%= i %>
+                                </a>
+                            </li>
+                            <% } %>
+                            <li class="<%= currentPage==totalPage?'disabled':'' %>">
+                                <a href="<%= currentPage==totalPage?'javascript:;':('/sangto/news?category='+currentCategory+'&pageNumber='+(+currentPage+1)) %>" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
                                 </a>
                             </li>
                         </ul>
                     </nav>
+                <% } %>
         </div>
 
         <!-- foot -->
