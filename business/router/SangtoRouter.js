@@ -5,6 +5,7 @@ const Enums = require('../enum/ContentEnums');
 const ContentService = require('../service/ContentService');
 const moment = require('moment');
 
+var globalParams = {};
 
 MemoryCache.listen('SYSTEMVARIABLE_USE_ALL', 'SANGTO_INDEX_PARAMS', async function () {
     var variables = await MemoryCache.get('SYSTEMVARIABLE_USE_ALL');
@@ -12,6 +13,7 @@ MemoryCache.listen('SYSTEMVARIABLE_USE_ALL', 'SANGTO_INDEX_PARAMS', async functi
     variables.forEach(item => {
         indexParams[item.name] = item.value;
     });
+    Object.assign(globalParams,indexParams);
     return indexParams;
 });
 
@@ -34,14 +36,11 @@ module.exports = {
                     status: Enums.CONTENT_STATUS.NORMAL,
                     pageSize: ContentConfig.INDEX_CASES_PAGE_SIZE
                 });
-                //关于我们
-                var indexParams = await MemoryCache.get('SANGTO_INDEX_PARAMS');
 
                 await ctx.render('index', {
-                    title: 'Bootstrap学习',
                     news: news.rows,
                     cases: cases.rows,
-                    globalParams: indexParams,
+                    globalParams: globalParams,
                     moment: moment
                 });
             }
@@ -63,7 +62,7 @@ module.exports = {
                     pageSize: ContentConfig.NEWS_PAGE_SIZE
                 });
                 await ctx.render('news', {
-                    title: 'Bootstrap学习',
+                    globalParams: globalParams,
                     currentCategory: currentCategory,
                     newsCategories: newsCategories,
                     news: news,
@@ -79,7 +78,7 @@ module.exports = {
                 var news = await ContentService.findById(ctx.params.id);
                 var nextNews = await ContentService.findNextOne(news.createTime);
                 await ctx.render('news-detail', {
-                    title: 'Bootstrap学习',
+                    globalParams: globalParams,
                     news: news,
                     nextNews: nextNews,
                     moment: moment
@@ -96,7 +95,7 @@ module.exports = {
                     pageSize: 9999
                 });
                 await ctx.render('cases', {
-                    title: 'Bootstrap学习',
+                    globalParams: globalParams,
                     cases: cases.rows,
                     moment: moment
                 });
@@ -107,7 +106,7 @@ module.exports = {
                 ctx.useOriginResponseBody = true;
                 var cases = await ContentService.findById(ctx.params.id);
                 await ctx.render('case-detail', {
-                    title: 'Bootstrap学习',
+                    globalParams: globalParams,
                     cases: cases,
                     moment: moment
                 });
@@ -117,7 +116,7 @@ module.exports = {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
                 await ctx.render(`about-${ctx.params.type}`, {
-                    title: 'Bootstrap学习'
+                    globalParams: globalParams
                 });
             }
         }
