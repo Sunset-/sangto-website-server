@@ -1,4 +1,3 @@
-
 const logger = require('../../components/logger');
 const ContentConfig = require('../../config/businessConfig.js');
 const MemoryCache = require('../../components/MemoryCache');
@@ -7,6 +6,14 @@ const ContentService = require('../service/ContentService');
 const moment = require('moment');
 
 
+MemoryCache.listen('SYSTEMVARIABLE_USE_ALL', 'SANGTO_INDEX_PARAMS', async function () {
+    var variables = await MemoryCache.get('SYSTEMVARIABLE_USE_ALL');
+    var indexParams = await MemoryCache.get('SANGTO_INDEX_PARAMS', true) || {};
+    variables.forEach(item => {
+        indexParams[item.name] = item.value;
+    });
+    return indexParams;
+});
 
 module.exports = {
     prefix: '/',
@@ -17,21 +24,25 @@ module.exports = {
                 ctx.useOriginResponseBody = true;
                 //新闻
                 var news = await ContentService.loadContentList({
-                    type : Enums.CONTENT_TYPE.NEWS,
-                    status : Enums.CONTENT_STATUS.NORMAL,
-                    pageSize : ContentConfig.INDEX_NEWS_PAGE_SIZE
+                    type: Enums.CONTENT_TYPE.NEWS,
+                    status: Enums.CONTENT_STATUS.NORMAL,
+                    pageSize: ContentConfig.INDEX_NEWS_PAGE_SIZE
                 });
                 //案例
                 var cases = await ContentService.loadContentList({
-                    type : Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
-                    status : Enums.CONTENT_STATUS.NORMAL,
-                    pageSize : ContentConfig.INDEX_CASES_PAGE_SIZE
+                    type: Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
+                    status: Enums.CONTENT_STATUS.NORMAL,
+                    pageSize: ContentConfig.INDEX_CASES_PAGE_SIZE
                 });
+                //关于我们
+                var indexParams = await MemoryCache.get('SANGTO_INDEX_PARAMS');
+
                 await ctx.render('index', {
                     title: 'Bootstrap学习',
-                    news : news.rows,
-                    cases : cases.rows,
-                    moment : moment
+                    news: news.rows,
+                    cases: cases.rows,
+                    globalParams: indexParams,
+                    moment: moment
                 });
             }
         },
@@ -41,24 +52,24 @@ module.exports = {
                 var query = ctx.query;
                 ctx.useOriginResponseBody = true;
                 var items = await MemoryCache.get('DICTIONARY_ITEM_USE_ALL');
-                var newsCategories = items.filter(item=>item.type==Enums.CATEGORY_TYPE.NEWS);
-                var currentCategory = query.category||newsCategories[0].value;
-                var currentPageNumber = query.pageNumber||1;
+                var newsCategories = items.filter(item => item.type == Enums.CATEGORY_TYPE.NEWS);
+                var currentCategory = query.category || newsCategories[0].value;
+                var currentPageNumber = query.pageNumber || 1;
                 var news = await ContentService.loadContentList({
-                    type : Enums.CONTENT_TYPE.NEWS,
-                    category : currentCategory,
-                    status : Enums.CONTENT_STATUS.NORMAL,
-                    pageNumber : currentPageNumber,
-                    pageSize : ContentConfig.NEWS_PAGE_SIZE
+                    type: Enums.CONTENT_TYPE.NEWS,
+                    category: currentCategory,
+                    status: Enums.CONTENT_STATUS.NORMAL,
+                    pageNumber: currentPageNumber,
+                    pageSize: ContentConfig.NEWS_PAGE_SIZE
                 });
                 await ctx.render('news', {
                     title: 'Bootstrap学习',
-                    currentCategory : currentCategory,
-                    newsCategories : newsCategories,
-                    news : news,
-                    currentPage : currentPageNumber,
-                    totalPage : news.count%ContentConfig.NEWS_PAGE_SIZE==0?news.count/ContentConfig.NEWS_PAGE_SIZE:(parseInt(news.count/ContentConfig.NEWS_PAGE_SIZE)+1),
-                    moment : moment
+                    currentCategory: currentCategory,
+                    newsCategories: newsCategories,
+                    news: news,
+                    currentPage: currentPageNumber,
+                    totalPage: news.count % ContentConfig.NEWS_PAGE_SIZE == 0 ? news.count / ContentConfig.NEWS_PAGE_SIZE : (parseInt(news.count / ContentConfig.NEWS_PAGE_SIZE) + 1),
+                    moment: moment
                 });
             }
         },
@@ -66,12 +77,12 @@ module.exports = {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
                 var news = await ContentService.findById(ctx.params.id);
-                var nextNews = await ContentService.findNextOne(news.createTime); 
+                var nextNews = await ContentService.findNextOne(news.createTime);
                 await ctx.render('news-detail', {
                     title: 'Bootstrap学习',
-                    news : news,
-                    nextNews : nextNews,
-                    moment : moment
+                    news: news,
+                    nextNews: nextNews,
+                    moment: moment
                 });
             }
         },
@@ -80,14 +91,14 @@ module.exports = {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
                 var cases = await ContentService.loadContentList({
-                    type : Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
-                    status : Enums.CONTENT_STATUS.NORMAL,
-                    pageSize : 9999
+                    type: Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
+                    status: Enums.CONTENT_STATUS.NORMAL,
+                    pageSize: 9999
                 });
                 await ctx.render('cases', {
                     title: 'Bootstrap学习',
-                    cases : cases.rows,
-                    moment : moment
+                    cases: cases.rows,
+                    moment: moment
                 });
             }
         },
@@ -97,8 +108,8 @@ module.exports = {
                 var cases = await ContentService.findById(ctx.params.id);
                 await ctx.render('case-detail', {
                     title: 'Bootstrap学习',
-                    cases : cases,
-                    moment : moment
+                    cases: cases,
+                    moment: moment
                 });
             }
         },
