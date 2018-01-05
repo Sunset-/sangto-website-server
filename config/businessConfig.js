@@ -1,4 +1,6 @@
 module.exports = {
     NEWS_PAGE_SIZE : 2,
-    RESET_PASSWORD : '123456'
+    INDEX_NEWS_PAGE_SIZE : 4,
+    CASES_PAGE_SIZE : 2,
+    INDEX_CASES_PAGE_SIZE : 5
 }

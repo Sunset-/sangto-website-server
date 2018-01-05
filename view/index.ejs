@@ -77,15 +77,15 @@
             <div class="sub-title">Successful Stories</div>
         </div>
         <div class="row case-container">
-            <% for(var i=0; i<5; i++) { %>
+            <% for(var i=0,item; item=cases[i++];) { %>
                 <div class="case-item col-xs-6 col-sm-4">
-                    <img />
-                    <div class="case-title">兰州国芳百盛</div>
+                    <a style="display:inline-block;" href="<%= '/cases/'+item.id %>"><img src="/<%= item.cover %>" alt=""></a>
+                    <div class="case-title"><a href="<%= '/cases/'+item.id %>"><%= item.title %></a></div>
                     <div class="sub-title">大型连锁百货 -> 兰州国芳百盛</div>
                 </div>
                 <% } %>
                     <div class="case-item col-xs-6 col-sm-4">
-                        <img />
+                        <a style="display:inline-block;" href="/cases"><img src="/img/more.png" alt=""></a>
                         <div class="case-title">查看更多</div>
                         <div class="sub-title">查看更多</div>
                     </div>
@@ -98,25 +98,27 @@
             <div class="sub-title">News Center</div>
         </div>
         <div class="row news-container">
-            <% for(var i=0; i<4; i++) { %>
+            <% for(var i=0,item; item=news[i++];) { %>
                 <div class="news-item col-sm-6">
-                    <img />
+                    <a style="display:inline-block;" href="<%= '/news/'+item.id %>">
+                        <img src="/<%= item.cover %>" alt="">
+                    </a>
                     <div>
                         <div>
                             <div class="news-date">
                                 <div>
-                                    06
+                                    <%= moment(item.createTime).format('DD') %>
                                 </div>
                                 <div>
-                                    2017.12
+                                    <%= moment(item.createTime).format('YYYY.MM') %>
                                 </div>
                             </div>
                             <div class="news-title">
-                                万达进入影视行业深水区34
+                                <a href="<%= '/news/'+item.id %>"><%= item.title %></a>
                             </div>
                         </div>
                         <div class="news-digest">
-                            绯闻绯闻绯闻绯闻非法违法未服务器是佛短驳费大部分的百分点不是吧是AV按啥本地戊二醛若翁人未还 有人同意让他
+                            <%= item.digest %>
                         </div>
                     </div>
                 </div>

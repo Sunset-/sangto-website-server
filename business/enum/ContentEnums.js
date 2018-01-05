@@ -9,6 +9,7 @@ module.exports = {
         HIDE: '2'//隐藏
     },
     CATEGORY_TYPE : {
-        NEWS : 'NEWS_CATEGORY'
+        NEWS : 'NEWS_CATEGORY',
+        CASES : 'CASES_CATEGORY'
     }
 };

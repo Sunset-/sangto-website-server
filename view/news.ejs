@@ -24,7 +24,7 @@
         <div class="plate-category">
             <div>
                 <% for(var i=0; i<newsCategories.length; i++) { %>
-                    <a class="<%= currentCategory==newsCategories[i].value?'active':'' %>" href="<%= currentCategory==newsCategories[i].value?'javascript:;':('/sangto/news?category='+newsCategories[i].value) %>"><%=newsCategories[i].name%></a>
+                    <a class="<%= currentCategory==newsCategories[i].value?'active':'' %>" href="<%= currentCategory==newsCategories[i].value?'javascript:;':('/news?category='+newsCategories[i].value) %>"><%=newsCategories[i].name%></a>
                 <% } %>
             </div>
         </div>
@@ -36,7 +36,7 @@
                     <img class="col-xs-3" src="/<%= item.cover %>" alt="">
                     <div class="col-xs-9">
                         <div class="news-title">
-                            <a href="<%= '/sangto/news/'+item.id %>"><%=item.title %></a>
+                            <a href="<%= '/news/'+item.id %>"><%=item.title %></a>
                         </div>
                         <div class="hidden-xs news-info">
                                 <%= moment(item.createTime).format('YYYY-MM-DD HH:mm:ss') %>
@@ -48,8 +48,8 @@
                             <div class="news-info-xs visible-xs pull-left">
                                     <%= moment(item.createTime).format('YYYY-MM-DD HH:mm:ss') %>
                             </div>
-                            <a href="<%= '/sangto/news/'+item.id %>" class="btn btn-warning hidden-xs pull-right">查看更多</a>
-                            <a href="<%= '/sangto/news/'+item.id %>" class="btn btn-xs btn-warning visible-xs pull-right">查看更多</a>
+                            <a href="<%= '/news/'+item.id %>" class="btn btn-warning hidden-xs pull-right">查看更多</a>
+                            <a href="<%= '/news/'+item.id %>" class="btn btn-xs btn-warning visible-xs pull-right">查看更多</a>
                         </div>
                     </div>
                 </div>
@@ -60,18 +60,18 @@
                     <nav aria-label="..." style="text-align:center;">
                         <ul class="pagination">
                             <li class="<%= currentPage==1?'disabled':'' %>">
-                                <a href="<%= currentPage==1?'javascript:;':('/sangto/news?category='+currentCategory+'&pageNumber='+(+currentPage-1)) %>" aria-label="Previous">
+                                <a href="<%= currentPage==1?'javascript:;':('/news?category='+currentCategory+'&pageNumber='+(+currentPage-1)) %>" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                 </a>
                             </li>
                             <% for(var i=1; i<=totalPage;i++) { %>
                             <li class="<%= currentPage==i?'active':'' %>">
-                                <a href="<%= currentPage==i?'javascript:;':('/sangto/news?category='+currentCategory+'&pageNumber='+i) %>"> <%= i %>
+                                <a href="<%= currentPage==i?'javascript:;':('/news?category='+currentCategory+'&pageNumber='+i) %>"> <%= i %>
                                 </a>
                             </li>
                             <% } %>
                             <li class="<%= currentPage==totalPage?'disabled':'' %>">
-                                <a href="<%= currentPage==totalPage?'javascript:;':('/sangto/news?category='+currentCategory+'&pageNumber='+(+currentPage+1)) %>" aria-label="Next">
+                                <a href="<%= currentPage==totalPage?'javascript:;':('/news?category='+currentCategory+'&pageNumber='+(+currentPage+1)) %>" aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                 </a>
                             </li>

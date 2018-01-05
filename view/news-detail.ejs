@@ -23,10 +23,10 @@
         <!-- category -->
         <div class="plate-breadcrumb">
             <ul>
-                <li><a href="/sangto/index">首页</a></li>
-                <li><a href="/sangto/news">新闻中心</a></li>
-                <li><a href="/sangto/news?category=<%= news.category %>">公司动态</a></li>
-                <li>恭贺四川德阳洋洋百货悦家店开业大吉</li>
+                <li><a href="/">首页</a></li>
+                <li><a href="/news">新闻中心</a></li>
+                <li><a href="/news?category=<%= news.category %>">公司动态</a></li>
+                <li><%= news.title %></li>
             </ul>
         </div>
 
@@ -45,12 +45,12 @@
             </div>
             <div class="news-detail-footer">
                 <div>
-                    <a href="/sangto/news?category=<%= news.category %>" class="btn btn-sm btn-warning">返回</a>
+                    <a href="/news?category=<%= news.category %>" class="btn btn-sm btn-warning">返回</a>
                 </div>
                 <% if(nextNews){ %>
                 <p>
                     <span>下一篇：</span>
-                    <a href="/sangto/news/<%=nextNews.id%>"><%= nextNews.title %></a>
+                    <a href="/news/<%=nextNews.id%>"><%= nextNews.title %></a>
                 </p>
                 <% } %>
             </div>

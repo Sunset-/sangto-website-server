@@ -22,9 +22,9 @@
         <img class="huge-banner" src="/img/banner/4.png" alt="">
         <!-- category -->
         <div class="plate-category">
-            <ul>
-                <li>成功案例</li>
-            </ul>
+            <div>
+                <span>成功案例</span>
+            </div>
         </div>
 
         <!-- cases -->
@@ -34,12 +34,12 @@
                 <div class="swiper-outer-trigger next"></div>
                 <div class="swiper-container cases-swiper">
                     <div class="swiper-wrapper">
-                        <% for(var i=0; i<15; i++) { %>
-                            <div class="swiper-slide swiper-slide-case">
-                                <div class="case-item">
-                                    <img src="/img/demo/succes01.png" alt="">
-                                    <p>微信移动终端解决方案</p>
-                                </div>
+                        <% for(var i=0,item; item=cases[i++]; ) { %>
+                            <div class="swiper-slide swiper-slide-case" data-id="<%= item.id %>">
+                                <a href="/cases/<%= item.id %>" class="case-item">
+                                    <img src="/<%= item.cover %>" alt="">
+                                    <p><%= item.title %></p>
+                                </a>
                             </div>
                             <% } %>
                     </div>

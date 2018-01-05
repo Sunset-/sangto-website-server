@@ -486,3 +486,13 @@
     };
 
 })(window);
+
+//business
+(function(){
+    var path = location.pathname.substring(1);
+    $('#header .header-'+({
+        'home' : 'home',
+        'news' : 'news',
+        'cases' : 'cases'
+    }[path]||'home')).addClass('active');
+})();

@@ -30,6 +30,10 @@ body {
       .plate-category div a.active {
         background: #FFC50A;
         color: #FFF; }
+    .plate-category div span {
+      line-height: 40px;
+      font-size: 14px;
+      color: #657180; }
 
 .plate-breadcrumb {
   width: 100%;

@@ -124,7 +124,7 @@
 .news-item {
     display: table;
     padding: 20px 40px;
-    &>img {
+    &>a>img {
         display: table-cell;
         vertical-align: top;
         width: 120px;

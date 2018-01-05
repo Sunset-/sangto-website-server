@@ -39,7 +39,9 @@
     }
     .swiper-slide-case{
         font-size:14px;
+        cursor: pointer;
         .case-item{
+            display: block;
             width: 90%;
             margin: 10px auto;
             text-align:center;

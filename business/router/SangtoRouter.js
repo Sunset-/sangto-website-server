@@ -9,16 +9,33 @@ const moment = require('moment');
 
 
 module.exports = {
-    prefix: '/sangto',
+    prefix: '/',
     routes: Object.assign({
-        'GET/index': {
+        // 首页
+        'GET/': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
+                //新闻
+                var news = await ContentService.loadContentList({
+                    type : Enums.CONTENT_TYPE.NEWS,
+                    status : Enums.CONTENT_STATUS.NORMAL,
+                    pageSize : ContentConfig.INDEX_NEWS_PAGE_SIZE
+                });
+                //案例
+                var cases = await ContentService.loadContentList({
+                    type : Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
+                    status : Enums.CONTENT_STATUS.NORMAL,
+                    pageSize : ContentConfig.INDEX_CASES_PAGE_SIZE
+                });
                 await ctx.render('index', {
                     title: 'Bootstrap学习',
+                    news : news.rows,
+                    cases : cases.rows,
+                    moment : moment
                 });
             }
         },
+        // 新闻
         'GET/news': {
             middleware: async function (ctx, next) {
                 var query = ctx.query;
@@ -34,7 +51,6 @@ module.exports = {
                     pageNumber : currentPageNumber,
                     pageSize : ContentConfig.NEWS_PAGE_SIZE
                 });
-                logger.info(`----- ${currentCategory}`);
                 await ctx.render('news', {
                     title: 'Bootstrap学习',
                     currentCategory : currentCategory,
@@ -59,19 +75,30 @@ module.exports = {
                 });
             }
         },
+        // 成功案例
         'GET/cases': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
+                var cases = await ContentService.loadContentList({
+                    type : Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
+                    status : Enums.CONTENT_STATUS.NORMAL,
+                    pageSize : 9999
+                });
                 await ctx.render('cases', {
                     title: 'Bootstrap学习',
+                    cases : cases.rows,
+                    moment : moment
                 });
             }
         },
         'GET/cases/:id': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
+                var cases = await ContentService.findById(ctx.params.id);
                 await ctx.render('case-detail', {
-                    title: 'Bootstrap学习'
+                    title: 'Bootstrap学习',
+                    cases : cases,
+                    moment : moment
                 });
             }
         },

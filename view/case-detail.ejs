@@ -23,16 +23,22 @@
         <!-- category -->
         <div class="plate-breadcrumb">
             <ul>
-                <li>首页</li>
-                <li>成功案例</li>
-                <li>恭贺四川德阳洋洋百货悦家店开业大吉</li>
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                <li>
+                    <a href="/cases">成功案例</a>
+                </li>
+                <li>
+                    <%= cases.title %>
+                </li>
             </ul>
         </div>
 
         <!-- news -->
         <div class="case-detail-container">
             <div class="case-detail-content">
-                <img src="/img/demo/banner.png" alt="">
+                <%- cases.content %>
             </div>
         </div>
 
