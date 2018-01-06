@@ -3,7 +3,7 @@
 
 <head>
     <%include common-header.ejs %>
-    <link rel="stylesheet" href="/css/index.css" />
+        <link rel="stylesheet" href="/css/index.css" />
 </head>
 
 <body>
@@ -11,32 +11,25 @@
     <!-- header -->
     <%include header.ejs %>
 
-    <!-- banner -->
-    <div class="swiper-container banner-swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="/img/banner/1.png" alt="">
+        <!-- banner -->
+        <div class="swiper-container banner-swiper">
+            <div class="swiper-wrapper">
+                <% for(var i=0,item; item=globalParams.INDEX_BANNERS.split(',')[i++]; ) { %>
+                    <div class="swiper-slide">
+                        <img src="/upload/<%= item %>" alt="">
+                    </div>
+                    <% } %>
             </div>
-            <div class="swiper-slide">
-                <img src="/img/banner/2.png" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="/img/banner/3.png" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="/img/banner/4.png" alt="">
-            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
-        <!-- 如果需要分页器 -->
-        <div class="swiper-pagination"></div>
-        <!-- 如果需要导航按钮 -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    </div>
-    <!-- products -->
-    <div class="container-fluid plate">
-        <div class="plate-title">
-            <div class="main-title">产品与方案</div>
+        <!-- products -->
+        <div class="container-fluid plate">
+            <div class="plate-title">
+                <div class="main-title">产品与方案</div>
             <div class="sub-title">Products And Cases</div>
         </div>
         <div class="index-swiper-container">
@@ -44,103 +37,121 @@
             <div class="swiper-outer-trigger next"></div>
             <div class="swiper-container product-swiper">
                 <div class="swiper-wrapper">
-                    <% for(var i=0; i<6; i++) { %>
+                    <% for(var i=0,item; item=indexContents.products[i++]; ) { %>
                         <div class="swiper-slide col-xs-4 swiper-slide-product">
                             <div class="img-box">
-                                <img src="/img/banner/1.png" alt="">
+                                <a href="/products/<%= item.id %>">
+                                    <img src="/upload/<%= item.cover %>" alt="<%= item.title %>" title="<%= item.title %>">
+                                </a>
                             </div>
                             <div class="product-title">
-                                微信移动终端解决方案
-                                <%=i %>
+                                <a href="/products/<%= item.id %>">
+                                    <%= item.title %>
+                                </a>
                             </div>
                             <p>
-                                微信业务系统 -> 会员卡管理系统
+                                <a href="/products?category=<%= item.category %>">
+                                    <%= globalParams.DictionaryMap.PRODUCTS_CATEGORY[item.category] %>
+                                </a>
+                                <span class="hidden-xs">&nbsp;->&nbsp;
+                                    <%= item.title %>
+                                </span>
                             </p>
                         </div>
                         <% } %>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- successful-cases -->
-    <div class="container-fluid plate">
-        <div class="plate-title">
-            <div class="main-title">成功案例</div>
-            <div class="sub-title">Successful Stories</div>
         </div>
-        <div class="row case-container">
-            <% for(var i=0,item; item=cases[i++];) { %>
-                <div class="case-item col-xs-6 col-sm-4">
-                    <a style="display:inline-block;" href="<%= '/cases/'+item.id %>"><img src="/<%= item.cover %>" alt=""></a>
-                    <div class="case-title"><a href="<%= '/cases/'+item.id %>"><%= item.title %></a></div>
-                    <div class="sub-title">大型连锁百货 -> 兰州国芳百盛</div>
-                </div>
-                <% } %>
+        <!-- successful-cases -->
+        <div class="container-fluid plate">
+            <div class="plate-title">
+                <div class="main-title">成功案例</div>
+                <div class="sub-title">Successful Stories</div>
+            </div>
+            <div class="row case-container">
+                <% for(var i=0,item; item=indexContents.cases[i++];) { %>
                     <div class="case-item col-xs-6 col-sm-4">
-                        <a style="display:inline-block;" href="/cases"><img src="/img/more.png" alt=""></a>
-                        <div class="case-title">查看更多</div>
-                        <div class="sub-title">查看更多</div>
+                        <a style="display:inline-block;" href="<%= '/cases/'+item.id %>">
+                            <img src="/upload/<%= item.cover %>" alt="">
+                        </a>
+                        <div class="case-title">
+                            <a href="<%= '/cases/'+item.id %>">
+                                <%= item.title %>
+                            </a>
+                        </div>
+                        <div class="sub-title">大型连锁百货 -> 兰州国芳百盛</div>
                     </div>
+                    <% } %>
+                        <div class="case-item col-xs-6 col-sm-4">
+                            <a style="display:inline-block;" href="/cases">
+                                <img src="/upload/img/more.png" alt="">
+                            </a>
+                            <div class="case-title">查看更多</div>
+                            <div class="sub-title">查看更多</div>
+                        </div>
+            </div>
         </div>
-    </div>
-    <!-- news -->
-    <div class="container-fluid plate">
-        <div class="plate-title">
-            <div class="main-title">新闻中心</div>
-            <div class="sub-title">News Center</div>
-        </div>
-        <div class="row news-container">
-            <% for(var i=0,item; item=news[i++];) { %>
-                <div class="news-item col-sm-6">
-                    <a style="display:inline-block;" href="<%= '/news/'+item.id %>">
-                        <img src="/<%= item.cover %>" alt="">
-                    </a>
-                    <div>
+        <!-- news -->
+        <div class="container-fluid plate">
+            <div class="plate-title">
+                <div class="main-title">新闻中心</div>
+                <div class="sub-title">News Center</div>
+            </div>
+            <div class="row news-container">
+                <% for(var i=0,item; item=indexContents.news[i++];) { %>
+                    <div class="news-item col-sm-6">
+                        <a style="display:inline-block;" href="<%= '/news/'+item.id %>">
+                            <img src="/upload/<%= item.cover %>" alt="">
+                        </a>
                         <div>
-                            <div class="news-date">
-                                <div>
-                                    <%= moment(item.createTime).format('DD') %>
+                            <div>
+                                <div class="news-date">
+                                    <div>
+                                        <%= moment(item.createTime).format('DD') %>
+                                    </div>
+                                    <div>
+                                        <%= moment(item.createTime).format('YYYY.MM') %>
+                                    </div>
                                 </div>
-                                <div>
-                                    <%= moment(item.createTime).format('YYYY.MM') %>
+                                <div class="news-title">
+                                    <a href="<%= '/news/'+item.id %>">
+                                        <%= item.title %>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="news-title">
-                                <a href="<%= '/news/'+item.id %>"><%= item.title %></a>
+                            <div class="news-digest">
+                                <%= item.digest %>
                             </div>
-                        </div>
-                        <div class="news-digest">
-                            <%= item.digest %>
                         </div>
                     </div>
-                </div>
-                <% } %>
+                    <% } %>
+            </div>
         </div>
-    </div>
 
-    <!-- about us -->
-    <div class="about-us">
-        <div class="title">
-            关于我们
-            <br> About us
+        <!-- about us -->
+        <div class="about-us">
+            <div class="title">
+                关于我们
+                <br> About us
+            </div>
+            <div class="content">
+                <%- globalParams.ABOUT_US %>
+            </div>
         </div>
-        <div class="content">
-            <%- globalParams.ABOUT_US %>
-        </div>
-    </div>
 
-    <!-- foot -->
-    <%include foot.ejs %>
+        <!-- foot -->
+        <%include foot.ejs %>
 
-    <!-- jquery -->
-    <script src="/vendor/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <!-- swiper -->
-    <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
-    <!-- main -->
-    <script src="/js/global.js"></script>
-    <script src="/js/index.js"></script>
+            <!-- jquery -->
+            <script src="/vendor/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <!-- swiper -->
+            <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
+            <!-- main -->
+            <script src="/js/global.js"></script>
+            <script src="/js/index.js"></script>
 </body>
 
 </html>

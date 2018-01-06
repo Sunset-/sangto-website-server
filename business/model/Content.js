@@ -22,6 +22,11 @@ module.exports = (sequelize, DataTypes) => {
             type : DataTypes.STRING(64),
             allowNull: false
         },
+        icon : {
+            field : 'icon_',
+            type : DataTypes.STRING(64),
+            allowNull: true
+        },
         cover : {
             field : 'cover_',
             type : DataTypes.STRING(64),
@@ -60,6 +65,11 @@ module.exports = (sequelize, DataTypes) => {
         status : {
             field : 'status_',
             type: DataTypes.INTEGER(1),
+            allowNull: false
+        },
+        viewCount : {
+            field : 'view_count_',
+            type: DataTypes.INTEGER(11),
             allowNull: false
         }
     }, {

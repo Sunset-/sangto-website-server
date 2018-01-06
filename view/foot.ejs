@@ -1,20 +1,57 @@
-
-
 <!-- category -->
 <div class="foot-category hidden-xs">
     <div class="row">
-        <% for(var i=0; i<6; i++) { %>
-            <div class="col-sm-2">
-                <ul>
-                    <li>产品与方案</li>
-                    <li>国芳百货</li>
-                    <li>国芳百货</li>
-                    <li>国芳百货</li>
-                    <li>国芳百货</li>
-                    <li>国芳百货</li>
-                </ul>
-            </div>
-            <% } %>
+        <div class="col-sm-2">
+            <ul>
+                <li>
+                    <a href="/products">产品与方案</a>
+                </li>
+                <% for(var i=0,item; item=indexContents.products[i++];) { %>
+                    <li>
+                        <a href="/products/<%= item.id %>">
+                            <%= item.title %>
+                        </a>
+                    </li>
+                    <% } %>
+                        <li>
+                            <a href="/products">更多>></a>
+                        </li>
+            </ul>
+        </div>
+        <div class="col-sm-2">
+            <ul>
+                <li>
+                    <a href="/cases">成功案例</a>
+                </li>
+                <% for(var i=0,item; item=indexContents.cases[i++];) { %>
+                    <li>
+                        <a href="/cases/<%= item.id %>">
+                            <%= item.title %>
+                        </a>
+                    </li>
+                    <% } %>
+                        <li>
+                            <a href="/cases">更多>></a>
+                        </li>
+            </ul>
+        </div>
+        <div class="col-sm-2">
+            <ul>
+                <li>
+                    <a href="/news">新闻中心</a>
+                </li>
+                <% for(var i=0,item; item=indexContents.news[i++];) { %>
+                    <li>
+                        <a href="/news/<%= item.id %>">
+                            <%= item.title %>
+                        </a>
+                    </li>
+                    <% } %>
+                        <li>
+                            <a href="/news">更多>></a>
+                        </li>
+            </ul>
+        </div>
     </div>
 </div>
 

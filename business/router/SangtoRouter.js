@@ -7,14 +7,56 @@ const moment = require('moment');
 
 var globalParams = {};
 
-MemoryCache.listen('SYSTEMVARIABLE_USE_ALL', 'SANGTO_INDEX_PARAMS', async function () {
+var indexContents = {};
+
+MemoryCache.listen('SYSTEMVARIABLE_USE_ALL,DICTIONARY_ITEM_USE_ALL', 'SANGTO_INDEX_PARAMS', async function () {
     var variables = await MemoryCache.get('SYSTEMVARIABLE_USE_ALL');
+    var dicionaryItems = await MemoryCache.get('DICTIONARY_ITEM_USE_ALL');
     var indexParams = await MemoryCache.get('SANGTO_INDEX_PARAMS', true) || {};
+    //vars
     variables.forEach(item => {
         indexParams[item.name] = item.value;
     });
+    //dict
+    var DictionaryMap = {};
+    var Dictionarys = {};
+    dicionaryItems.forEach(item => {
+        DictionaryMap[item.type] = DictionaryMap[item.type]||{};
+        Dictionarys[item.type] = Dictionarys[item.type]||[];
+        DictionaryMap[item.type][item.value] = item.name;
+        Dictionarys[item.type].push(item);
+    });
+    indexParams.DictionaryMap = DictionaryMap;
+    indexParams.Dictionarys = Dictionarys;
+
     Object.assign(globalParams,indexParams);
     return indexParams;
+});
+
+
+MemoryCache.listen('SANGTO_CONTENTS', 'SANGTO_INDEX_CONTENTS', async function () {
+    //产品方案
+    var products = await ContentService.loadContentList({
+        type: Enums.CONTENT_TYPE.PRODUCT_AND_PLAN,
+        status: Enums.CONTENT_STATUS.HOT,
+        pageSize: 999
+    });
+    //新闻
+    var news = await ContentService.loadContentList({
+        type: Enums.CONTENT_TYPE.NEWS,
+        status: Enums.CONTENT_STATUS.HOT,
+        pageSize: ContentConfig.INDEX_NEWS_PAGE_SIZE
+    });
+    //案例
+    var cases = await ContentService.loadContentList({
+        type: Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
+        status: Enums.CONTENT_STATUS.HOT,
+        pageSize: ContentConfig.INDEX_CASES_PAGE_SIZE
+    });
+    indexContents.products = products.rows;
+    indexContents.news = news.rows;
+    indexContents.cases = cases.rows;
+    return indexContents;
 });
 
 module.exports = {
@@ -24,23 +66,50 @@ module.exports = {
         'GET/': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
-                //新闻
-                var news = await ContentService.loadContentList({
-                    type: Enums.CONTENT_TYPE.NEWS,
-                    status: Enums.CONTENT_STATUS.NORMAL,
-                    pageSize: ContentConfig.INDEX_NEWS_PAGE_SIZE
-                });
-                //案例
-                var cases = await ContentService.loadContentList({
-                    type: Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
-                    status: Enums.CONTENT_STATUS.NORMAL,
-                    pageSize: ContentConfig.INDEX_CASES_PAGE_SIZE
-                });
 
                 await ctx.render('index', {
-                    news: news.rows,
-                    cases: cases.rows,
+                    indexContents : indexContents,
                     globalParams: globalParams,
+                    moment: moment
+                });
+            }
+        },
+        // 产品方案
+        'GET/products': {
+            middleware: async function (ctx, next) {
+                var query = ctx.query;
+                ctx.useOriginResponseBody = true;
+                var items = await MemoryCache.get('DICTIONARY_ITEM_USE_ALL');
+                var productsCategories = items.filter(item => item.type == Enums.CATEGORY_TYPE.PRODUCTS);
+                var currentCategory = query.category || productsCategories[0].value;
+                var currentPageNumber = query.pageNumber || 1;
+                var products = await ContentService.loadContentList({
+                    type: Enums.CONTENT_TYPE.PRODUCT_AND_PLAN,
+                    category: currentCategory,
+                    status: `${Enums.CONTENT_STATUS.NORMAL},${Enums.CONTENT_STATUS.HOT}`,
+                    pageNumber: currentPageNumber,
+                    pageSize: ContentConfig.PRODUCTS_PAGE_SIZE
+                });
+                await ctx.render('products', {
+                    indexContents : indexContents,
+                    globalParams: globalParams,
+                    currentCategory: currentCategory,
+                    productsCategories: productsCategories,
+                    products: products,
+                    currentPage: currentPageNumber,
+                    totalPage: products.count % ContentConfig.PRODUCTS_PAGE_SIZE == 0 ? products.count / ContentConfig.PRODUCTS_PAGE_SIZE : (parseInt(products.count / ContentConfig.PRODUCTS_PAGE_SIZE) + 1),
+                    moment: moment
+                });
+            }
+        },
+        'GET/products/:id': {
+            middleware: async function (ctx, next) {
+                ctx.useOriginResponseBody = true;
+                var product = await ContentService.findById(ctx.params.id);
+                await ctx.render('product-detail', {
+                    indexContents : indexContents,
+                    globalParams: globalParams,
+                    product: product,
                     moment: moment
                 });
             }
@@ -57,11 +126,12 @@ module.exports = {
                 var news = await ContentService.loadContentList({
                     type: Enums.CONTENT_TYPE.NEWS,
                     category: currentCategory,
-                    status: Enums.CONTENT_STATUS.NORMAL,
+                    status: `${Enums.CONTENT_STATUS.NORMAL},${Enums.CONTENT_STATUS.HOT}`,
                     pageNumber: currentPageNumber,
                     pageSize: ContentConfig.NEWS_PAGE_SIZE
                 });
                 await ctx.render('news', {
+                    indexContents : indexContents,
                     globalParams: globalParams,
                     currentCategory: currentCategory,
                     newsCategories: newsCategories,
@@ -78,6 +148,7 @@ module.exports = {
                 var news = await ContentService.findById(ctx.params.id);
                 var nextNews = await ContentService.findNextOne(news.createTime);
                 await ctx.render('news-detail', {
+                    indexContents : indexContents,
                     globalParams: globalParams,
                     news: news,
                     nextNews: nextNews,
@@ -91,10 +162,11 @@ module.exports = {
                 ctx.useOriginResponseBody = true;
                 var cases = await ContentService.loadContentList({
                     type: Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
-                    status: Enums.CONTENT_STATUS.NORMAL,
+                    status: `${Enums.CONTENT_STATUS.NORMAL},${Enums.CONTENT_STATUS.HOT}`,
                     pageSize: 9999
                 });
                 await ctx.render('cases', {
+                    indexContents : indexContents,
                     globalParams: globalParams,
                     cases: cases.rows,
                     moment: moment
@@ -106,6 +178,7 @@ module.exports = {
                 ctx.useOriginResponseBody = true;
                 var cases = await ContentService.findById(ctx.params.id);
                 await ctx.render('case-detail', {
+                    indexContents : indexContents,
                     globalParams: globalParams,
                     cases: cases,
                     moment: moment
@@ -116,6 +189,8 @@ module.exports = {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
                 await ctx.render(`about-${ctx.params.type}`, {
+                    currentNavType :ctx.params.type,
+                    indexContents : indexContents,
                     globalParams: globalParams
                 });
             }

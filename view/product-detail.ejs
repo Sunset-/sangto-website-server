@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <%include common-header.ejs %>
+        <link rel="stylesheet" href="/css/product-detail.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <%include header.ejs %>
+
+        <!-- banner -->
+        <img class="huge-banner" src="/upload/<%= globalParams.PRODUCT_BANNER %>" alt="">
+        <!-- category -->
+        <div class="plate-breadcrumb">
+            <ul>
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                <li>
+                    <a href="/products">产品与方案</a>
+                </li>
+                <li>
+                    <a href="/products?category=<%= product.category %>"><%= globalParams.DictionaryMap.PRODUCTS_CATEGORY[product.category] %></a>
+                </li>
+                <li>
+                    <%= product.title %>
+                </li>
+            </ul>
+        </div>
+
+        <!-- product -->
+        <div class="product-detail-container">
+            <div class="product-detail-content">
+                <%- product.content %>
+            </div>
+        </div>
+
+        <!-- foot -->
+        <%include foot.ejs %>
+
+            <!-- jquery -->
+            <script src="/vendor/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <!-- swiper -->
+            <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
+            <!-- main -->
+            <script src="/js/global.js"></script>
+            <script src="/js/product-detail.js"></script>
+</body>
+
+</html>

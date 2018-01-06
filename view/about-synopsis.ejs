@@ -3,39 +3,25 @@
 
     <div class="about-container synopsis-container">
         <div class="synopsis-content">
-            <p>
-                Sequelize will setup a connection pool on initialization so you should ideally only ever create one instance per database
-                if you're connecting to the DB from a single process. If you're connecting to the DB from multiple processes,
-                you'll have to create one instance per process, but each instance should have a maximum connection pool size
-                of "max connection pool size divided by number of instances". So, if you wanted a max connection pool size
-                of 90 and you had 3 worker processes, each process's instance should have a max connection pool size of 30.
-            </p>
-            <img src="/img/demo/banner.png" alt="">
-            <p>
-                Sequelize will setup a connection pool on initialization so you should ideally only ever create one instance per database
-                if you're connecting to the DB from a single process. If you're connecting to the DB from multiple processes,
-                you'll have to create one instance per process, but each instance should have a maximum connection pool size
-                of "max connection pool size divided by number of instances". So, if you wanted a max connection pool size
-                of 90 and you had 3 worker processes, each process's instance should have a max connection pool size of 30.
-            </p>
+            <%- globalParams.SYNOPSIS %>
         </div>
     </div>
     <div class="vision-wrapper">
         <div class="vision row">
             <div class="col-sm-4">
-                <img src="/img/demo/succes01.png" alt="">
+                <img src="/img/yuanjing.png" alt="">
                 <h4>愿景</h4>
-                <p>中国领先的智能装备与软件服务的集成商</p>
+                <p><%= globalParams.VISION %></p>
             </div>
             <div class="col-sm-4">
-                <img src="/img/demo/succes01.png" alt="">
+                <img src="/img/wenhua.png" alt="">
                 <h4>文化</h4>
-                <p>中国领先的智能装备与软件服务的集成商</p>
+                <p><%= globalParams.CULTURE %></p>
             </div>
             <div class="col-sm-4">
-                <img src="/img/demo/succes01.png" alt="">
+                <img src="/img/shiming.png" alt="">
                 <h4>使命</h4>
-                <p>中国领先的智能装备与软件服务的集成商</p>
+                <p><%= globalParams.MISSION %></p>
             </div>
         </div>
     </div>

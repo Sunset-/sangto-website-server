@@ -11,23 +11,23 @@
     <%include header.ejs %>
 
         <!-- banner -->
-        <img class="huge-banner" src="/img/banner/4.png" alt="">
+        <img class="huge-banner" src="/upload/<%= globalParams.ABOUT_US_BANNER %>" alt="">
         <!-- category -->
         <div class="plate-category">
-            <ul class="collapse-category hidden-xs">
-                <li>公司简介</li>
-                <li>企业历程</li>
-                <li>荣誉历程</li>
-                <li>招贤纳士</li>
-                <li>合作伙伴</li>
-                <li>联系我们</li>
-            </ul>
-            <ul class="collapse-category visible-xs">
-                <li>简介</li>
-                <li>历程</li>
-                <li>荣誉</li>
-                <li>招贤</li>
-                <li>伙伴</li>
-                <li>联系我们</li>
-            </ul>
+            <div class="collapse-category hidden-xs">
+                <a href="/about/synopsis" class="<%= currentNavType=='synopsis'?'active':'' %>">公司简介</a>
+                <a href="/about/progress" class="<%= currentNavType=='progress'?'active':'' %>">企业历程</a>
+                <a href="/about/honor" class="<%= currentNavType=='honor'?'active':'' %>">荣誉历程</a>
+                <a href="/about/recruit" class="<%= currentNavType=='recruit'?'active':'' %>">招贤纳士</a>
+                <a href="/about/partner" class="<%= currentNavType=='partner'?'active':'' %>">合作伙伴</a>
+                <a href="/about/contact" class="<%= currentNavType=='contact'?'active':'' %>">联系我们</a>
+            </div>
+            <div class="collapse-category visible-xs">
+                <a href="/about/synopsis" class="<%= currentNavType=='synopsis'?'active':'' %>">简介</a>
+                <a href="/about/progress" class="<%= currentNavType=='progress'?'active':'' %>">历程</a>
+                <a href="/about/honor" class="<%= currentNavType=='honor'?'active':'' %>">荣誉</a>
+                <a href="/about/recruit" class="<%= currentNavType=='recruit'?'active':'' %>">招贤</a>
+                <a href="/about/partner" class="<%= currentNavType=='partner'?'active':'' %>">伙伴</a>
+                <a href="/about/contact" class="<%= currentNavType=='contact'?'active':'' %>">联系我们</a>
+            </div>
         </div>

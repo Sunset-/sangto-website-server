@@ -11,7 +11,7 @@
     <%include header.ejs %>
 
         <!-- banner -->
-        <img class="huge-banner" src="/img/banner/4.png" alt="">
+        <img class="huge-banner" src="/upload/<%= globalParams.SUCCESSFULL_CASE_BANNER %>" alt="">
         <!-- category -->
         <div class="plate-category">
             <div>
@@ -29,7 +29,7 @@
                         <% for(var i=0,item; item=cases[i++]; ) { %>
                             <div class="swiper-slide swiper-slide-case" data-id="<%= item.id %>">
                                 <a href="/cases/<%= item.id %>" class="case-item">
-                                    <img src="/<%= item.cover %>" alt="">
+                                    <img src="/upload/<%= item.cover %>" alt="">
                                     <p><%= item.title %></p>
                                 </a>
                             </div>

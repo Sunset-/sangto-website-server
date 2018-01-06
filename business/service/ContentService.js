@@ -7,6 +7,12 @@ const MODEL = 'Content';
 class SystemVariableService extends BaseService {
     constructor() {
         super(MODEL);
+        this.on('afterChange', () => {
+            MemoryCache.refresh('SANGTO_CONTENTS');
+        })
+        MemoryCache.regist('SANGTO_CONTENTS', () => {
+            return true;
+        }, false);
     }
 
     loadContentList(query) {
@@ -19,6 +25,7 @@ class SystemVariableService extends BaseService {
                         tb_c.type_ AS type,
                         tb_c.category_ AS category,
                         tb_c.title_ AS title,
+                        tb_c.icon_ AS icon,
                         tb_c.cover_ AS cover,
                         tb_c.keywords_ AS keywords,
                         tb_c.digest_ AS digest,
@@ -26,13 +33,14 @@ class SystemVariableService extends BaseService {
                         tb_c.publish_user_ AS publishUser,
                         tb_c.create_time_ AS createTime,
                         tb_c.status_ AS status,
+                        tb_c.view_count_ AS viewCount,
                         tb_ma.nickname_ AS createUserName
                         FROM 
                         tb_content tb_c 
                         JOIN tb_manager_account tb_ma ON tb_ma.id_=tb_c.create_user_
                         WHERE 
                         tb_c.type_='${query.type}'
-                        ${query.status?` AND tb_c.status_=${query.status} `:''}
+                        ${query.status?` AND tb_c.status_${this.generateInSql(query.status)} `:''}
                         ${query.category?` AND tb_c.category_=${query.category} `:''}
                         ${query.keyword?` AND (tb_c.title_ LIKE '%${query.keyword}%' OR tb_c.keywords_ LIKE '%${query.keyword}%') `:''}
                         ORDER BY tb_c.create_time_ DESC
@@ -45,7 +53,7 @@ class SystemVariableService extends BaseService {
                         FROM tb_content tb_c
                         WHERE 
                         tb_c.type_='${query.type}'
-                        ${query.status?` AND tb_c.status_=${query.status} `:''}
+                        ${query.status?` AND tb_c.status_${this.generateInSql(query.status)} `:''}
                         ${query.category?` AND tb_c.category_=${query.category} `:''}
                         ${query.keyword?` AND (tb_c.title_ LIKE '%${query.keyword}%' OR tb_c.keywords_ LIKE '%${query.keyword}%') `:''}
                     `, {

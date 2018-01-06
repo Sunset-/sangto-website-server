@@ -490,9 +490,14 @@
 //business
 (function(){
     var path = location.pathname.substring(1);
+    if(path.indexOf('/')>=0){
+        path = path.substring(path,path.indexOf('/'));
+    }
     $('#header .header-'+({
         'home' : 'home',
         'news' : 'news',
-        'cases' : 'cases'
+        'cases' : 'cases',
+        'products' : 'products',
+        'about' : 'about'
     }[path]||'home')).addClass('active');
 })();

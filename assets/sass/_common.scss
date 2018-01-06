@@ -1,6 +1,7 @@
 @import 'variables';
 body {
     padding-top: 50px;
+    font-family: 微软雅黑;
 }
 
 .huge-banner {
@@ -91,6 +92,9 @@ body {
                 &:first-child {
                     font-size: 14px;
                     font-weight: bold;
+                }
+                a{
+                    color:$stable;
                 }
             }
         }

@@ -33,8 +33,11 @@ const Cache = {
         });
     },
     listen(dep, key, generator, lazy = true) {
-        listenMap[dep] = listenMap[dep] || [];
-        listenMap[dep].push(key);
+        var depKeys = dep.split(',');
+        depKeys.forEach(depKey=>{
+            listenMap[depKey] = listenMap[depKey] || [];
+            listenMap[depKey].push(key);
+        });
         this.regist(key, generator, lazy);
     }
 };

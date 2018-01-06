@@ -1,5 +1,7 @@
+@charset "UTF-8";
 body {
-  padding-top: 50px; }
+  padding-top: 50px;
+  font-family: 微软雅黑; }
 
 .huge-banner {
   display: block;
@@ -72,6 +74,8 @@ body {
       .foot-category > .row ul li:first-child {
         font-size: 14px;
         font-weight: bold; }
+      .foot-category > .row ul li a {
+        color: #657180; }
 
 .copyright {
   height: 30px;

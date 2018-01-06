@@ -1,3 +1,5 @@
+var path = require('path');
+
 
 // module.exports = {
 //     host : 'localhost',
@@ -18,7 +20,7 @@ module.exports = {
     // port : '3306',
     // username : 'root',
     // password : 'root',
-    storage: 'D:\\sqlite\\test\\sunset.db',
+    storage: path.resolve(__dirname,'../localDB/sunset.db'),//'D:\\sqlite\\test\\sunset.db',
     database : 'main',
     dialect : 'sqlite',
     pool : {

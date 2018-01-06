@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <%include common-header.ejs %>
+        <link rel="stylesheet" href="/css/products.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <%include header.ejs %>
+
+        <!-- banner -->
+        <img class="huge-banner" src="/upload/<%= globalParams.PRODUCT_BANNER %>" alt="">
+        <!-- category -->
+        <div class="plate-category">
+            <div>
+                <% for(var i=0; i<productsCategories.length; i++) { %>
+                    <a class="<%= currentCategory==productsCategories[i].value?'active':'' %>" href="<%= currentCategory==productsCategories[i].value?'javascript:;':('/products?category='+productsCategories[i].value) %>">
+                        <%=productsCategories[i].name%>
+                    </a>
+                    <% } %>
+            </div>
+        </div>
+
+        <!-- products -->
+        <div class="products-container row">
+            <% for(var i=0,item; item=products.rows[i++];) { %>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="products-item">
+                        <div class="products-icon">
+                            <img src="/upload/<%= item.icon %>" alt="">
+                        </div>
+                        <div class="products-title">
+                            <a href="<%= '/products/'+item.id %>">产品名称：
+                                <%=item.title %>
+                            </a>
+                        </div>
+                        <div class="products-degist">
+                            <%=item.digest %>
+                        </div>
+                        <div class="products-toolbar">
+                            <a href="<%= '/products/'+item.id %>" class="btn btn-warning hidden-xs pull-right">查看详情>></a>
+                            <a href="<%= '/products/'+item.id %>" class="btn btn-xs btn-warning visible-xs pull-right">查看详情>></a>
+                        </div>
+                    </div>
+                </div>
+
+                <% } %>
+
+                    <% if(totalPage>1){ %>
+                        <nav aria-label="..." style="text-align:center;">
+                            <ul class="pagination">
+                                <li class="<%= currentPage==1?'disabled':'' %>">
+                                    <a href="<%= currentPage==1?'javascript:;':('/products?category='+currentCategory+'&pageNumber='+(+currentPage-1)) %>" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <% for(var i=1; i<=totalPage;i++) { %>
+                                    <li class="<%= currentPage==i?'active':'' %>">
+                                        <a href="<%= currentPage==i?'javascript:;':('/products?category='+currentCategory+'&pageNumber='+i) %>">
+                                            <%= i %>
+                                        </a>
+                                    </li>
+                                    <% } %>
+                                        <li class="<%= currentPage==totalPage?'disabled':'' %>">
+                                            <a href="<%= currentPage==totalPage?'javascript:;':('/products?category='+currentCategory+'&pageNumber='+(+currentPage+1)) %>"
+                                                aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                            </ul>
+                        </nav>
+                        <% } %>
+        </div>
+
+        <!-- foot -->
+        <%include foot.ejs %>
+
+            <!-- jquery -->
+            <script src="/vendor/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <!-- swiper -->
+            <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
+            <!-- main -->
+            <script src="/js/global.js"></script>
+            <script src="/js/products.js"></script>
+</body>
+
+</html>

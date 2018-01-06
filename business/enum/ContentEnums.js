@@ -6,10 +6,12 @@ module.exports = {
     },
     CONTENT_STATUS: {
         NORMAL: '1',//正常
-        HIDE: '2'//隐藏
+        HOT: '2',//首页展示
+        HIDE: '3'//隐藏
     },
     CATEGORY_TYPE : {
         NEWS : 'NEWS_CATEGORY',
-        CASES : 'CASES_CATEGORY'
+        CASES : 'CASES_CATEGORY',
+        PRODUCTS : 'PRODUCTS_CATEGORY'
     }
 };

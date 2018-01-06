@@ -11,7 +11,7 @@
     <%include header.ejs %>
 
         <!-- banner -->
-        <img class="huge-banner" src="/img/banner/4.png" alt="">
+        <img class="huge-banner" src="/upload/<%= globalParams.NEWS_BANNER %>" alt="">
         <!-- category -->
         <div class="plate-category">
             <div>
@@ -25,7 +25,7 @@
         <div class="news-container">
             <% for(var i=0,item; item=news.rows[i++];) { %>
                 <div class="news-item row">
-                    <img class="col-xs-3" src="/<%= item.cover %>" alt="">
+                    <img class="col-xs-3" src="/upload/<%= item.cover %>" alt="">
                     <div class="col-xs-9">
                         <div class="news-title">
                             <a href="<%= '/news/'+item.id %>"><%=item.title %></a>

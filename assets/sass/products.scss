@@ -1,0 +1,37 @@
+@import 'variables';
+@import 'common';
+.products-container {
+    max-width: $content-max-width;
+    margin: 0px auto;
+    padding:10px 0px;
+    .products-item {
+        border:1px solid $dark-blue;
+        padding:10px;
+        margin:10px 0px;
+        .products-icon{
+            padding:10px;
+            text-align:center;
+            img {
+                width:80px;
+                vertical-align: top;
+            }
+        }
+        .products-title {
+            text-align:center;
+            font-size:14px;
+            a{
+                color:$dark;
+            }
+        }
+        .products-degist {
+            height:80px;
+            font-size:12px;
+            text-indent: 24px;
+            padding:10px 0px;
+            color:$light;
+        }
+        .products-toolbar {
+            overflow:hidden;
+        }
+    }
+}
