@@ -4,7 +4,7 @@ const MemoryCache = require('../../components/MemoryCache');
 const Enums = require('../enum/ContentEnums');
 const MODEL = 'Content';
 
-class SystemVariableService extends BaseService {
+class ContentService extends BaseService {
     constructor() {
         super(MODEL);
         this.on('afterChange', () => {
@@ -83,4 +83,4 @@ class SystemVariableService extends BaseService {
     }
 }
 
-module.exports = new SystemVariableService();
+module.exports = new ContentService();

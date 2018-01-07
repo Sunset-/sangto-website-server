@@ -2,13 +2,13 @@ const lang = require('../../common/lang');
 const BaseService = require('../../base/BaseService');
 const MemoryCache = require('../../components/MemoryCache');
 const Enums = require('../enum/ContentEnums');
-const MODEL = 'Certificate';
+const MODEL = 'Recruit';
 
-class CertificateService extends BaseService {
+class RecruitService extends BaseService {
     constructor() {
         super(MODEL);
     }
 
 }
 
-module.exports = new CertificateService();
+module.exports = new RecruitService();

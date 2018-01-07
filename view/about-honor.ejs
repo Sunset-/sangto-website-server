@@ -3,12 +3,12 @@
 
     <div class="about-container honor-container">
         <div class="honor-content row">
-            <% for(var i=0; i<6; i++) { %>
+            <% for(var i=0,item; item=honors[i++]; ) { %>
                 <div class="honor-item col-xs-12 col-sm-4">
                     <div class="honor-img">
-                        <img src="/img/demo/products01.png" />
+                        <img src="/upload/<%= item.cover %>" />
                     </div>
-                    <p>高新技术企业认定证书</p>
+                    <p><%= item.title %></p>
                 </div>
                 <% } %>
         </div>

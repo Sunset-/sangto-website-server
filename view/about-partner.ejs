@@ -3,12 +3,12 @@
 
     <div class="about-container partner-container">
         <div class="partner-content row">
-            <% for(var i=0; i<6; i++) { %>
+            <% for(var i=0,item; item=partners[i++]; ) { %>
                 <div class="partner-item col-xs-6 col-sm-4">
                     <div class="partner-img">
-                        <img src="/img/demo/products01.png" />
+                        <img src="/upload/<%= item.cover %>" />
                     </div>
-                    <p>高新技术企业认定证书</p>
+                    <p><%= item.title %></p>
                 </div>
                 <% } %>
         </div>

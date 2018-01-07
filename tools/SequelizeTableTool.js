@@ -3,7 +3,7 @@ const {
     Sequelize
 } = require('../holder/SequelizeHolder');
 const systemModels = [];//'DictionaryType', 'DictionaryItem', 'SystemVariable', 'ManagerAccount', 'WechatAccount'];
-const businessModels = ['Certificate'];//'Content',
+const businessModels = ['Recruit'];//'Content','Certificate'
 
 const reSync = false;
 const reTables = [];

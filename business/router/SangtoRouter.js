@@ -3,6 +3,8 @@ const ContentConfig = require('../../config/businessConfig.js');
 const MemoryCache = require('../../components/MemoryCache');
 const Enums = require('../enum/ContentEnums');
 const ContentService = require('../service/ContentService');
+const CertificateService = require('../service/CertificateService');
+const RecruitService = require('../service/RecruitService');
 const moment = require('moment');
 
 var globalParams = {};
@@ -188,10 +190,32 @@ module.exports = {
         'GET/about/:type': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
-                await ctx.render(`about-${ctx.params.type}`, {
-                    currentNavType :ctx.params.type,
+                var type = ctx.params.type;
+                var honors = [];
+                var partners = [];
+                var recruits = [];
+                if(type=='honor'){
+                    honors = await CertificateService.findAll({
+                        where : {
+                            type : Enums.CERTIFICATE_TYPE.HONOR
+                        }
+                    });
+                }else if(type=='partner'){
+                    partners = await CertificateService.findAll({
+                        where : {
+                            type : Enums.CERTIFICATE_TYPE.PARTNER_LOGO
+                        }
+                    });
+                }else if(type=='recruit'){
+                    recruits = await RecruitService.findAll();
+                }
+                await ctx.render(`about-${type}`, {
+                    currentNavType :type,
                     indexContents : indexContents,
-                    globalParams: globalParams
+                    globalParams: globalParams,
+                    honors : honors,
+                    partners : partners,
+                    recruits : recruits
                 });
             }
         }
