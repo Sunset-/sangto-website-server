@@ -52,6 +52,53 @@
                         </li>
             </ul>
         </div>
+        <div class="col-sm-2">
+            <ul>
+                <li>
+                    <a href="/about/partner">合作伙伴</a>
+                </li>
+                <% for(var i=0,item; item=indexContents.partners[i++];) { %>
+                    <li>
+                        <a href="javascript:;">
+                            <%= item.title %>
+                        </a>
+                    </li>
+                    <% } %>
+                        <li>
+                            <a href="/about/partner">更多>></a>
+                        </li>
+            </ul>
+        </div>
+        <div class="col-sm-2">
+            <ul>
+                <li>
+                    <a href="/about">关于我们</a>
+                </li>
+                <li>
+                    <a href="/about/synopsis">
+                        公司简介
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/progress">
+                        企业历程
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/honor">
+                        荣誉历程
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/contact">
+                        联系我们
+                    </a>
+                </li>
+                <li>
+                    <a href="/about">更多>></a>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
 
@@ -59,3 +106,15 @@
 <div class="copyright">
     <%- globalParams.COPYRIGHT %>
 </div>
+
+
+<!-- jquery -->
+<script src="/vendor/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<!-- swiper -->
+<script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
+<!-- sidenav -->
+<script src="/vendor/sidenav/sidenav.min.js"></script>
+<!-- main -->
+<script src="/js/global.js"></script>

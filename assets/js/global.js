@@ -488,16 +488,19 @@
 })(window);
 
 //business
+$('[data-sidenav]').sidenav();
 (function(){
     var path = location.pathname.substring(1);
     if(path.indexOf('/')>=0){
         path = path.substring(path,path.indexOf('/'));
     }
-    $('#header .header-'+({
+    var activeNav = ({
         'home' : 'home',
         'news' : 'news',
         'cases' : 'cases',
         'products' : 'products',
         'about' : 'about'
-    }[path]||'home')).addClass('active');
+    }[path]||'home');
+    $('#header .header-'+activeNav).addClass('active');
+    $('.header-'+activeNav+' a').addClass('active');
 })();

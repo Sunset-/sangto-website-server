@@ -1,38 +1,82 @@
 <!-- header -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navgation">
-    <div class="container-fluid">
-        <div class="navbar-head">
-            <a href="#" class="navbar-brand">
-                <img width="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAB+0lEQVR4AcyYg5LkUBhG+1X2PdZGaW3btm3btm3bHttWrPomd1r/2Jn/VJ02TpxcH4CQ/dsuazWgzbIdrm9dZVd4pBz4zx2igTaFHrhvjneVXNHCSqIlFEjiwMyyyOBilRgGSqLNF1jnwNQdIvAt48C3IlBmHCiLQHC2zoHDu6zG1iXn6+y62ScxY9AODO6w0pvAqf23oSE4joOfH6OxfMoRnoGUm+de8wykbFt6wZtA07QwtNOqKh3ZbS3Wzz2F+1c/QJY0UCJ/J3kXWJfv7VhxCRRV1jGw7XI+gcO7rEFFRvdYxydwcPsVsC0bQdKScngt4iUTD4Fy/8p7PoHzRu1DclwmgmiqgUXjD3oTKHbAt869qdJ7l98jNTEblPTkXMwetpvnftA0LLHb4X8kiY9Kx6Q+W7wJtG0HR7fdrtYz+x7iya0vkEtUULIzCjC21wY+W/GYXusRH5kGytWTLxgEEhePPwhKYb7EK3BQuxWwTBuUkd3X8goUn6fMHLyTT+DCsQdAEXNzSMeVPAJHdF2DmH8poCREp3uwm7HsGq9J9q69iuunX6EgrwQVObjpBt8z6rdPfvE8kiiyhsvHnomrQx6BxYUyYiNS8f75H1w4/ISepDZLoDhNJ9cdNUquhRsv+6EP9oNH7Iff2A9g8h8CLt1gH0Qf9NMQAFnO60BJFQe0AAAAAElFTkSuQmCC"
-                    alt="Brand">
+<div class="top-header">
+    <div>
+        <a href="javascript:;" style="float:left;" class="toggle visible-xs" id="sidenav-toggle">
+            <i class="glyphicon glyphicon-th-list" style="color:#FFF;font-size:18px;display:inline-block;vertical-align: middle;margin-top: -5px;"></i>
+            <span style="color:#FFF;">西安商通软件</span>       
+        </a>
+        <span class="hidden-xs">
+            <%= globalParams.INDEX_WELCOME_TIP %>
+        </span>
+        <span style="float:right;">
+            <img src="/img/top-phone.png" />咨询热线：
+            <a href="tel:<%= globalParams.INDEX_CONTACT_PHONE %>">
+                <%= globalParams.INDEX_CONTACT_PHONE %>
             </a>
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div id="header" class="collapse navbar-collapse navbar-right">
-            <ul class="navbar-nav nav">
-                <li class="header-home">
-                    <a href="/">首页</a>
+        </span>
+    </div>
+</div>
+<div class="sangto-header hidden-xs">
+    <img src="/img/logo.jpg" alt="">
+    <ul id="header" class="sangto-nav">
+        <li class="header-home">
+            <a href="/">首页</a>
+        </li>
+        <li class="header-products">
+            <a href="/products">产品与方案</a>
+        </li>
+        <li class="header-service">
+            <a href="#">服务与支持</a>
+        </li>
+        <li class="header-cases">
+            <a href="/cases">成功案例</a>
+        </li>
+        <li class="header-news">
+            <a href="/news">新闻中心</a>
+        </li>
+        <li class="header-about">
+            <a href="/about/synopsis">关于我们</a>
+        </li>
+    </ul>
+</div>
+<!-- sidenav -->
+<nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+    <div>
+        <img style="width:100%;" src="/img/logo.jpg" alt="">
+    </div>
+
+    <ul class="sidenav-menu">
+        <li class="header-home">
+            <a href="/">首页</a>
+        </li>
+        <li class="header-products">
+            <a href="/products">产品与方案</a>
+        </li>
+        <li class="header-service">
+            <a href="#">服务与支持</a>
+        </li>
+        <li class="header-cases">
+            <a href="/cases">成功案例</a>
+        </li>
+        <li class="header-news">
+            <a href="/news">新闻中心</a>
+        </li>
+        <li class="header-about">
+            <a href="/about/synopsis">关于我们</a>
+        </li>
+        <!-- <li class="header-about">
+            <a href="javascript:;" data-sidenav-dropdown-toggle >关于我们</a>
+            <ul class="sidenav-dropdown" data-sidenav-dropdown>
+                <li>
+                    <a href="javascript:;">公司简介</a>
                 </li>
-                <li class="header-products">
-                    <a href="/products">产品与方案</a>
+                <li>
+                    <a href="javascript:;">企业历程</a>
                 </li>
-                <li class="header-service">
-                    <a href="#">服务与支持</a>
-                </li>
-                <li class="header-cases">
-                    <a href="/cases">成功案例</a>
-                </li>
-                <li class="header-news">
-                    <a href="/news">新闻中心</a>
-                </li>
-                <li class="header-about">
-                    <a href="/about/synopsis">关于我们</a>
+                <li>
+                    <a href="javascript:;">荣誉历程</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </li> -->
+    </ul>
 </nav>

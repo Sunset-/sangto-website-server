@@ -1,7 +1,66 @@
 @import 'variables';
 body {
-    padding-top: 50px;
+    // padding-top: 50px;
     font-family: 微软雅黑;
+}
+
+.top-header{
+    height:40px;
+    line-height:40px;
+    background:$dark-blue;
+    &>div{
+        max-width: $content-max-width;
+        margin: 0 auto;
+        padding:0px 10px;
+        span{
+            font-size:12px;
+            color:#FFF;
+            img{
+                width:24px;
+                margin-right:5px;
+            }
+            a{
+                font-size:14px;
+                font-style: italic;
+                color:#FFF;
+            }
+        }
+    }
+}
+.sangto-header{
+    max-width: $content-max-width;
+    margin: 0 auto;
+    height:90px;
+    .sangto-nav{
+        float:right;
+        font-size:16px;
+        li{
+            display:inline-block;
+            margin:30px 5px 0px 5px;
+            padding:5px 10px;
+            cursor: pointer;
+            a{
+                color:$dark;
+            }
+            &.active{
+                background:$warning;
+                border-radius: 3px;
+                a{
+                    color:#FFF;
+                    text-decoration: none;
+                }
+            }
+            &:hover{
+                background:$warning;
+                border-radius: 3px;
+                a{
+                    color:#FFF;
+                    text-decoration: none;
+                    color:#FFF;
+                }
+            }
+        }
+    }
 }
 
 .huge-banner {

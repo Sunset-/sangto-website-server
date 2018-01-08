@@ -7,6 +7,12 @@ const MODEL = 'Certificate';
 class CertificateService extends BaseService {
     constructor() {
         super(MODEL);
+        this.on('afterChange', () => {
+            MemoryCache.refresh('SANGTO_CERTIFICATES');
+        })
+        MemoryCache.regist('SANGTO_CERTIFICATES', () => {
+            return true;
+        }, false);
     }
 
 }

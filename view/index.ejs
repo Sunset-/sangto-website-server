@@ -30,38 +30,38 @@
         <div class="container-fluid plate">
             <div class="plate-title">
                 <div class="main-title">产品与方案</div>
-            <div class="sub-title">Products And Cases</div>
-        </div>
-        <div class="index-swiper-container">
-            <div class="swiper-outer-trigger prev"></div>
-            <div class="swiper-outer-trigger next"></div>
-            <div class="swiper-container product-swiper">
-                <div class="swiper-wrapper">
-                    <% for(var i=0,item; item=indexContents.products[i++]; ) { %>
-                        <div class="swiper-slide col-xs-4 swiper-slide-product">
-                            <div class="img-box">
-                                <a href="/products/<%= item.id %>">
-                                    <img src="/upload/<%= item.cover %>" alt="<%= item.title %>" title="<%= item.title %>">
-                                </a>
+                <div class="sub-title">Products And Cases</div>
+            </div>
+            <div class="index-swiper-container">
+                <div class="swiper-outer-trigger prev"></div>
+                <div class="swiper-outer-trigger next"></div>
+                <div class="swiper-container product-swiper">
+                    <div class="swiper-wrapper">
+                        <% for(var i=0,item; item=indexContents.products[i++]; ) { %>
+                            <div class="swiper-slide col-xs-4 swiper-slide-product">
+                                <div class="img-box">
+                                    <a href="/products/<%= item.id %>">
+                                        <img src="/upload/<%= item.cover %>" alt="<%= item.title %>" title="<%= item.title %>">
+                                    </a>
+                                </div>
+                                <div class="product-title">
+                                    <a href="/products/<%= item.id %>">
+                                        <%= item.title %>
+                                    </a>
+                                </div>
+                                <p>
+                                    <a href="/products?category=<%= item.category %>">
+                                        <%= globalParams.DictionaryMap.PRODUCTS_CATEGORY[item.category] %>
+                                    </a>
+                                    <span class="hidden-xs">&nbsp;->&nbsp;
+                                        <%= item.title %>
+                                    </span>
+                                </p>
                             </div>
-                            <div class="product-title">
-                                <a href="/products/<%= item.id %>">
-                                    <%= item.title %>
-                                </a>
-                            </div>
-                            <p>
-                                <a href="/products?category=<%= item.category %>">
-                                    <%= globalParams.DictionaryMap.PRODUCTS_CATEGORY[item.category] %>
-                                </a>
-                                <span class="hidden-xs">&nbsp;->&nbsp;
-                                    <%= item.title %>
-                                </span>
-                            </p>
-                        </div>
-                        <% } %>
+                            <% } %>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
         <!-- successful-cases -->
         <div class="container-fluid plate">
@@ -80,12 +80,15 @@
                                 <%= item.title %>
                             </a>
                         </div>
-                        <div class="sub-title">大型连锁百货 -> 兰州国芳百盛</div>
+                        <div class="sub-title">
+                            <%= globalParams.DictionaryMap.CASES_CATEGORY[item.category] %>&nbsp;->&nbsp;
+                                <%= item.title %>
+                        </div>
                     </div>
                     <% } %>
                         <div class="case-item col-xs-6 col-sm-4">
                             <a style="display:inline-block;" href="/cases">
-                                <img src="/upload/img/more.png" alt="">
+                                <img src="/img/more.png" alt="">
                             </a>
                             <div class="case-title">查看更多</div>
                             <div class="sub-title">查看更多</div>
@@ -143,15 +146,7 @@
         <!-- foot -->
         <%include foot.ejs %>
 
-            <!-- jquery -->
-            <script src="/vendor/jquery.min.js"></script>
-            <!-- Bootstrap -->
-            <script src="/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-            <!-- swiper -->
-            <script src="/vendor/swiper/swiper-3.4.2.jquery.min.js"></script>
-            <!-- main -->
-            <script src="/js/global.js"></script>
-            <script src="/js/index.js"></script>
+        <script src="/js/index.js"></script>
 </body>
 
 </html>

@@ -61,6 +61,18 @@ MemoryCache.listen('SANGTO_CONTENTS', 'SANGTO_INDEX_CONTENTS', async function ()
     return indexContents;
 });
 
+
+MemoryCache.listen('SANGTO_CERTIFICATES', 'SANGTO_INDEX_CERTIFICATES', async function () {
+    //合作伙伴
+    var partners = await CertificateService.findAll({
+        where : {
+            type : Enums.CERTIFICATE_TYPE.PARTNER_LOGO
+        }
+    });
+    indexContents.partners = partners;
+    return indexContents;
+});
+
 module.exports = {
     prefix: '/',
     routes: Object.assign({
@@ -192,18 +204,11 @@ module.exports = {
                 ctx.useOriginResponseBody = true;
                 var type = ctx.params.type;
                 var honors = [];
-                var partners = [];
                 var recruits = [];
                 if(type=='honor'){
                     honors = await CertificateService.findAll({
                         where : {
                             type : Enums.CERTIFICATE_TYPE.HONOR
-                        }
-                    });
-                }else if(type=='partner'){
-                    partners = await CertificateService.findAll({
-                        where : {
-                            type : Enums.CERTIFICATE_TYPE.PARTNER_LOGO
                         }
                     });
                 }else if(type=='recruit'){
@@ -214,7 +219,7 @@ module.exports = {
                     indexContents : indexContents,
                     globalParams: globalParams,
                     honors : honors,
-                    partners : partners,
+                    partners : indexContents.partners,
                     recruits : recruits
                 });
             }

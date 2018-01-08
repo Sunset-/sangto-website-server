@@ -1,7 +1,53 @@
 @charset "UTF-8";
 body {
-  padding-top: 50px;
   font-family: 微软雅黑; }
+
+.top-header {
+  height: 40px;
+  line-height: 40px;
+  background: #003E8F; }
+  .top-header > div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 10px; }
+    .top-header > div span {
+      font-size: 12px;
+      color: #FFF; }
+      .top-header > div span img {
+        width: 24px;
+        margin-right: 5px; }
+      .top-header > div span a {
+        font-size: 14px;
+        font-style: italic;
+        color: #FFF; }
+
+.sangto-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90px; }
+  .sangto-header .sangto-nav {
+    float: right;
+    font-size: 16px; }
+    .sangto-header .sangto-nav li {
+      display: inline-block;
+      margin: 30px 5px 0px 5px;
+      padding: 5px 10px;
+      cursor: pointer; }
+      .sangto-header .sangto-nav li a {
+        color: #464c5b; }
+      .sangto-header .sangto-nav li.active {
+        background: #FFC50A;
+        border-radius: 3px; }
+        .sangto-header .sangto-nav li.active a {
+          color: #FFF;
+          text-decoration: none; }
+      .sangto-header .sangto-nav li:hover {
+        background: #FFC50A;
+        border-radius: 3px; }
+        .sangto-header .sangto-nav li:hover a {
+          color: #FFF;
+          text-decoration: none;
+          color: #FFF; }
 
 .huge-banner {
   display: block;
@@ -15,7 +61,7 @@ body {
   height: 40px;
   background: #FDECB6; }
   .plate-category div {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px;
     font-size: 0px; }
@@ -43,7 +89,7 @@ body {
   background: #FDECB6;
   overflow: hidden; }
   .plate-breadcrumb ul {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 10px; }
     .plate-breadcrumb ul li {
@@ -66,7 +112,7 @@ body {
   background: #CAD9EC; }
   .foot-category > .row {
     margin: 0px auto;
-    max-width: 1000px; }
+    max-width: 1200px; }
     .foot-category > .row ul li {
       list-style: none;
       font-size: 12px;
@@ -85,7 +131,7 @@ body {
   text-align: center; }
 
 .news-detail-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0px auto;
   padding: 10px 0px; }
   .news-detail-container .news-detail-title {
