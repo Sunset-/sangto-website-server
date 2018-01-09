@@ -25,15 +25,15 @@
         <div class="news-container">
             <% for(var i=0,item; item=news.rows[i++];) { %>
                 <div class="news-item row">
-                    <img class="col-xs-3" src="/upload/<%= item.cover %>" alt="">
-                    <div class="col-xs-9">
+                    <img class="col-xs-4" src="/upload/<%= item.cover %>" alt="">
+                    <div class="col-xs-8">
                         <div class="news-title">
                             <a href="<%= '/news/'+item.id %>"><%=item.title %></a>
                         </div>
                         <div class="hidden-xs news-info">
                                 <%= moment(item.createTime).format('YYYY-MM-DD HH:mm:ss') %>
                         </div>
-                        <div class="news-degist">
+                        <div class="news-degist hidden-xs">
                             <%=item.digest %>
                         </div>
                         <div class="news-toolbar">

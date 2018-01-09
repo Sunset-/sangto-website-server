@@ -164,7 +164,12 @@ body {
 .copyright {
     height: 30px;
     line-height: 30px;
-    margin-top: 1px;
     background: $light-purple;
     text-align: center;
+    overflow: hidden;
+    &>div{
+        margin: 0px auto;
+        max-width: $content-max-width;
+        border-top:1px solid #FFF;
+    }
 }

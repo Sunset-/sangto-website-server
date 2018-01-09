@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <%include common-header.ejs %>
+        <link rel="stylesheet" href="/css/service-support.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <%include header.ejs %>
+
+        <!-- banner -->
+        <img class="huge-banner" src="/upload/<%= globalParams.SERVICE_SUPPORT_BANNER %>" alt="">
+        <!-- category -->
+        <div class="plate-breadcrumb">
+            <ul>
+                <li>
+                    <a href="/">首页</a>
+                </li>
+                <li>服务与支持</li>
+            </ul>
+        </div>
+
+        <!-- news -->
+        <div class="service-support-container row">
+            <div class="col-sm-8">
+                <div class="support-icon row">
+                    <div class="col-xs-4">
+                        <img src="/img/zhuanye.png" alt="">
+                        <br> 专业
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="/img/zhencheng.png" alt="">
+                        <br> 真诚
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="/img/xunsu.png" alt="">
+                        <br> 迅速
+                    </div>
+                </div>
+                <div class="support-text">
+                    <%- globalParams.SERVICE_SUPPORT_TEXT %>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="support-contact">
+                    <div class="support-header"><img src="/img/dianhua.png" />服务热线</div>
+                    <div class="support-phone"><a href="tel:<%=globalParams.SERVICE_SUPPORT_PHONE %>"><%=globalParams.SERVICE_SUPPORT_PHONE %></a></div>
+
+                    <% for(var i=0,item; item=globalParams.SERVICE_SUPPORT_CODES.split(',')[i++]; ) { %>
+                    <div class="support-code">
+                        <img src="/upload/<%=item%>" alt="">
+                        <br> 客服中心
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+
+        <!-- foot -->
+        <%include foot.ejs %>
+
+</body>
+
+</html>

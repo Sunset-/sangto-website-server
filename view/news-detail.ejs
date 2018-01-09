@@ -27,9 +27,9 @@
             <div class="news-detail-title">
                 <h3><%= news.title %></h3>
                 <p>
-                    <span>发布时间：<%= moment(news.createTime).format('YYYY-MM-DD HH:mm:ss') %></span>
-                    <span>发布来源：<%= news.publishUser %></span>
-                    <span>浏览次数：2076次</span>
+                    <span><font class="hidden-xs">发布时间：</font><%= moment(news.createTime).format('YYYY-MM-DD HH:mm') %></span>
+                    <span><font class="hidden-xs">发布来源：</font><%= news.publishUser %></span>
+                    <span>浏览次数：<%= news.viewCount %>次</span>
                 </p>
             </div>
             <div class="news-detail-content">

@@ -68,6 +68,24 @@ class ContentService extends BaseService {
             throw err;
         });
     }
+    async findById(id, colName) {
+        let filter = {};
+        filter[colName || 'id'] = id;
+        var model = await this.getModel().findOne({
+            where: filter
+        });
+        this.addViewCount(id, model.viewCount);
+        return model
+    }
+    addViewCount(id, viewCount) {
+        return this.getModel().update({
+            viewCount: (viewCount || 0) + 1
+        }, {
+            where: {
+                id: id
+            }
+        });
+    }
     findNextOne(createTime) {
         let filter = {
             createTime: {

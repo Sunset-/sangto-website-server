@@ -126,9 +126,13 @@ body {
 .copyright {
   height: 30px;
   line-height: 30px;
-  margin-top: 1px;
   background: #CAD9EC;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
+  .copyright > div {
+    margin: 0px auto;
+    max-width: 1200px;
+    border-top: 1px solid #FFF; }
 
 .news-container {
   max-width: 1200px;
@@ -142,8 +146,7 @@ body {
       vertical-align: top;
       max-width: 250px; }
     .news-container .news-item > div {
-      vertical-align: top;
-      padding: 5px 0px; }
+      vertical-align: top; }
       .news-container .news-item > div .news-title {
         font-size: 16px; }
         .news-container .news-item > div .news-title a {
@@ -160,4 +163,5 @@ body {
         padding-bottom: 10px;
         color: #9ea7b4; }
       .news-container .news-item > div .news-toolbar {
+        padding-top: 5px;
         overflow: hidden; }

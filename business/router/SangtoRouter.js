@@ -223,6 +223,16 @@ module.exports = {
                     recruits : recruits
                 });
             }
+        },
+        'GET/support': {
+            middleware: async function (ctx, next) {
+                ctx.useOriginResponseBody = true;
+                await ctx.render(`service-support`, {
+                    indexContents : indexContents,
+                    globalParams: globalParams,
+                    partners : indexContents.partners
+                });
+            }
         }
     })
 }

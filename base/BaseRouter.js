@@ -26,6 +26,7 @@ module.exports = (Service, hooks = {}) => ({
         middleware: async function (ctx, next) {
             if (ctx.params.id) {
                 let obj = await Service.findById(ctx.params.id);
+                hooks.afterFindById && hooks.afterFindById(obj, ctx);
                 ctx.body = obj;
             }
         }

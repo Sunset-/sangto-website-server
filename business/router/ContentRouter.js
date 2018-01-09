@@ -2,6 +2,7 @@ const ContentService = require('../service/ContentService');
 const BaseRouter = require('../../base/BaseRouter')(ContentService, {
     beforeSave(model, ctx) {
         model.createUser = ctx.session.currentUser.id;
+        model.viewCount = model.viewCount || 0;
         model.createTime = new Date();
     }
 });
