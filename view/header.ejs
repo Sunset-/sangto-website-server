@@ -22,10 +22,10 @@
         <li class="header-home">
             <a href="/">首页</a>
         </li>
-        <li class="header-products">
+        <li class="header-products" data-toggle="product">
             <a href="/products">产品与方案</a>
         </li>
-        <li class="header-service">
+        <li class="header-support">
             <a href="/support">服务与支持</a>
         </li>
         <li class="header-cases">
@@ -38,6 +38,18 @@
             <a href="/about/synopsis">关于我们</a>
         </li>
     </ul>
+</div>
+<div class="sangto-categorys sangto-categorys-product"  data-toggle="product">
+    <% for(var i=0;i<3;i++){ %>
+    <ul>
+        <li>主业务系统</li>
+        <li class="yy"><a>商睿租赁管理系统</a></li>
+        <li class="yy"><a>商睿租赁管理系统</a></li>
+        <li class="yy"><a>商睿租赁管理系统</a></li>
+        <li class="yy"><a>商睿租赁管理系统</a></li>
+        <li class="yy"><a>商睿租赁管理系统</a></li>
+    </ul>
+    <% } %>
 </div>
 <!-- sidenav -->
 <nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
@@ -52,7 +64,7 @@
         <li class="header-products">
             <a href="/products">产品与方案</a>
         </li>
-        <li class="header-service">
+        <li class="header-support">
             <a href="/support">服务与支持</a>
         </li>
         <li class="header-cases">

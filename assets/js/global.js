@@ -499,8 +499,42 @@ $('[data-sidenav]').sidenav();
         'news' : 'news',
         'cases' : 'cases',
         'products' : 'products',
-        'about' : 'about'
+        'about' : 'about',
+        support : 'support'
     }[path]||'home');
     $('#header .header-'+activeNav).addClass('active');
     $('.header-'+activeNav+' a').addClass('active');
 })();
+
+var timers = {};
+$("#header").on('mouseenter','li',function(){
+    var toggle = $(this).attr('data-toggle');
+    if(toggle){
+        clearTimeout(timers[toggle]);
+        $(`.sangto-categorys-${toggle}`).addClass('show');
+    }
+})
+$("#header").on('mouseleave','li',function(){
+    var toggle = $(this).attr('data-toggle');
+    if(toggle){
+        timers[toggle] = setTimeout(function(){
+            $(`.sangto-categorys-${toggle}`).removeClass('show');
+        },300);
+    }
+})
+
+$('.sangto-categorys').on('mouseenter',function(){
+    var toggle = $(this).attr('data-toggle');
+    if(toggle){
+        clearTimeout(timers[toggle]);
+        $(`.sangto-categorys-${toggle}`).addClass('show');
+    }
+})
+$('.sangto-categorys').on('mouseleave',function(){
+    var toggle = $(this).attr('data-toggle');
+    if(toggle){
+        timers[toggle] = setTimeout(function(){
+            $(`.sangto-categorys-${toggle}`).removeClass('show');
+        },300);
+    }
+})
