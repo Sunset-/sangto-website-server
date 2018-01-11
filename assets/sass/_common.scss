@@ -7,7 +7,7 @@ body {
 .top-header{
     height:40px;
     line-height:40px;
-    background:$dark-blue;
+    background:#0462b8;
     &>div{
         max-width: $content-max-width;
         margin: 0 auto;
@@ -50,8 +50,8 @@ body {
                     text-decoration: none;
                 }
             }
-            &:hover{
-                background:$warning;
+            &:hover,&.hover{
+                background:lighten($warning,15%);
                 border-radius: 3px;
                 a{
                     color:#FFF;
@@ -73,23 +73,31 @@ body {
     padding:10px 0px 30px 0px;
     display:none;
     &.show{
-        display:none;
+        display:block;
     }
     &>ul{
         display:inline-block;
+        vertical-align: top;
         list-style: none;
         text-align:left;
         li{
             font-size:12px;
-            border-bottom:1px solid #555;
             height:50px;
             line-height:50px;
             width:300px;
             box-sizing: border-box;
-            padding-left:90px;
             font-weight: bold;
             letter-spacing: 2px;
+            &:after{
+                content:'';
+                display:block;
+                height:30px;
+                background-image:url(/img/xiala-bj.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
             a{
+                padding-left:90px;
                 cursor: pointer;
                 color:$dark;
                 text-decoration: none;
@@ -116,6 +124,9 @@ body {
                 color:#0372D8;
                 font-weight: bold;
                 border-bottom:none;
+                &:after{
+                    display: none;
+                }
             }
         }
     }

@@ -3,7 +3,7 @@
     <div>
         <a href="javascript:;" style="float:left;" class="toggle visible-xs" id="sidenav-toggle">
             <i class="glyphicon glyphicon-th-list" style="color:#FFF;font-size:18px;display:inline-block;vertical-align: middle;margin-top: -5px;"></i>
-            <span style="color:#FFF;">西安商通软件</span>       
+            <span style="color:#FFF;">西安商通软件</span>
         </a>
         <span class="hidden-xs">
             <%= globalParams.INDEX_WELCOME_TIP %>
@@ -22,13 +22,13 @@
         <li class="header-home">
             <a href="/">首页</a>
         </li>
-        <li class="header-products" data-toggle="product">
+        <li class="header-products" data-toggle="products">
             <a href="/products">产品与方案</a>
         </li>
         <li class="header-support">
             <a href="/support">服务与支持</a>
         </li>
-        <li class="header-cases">
+        <li class="header-cases" data-toggle="cases">
             <a href="/cases">成功案例</a>
         </li>
         <li class="header-news">
@@ -39,20 +39,40 @@
         </li>
     </ul>
 </div>
-<div class="sangto-categorys sangto-categorys-product"  data-toggle="product">
-    <% for(var i=0;i<3;i++){ %>
-    <ul>
-        <li>主业务系统</li>
-        <li class="yy"><a>商睿租赁管理系统</a></li>
-        <li class="yy"><a>商睿租赁管理系统</a></li>
-        <li class="yy"><a>商睿租赁管理系统</a></li>
-        <li class="yy"><a>商睿租赁管理系统</a></li>
-        <li class="yy"><a>商睿租赁管理系统</a></li>
-    </ul>
-    <% } %>
+<div class="sangto-categorys sangto-categorys-products" data-toggle="products">
+    <% for(var i=0,item;item=indexContents.categoryProducts[i++];){ %>
+        <ul>
+            <li>
+                <%= globalParams.DictionaryMap.PRODUCTS_CATEGORY[item.category] %>
+            </li>
+            <% for(var j=0,p;p=item.products[j++];){ %>
+                <li>
+                    <a href="/products/<%= p.id %>">
+                        <%= p.title %>
+                    </a>
+                </li>
+                <% } %>
+        </ul>
+        <% } %>
+</div>
+<div class="sangto-categorys sangto-categorys-cases" data-toggle="cases">
+    <% for(var i=0,item;item=indexContents.categoryCases[i++];){ %>
+        <ul>
+            <li>
+                <%= globalParams.DictionaryMap.CASES_CATEGORY[item.category] %>
+            </li>
+            <% for(var j=0,p;p=item.cases[j++];){ %>
+                <li>
+                    <a href="/cases/<%= p.id %>">
+                        <%= p.title %>
+                    </a>
+                </li>
+                <% } %>
+        </ul>
+        <% } %>
 </div>
 <!-- sidenav -->
-<nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+<nav class="sidenav visible-xs" data-sidenav data-sidenav-toggle="#sidenav-toggle">
     <div>
         <img style="width:100%;" src="/img/logo.jpg" alt="">
     </div>

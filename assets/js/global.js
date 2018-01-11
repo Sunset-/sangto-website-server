@@ -512,6 +512,7 @@ $("#header").on('mouseenter','li',function(){
     if(toggle){
         clearTimeout(timers[toggle]);
         $(`.sangto-categorys-${toggle}`).addClass('show');
+        $(`.header-${toggle}`).addClass('hover');
     }
 })
 $("#header").on('mouseleave','li',function(){
@@ -519,6 +520,7 @@ $("#header").on('mouseleave','li',function(){
     if(toggle){
         timers[toggle] = setTimeout(function(){
             $(`.sangto-categorys-${toggle}`).removeClass('show');
+            $(`.header-${toggle}`).removeClass('hover');
         },300);
     }
 })
@@ -528,6 +530,7 @@ $('.sangto-categorys').on('mouseenter',function(){
     if(toggle){
         clearTimeout(timers[toggle]);
         $(`.sangto-categorys-${toggle}`).addClass('show');
+        $(`.header-${toggle}`).addClass('hover');
     }
 })
 $('.sangto-categorys').on('mouseleave',function(){
@@ -535,6 +538,7 @@ $('.sangto-categorys').on('mouseleave',function(){
     if(toggle){
         timers[toggle] = setTimeout(function(){
             $(`.sangto-categorys-${toggle}`).removeClass('show');
+            $(`.header-${toggle}`).removeClass('hover');
         },300);
     }
 })

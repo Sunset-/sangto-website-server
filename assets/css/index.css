@@ -5,7 +5,7 @@ body {
 .top-header {
   height: 40px;
   line-height: 40px;
-  background: #003E8F; }
+  background: #0462b8; }
   .top-header > div {
     max-width: 1200px;
     margin: 0 auto;
@@ -41,10 +41,10 @@ body {
         .sangto-header .sangto-nav li.active a {
           color: #FFF;
           text-decoration: none; }
-      .sangto-header .sangto-nav li:hover {
-        background: #FFC50A;
+      .sangto-header .sangto-nav li:hover, .sangto-header .sangto-nav li.hover {
+        background: #ffd757;
         border-radius: 3px; }
-        .sangto-header .sangto-nav li:hover a {
+        .sangto-header .sangto-nav li:hover a, .sangto-header .sangto-nav li.hover a {
           color: #FFF;
           text-decoration: none;
           color: #FFF; }
@@ -59,22 +59,29 @@ body {
   padding: 10px 0px 30px 0px;
   display: none; }
   .sangto-categorys.show {
-    display: none; }
+    display: block; }
   .sangto-categorys > ul {
     display: inline-block;
+    vertical-align: top;
     list-style: none;
     text-align: left; }
     .sangto-categorys > ul li {
       font-size: 12px;
-      border-bottom: 1px solid #555;
       height: 50px;
       line-height: 50px;
       width: 300px;
       box-sizing: border-box;
-      padding-left: 90px;
       font-weight: bold;
       letter-spacing: 2px; }
+      .sangto-categorys > ul li:after {
+        content: '';
+        display: block;
+        height: 30px;
+        background-image: url(/img/xiala-bj.png);
+        background-size: contain;
+        background-repeat: no-repeat; }
       .sangto-categorys > ul li a {
+        padding-left: 90px;
         cursor: pointer;
         color: #464c5b;
         text-decoration: none; }
@@ -98,6 +105,8 @@ body {
         color: #0372D8;
         font-weight: bold;
         border-bottom: none; }
+        .sangto-categorys > ul li:first-child:after {
+          display: none; }
 
 .huge-banner {
   display: block;
@@ -221,8 +230,14 @@ body {
   max-width: 1200px;
   margin: 0px auto; }
   .plate .plate-title {
-    text-align: center;
-    border-bottom: 2px solid #ccc; }
+    text-align: center; }
+    .plate .plate-title:after {
+      content: '';
+      display: block;
+      height: 30px;
+      background-image: url(/img/main-bj.png);
+      background-size: contain;
+      background-repeat: no-repeat; }
     .plate .plate-title .main-title {
       width: 200px;
       font-size: 18px;

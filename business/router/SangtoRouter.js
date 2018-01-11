@@ -43,6 +43,21 @@ MemoryCache.listen('SANGTO_CONTENTS', 'SANGTO_INDEX_CONTENTS', async function ()
         status: Enums.CONTENT_STATUS.HOT,
         pageSize: 999
     });
+    products = products.rows;
+    var categoryProductMap = {};
+    var categoryProducts = [];
+    products.forEach(p=>{
+        categoryProductMap[p.category] = categoryProductMap[p.category]||[];
+        categoryProductMap[p.category].push(p);
+    });
+    var pkeys = Object.keys(categoryProductMap);
+    pkeys.sort();
+    pkeys.forEach(pk=>{
+        categoryProducts.push({
+            category : pk,
+            products : categoryProductMap[pk]
+        });
+    });
     //新闻
     var news = await ContentService.loadContentList({
         type: Enums.CONTENT_TYPE.NEWS,
@@ -53,11 +68,31 @@ MemoryCache.listen('SANGTO_CONTENTS', 'SANGTO_INDEX_CONTENTS', async function ()
     var cases = await ContentService.loadContentList({
         type: Enums.CONTENT_TYPE.SUCCESSFUL_CASE,
         status: Enums.CONTENT_STATUS.HOT,
-        pageSize: ContentConfig.INDEX_CASES_PAGE_SIZE
+        pageSize: 999
     });
-    indexContents.products = products.rows;
+    cases = cases.rows;
+    var categoryCaseMap = {};
+    var categoryCases = [];
+    cases.forEach(p=>{
+        categoryCaseMap[p.category] = categoryCaseMap[p.category]||[];
+        categoryCaseMap[p.category].push(p);
+    });
+    var pkeys = Object.keys(categoryCaseMap);
+    pkeys.sort();
+    pkeys.forEach(pk=>{
+        categoryCases.push({
+            category : pk,
+            cases : categoryCaseMap[pk]
+        });
+    });
+
+
+    indexContents.products = products;
+    indexContents.categoryProducts = categoryProducts;
     indexContents.news = news.rows;
-    indexContents.cases = cases.rows;
+    indexContents.cases = cases.slice(0,ContentConfig.INDEX_CASES_PAGE_SIZE);
+    indexContents.categoryCases = categoryCases;
+    
     return indexContents;
 });
 

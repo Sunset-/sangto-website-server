@@ -18,7 +18,14 @@
     margin: 0px auto;
     .plate-title {
         text-align: center;
-        border-bottom: 2px solid #ccc;
+        &:after{
+            content:'';
+            display:block;
+            height:30px;
+            background-image:url(/img/main-bj.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
         .main-title {
             width: 200px;
             font-size: 18px;
