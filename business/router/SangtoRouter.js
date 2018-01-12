@@ -259,10 +259,12 @@ module.exports = {
                 });
             }
         },
-        'GET/support': {
+        'GET/support/:type': {
             middleware: async function (ctx, next) {
                 ctx.useOriginResponseBody = true;
-                await ctx.render(`service-support`, {
+                var type = ctx.params.type;
+                await ctx.render(`service-support-${type}`, {
+                    currentNavType :type,
                     indexContents : indexContents,
                     globalParams: globalParams,
                     partners : indexContents.partners
