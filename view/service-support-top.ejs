@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <%include common-header.ejs %>
+        <link rel="stylesheet" href="/css/service-support.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <%include header.ejs %>
+
+        <!-- banner -->
+        <img class="huge-banner" src="/upload/<%= globalParams.SERVICE_SUPPORT_BANNER %>" alt="">
+        <!-- category -->
+        <div class="plate-category">
+            <div class="collapse-category hidden-xs">
+                <a href="/support/home" class="<%= currentNavType=='home'?'active':'' %>">服务支持</a>
+                <a href="/support/implementation" class="<%= currentNavType=='implementation'?'active':'' %>">项目实施</a>
+                <a href="/support/train" class="<%= currentNavType=='train'?'active':'' %>">客户培训</a>
+                <a href="/support/afterservice" class="<%= currentNavType=='afterservice'?'active':'' %>">售后服务</a>
+            </div>
+            <div class="collapse-category visible-xs">
+                <a href="/support/home" class="<%= currentNavType=='home'?'active':'' %>">服务支持</a>
+                <a href="/support/implementation" class="<%= currentNavType=='implementation'?'active':'' %>">项目实施</a>
+                <a href="/support/train" class="<%= currentNavType=='train'?'active':'' %>">客户培训</a>
+                <a href="/support/afterservice" class="<%= currentNavType=='afterservice'?'active':'' %>">售后服务</a>
+            </div>
+        </div>
